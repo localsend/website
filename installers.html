@@ -41,9 +41,20 @@
             text-decoration: none;
         }
 
-        .primary-link {
+        .primary-link, td a {
             color: #008080;
             text-decoration: none;
+        }
+
+        td {
+            padding: 0 20px 10px 20px;
+            font-size: 1em;
+            text-align: center;
+        }
+
+        th {
+            padding: 0 20px 10px 20px;
+            font-size: 2em;
         }
 
     </style>
@@ -58,42 +69,43 @@
             </div>
             <div class="display-tablet" style="flex-direction: column; padding-left: 20px">
                 <p class="title-font" style="font-size: 4em; margin-top: 0; margin-bottom: 10px">LocalSend</p>
-                <p style="font-size: 2em; margin-top: 0; margin-bottom: 0">Share files to nearby devices.</p>
-                <p style="font-size: 2em; margin: 0">Free, open source, cross-platform.</p>
+                <p style="font-size: 2em; margin: 0">Offline installers</p>
             </div>
             <div class="display-mobile" style="flex-direction: column; align-items: center; justify-content: center; text-align: center">
                 <p class="title-font" style="font-size: 10vw; margin-top: 0; margin-bottom: 10px">LocalSend</p>
-                <p style="font-size: 6vw; margin-top: 0; margin-bottom: 0">Share files to nearby devices.</p>
-                <p style="font-size: 6vw; margin-top: 0; margin-bottom: 5vh">Free, open source, cross-platform.</p>
+                <p style="font-size: 6vw; margin-top: 0; margin-bottom: 0">Offline installers</p>
             </div>
-        </div>
-        <div style="text-align: center">
-            <img src="img/screenshot-iphone.png" style="margin: 20px; height: 200px">
-            <img src="img/screenshot-pc.png" class="margin-left-20-mobile" style="margin: 20px 20px 20px 50px; height: 200px">
         </div>
         <div>
-            <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; margin-top: 20px">
-                <a href='https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                    <img alt='Get it on Google Play'
-                         src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'
-                         height="90"/>
-                </a>
-                <a href="https://f-droid.org/packages/org.localsend.localsend_app" style="margin: 3px">
-                    <img alt="Download on the App Store" src="img/badges/f-droid-badge.png" height="90">
-                </a>
-                <a href="https://apps.apple.com/us/app/localsend/id1661733229" style="margin: 20px">
-                    <img alt="Download on the App Store" src="img/badges/apple-store-badge.svg" height="64">
-                </a>
-                <a href="ms-windows-store://pdp/?productid=9NCB4Z0TZ6RR" style="margin: 20px">
-                    <img alt="Get it from Microsoft" src="img/badges/microsoft-store-badge.svg" height="64">
-                </a>
-                <a href="https://github.com/localsend/localsend/releases/download/v1.7.0/LocalSend-1.7.0.AppImage" style="margin: 20px">
-                    <img alt="Get AppImage" src="img/badges/app-image-badge.png" height="64">
-                </a>
-            </div>
-            <div style="text-align: center;">
-                Not working? Download <a class="primary-link" href="/installers">offline installers</a>.
-            </div>
+            <table style="margin: auto">
+                <tr>
+                    <th>Windows</th>
+                    <th>MacOS</th>
+                    <th>Linux</th>
+                    <th>Android</th>
+                    <th>iOS</th>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/localsend/localsend/releases/download/v1.7.0/LocalSend-1.7.0.msix">MSIX Installer</a></td>
+                    <td><a href="https://github.com/localsend/localsend/releases/download/v1.7.0/LocalSend-1.7.0.dmg">DMG Installer</a></td>
+                    <td><a href="https://github.com/localsend/localsend/releases/download/v1.7.0/LocalSend-1.7.0.AppImage">AppImage</a></td>
+                    <td><a href="https://github.com/localsend/localsend/releases/download/v1.7.0/LocalSend-1.7.0.apk">APK</a></td>
+                    <td><a href="https://apps.apple.com/us/app/localsend/id1661733229">Store only</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/localsend/localsend/releases/download/v1.7.0/LocalSend-1.7.0-windows.zip">Portable</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <p style="text-align: center; margin-top: 100px">
+                You can find all versions on <a class="primary-link" href="https://github.com/localsend/localsend/releases">Github</a>.
+            </p>
+            <p style="text-align: center">
+                Go back to <a class="primary-link" href="/index">Store versions</a>.
+            </p>
         </div>
     </div>
     <div style="padding-bottom: 10px; padding-right: 10px; display: flex; justify-content: right; gap: 10px">
