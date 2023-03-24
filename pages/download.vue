@@ -6,7 +6,7 @@
       <v-col cols="12">
         <v-img
           height="200"
-          src="@/assets/logo-512.png"
+          src="/img/logo-512.png"
         />
       </v-col>
       <v-col cols="12">
@@ -134,7 +134,7 @@ interface Download {
 }
 
 const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id1661733229" class="d-block ma-4">
-    <img alt="Download on the App Store" src="${new URL('@/assets/badges/apple-store-badge.svg', import.meta.url).href}" height="64">
+    <img alt="Download on the App Store" src="/img/badges/apple-store-badge.svg" height="64">
 </a>`;
 
 const nix = {
@@ -213,10 +213,10 @@ const downloadMetadata: Record<OS, Download> = {
           />
         </a>`,
       `<a href="https://f-droid.org/packages/org.localsend.localsend_app">
-          <img alt="Get it on F-Droid" src="${new URL('@/assets/badges/f-droid-badge.png', import.meta.url).href}" height="90">
+          <img alt="Get it on F-Droid" src="/img/badges/f-droid-badge.png" height="90">
         </a>`,
       `<a href="https://www.amazon.com/dp/B0BW6MP732" class="d-block pl-4 pr-4 pt-4">
-          <img alt="Get it on F-Droid" src="${new URL('@/assets/badges/amazon-store-badge.png', import.meta.url).href}" height="60">
+          <img alt="Get it on F-Droid" src="/img/badges/amazon-store-badge.png" height="60">
         </a>`,
     ],
     binaries: [
