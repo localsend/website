@@ -76,7 +76,7 @@
                     <div v-for="p in downloadMetadata[selectedOS].packageManagers" class="mt-4">
                       <b>{{ p.name }}:</b>
                       <v-sheet color="teal-lighten-4">
-                        <code>
+                        <code style="font-size: 0.8em">
                           <template v-for="c in p.commands">
                             $ {{ c }}<br>
                           </template>
@@ -178,6 +178,13 @@ const downloadMetadata: Record<OS, Download> = {
       },
     ],
     packageManagers: [
+      {
+        name: 'Homebrew',
+        commands: [
+          'brew tap localsend/localsend',
+          'brew install localsend',
+        ],
+      },
       nix,
     ],
   },
