@@ -14,6 +14,7 @@
 
             <!-- Links -->
             <v-col cols="12" class="pt-8 d-flex justify-center align-center">
+                <v-btn variant="text" href="https://github.com/localsend/localsend" target="_blank">Github</v-btn>•
                 <v-btn variant="text" to="/privacy">Privacy</v-btn>•
                 <v-btn variant="text" to="/terms-of-service">Terms</v-btn>•
                 <v-btn variant="text" to="/contact">Contact</v-btn>

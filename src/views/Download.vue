@@ -1,111 +1,81 @@
 <template>
-  <div class="fill-height pt-md-12">
-    <v-row>
-
-      <!-- Logo -->
-      <v-col cols="12">
-        <v-img
-          height="200"
-          src="@/assets/logo-512.png"
-        />
-      </v-col>
-      <v-col cols="12">
-        <h1 class="text-h4 text-sm-h3 font-weight-black text-center">LocalSend</h1>
-        <h2 class="text-subtitle-1 text-sm-h6 text-center">Downloads</h2>
-      </v-col>
-
+  <page-layout sub-title="Downloads">
+    <template v-slot:tabs>
       <!-- OS Buttons -->
       <v-col cols="12" class="pt-6 d-flex justify-center flex-wrap">
         <v-btn v-for="e in OS" variant="tonal" size="x-large" class="ma-2 text-none"
-                :color="selectedOS === e ? 'primary' : undefined"
-                @click="selectedOS = e">
+               :color="selectedOS === e ? 'primary' : undefined"
+               @click="selectedOS = e">
           {{ e }}
         </v-btn>
       </v-col>
+    </template>
 
-      <!-- Downloads -->
-      <v-col cols="12">
-        <v-row no-gutters>
-          <v-col cols="0" md="1" lg="2" xl="3">
-          </v-col>
-          <v-col cols="12" md="10" lg="8" xl="6">
-            <v-sheet color="grey-lighten-3" class="pa-4" rounded>
-              <h1 class="text-h6 text-sm-h6 text-center">{{ selectedOS }} Downloads</h1>
+    <template v-slot:content>
+      <h1 class="text-h6 text-sm-h6 text-center">{{ selectedOS }} Downloads</h1>
 
-              <div v-if="selectedOS === OS.windows" class="text-center pa-2">
-                Due to certificate changes, you need to uninstall v1.7.0 or earlier before installing v1.8.0 or later.
-              </div>
+      <div v-if="selectedOS === OS.windows" class="text-center pa-2">
+        Due to certificate changes, you need to uninstall v1.7.0 or earlier before installing v1.8.0 or later.
+      </div>
 
-              <v-row no-gutters align="stretch" class="mt-2">
-                <!-- App Stores -->
-                <v-col cols="12" md="4" class="pa-2" v-if="downloadMetadata[selectedOS].stores.length !== 0">
-                  <v-sheet color="teal-lighten-4" class="fill-height pa-4" rounded>
-                    <h1 class="text-h6 text-sm-h6">App Stores</h1>
-                    <p>Recommended for most users.</p>
+      <v-row no-gutters align="stretch" class="mt-2">
+        <!-- App Stores -->
+        <v-col cols="12" md="4" class="pa-2" v-if="downloadMetadata[selectedOS].stores.length !== 0">
+          <v-sheet color="teal-lighten-4" class="fill-height pa-4" rounded>
+            <h1 class="text-h6 text-sm-h6">App Stores</h1>
+            <p>Recommended for most users.</p>
 
-                    <div v-for="s in downloadMetadata[selectedOS].stores" v-html="s">
-                    </div>
-                  </v-sheet>
-                </v-col>
+            <div v-for="s in downloadMetadata[selectedOS].stores" v-html="s">
+            </div>
+          </v-sheet>
+        </v-col>
 
-                <!-- Binaries -->
-                <v-col cols="12" md="4" class="pa-2" v-if="downloadMetadata[selectedOS].binaries.length !== 0">
-                  <v-sheet color="teal-lighten-4 pa-4" class="fill-height" rounded>
-                    <h1 class="text-h6 text-sm-h6">Binaries</h1>
-                    <p class="d-block mb-4">Download for offline usage.</p>
+        <!-- Binaries -->
+        <v-col cols="12" md="4" class="pa-2" v-if="downloadMetadata[selectedOS].binaries.length !== 0">
+          <v-sheet color="teal-lighten-4 pa-4" class="fill-height" rounded>
+            <h1 class="text-h6 text-sm-h6">Binaries</h1>
+            <p class="d-block mb-4">Download for offline usage.</p>
 
-                    <div v-for="b in downloadMetadata[selectedOS].binaries" class="mt-2">
-                      <v-btn variant="text" :prepend-icon="mdiDownload" :href="b.url">
-                        {{ b.name }}
-                      </v-btn>
-                    </div>
+            <div v-for="b in downloadMetadata[selectedOS].binaries" class="mt-2">
+              <v-btn variant="text" :prepend-icon="mdiDownload" :href="b.url">
+                {{ b.name }}
+              </v-btn>
+            </div>
 
-                    <v-btn variant="text" :prepend-icon="mdiHistory" class="mt-2"
-                           href="https://github.com/localsend/localsend/releases">
-                      All Releases
-                    </v-btn>
-                  </v-sheet>
-                </v-col>
+            <v-btn variant="text" :prepend-icon="mdiHistory" class="mt-2"
+                   href="https://github.com/localsend/localsend/releases">
+              All Releases
+            </v-btn>
+          </v-sheet>
+        </v-col>
 
-                <!-- Package Managers -->
-                <v-col cols="12" :md="downloadMetadata[selectedOS].stores.length !== 0 ? 4 : 8" class="pa-2" v-if="downloadMetadata[selectedOS].packageManagers.length !== 0">
-                  <v-sheet color="teal-lighten-4 pa-4" class="fill-height" rounded>
-                    <h1 class="text-h6 text-sm-h6">Package Managers</h1>
-                    <p>Enjoy automatic updates.</p>
+        <!-- Package Managers -->
+        <v-col cols="12" :md="downloadMetadata[selectedOS].stores.length !== 0 ? 4 : 8" class="pa-2" v-if="downloadMetadata[selectedOS].packageManagers.length !== 0">
+          <v-sheet color="teal-lighten-4 pa-4" class="fill-height" rounded>
+            <h1 class="text-h6 text-sm-h6">Package Managers</h1>
+            <p>Enjoy automatic updates.</p>
 
-                    <div v-for="p in downloadMetadata[selectedOS].packageManagers" class="mt-4">
-                      <b>{{ p.name }}:</b>
-                      <v-sheet color="teal-lighten-4">
-                        <code style="font-size: 0.8em">
-                          <template v-for="c in p.commands">
-                            $ {{ c }}<br>
-                          </template>
-                        </code>
-                      </v-sheet>
-                    </div>
-                  </v-sheet>
-                </v-col>
-              </v-row>
-            </v-sheet>
-          </v-col>
-          <v-col cols="0" md="1" lg="2" xl="3">
-          </v-col>
-        </v-row>
-      </v-col>
-
-      <!-- Homepage Button -->
-      <v-col cols="12" class="d-flex justify-center">
-        <v-btn variant="text" color="primary" :prepend-icon="mdiArrowLeft" to="/">
-          Homepage
-        </v-btn>
-      </v-col>
-    </v-row>
-  </div>
+            <div v-for="p in downloadMetadata[selectedOS].packageManagers" class="mt-4">
+              <b>{{ p.name }}:</b>
+              <v-sheet color="teal-lighten-4">
+                <code style="font-size: 0.8em">
+                  <template v-for="c in p.commands">
+                    $ {{ c }}<br>
+                  </template>
+                </code>
+              </v-sheet>
+            </div>
+          </v-sheet>
+        </v-col>
+      </v-row>
+    </template>
+  </page-layout>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import { mdiDownload, mdiArrowLeft, mdiHistory } from '@mdi/js'
+import { mdiDownload, mdiHistory } from '@mdi/js'
+import PageLayout from "@/layouts/PageLayout.vue";
 
 enum OS {
   windows = 'Windows',

@@ -20,8 +20,8 @@
               <v-btn variant="tonal" size="x-large" class="mt-4" color="primary" :prepend-icon="mdiDownload" to="/download">
                 Download
               </v-btn>
-              <v-btn variant="tonal" size="x-large" class="ml-4 mt-4" :prepend-icon="mdiGithub" href="https://github.com/localsend/localsend" target="_blank">
-                Github
+              <v-btn variant="tonal" size="x-large" class="ml-4 mt-4" :prepend-icon="mdiAccountMultiple" to="/community">
+                Community
               </v-btn>
             </div>
           </v-col>
@@ -50,7 +50,7 @@
 </template>
 
 <script setup lang="ts">
-import { mdiDownload, mdiGithub } from '@mdi/js'
+import { mdiDownload, mdiAccountMultiple } from '@mdi/js'
 import { computed, ref } from "vue";
 import { useDisplay } from 'vuetify'
 

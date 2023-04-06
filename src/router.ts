@@ -13,6 +13,11 @@ const routes = [
     component: () => import('@/views/Download.vue'),
   },
   {
+    path: '/community',
+    name: 'Community',
+    component: () => import('@/views/Community.vue'),
+  },
+  {
     path: '/contact',
     name: 'Contact',
     component: () => import('@/views/Contact.vue'),
