@@ -1,5 +1,5 @@
 <template>
-  <page-layout sub-title="Downloads">
+  <page-layout :sub-title="$t('download.title')">
     <template v-slot:tabs>
       <!-- OS Buttons -->
       <v-col cols="12" class="pt-6 d-flex justify-center flex-wrap">
@@ -15,15 +15,15 @@
       <h1 class="text-h6 text-sm-h6 text-center">{{ selectedOS }} Downloads</h1>
 
       <div v-if="selectedOS === OS.windows" class="text-center pa-2">
-        Due to certificate changes, you need to uninstall v1.7.0 or earlier before installing v1.8.0 or later.
+        {{ $t('download.windowsNotice') }}
       </div>
 
       <v-row no-gutters align="stretch" class="mt-2">
         <!-- App Stores -->
         <v-col cols="12" md="4" class="pa-2" v-if="downloadMetadata[selectedOS].stores.length !== 0">
           <v-sheet color="teal-lighten-4" class="fill-height pa-4" rounded>
-            <h1 class="text-h6 text-sm-h6">App Stores</h1>
-            <p>Recommended for most users.</p>
+            <h1 class="text-h6 text-sm-h6">{{ $t('download.appStores') }}</h1>
+            <p>{{ $t('download.appStoresDescription') }}</p>
 
             <div v-for="s in downloadMetadata[selectedOS].stores" v-html="s">
             </div>
@@ -33,8 +33,8 @@
         <!-- Binaries -->
         <v-col cols="12" md="4" class="pa-2" v-if="downloadMetadata[selectedOS].binaries.length !== 0">
           <v-sheet color="teal-lighten-4 pa-4" class="fill-height" rounded>
-            <h1 class="text-h6 text-sm-h6">Binaries</h1>
-            <p class="d-block mb-4">Download for offline usage.</p>
+            <h1 class="text-h6 text-sm-h6">{{ $t('download.binaries') }}</h1>
+            <p class="d-block mb-4">{{ $t('download.binariesDescription') }}</p>
 
             <div v-for="b in downloadMetadata[selectedOS].binaries" class="mt-2">
               <v-btn variant="text" :prepend-icon="mdiDownload" :href="b.url">
@@ -44,7 +44,7 @@
 
             <v-btn variant="text" :prepend-icon="mdiHistory" class="mt-2"
                    href="https://github.com/localsend/localsend/releases">
-              All Releases
+              {{ $t('download.allReleases') }}
             </v-btn>
           </v-sheet>
         </v-col>
@@ -52,8 +52,8 @@
         <!-- Package Managers -->
         <v-col cols="12" :md="downloadMetadata[selectedOS].stores.length !== 0 ? 4 : 8" class="pa-2" v-if="downloadMetadata[selectedOS].packageManagers.length !== 0">
           <v-sheet color="teal-lighten-4 pa-4" class="fill-height" rounded>
-            <h1 class="text-h6 text-sm-h6">Package Managers</h1>
-            <p>Enjoy automatic updates.</p>
+            <h1 class="text-h6 text-sm-h6">{{ $t('download.packageManagers') }}</h1>
+            <p>{{ $t('download.packageManagersDescription') }}</p>
 
             <div v-for="p in downloadMetadata[selectedOS].packageManagers" class="mt-4">
               <b>{{ p.name }}:</b>
@@ -76,6 +76,9 @@
 import { ref } from 'vue';
 import { mdiDownload, mdiHistory } from '@mdi/js'
 import PageLayout from "@/layouts/PageLayout.vue";
+import {useI18n} from "vue-i18n";
+
+const { t } = useI18n()
 
 enum OS {
   windows = 'Windows',
@@ -124,7 +127,7 @@ const downloadMetadata: Record<OS, Download> = {
         url: 'https://github.com/localsend/localsend/releases/download/v1.8.0/LocalSend-1.8.0.msix',
       },
       {
-        name: 'ZIP (Portable)',
+        name: t('download.zip'),
         url: 'https://github.com/localsend/localsend/releases/download/v1.8.0/LocalSend-1.8.0-windows.zip',
       },
     ],

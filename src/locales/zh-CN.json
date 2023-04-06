@@ -1,0 +1,30 @@
+{
+  "home": {
+    "slogan1": "将文件共享到附近的设备。",
+    "slogan2": "免费、开源、跨平台。",
+    "download": "下载",
+    "community": "社区"
+  },
+  "download": {
+    "title": "下载",
+    "appStores": "应用商店",
+    "appStoresDescription": "推荐给大多数用户。",
+    "binaries": "二进制文件",
+    "binariesDescription": "下载以供离线使用。",
+    "packageManagers": "包管理器",
+    "packageManagersDescription": "使用终端安装。",
+    "windowsNotice": "由于证书更改，您需要先卸载 v1.7.0 或更早版本，然后再安装 v1.8.0 或更高版本。",
+    "allReleases": "所有版本",
+    "zip": "邮编（便携式）"
+  },
+  "community": {
+    "title": "社区",
+    "getHelp": "得到帮助",
+    "getHelpDescription": "在 Github 讨论区提问或寻找答案。",
+    "getInvolved": "参与其中",
+    "getInvolvedDescription": "与开发人员联系并直接为项目做出贡献。",
+    "issues": "问题",
+    "pullRequests": "拉取请求"
+  },
+  "homepageButton": "主页"
+}

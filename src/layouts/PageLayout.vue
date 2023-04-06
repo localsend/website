@@ -33,7 +33,7 @@
       <!-- Homepage Button -->
       <v-col cols="12" class="d-flex justify-center">
         <v-btn variant="text" color="primary" :prepend-icon="mdiArrowLeft" to="/">
-          Homepage
+          {{ $t('homepageButton') }}
         </v-btn>
       </v-col>
     </v-row>

@@ -12,6 +12,19 @@
               <p class="text-body-2">&copy; 2022 - {{ year }} Tien Do Nam and LocalSend contributors</p>
             </v-col>
 
+            <!-- Language -->
+            <v-col cols="12" class="pt-12">
+              <div class="d-flex justify-center">
+                <v-select
+                  v-model="$i18n.locale"
+                  :items="locales"
+                  item-title="label"
+                  item-value="value"
+                  style="max-width: 150px">
+                </v-select>
+              </div>
+            </v-col>
+
             <!-- Links -->
             <v-col cols="12" class="pt-8 d-flex justify-center align-center">
                 <v-btn variant="text" href="https://github.com/localsend/localsend" target="_blank">Github</v-btn>•
@@ -41,6 +54,12 @@ import {onMounted, ref} from "vue";
 const year = new Date().getFullYear();
 
 const showFooter = ref(false);
+
+const locales = [
+  { label: 'English', value: 'en' },
+  { label: 'Deutsch', value: 'de' },
+  { label: '简体中文', value: 'zh-CN' },
+];
 
 onMounted(() => {
   // Show footer after a delay

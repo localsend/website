@@ -1,25 +1,25 @@
 <template>
-  <page-layout sub-title="Community">
+  <page-layout :sub-title="$t('community.title')">
     <template v-slot:content>
       <div class="text-center pb-3">
-        <h1 class="text-h6 text-sm-h6">Get help</h1>
+        <h1 class="text-h6 text-sm-h6">{{ $t('community.getHelp') }}</h1>
 
-        <p>Ask or look for answers on Github Discussions.</p>
+        <p>{{ $t('community.getHelpDescription') }}</p>
 
         <v-btn v-for="(b, index) in helpButtons" variant="tonal" :class="index ? ['ml-4', 'mt-2'] : ['mt-2']" :href="b.url" target="_blank">
           {{ b.name }}
         </v-btn>
 
-        <h1 class="text-h6 text-sm-h6 mt-8">Get technical</h1>
+        <h1 class="text-h6 text-sm-h6 mt-8">{{ $t('community.getInvolved') }}</h1>
 
-        <p>Get in contact with the developers and contribute directly to the project.</p>
+        <p>{{ $t('community.getInvolvedDescription') }}</p>
 
         <v-btn variant="tonal" href="https://github.com/localsend/localsend/issues" class="mt-2" target="_blank">
-          Issues
+          {{ $t('community.issues') }}
         </v-btn>
 
         <v-btn variant="tonal" href="https://github.com/localsend/localsend/pulls" class="ml-4 mt-2" target="_blank">
-          Pull Requests
+          {{ $t('community.pullRequests') }}
         </v-btn>
       </div>
     </template>

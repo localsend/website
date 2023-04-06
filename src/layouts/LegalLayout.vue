@@ -2,7 +2,7 @@
   <div class="fill-height pa-12">
     <slot></slot>
     <v-btn variant="text" size="x-large" class="mt-4" color="primary" :prepend-icon="mdiArrowLeft" to="/">
-      Homepage
+      {{ $t('homepageButton') }}
     </v-btn>
   </div>
 </template>
