@@ -82,7 +82,7 @@ const { t } = useI18n()
 
 enum OS {
   windows = 'Windows',
-  macos = 'MacOS',
+  macos = 'macOS',
   linux = 'Linux',
   android = 'Android',
   ios = 'iOS'
