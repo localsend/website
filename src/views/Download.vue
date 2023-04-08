@@ -88,7 +88,14 @@ enum OS {
   ios = 'iOS'
 }
 
-const selectedOS = ref<OS>(OS.windows);
+function detectOS(): OS {
+  const userAgent = navigator.userAgent;
+  const substrings = ["Win", "Macintosh", "X11", "Android", "iP"]
+  const idx = substrings.findIndex(s => userAgent.includes(s));
+  return idx !== -1 ? Object.values(OS)[idx] : OS.windows;
+}
+
+const selectedOS = ref<OS>(detectOS());
 
 interface PackageManager {
   name: string;
