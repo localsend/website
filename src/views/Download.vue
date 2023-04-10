@@ -3,7 +3,7 @@
     <template v-slot:tabs>
       <!-- OS Buttons -->
       <v-col cols="12" class="pt-6 d-flex justify-center flex-wrap">
-        <v-btn v-for="e in OS" variant="tonal" size="x-large" class="ma-2 text-none"
+        <v-btn v-for="e in OS" v-bind:key="e" variant="tonal" size="x-large" class="ma-2 text-none"
                :color="selectedOS === e ? 'primary' : undefined"
                @click="selectedOS = e">
           {{ e }}
@@ -25,7 +25,7 @@
             <h1 class="text-h6 text-sm-h6">{{ $t('download.appStores') }}</h1>
             <p>{{ $t('download.appStoresDescription') }}</p>
 
-            <div v-for="s in downloadMetadata[selectedOS].stores" v-html="s">
+            <div v-for="(s, index) in downloadMetadata[selectedOS].stores" v-bind:key="index" v-html="s">
             </div>
           </v-sheet>
         </v-col>
@@ -36,7 +36,7 @@
             <h1 class="text-h6 text-sm-h6">{{ $t('download.binaries') }}</h1>
             <p class="d-block mb-4">{{ $t('download.binariesDescription') }}</p>
 
-            <div v-for="b in downloadMetadata[selectedOS].binaries" class="mt-2">
+            <div v-for="b in downloadMetadata[selectedOS].binaries" v-bind:key="b.name" class="mt-2">
               <v-btn variant="text" :prepend-icon="mdiDownload" :href="b.url">
                 {{ b.name }}
               </v-btn>
@@ -50,16 +50,17 @@
         </v-col>
 
         <!-- Package Managers -->
-        <v-col cols="12" :md="downloadMetadata[selectedOS].stores.length !== 0 ? 4 : 8" class="pa-2" v-if="downloadMetadata[selectedOS].packageManagers.length !== 0">
+        <v-col cols="12" :md="downloadMetadata[selectedOS].stores.length !== 0 ? 4 : 8" class="pa-2"
+               v-if="downloadMetadata[selectedOS].packageManagers.length !== 0">
           <v-sheet color="teal-lighten-4 pa-4" class="fill-height" rounded>
             <h1 class="text-h6 text-sm-h6">{{ $t('download.packageManagers') }}</h1>
             <p>{{ $t('download.packageManagersDescription') }}</p>
 
-            <div v-for="p in downloadMetadata[selectedOS].packageManagers" class="mt-4">
+            <div v-for="p in downloadMetadata[selectedOS].packageManagers" v-bind:key="p.name" class="mt-4">
               <b>{{ p.name }}:</b>
               <v-sheet color="teal-lighten-4">
                 <code style="font-size: 0.8em">
-                  <template v-for="c in p.commands">
+                  <template v-for="(c, index) in p.commands" v-bind:key="index">
                     $ {{ c }}<br>
                   </template>
                 </code>
@@ -73,13 +74,13 @@
 </template>
 
 <script setup lang="ts">
-import { inject, ref } from 'vue';
-import { mdiDownload, mdiHistory } from '@mdi/js'
+import {computed, onMounted, Ref, ref} from 'vue';
+import {mdiDownload, mdiHistory} from '@mdi/js'
 import PageLayout from "@/layouts/PageLayout.vue";
 import {useI18n} from "vue-i18n";
-import {Assets} from "@/plugins/githubfetcher";
+import {requestGithubAssets} from "@/helper/requestGithubAssets";
 
-const { t } = useI18n()
+const {t} = useI18n()
 
 enum OS {
   windows = 'Windows',
@@ -126,105 +127,116 @@ const nix = {
   ],
 };
 
-const assetsMetadata: Array<Assets> | undefined = inject('assets');
-// Generates a map using file extensions as key
-const assetsMap = new Map(assetsMetadata?.map(obj => [ obj.name.split(".").pop(), obj.browser_download_url ]))
+const assetsMap: Ref<{ [key: string]: string }> = ref({});
 const fallbackUrl = "https://github.com/localsend/localsend/releases";
 
-const downloadMetadata: Record<OS, Download> = {
-  [OS.windows]: {
-    stores: [],
-    binaries: [
-      {
-        name: 'MSIX',
-        url: assetsMap.get("msix") ?? fallbackUrl,
-      },
-      {
-        name: t('download.zip'),
-        url: assetsMap.get("zip") ?? fallbackUrl,
-      },
-    ],
-    packageManagers: [
-      {
-        name: 'Winget',
-        commands: ['winget install localsend'],
-      },
-      {
-        name: 'Scoop',
-        commands: ['scoop install localsend'],
-      },
-    ],
-  },
-  [OS.macos]: {
-    stores: [appleStore],
-    binaries: [
-      {
-        name: 'DMG',
-        url: assetsMap.get("dmg") ?? fallbackUrl,
-      },
-    ],
-    packageManagers: [
-      {
-        name: 'Homebrew',
-        commands: [
-          'brew tap localsend/localsend',
-          'brew install localsend',
-        ],
-      },
-      nix,
-    ],
-  },
-  [OS.linux]: {
-    stores: [],
-    binaries: [
-      {
-        name: 'AppImage',
-        url: assetsMap.get("AppImage") ?? fallbackUrl,
-      }
-    ],
-    packageManagers: [
-      {
-        name: 'Flathub',
-        commands: [
-          'flatpak install flathub org.localsend.localsend_app',
-          'flatpak run org.localsend.localsend_app',
-        ],
-      },
-      {
-        name: 'AUR',
-        commands: ['yay -S localsend-bin'],
-      },
-      nix,
-    ]
-  },
-  [OS.android]: {
-    stores: [
-      `<a href='https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+const downloadMetadata = computed<Record<OS, Download>>(() => {
+  return {
+    [OS.windows]: {
+      stores: [],
+      binaries: [
+        {
+          name: 'MSIX',
+          url: assetsMap.value['msix'] ?? fallbackUrl,
+        },
+        {
+          name: t('download.zip'),
+          url: assetsMap.value['zip'] ?? fallbackUrl,
+        },
+      ],
+      packageManagers: [
+        {
+          name: 'Winget',
+          commands: ['winget install localsend'],
+        },
+        {
+          name: 'Scoop',
+          commands: ['scoop install localsend'],
+        },
+      ],
+    },
+    [OS.macos]: {
+      stores: [appleStore],
+      binaries: [
+        {
+          name: 'DMG',
+          url: assetsMap.value['dmg'] ?? fallbackUrl,
+        },
+      ],
+      packageManagers: [
+        {
+          name: 'Homebrew',
+          commands: [
+            'brew tap localsend/localsend',
+            'brew install localsend',
+          ],
+        },
+        nix,
+      ],
+    },
+    [OS.linux]: {
+      stores: [],
+      binaries: [
+        {
+          name: 'AppImage',
+          url: assetsMap.value['AppImage'] ?? fallbackUrl,
+        }
+      ],
+      packageManagers: [
+        {
+          name: 'Flathub',
+          commands: [
+            'flatpak install flathub org.localsend.localsend_app',
+            'flatpak run org.localsend.localsend_app',
+          ],
+        },
+        {
+          name: 'AUR',
+          commands: ['yay -S localsend-bin'],
+        },
+        nix,
+      ]
+    },
+    [OS.android]: {
+      stores: [
+        `<a href='https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
           <img alt='Get it on Google Play'
                src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'
                height="90"
           />
         </a>`,
-      `<a href="https://f-droid.org/packages/org.localsend.localsend_app">
+        `<a href="https://f-droid.org/packages/org.localsend.localsend_app">
           <img alt="Get it on F-Droid" src="${new URL('@/assets/badges/f-droid-badge.png', import.meta.url).href}" height="90">
         </a>`,
-      `<a href="https://www.amazon.com/dp/B0BW6MP732" class="d-block pl-4 pr-4 pt-4">
+        `<a href="https://www.amazon.com/dp/B0BW6MP732" class="d-block pl-4 pr-4 pt-4">
           <img alt="Get it on F-Droid" src="${new URL('@/assets/badges/amazon-store-badge.png', import.meta.url).href}" height="60">
         </a>`,
-    ],
-    binaries: [
-      {
-        name: 'APK',
-        url: assetsMap.get("apk") ?? fallbackUrl,
-      }
-    ],
-    packageManagers: [],
-  },
-  [OS.ios]: {
-    stores: [appleStore],
-    binaries: [],
-    packageManagers: [],
-  }
-};
+      ],
+      binaries: [
+        {
+          name: 'APK',
+          url: assetsMap.value['apk'] ?? fallbackUrl,
+        }
+      ],
+      packageManagers: [],
+    },
+    [OS.ios]: {
+      stores: [appleStore],
+      binaries: [],
+      packageManagers: [],
+    }
+  };
+});
+
+onMounted(async () => {
+  const assetsMetadata = await requestGithubAssets();
+  assetsMap.value = assetsMetadata.reduce<{ [key: string]: string }>((acc, obj) => {
+    const key = obj.name.split(".").pop();
+    if (key) {
+      acc[key] = obj.browser_download_url;
+    }
+    return acc;
+  }, {});
+});
 
 </script>

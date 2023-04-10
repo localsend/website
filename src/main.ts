@@ -12,11 +12,8 @@ import { createApp } from 'vue'
 
 // Plugins
 import { registerPlugins } from '@/plugins'
-import { requestAssets } from "@/plugins/githubfetcher";
 
 const app = createApp(App);
-
-app.provide("assets", await requestAssets());
 
 registerPlugins(app)
 

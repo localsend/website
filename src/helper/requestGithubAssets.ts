@@ -14,7 +14,7 @@ export interface Assets {
   browser_download_url: string;
 }
 
-export async function requestAssets(): Promise<Array<Assets>> {
+export async function requestGithubAssets(): Promise<Array<Assets>> {
   const apiURL = `https://api.github.com/repos/localsend/localsend/releases`;
   return await fetch(apiURL, {
     method: "GET",
@@ -29,4 +29,3 @@ export async function requestAssets(): Promise<Array<Assets>> {
       })
   })
 }
-

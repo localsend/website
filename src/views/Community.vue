@@ -6,7 +6,7 @@
 
         <p>{{ $t('community.getHelpDescription') }}</p>
 
-        <v-btn v-for="(b, index) in helpButtons" variant="tonal" :class="index ? ['ml-4', 'mt-2'] : ['mt-2']" :href="b.url" target="_blank">
+        <v-btn v-for="(b, index) in helpButtons" v-bind:key="index" variant="tonal" :class="index ? ['ml-4', 'mt-2'] : ['mt-2']" :href="b.url" target="_blank">
           {{ b.name }}
         </v-btn>
 
