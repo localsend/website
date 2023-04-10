@@ -73,10 +73,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { inject, ref } from 'vue';
 import { mdiDownload, mdiHistory } from '@mdi/js'
 import PageLayout from "@/layouts/PageLayout.vue";
 import {useI18n} from "vue-i18n";
+import {Assets} from "@/plugins/githubfetcher";
 
 const { t } = useI18n()
 
@@ -125,17 +126,22 @@ const nix = {
   ],
 };
 
+const assetsMetadata: Array<Assets> | undefined = inject('assets');
+// Generates a map using file extensions as key
+const assetsMap = new Map(assetsMetadata?.map(obj => [ obj.name.split(".").pop(), obj.browser_download_url ]))
+const fallbackUrl = "https://github.com/localsend/localsend/releases";
+
 const downloadMetadata: Record<OS, Download> = {
   [OS.windows]: {
     stores: [],
     binaries: [
       {
         name: 'MSIX',
-        url: 'https://github.com/localsend/localsend/releases/download/v1.8.0/LocalSend-1.8.0.msix',
+        url: assetsMap.get("msix") ?? fallbackUrl,
       },
       {
         name: t('download.zip'),
-        url: 'https://github.com/localsend/localsend/releases/download/v1.8.0/LocalSend-1.8.0-windows.zip',
+        url: assetsMap.get("zip") ?? fallbackUrl,
       },
     ],
     packageManagers: [
@@ -154,7 +160,7 @@ const downloadMetadata: Record<OS, Download> = {
     binaries: [
       {
         name: 'DMG',
-        url: 'https://github.com/localsend/localsend/releases/download/v1.8.0/LocalSend-1.8.0.dmg',
+        url: assetsMap.get("dmg") ?? fallbackUrl,
       },
     ],
     packageManagers: [
@@ -173,7 +179,7 @@ const downloadMetadata: Record<OS, Download> = {
     binaries: [
       {
         name: 'AppImage',
-        url: 'https://github.com/localsend/localsend/releases/download/v1.8.0/LocalSend-1.8.0.AppImage',
+        url: assetsMap.get("AppImage") ?? fallbackUrl,
       }
     ],
     packageManagers: [
@@ -209,7 +215,7 @@ const downloadMetadata: Record<OS, Download> = {
     binaries: [
       {
         name: 'APK',
-        url: 'https://github.com/localsend/localsend/releases/download/v1.8.0/LocalSend-1.8.0.apk',
+        url: assetsMap.get("apk") ?? fallbackUrl,
       }
     ],
     packageManagers: [],
