@@ -59,6 +59,7 @@ const locales = [
   { label: 'English', value: 'en' },
   { label: 'Deutsch', value: 'de' },
   { label: '简体中文', value: 'zh-CN' },
+  { label: '繁體中文', value: 'zh-TW' },
 ];
 
 onMounted(() => {
