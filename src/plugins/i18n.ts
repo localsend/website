@@ -2,6 +2,7 @@ import { createI18n } from 'vue-i18n'
 import de from '@/locales/de.json'
 import en from '@/locales/en.json'
 import zhCN from '@/locales/zh-CN.json'
+import zhTW from '@/locales/zh-TW.json'
 
 function getBrowserLocale(): string {
   return navigator.languages !== undefined
@@ -26,6 +27,7 @@ const messages = {
   'de': de,
   'en': en,
   'zh-CN': zhCN,
+  'zh-TW': zhTW,
 };
 
 const availableLocales = Object.keys(messages);
