@@ -1,5 +1,5 @@
 <template>
-  <div class="fill-height d-flex align-center justify-center pa-4 pa-md-12">
+  <div class="fill-viewport d-flex align-center justify-center pa-4 pa-md-12">
     <v-row style="max-width: 1800px">
 
       <!-- Logo and text -->
