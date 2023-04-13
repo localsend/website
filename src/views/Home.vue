@@ -34,13 +34,13 @@
           <v-col cols="12" md="6" class="d-flex justify-center justify-md-end">
             <v-img
               :height="screenshotHeight"
-              src="/img/screenshot-iphone.png"
+              src="/img/screenshot-iphone.webp"
             />
           </v-col>
           <v-col cols="12" md="6" class="d-flex justify-center justify-md-start">
             <v-img
               :height="screenshotHeight"
-              src="/img/screenshot-pc.png"
+              src="/img/screenshot-pc.webp"
             />
           </v-col>
         </v-row>
