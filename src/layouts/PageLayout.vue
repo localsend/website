@@ -1,5 +1,5 @@
 <template>
-  <div class="fill-height pt-md-12">
+  <div class="fill-viewport pt-md-12">
     <v-row>
 
       <!-- Logo -->

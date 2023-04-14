@@ -1,5 +1,5 @@
 <template>
-  <div class="fill-height d-flex align-center justify-center pa-4 pa-md-12">
+  <div class="fill-viewport d-flex align-center justify-center pa-4 pa-md-12">
     <v-row style="max-width: 1800px">
 
       <!-- Logo and text -->
@@ -34,13 +34,13 @@
           <v-col cols="12" md="6" class="d-flex justify-center justify-md-end">
             <v-img
               :height="screenshotHeight"
-              src="/img/screenshot-iphone.png"
+              src="/img/screenshot-iphone.webp"
             />
           </v-col>
           <v-col cols="12" md="6" class="d-flex justify-center justify-md-start">
             <v-img
               :height="screenshotHeight"
-              src="/img/screenshot-pc.png"
+              src="/img/screenshot-pc.webp"
             />
           </v-col>
         </v-row>
