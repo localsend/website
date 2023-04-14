@@ -15,7 +15,7 @@
     "packageManagersDescription": "使用终端安装。",
     "windowsNotice": "由于证书更改，您需要先卸载 v1.7.0 或更早版本，然后再安装 v1.8.0 或更高版本。",
     "allReleases": "所有版本",
-    "zip": "邮编（便携式）"
+    "zip": "压缩包（便携式）"
   },
   "community": {
     "title": "社区",
