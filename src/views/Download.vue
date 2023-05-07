@@ -12,7 +12,7 @@
     </template>
 
     <template v-slot:content>
-      <h1 class="text-h6 text-sm-h6 text-center">{{ selectedOS }} Downloads</h1>
+      <h1 class="text-h6 text-sm-h6 text-center">{{ $t('download.subTitle', {'os': selectedOS})  }}</h1>
 
       <div v-if="selectedOS === OS.windows" class="text-center pa-2">
         {{ $t('download.windowsNotice') }}
@@ -60,22 +60,31 @@
               <b>{{ p.name }}:</b>
               <v-sheet color="teal-lighten-4">
                 <code style="font-size: 0.8em">
-                  <template v-for="(c, index) in p.commands" v-bind:key="index">
-                    $ {{ c }}<br>
-                  </template>
+                  <span v-for="(c, index) in p.commands" v-bind:key="index" class="copy-text" @click="() => copyToClipboard(c)">
+                    <span class="text-grey-darken-1">&gt;</span> {{ c }}<br>
+                  </span>
                 </code>
               </v-sheet>
             </div>
           </v-sheet>
         </v-col>
       </v-row>
+
+      <v-snackbar v-model="copyToClipboardSnackbar">
+        {{  t('download.copiedToClipboard')  }}
+        <template v-slot:actions>
+          <v-btn variant="text" @click="copyToClipboardSnackbar = false">
+            <v-icon>{{ mdiClose }}</v-icon>
+          </v-btn>
+        </template>
+      </v-snackbar>
     </template>
   </page-layout>
 </template>
 
 <script setup lang="ts">
 import {computed, onMounted, Ref, ref} from 'vue';
-import {mdiDownload, mdiHistory} from '@mdi/js'
+import {mdiDownload, mdiHistory, mdiClose} from '@mdi/js'
 import PageLayout from "@/layouts/PageLayout.vue";
 import {useI18n} from "vue-i18n";
 import {requestGithubAssets} from "@/helper/requestGithubAssets";
@@ -148,6 +157,10 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
         {
           name: 'Winget',
           commands: ['winget install localsend'],
+        },
+        {
+          name: 'Chocolatey',
+          commands: ['choco install localsend'],
         },
         {
           name: 'Scoop',
@@ -228,6 +241,13 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
   };
 });
 
+const copyToClipboardSnackbar = ref(false);
+
+function copyToClipboard(text: string) {
+  navigator.clipboard.writeText(text);
+  copyToClipboardSnackbar.value = true;
+}
+
 onMounted(async () => {
   const assetsMetadata = await requestGithubAssets();
   assetsMap.value = assetsMetadata.reduce<{ [key: string]: string }>((acc, obj) => {
@@ -240,3 +260,10 @@ onMounted(async () => {
 });
 
 </script>
+
+<style>
+.copy-text:hover {
+  cursor: pointer;
+  background-color: #26A69A;
+}
+</style>

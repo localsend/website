@@ -7,6 +7,7 @@
   },
   "download": {
     "title": "Scarica",
+    "subTitle": "{os} Downloads",
     "appStores": "App Store",
     "appStoresDescription": "Consigliato per la maggior parte degli utenti.",
     "binaries": "Binario",
@@ -15,7 +16,8 @@
     "packageManagersDescription": "Installa con il terminale.",
     "windowsNotice": "A causa di cambiamenti del cercificato devi disinstallare la v1.7.0 o precedenti prima di installare la v1.8.0 o successivi.",
     "allReleases": "Tutte le Versioni",
-    "zip": "ZIP (portatile)"
+    "zip": "ZIP (portatile)",
+    "copiedToClipboard": "Copiato negli appunti!"
   },
   "community": {
     "title": "Comunità",

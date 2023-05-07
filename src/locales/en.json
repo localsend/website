@@ -7,6 +7,7 @@
   },
   "download": {
     "title": "Downloads",
+    "subTitle": "{os} Downloads",
     "appStores": "App Stores",
     "appStoresDescription": "Recommended for most users.",
     "binaries": "Binaries",
@@ -15,7 +16,8 @@
     "packageManagersDescription": "Install with terminal.",
     "windowsNotice": "Due to certificate changes, you need to uninstall v1.7.0 or earlier before installing v1.8.0 or later.",
     "allReleases": "All Releases",
-    "zip": "ZIP (portable)"
+    "zip": "ZIP (portable)",
+    "copiedToClipboard": "Copied to clipboard!"
   },
   "community": {
     "title": "Community",
