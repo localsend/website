@@ -17,7 +17,7 @@
               <div class="d-flex justify-center">
                 <v-select
                   v-model="$i18n.locale"
-                  :items="locales"
+                  :items="localesArray"
                   item-title="label"
                   item-value="value"
                   style="max-width: 150px">
@@ -50,17 +50,16 @@
 
 <script setup lang="ts">
 import {onMounted, ref} from "vue";
+import {locales} from "@/plugins/i18n";
 
 const year = new Date().getFullYear();
 
 const showFooter = ref(false);
 
-const locales = [
-  { label: 'English', value: 'en' },
-  { label: 'Deutsch', value: 'de' },
-  { label: '简体中文', value: 'zh-CN' },
-  { label: '繁體中文', value: 'zh-TW' },
-];
+const localesArray = Object.entries(locales).map(([key, [label]]) => ({
+  label: label,
+  value: key,
+}));
 
 onMounted(() => {
   // Show footer after a delay
