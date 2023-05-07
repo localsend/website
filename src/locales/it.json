@@ -1,0 +1,30 @@
+{
+  "home": {
+    "slogan1": "Condividi file ai device vicini.",
+    "slogan2": "Gratis, open source, multipiattaforma.",
+    "download": "Scarica",
+    "community": "Comunità"
+  },
+  "download": {
+    "title": "Scarica",
+    "appStores": "App Store",
+    "appStoresDescription": "Consigliato per la maggior parte degli utenti.",
+    "binaries": "Binario",
+    "binariesDescription": "Scarica per uso offline.",
+    "packageManagers": "Gestione Pacchetti",
+    "packageManagersDescription": "Installa con il terminale.",
+    "windowsNotice": "A causa di cambiamenti del cercificato devi disinstallare la v1.7.0 o precedenti prima di installare la v1.8.0 o successivi.",
+    "allReleases": "Tutte le Versioni",
+    "zip": "ZIP (portatile)"
+  },
+  "community": {
+    "title": "Comunità",
+    "getHelp": "Ottieni Aiuto",
+    "getHelpDescription": "Chiedi o controlla le risposte sulle Discussioni Github.",
+    "getInvolved": "Vieni Coinvolto",
+    "getInvolvedDescription": "Mettiti in contatto con gli sviluppatori e contribuisci direttamente al progetto.",
+    "issues": "Problemi",
+    "pullRequests": "Richieste Pull"
+  },
+  "homepageButton": "Pagina Principale"
+}
