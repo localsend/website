@@ -25,6 +25,7 @@
     "getHelpDescription": "Ask or look for answers on Github Discussions.",
     "getInvolved": "Get Involved",
     "getInvolvedDescription": "Get in contact with the developers and contribute directly to the project.",
+    "discord": "Discord",
     "issues": "Issues",
     "pullRequests": "Pull Requests"
   },

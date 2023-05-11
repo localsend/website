@@ -14,7 +14,11 @@
 
         <p>{{ $t('community.getInvolvedDescription') }}</p>
 
-        <v-btn variant="tonal" href="https://github.com/localsend/localsend/issues" class="mt-2" target="_blank">
+        <v-btn variant="tonal" href="https://discord.gg/GSRWmQNP87" class="mt-2" target="_blank">
+          {{ $t('community.discord') }}
+        </v-btn>
+
+        <v-btn variant="tonal" href="https://github.com/localsend/localsend/issues" class="ml-4 mt-2" target="_blank">
           {{ $t('community.issues') }}
         </v-btn>
 
