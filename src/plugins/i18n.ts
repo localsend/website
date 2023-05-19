@@ -2,6 +2,7 @@ import { createI18n } from 'vue-i18n'
 import de from '@/locales/de.json'
 import en from '@/locales/en.json'
 import it from '@/locales/it.json'
+import fr from '@/locales/fr.json'
 import zhCN from '@/locales/zh-CN.json'
 import zhTW from '@/locales/zh-TW.json'
 
