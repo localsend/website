@@ -9,6 +9,7 @@ export const locales: {[key: string]: [string, Record<string, any>]} = {
   'de': ['Deutsch', de],
   'en': ['English', en],
   'it': ['Italiano', it],
+  'fr': ['Français', fr],
   'zh-CN': ['简体中文', zhCN],
   'zh-TW': ['繁體中文', zhTW],
 };
