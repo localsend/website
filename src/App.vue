@@ -20,7 +20,7 @@
                   :items="localesArray"
                   item-title="label"
                   item-value="value"
-                  style="max-width: 150px">
+                  style="max-width: 200px">
                 </v-select>
               </div>
             </v-col>
