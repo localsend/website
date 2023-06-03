@@ -191,6 +191,14 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       stores: [],
       binaries: [
         {
+          name: 'TAR',
+          url: assetsMap.value['gz'] ?? fallbackUrl,
+        },
+        {
+          name: 'DEB',
+          url: assetsMap.value['deb'] ?? fallbackUrl,
+        },
+        {
           name: 'AppImage',
           url: assetsMap.value['AppImage'] ?? fallbackUrl,
         }
