@@ -1,0 +1,33 @@
+{
+  "home": {
+    "slogan1": "近くのデバイスにファイルを共有",
+    "slogan2": "無料、オープンソース、クロスプラットフォーム対応",
+    "download": "ダウンロード",
+    "community": "コミュニティー"
+  },
+  "download": {
+    "title": "ダウンロード",
+    "subTitle": "{os}向けにダウンロード",
+    "appStores": "アプリストア",
+    "appStoresDescription": "ほとんどのユーザーにおすすめです。",
+    "binaries": "バイナリー",
+    "binariesDescription": "オフラインでも使用できるダウンロード方法です。",
+    "packageManagers": "パッケージマネージャー",
+    "packageManagersDescription": "ターミナルからインストールします。",
+    "windowsNotice": "証明書の変更のため、v1.8.0以降をインストールするにはv1.7.0以前をアンインストールする必要があります。",
+    "allReleases": "すべてのリリース",
+    "zip": "ZIP (ポータブル)",
+    "copiedToClipboard": "クリップボードにコピーしました！"
+  },
+  "community": {
+    "title": "コミュニティー",
+    "getHelp": "助けを得る",
+    "getHelpDescription": "GitHubディスカッションで質問するか答えを検索できます。",
+    "getInvolved": "参加する",
+    "getInvolvedDescription": "開発者と連絡を取り、プロジェクトに直接貢献します。",
+    "discord": "Discord",
+    "issues": "イシュー",
+    "pullRequests": "プルリクエスト"
+  },
+  "homepageButton": "ホームページ"
+}
