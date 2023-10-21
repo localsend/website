@@ -1,0 +1,33 @@
+{
+  "home": {
+    "slogan1": "Comparte archivos a dispositivos cercanos.",
+    "slogan2": "Gratis, código abierto, multiplataforma.",
+    "download": "Descargar",
+    "community": "Comunidad"
+  },
+  "download": {
+    "title": "Descargas",
+    "subTitle": "Descargas para {os}",
+    "appStores": "Tiendas de aplicaciones",
+    "appStoresDescription": "Recomendado para la mayoría de usuarios.",
+    "binaries": "Binarios",
+    "binariesDescription": "Descarga para uso offline.",
+    "packageManagers": "Gestores de paquetes",
+    "packageManagersDescription": "Instalar con la terminal.",
+    "windowsNotice": "Debido a cambios en el certificado, tiene que desinstalar la versión v1.7.0 o anterior antes de instalar la versión v1.8.0 o posterior.",
+    "allReleases": "Todas las versiones",
+    "zip": "ZIP (portable)",
+    "copiedToClipboard": "¡Copiado al portapapeles!"
+  },
+  "community": {
+    "title": "Comunidad",
+    "getHelp": "Obtener ayuda",
+    "getHelpDescription": "Preguntar o buscar por respuestas en GitHub Discussions.",
+    "getInvolved": "Participar",
+    "getInvolvedDescription": "Ponerse en contacto con los desarrolladores y contribuir directamente al proyecto.",
+    "discord": "Discord",
+    "issues": "Issues",
+    "pullRequests": "Pull Requests"
+  },
+  "homepageButton": "Inicio"
+}
