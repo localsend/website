@@ -1,0 +1,34 @@
+{
+    "home": {
+      "slogan1": "Yakınınızdaki cihazlarla dosya paylaşın.",
+      "slogan2": "Ücretsiz, açık kaynaklı, tüm platformlar için.",
+      "download": "İndir",
+      "community": "Topluluk"
+    },
+    "download": {
+      "title": "İndirmeler",
+      "subTitle": "{os} İndirmeleri",
+      "appStores": "Uygulama Mağazaları",
+      "appStoresDescription": "Çoğu kullanıcı için önerilir.",
+      "binaries": "Binaries",
+      "binariesDescription": "Çevrimdışı kullanım için indirin.",
+      "packageManagers": "Paket Yöneticileri",
+      "packageManagersDescription": "Terminal ile yükleyin.",
+      "windowsNotice": "Sertifika değişiklikleri nedeniyle, v1.8.0 veya sonraki sürümü yüklemeden önce v1.7.0 veya daha eski sürümü kaldırmanız gerekmektedir.",
+      "allReleases": "Tüm Sürümler",
+      "zip": "ZIP (taşınabilir)",
+      "copiedToClipboard": "Panoya kopyalandı!"
+    },
+    "community": {
+      "title": "Topluluk",
+      "getHelp": "Yardım al",
+      "getHelpDescription": "Github'da sorunuzu sorun veya cevap arayın.",
+      "getInvolved": "Katılın",
+      "getInvolvedDescription": "Geliştiricilerle iletişime geçin ve projeye doğrudan katkıda bulunun.",
+      "discord": "Discord",
+      "issues": "Issues",
+      "pullRequests": "Pull Requests"
+    },
+    "homepageButton": "Ana Sayfa"
+  }
+  
