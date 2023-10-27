@@ -83,7 +83,7 @@
     <h1>Contact Us</h1>
     <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
     <ul>
-      <li>By email: localsendapp@gmail.com</li>
+      <li>By email: support@localsend.org</li>
     </ul>
   </legal-layout>
 </template>
