@@ -1,0 +1,33 @@
+{
+  "home": {
+    "slogan1": "Передавайте файлы с устройвами поблизости.",
+    "slogan2": "Бесплатный, открытый код, кроссплатформенность.",
+    "download": "Скачать",
+    "community": "Сообщество"
+  },
+  "download": {
+    "title": "Загрузки",
+    "subTitle": "Установка на {os}",
+    "appStores": "Магазины Приложений",
+    "appStoresDescription": "Рекомендуется для большинства.",
+    "binaries": "Установщики",
+    "binariesDescription": "Для оффлайн пользования.",
+    "packageManagers": "Менеджер пакетов",
+    "packageManagersDescription": "Установка через терминал.",
+    "windowsNotice": "В связи с изменением сертификатов, перед установкой версии 1.8.0 и поздних, необходимо удалить версию 1.7.0 или более раннюю.",
+    "allReleases": "Все версии",
+    "zip": "ZIP (портативный)",
+    "copiedToClipboard": "Скопировано в буфер обмена!"
+  },
+  "community": {
+    "title": "Сообщество",
+    "getHelp": "Получить помощь",
+    "getHelpDescription": "Спросите и ищите ответы на Github Discussions.",
+    "getInvolved": "Принять участие",
+    "getInvolvedDescription": "Свяжитесь с разработчиками и внесите свой вклад в проект.",
+    "discord": "Discord",
+    "issues": "Issues",
+    "pullRequests": "Pull Requests"
+  },
+  "homepageButton": "Домашняя страница"
+}
