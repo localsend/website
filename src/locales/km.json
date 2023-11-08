@@ -1,0 +1,33 @@
+{
+  "home": {
+    "slogan1": "ចែករំលែកឯកសារជាមួយឧបករណ៍ដែលនៅជិតគ្នា។",
+    "slogan2": "ឥតគិតថ្លៃ, បើកបង្ហាញប្រភពកូដ, ដំណើរការឆ្លងប្រព័ន្ធប្រតិបត្តិការបានយ៉ាងរលូន។",
+    "download": "ទាញយកកម្មវិធី",
+    "community": "សហគមន៍"
+  },
+  "download": {
+    "title": "ទាញយកកម្មវិធី",
+    "subTitle": "ទាញយកចំពោះ {os}",
+    "appStores": "App Stores",
+    "appStoresDescription": "ត្រូវបានណែនាំ​ និងល្អបំផុតសម្រាប់អ្នកប្រើប្រាស់ភាគច្រើន។",
+    "binaries": "Binaries",
+    "binariesDescription": "ទាញយកសម្រាប់ប្រើប្រាស់ក្នុងពេលគ្មានអុីនធឺណែត។",
+    "packageManagers": "Package Managers",
+    "packageManagersDescription": "ទាញយក​ និងតម្លើងតាមរយៈ terminal ។",
+    "windowsNotice": "ដោយសារតែមានការផ្លាស់ប្តូរបច្ចុប្បន្នភាព, ដូច្នេះតម្រូវអោយអ្នកធ្វើការលុបចោលនូវជំនាន់​ v1.7.0 ឬជំនាន់ចាស់ជាងនេះជាមុនសិនមុននឹងតម្លើងនូវជំនាន់កម្មវិធីថ្មី v1.8.0 ឬខ្ពស់ជាងនេះ។",
+    "allReleases": "កំណែបច្ចុប្បន្នភាពទាំងអស់",
+    "zip": "ZIP (portable)",
+    "copiedToClipboard": "បានចម្លងទុកហើយ!"
+  },
+  "community": {
+    "title": "សហគមន៍",
+    "getHelp": "ស្វែងរកជំនួយ",
+    "getHelpDescription": "សួរពួកយើង​ ឬអ្នកអាចចូលរកមើលចម្លើយបានដោយខ្លួនឯងនៅលើ ទំព័រពិភាក្សារបស់ Github ។",
+    "getInvolved": "ចូលរួមជាមួយពួកយើង",
+    "getInvolvedDescription": "ភ្ជាប់ទំនាក់ទំនងជាមួយនឹងអ្នកអភិវឌ្ឍន៍ និងចូលរួមចំណែកដោយផ្ទាល់ទៅកាន់គម្រោងនៃកម្មវិធីនេះនៅលើ Github ។",
+    "discord": "Discord",
+    "issues": "Issues",
+    "pullRequests": "Pull Requests"
+  },
+  "homepageButton": "ទំព័រដើម"
+}
