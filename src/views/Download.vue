@@ -164,7 +164,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
         },
         {
           name: 'Scoop',
-          commands: ['scoop install localsend'],
+          commands: ['scoop bucket add extras; scoop install localsend'],
         },
       ],
     },
