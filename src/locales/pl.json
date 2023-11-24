@@ -1,0 +1,33 @@
+{
+  "home": {
+    "slogan1": "Udostępniaj pliki urządzeniom w pobliżu.",
+    "slogan2": "Darmowa, otwarto-źródłowa, wieloplatformowa.",
+    "download": "Pobierz",
+    "community": "Społeczność"
+  },
+  "download": {
+    "title": "Pobieranie",
+    "subTitle": "Pobierz na {os}",
+    "appStores": "Sklepy z aplikacjami",
+    "appStoresDescription": "Rekomendowane dla większości użytkowników.",
+    "binaries": "Pliki wykonywalne",
+    "binariesDescription": "Pobierz do użytku offline.",
+    "packageManagers": "Menedżery pakietów",
+    "packageManagersDescription": "Zainstaluj za pomocą terminalu.",
+    "windowsNotice": "Ze względu na zmiany certyfikatu, musisz odinstalować v1.7.0 lub starsze zanim zainstalujesz v1.8.0 lub nowsze.",
+    "allReleases": "Wszystkie wydania",
+    "zip": "ZIP (przenośny)",
+    "copiedToClipboard": "Skopiowano do schowka!"
+  },
+  "community": {
+    "title": "Społeczność",
+    "getHelp": "Uzyskaj wsparcie",
+    "getHelpDescription": "Zapytaj lub poszukaj odpowiedzi na Github Discussions.",
+    "getInvolved": "Zaangażuj się",
+    "getInvolvedDescription": "Skontaktuj się z programistami i bezpośrednio włóż wkład w projekt.",
+    "discord": "Discord",
+    "issues": "Problemy",
+    "pullRequests": "Pull Requesty"
+  },
+  "homepageButton": "Strona główna"
+}

@@ -8,6 +8,7 @@ import it from '@/locales/it.json'
 import ja from '@/locales/ja.json'
 import km from '@/locales/km.json'
 import ru from '@/locales/ru.json'
+import pl from '@/locales/pl.json'
 import ptBR from '@/locales/pt-BR.json'
 import th from '@/locales/th.json'
 import trTR from '@/locales/tr-TR.json'
@@ -25,6 +26,7 @@ export const locales: {[key: string]: [string, Record<string, any>]} = {
   'ja': ['日本語', ja],
   'km': ['ភាសាខ្មែរ', km],
   'ru': ['Русский', ru],
+  'pl': ['Polski', pl],
   'pt-BR': ['Português brasileiro', ptBR],
   'th': ['ภาษาไทย', th],
   'tr-TR': ['Türkçe', trTR],
