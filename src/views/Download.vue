@@ -145,6 +145,10 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       stores: [],
       binaries: [
         {
+          name: 'EXE',
+          url: assetsMap.value['exe'] ?? fallbackUrl,
+        },
+        {
           name: 'MSIX',
           url: assetsMap.value['msix'] ?? fallbackUrl,
         },
