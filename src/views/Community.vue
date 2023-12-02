@@ -56,6 +56,10 @@ const helpButtons: HelpButton[] = [
     url: 'https://github.com/localsend/localsend/discussions/categories/l-fran%C3%A7ais',
   },
   {
+    name: 'Italiano',
+    url: 'https://github.com/localsend/localsend/discussions/categories/l-italiano',
+  },
+  {
     name: 'Русский',
     url: 'https://github.com/localsend/localsend/discussions/categories/l-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9',
   },
