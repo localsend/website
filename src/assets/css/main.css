@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kantumruy+Pro:wght@500&display=swap');
+
+body{
+    font-family: 'Kantumruy Pro', 'Inter', sans-serif;
+}
+
 .fill-viewport {
     min-height: 100vh;
     padding-bottom: 30px;

@@ -8,14 +8,14 @@
   "download": {
     "title": "ទាញយកកម្មវិធី",
     "subTitle": "ទាញយកចំពោះ {os}",
-    "appStores": "App Stores",
+    "appStores": "ទាញយកកម្មវិធីផ្លូវការ",
     "appStoresDescription": "ត្រូវបានណែនាំ​ និងល្អបំផុតសម្រាប់អ្នកប្រើប្រាស់ភាគច្រើន។",
-    "binaries": "Binaries",
-    "binariesDescription": "ទាញយកសម្រាប់ប្រើប្រាស់ក្នុងពេលគ្មានអុីនធឺណែត។",
-    "packageManagers": "Package Managers",
+    "binaries": "ទាញយកជា Binaries",
+    "binariesDescription": "ទាញយកសម្រាប់ប្រើប្រាស់ក្នុងពេលគ្មានអុីនធឺណែត និងតម្លើងដោយខ្លួនឯង។",
+    "packageManagers": "ទាញយកពី Package Managers",
     "packageManagersDescription": "ទាញយក​ និងតម្លើងតាមរយៈ terminal ។",
     "windowsNotice": "ដោយសារតែមានការផ្លាស់ប្តូរបច្ចុប្បន្នភាព, ដូច្នេះតម្រូវអោយអ្នកធ្វើការលុបចោលនូវជំនាន់​ v1.7.0 ឬជំនាន់ចាស់ជាងនេះជាមុនសិនមុននឹងតម្លើងនូវជំនាន់កម្មវិធីថ្មី v1.8.0 ឬខ្ពស់ជាងនេះ។",
-    "allReleases": "កំណែបច្ចុប្បន្នភាពទាំងអស់",
+    "allReleases": "មើលកំណែបច្ចុប្បន្នភាពទាំងអស់",
     "zip": "ZIP (portable)",
     "copiedToClipboard": "បានចម្លងទុកហើយ!"
   },
@@ -25,9 +25,21 @@
     "getHelpDescription": "សួរពួកយើង​ ឬអ្នកអាចចូលរកមើលចម្លើយបានដោយខ្លួនឯងនៅលើ ទំព័រពិភាក្សារបស់ Github ។",
     "getInvolved": "ចូលរួមជាមួយពួកយើង",
     "getInvolvedDescription": "ភ្ជាប់ទំនាក់ទំនងជាមួយនឹងអ្នកអភិវឌ្ឍន៍ និងចូលរួមចំណែកដោយផ្ទាល់ទៅកាន់គម្រោងនៃកម្មវិធីនេះនៅលើ Github ។",
+    "discord": "ចូលរួមក្នុង Discord",
+    "issues": "ដោះស្រាយបញ្ហា",
+    "pullRequests": "ចូលរួមបើកស្នើសុំ Pull Requests"
+  },
+  "footer":{
+    "underlicense": "ស្ថិតនៅក្រោមអញ្ញាប័ណ្ណនៃ",
+    "mitlicense": "MIT License",
+    "andcontributor": "រួមជាមួយនឹងអ្នកចូលរួមចំណែកទាំងអស់របស់ LocalSend ។",
+    "github": "Github",
     "discord": "Discord",
-    "issues": "Issues",
-    "pullRequests": "Pull Requests"
+    "privacy": "ឯកជនភាព",
+    "terms": "បទបញ្ញត្តិ",
+    "contact": "ទំនាក់ទំនង",
+    "disclaimer-line1": "គេហទំព័រនេះ រួមជាមួយនិង LocalSend មិនមានទំនាក់ទំនង, ការគាំទ្រ, ឬក្នុងករណីណាមួយដែលពាក់ព័ន្ធជាមួយម៉ាកយីហោដែលបានលើកឡើងឬបង្ហាញនៅលើគេហទំព័រនេះទេ ។",
+    "disclaimer-line2": "ពាណិជ្ជសញ្ញា ស្លាកសញ្ញា និងម៉ាកយីហោទាំងអស់នេះ គឺជាកម្មសិទ្ធិរបស់ម្ចាស់យីហោរៀងៗខ្លួន​ ដែលពុំមែនជាកម្មសិទ្ធរបស់ពួកយើងនោះឡើយ។ យើងប្រើប្រាស់ឯកសារយោងទាំងនេះក្នុងគោលបំណងសម្រាប់តែផ្តល់ព័ត៌មានតែប៉ុណ្ណោះ​ ។"
   },
   "homepageButton": "ទំព័រដើម"
 }
