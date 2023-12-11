@@ -71,10 +71,6 @@ const helpButtons: HelpButton[] = [
     url: 'https://github.com/localsend/localsend/discussions/categories/l-%E6%97%A5%E6%9C%AC%E8%AA%9E',
   },
   {
-    name: 'ភាសាខ្មែរ',
-    url: 'https://github.com/localsend/localsend/discussions/',
-  },
-  {
     name: '简体中文',
     url: 'https://github.com/localsend/localsend/discussions/categories/l-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87',
   },
