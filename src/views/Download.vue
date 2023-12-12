@@ -124,7 +124,7 @@ interface Download {
   packageManagers: PackageManager[];
 }
 
-const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id1661733229" class="d-block ma-4">
+const appleStore = `<br><a href="https://apps.apple.com/us/app/localsend/id1661733229">
     <img alt="Download on the App Store" src="${new URL('@/assets/badges/apple-store-badge.svg', import.meta.url).href}" height="64">
 </a>`;
 
@@ -224,17 +224,17 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
     },
     [OS.android]: {
       stores: [
-        `<a href='https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+        `<br><a href='https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
           <img alt='Get it on Google Play'
-               src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'
-               height="90"
+               src="${new URL('@/assets/badges/google-play-badge.svg', import.meta.url).href}"
+               height="60"
           />
         </a>`,
         `<a href="https://f-droid.org/packages/org.localsend.localsend_app">
-          <img alt="Get it on F-Droid" src="${new URL('@/assets/badges/f-droid-badge.png', import.meta.url).href}" height="90">
+          <img alt="Get it on F-Droid" src="${new URL('@/assets/badges/f-droid-badge.svg', import.meta.url).href}" height="60">
         </a>`,
-        `<a href="https://www.amazon.com/dp/B0BW6MP732" class="d-block pl-4 pr-4 pt-4">
-          <img alt="Get it on F-Droid" src="${new URL('@/assets/badges/amazon-store-badge.png', import.meta.url).href}" height="60">
+        `<a href="https://www.amazon.com/dp/B0BW6MP732">
+          <img alt="Get it on F-Droid" src="${new URL('@/assets/badges/amazon-store-badge.svg', import.meta.url).href}" height="59">
         </a>`,
       ],
       binaries: [
@@ -275,6 +275,7 @@ onMounted(async () => {
 
 <style>
 .copy-text:hover {
+  transition: ease 0,5s;
   cursor: pointer;
   background-color: #26A69A;
 }
