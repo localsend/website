@@ -1,0 +1,33 @@
+{
+  "home": {
+    "slogan1": "Діліться файлами з пристроями поблизу.",
+    "slogan2": "Безкоштовний, з відкритим вихідним кодом, кросплатформний.",
+    "download": "Завантажити",
+    "community": "Спільнота"
+  },
+  "download": {
+    "title": "Завантаження",
+    "subTitle": "Завантажити для {os}",
+    "appStores": "Магазини додатків",
+    "appStoresDescription": "Рекомендовано для більшості користувачів.",
+    "binaries": "Інсталятори",
+    "binariesDescription": "Для офлайн користування.",
+    "packageManagers": "Менеджери пакетів",
+    "packageManagersDescription": "Встановлення через термінал.",
+    "windowsNotice": "У зв'язку зі зміною сертифікатів, перед встановленням версії 1.8.0 або більш пізніх версій, необхідно спочатку видалити версію 1.7.0 або більш ранню версію.",
+    "allReleases": "Усі версії",
+    "zip": "ZIP (портативна)",
+    "copiedToClipboard": "Скопійовано в буфер обміну!"
+  },
+  "community": {
+    "title": "Спільнота",
+    "getHelp": "Отримати допомогу",
+    "getHelpDescription": "Запитуйте або шукайте відповіді на Github Discussions.",
+    "getInvolved": "Взяти участь",
+    "getInvolvedDescription": "Зв'яжіться з розробниками та зробіть свій внесок у проект.",
+    "discord": "Discord",
+    "issues": "Issues",
+    "pullRequests": "Pull Requests"
+  },
+  "homepageButton": "Домашня сторінка"
+}
