@@ -12,6 +12,7 @@ import ptBR from '@/locales/pt-BR.json'
 import ru from '@/locales/ru.json'
 import th from '@/locales/th.json'
 import trTR from '@/locales/tr-TR.json'
+import uk from '@/locales/uk.json'
 import zhCN from '@/locales/zh-CN.json'
 import zhTW from '@/locales/zh-TW.json'
 import zhHK from '@/locales/zh-HK.json'
@@ -30,6 +31,7 @@ export const locales: { [key: string]: [string, Record<string, any>] } = {
   'pt-BR': ['Português brasileiro', ptBR],
   'th': ['ภาษาไทย', th],
   'tr-TR': ['Türkçe', trTR],
+  'uk': ['Українська', uk],
   'zh-CN': ['简体中文', zhCN],
   'zh-TW': ['繁體中文 – 台灣', zhTW],
   'zh-HK': ['繁體中文 – 香港', zhHK],
