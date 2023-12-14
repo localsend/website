@@ -1,23 +1,23 @@
 {
   "home": {
-    "slogan1": "Share files to nearby devices.",
-    "slogan2": "Free, open-source, cross-platform.",
-    "download": "Download",
-    "community": "Community"
+    "slogan1": "Діліться файлами з пристроями поблизу.",
+    "slogan2": "Безкоштовний, з відкритим кодом, кросплатформний.",
+    "download": "Завантажити",
+    "community": "Спільнота"
   },
   "download": {
-    "title": "Downloads",
-    "subTitle": "{os} Downloads",
-    "appStores": "App Stores",
-    "appStoresDescription": "Recommended for most users.",
-    "binaries": "Binaries",
-    "binariesDescription": "Download for offline usage.",
-    "packageManagers": "Package Managers",
-    "packageManagersDescription": "Install with terminal.",
-    "windowsNotice": "Due to certificate changes, you need to uninstall v1.7.0 or earlier before installing v1.8.0 or later.",
-    "allReleases": "All Releases",
-    "zip": "ZIP (portable)",
-    "copiedToClipboard": "Copied to clipboard!"
+    "title": "Завантаження",
+    "subTitle": "Завантажити для {os}",
+    "appStores": "Магазини додатків",
+    "appStoresDescription": "Рекомендовано для більшості користувачів.",
+    "binaries": "Інсталятори",
+    "binariesDescription": "Для офлайн користування.",
+    "packageManagers": "Менеджер пакетів",
+    "packageManagersDescription": "Встановити через термінал.",
+    "windowsNotice": "У зв'язку зі зміною сертифікатів, перед встановленням версії 1.8.0 або більш пізніх версій, необхідно спочатку видалити версію 1.7.0 або більш ранню версію.",
+    "allReleases": "Усі версії",
+    "zip": "ZIP (портативна)",
+    "copiedToClipboard": "Скопійовано в буфер обміну!"
   },
   "community": {
     "title": "Community",
