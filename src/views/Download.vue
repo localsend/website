@@ -14,10 +14,6 @@
     <template v-slot:content>
       <h1 class="text-h6 text-sm-h6 text-center">{{ $t('download.subTitle', {'os': selectedOS})  }}</h1>
 
-      <div v-if="selectedOS === OS.windows" class="text-center pa-2">
-        {{ $t('download.windowsNotice') }}
-      </div>
-
       <v-row no-gutters align="stretch" class="mt-2">
         <!-- App Stores -->
         <v-col cols="12" md="4" class="pa-2" v-if="downloadMetadata[selectedOS].stores.length !== 0">

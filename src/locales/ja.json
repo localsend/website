@@ -14,7 +14,6 @@
     "binariesDescription": "オフラインでも使用できるダウンロード方法です。",
     "packageManagers": "パッケージマネージャー",
     "packageManagersDescription": "ターミナルからインストールします。",
-    "windowsNotice": "証明書の変更のため、v1.8.0以降をインストールするにはv1.7.0以前をアンインストールする必要があります。",
     "allReleases": "すべてのリリース",
     "zip": "ZIP (ポータブル)",
     "copiedToClipboard": "クリップボードにコピーしました！"

@@ -14,7 +14,6 @@
     "binariesDescription": "Stáhnout pro použití offline.",
     "packageManagers": "Správci balíčků",
     "packageManagersDescription": "Instalace pomocí terminálu.",
-    "windowsNotice": "Kvůli změnám certifikátu musíte před instalací verze v1.8.0 nebo novější odinstalovat verzi v1.7.0 nebo starší.",
     "allReleases": "Všechna vydání",
     "zip": "ZIP (přenosný)",
     "copiedToClipboard": "Zkopírováno do schránky!"

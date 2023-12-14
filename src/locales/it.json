@@ -14,7 +14,6 @@
     "binariesDescription": "Scarica per uso offline.",
     "packageManagers": "Gestione Pacchetti",
     "packageManagersDescription": "Installa con il terminale.",
-    "windowsNotice": "A causa di cambiamenti del cercificato devi disinstallare la v1.7.0 o precedenti prima di installare la v1.8.0 o successivi.",
     "allReleases": "Tutte le Versioni",
     "zip": "ZIP (portatile)",
     "copiedToClipboard": "Copiato negli appunti!"

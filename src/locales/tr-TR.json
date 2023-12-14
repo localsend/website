@@ -14,7 +14,6 @@
       "binariesDescription": "Çevrimdışı kullanım için indirin.",
       "packageManagers": "Paket Yöneticileri",
       "packageManagersDescription": "Terminal ile yükleyin.",
-      "windowsNotice": "Sertifika değişiklikleri nedeniyle, v1.8.0 veya sonraki sürümü yüklemeden önce v1.7.0 veya daha eski sürümü kaldırmanız gerekmektedir.",
       "allReleases": "Tüm Sürümler",
       "zip": "ZIP (taşınabilir)",
       "copiedToClipboard": "Panoya kopyalandı!"

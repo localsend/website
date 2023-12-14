@@ -14,7 +14,6 @@
     "binariesDescription": "Download for offline usage.",
     "packageManagers": "Package Managers",
     "packageManagersDescription": "Install with terminal.",
-    "windowsNotice": "Due to certificate changes, you need to uninstall v1.7.0 or earlier before installing v1.8.0 or later.",
     "allReleases": "All Releases",
     "zip": "ZIP (portable)",
     "copiedToClipboard": "Copied to clipboard!"

@@ -14,7 +14,6 @@
     "binariesDescription": "Pobierz do użytku offline.",
     "packageManagers": "Menedżery pakietów",
     "packageManagersDescription": "Zainstaluj za pomocą terminalu.",
-    "windowsNotice": "Ze względu na zmiany certyfikatu, musisz odinstalować v1.7.0 lub starsze zanim zainstalujesz v1.8.0 lub nowsze.",
     "allReleases": "Wszystkie wydania",
     "zip": "ZIP (przenośny)",
     "copiedToClipboard": "Skopiowano do schowka!"

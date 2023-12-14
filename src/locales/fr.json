@@ -14,7 +14,6 @@
     "binariesDescription": "Téléchargements pour une utilisation hors-ligne.",
     "packageManagers": "Gesionnaires de paquets",
     "packageManagersDescription": "Installer via un terminal.",
-    "windowsNotice": "Dû à des changements au certificat, vous devez désinstaller LocalSend v1.7.0 (ou antérieur) avant d'installer la LocalSend v1.8.0.",
     "allReleases": "Toutes les versions",
     "zip": "ZIP (portable)",
     "copiedToClipboard": "Copié au presse-papier!"

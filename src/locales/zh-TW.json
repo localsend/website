@@ -13,7 +13,6 @@
     "binariesDescription": "下載以供離線使用",
     "packageManagers": "套件管理員",
     "packageManagersDescription": "使用終端機安裝",
-    "windowsNotice": "由於憑證變更，您需要先解除安裝 v1.7.0 或更早的版本，然後再安裝 v1.8.0 或更高版本",
     "allReleases": "所有版本",
     "zip": "ZIP (可攜式)"
   },

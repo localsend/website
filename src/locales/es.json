@@ -14,7 +14,6 @@
     "binariesDescription": "Descarga para uso offline.",
     "packageManagers": "Gestores de paquetes",
     "packageManagersDescription": "Instalar con la terminal.",
-    "windowsNotice": "Debido a cambios en el certificado, tiene que desinstalar la versión v1.7.0 o anterior antes de instalar la versión v1.8.0 o posterior.",
     "allReleases": "Todas las versiones",
     "zip": "ZIP (portable)",
     "copiedToClipboard": "¡Copiado al portapapeles!"
