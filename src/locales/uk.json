@@ -20,11 +20,11 @@
     "copiedToClipboard": "Скопійовано в буфер обміну!"
   },
   "community": {
-    "title": "Community",
-    "getHelp": "Get Help",
-    "getHelpDescription": "Ask or look for answers on Github Discussions.",
-    "getInvolved": "Get Involved",
-    "getInvolvedDescription": "Get in contact with the developers and contribute directly to the project.",
+    "title": "Спільнота",
+    "getHelp": "Отримати допомогу",
+    "getHelpDescription": "Запитуйте або шукайте відповіді на Github Discussions.",
+    "getInvolved": "Взяти участь",
+    "getInvolvedDescription": "Зв'яжіться з розробниками та зробіть свій внесок у проект.",
     "discord": "Discord",
     "issues": "Issues",
     "pullRequests": "Pull Requests"
