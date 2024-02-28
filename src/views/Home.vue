@@ -20,7 +20,7 @@
               <v-btn variant="tonal" size="x-large" class="mt-4" color="primary" :prepend-icon="mdiDownload" to="/download">
                 {{ $t('home.download') }}
               </v-btn>
-              <v-btn variant="tonal" size="x-large" class="ml-4 mt-4" :prepend-icon="mdiAccountMultiple" to="/community">
+              <v-btn variant="tonal" size="x-large" class="ms-4 mt-4" :prepend-icon="mdiAccountMultiple" to="/community">
                 {{ $t('home.community') }}
               </v-btn>
             </div>
