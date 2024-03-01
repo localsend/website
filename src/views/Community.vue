@@ -6,7 +6,7 @@
 
         <p>{{ $t('community.getHelpDescription') }}</p>
 
-        <v-btn v-for="(b, index) in helpButtons" v-bind:key="index" variant="tonal" :class="index ? ['ml-4', 'mt-2'] : ['mt-2']" :href="b.url" target="_blank">
+        <v-btn v-for="(b, index) in helpButtons" v-bind:key="index" variant="tonal" :class="index ? ['ms-4', 'mt-2'] : ['mt-2']" :href="b.url" target="_blank">
           {{ b.name }}
         </v-btn>
 
@@ -19,12 +19,12 @@
           &nbsp;{{ $t('community.discord') }}
         </v-btn>
 
-        <v-btn variant="tonal" href="https://github.com/localsend/localsend/issues" class="ml-4 mt-2" target="_blank">
+        <v-btn variant="tonal" href="https://github.com/localsend/localsend/issues" class="ms-4 mt-2" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M8 9.5a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3Z"/><path fill="currentColor" d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0a6.5 6.5 0 0 0-13 0Z"/></svg>
           &nbsp;{{ $t('community.issues') }}
         </v-btn>
 
-        <v-btn variant="tonal" href="https://github.com/localsend/localsend/pulls" class="ml-4 mt-2" target="_blank">
+        <v-btn variant="tonal" href="https://github.com/localsend/localsend/pulls" class="ms-4 mt-2" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M305.8 2.1C314.4 5.9 320 14.5 320 24V64h16c70.7 0 128 57.3 128 128V358.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V192c0-35.3-28.7-64-64-64H320v40c0 9.5-5.6 18.1-14.2 21.9s-18.8 2.3-25.8-4.1l-80-72c-5.1-4.6-7.9-11-7.9-17.8s2.9-13.3 7.9-17.8l80-72c7-6.3 17.2-7.9 25.8-4.1zM104 80A24 24 0 1 0 56 80a24 24 0 1 0 48 0zm8 73.3V358.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80c0 32.8-19.7 61-48 73.3zM104 432a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm328 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"/></svg>
           &nbsp;{{ $t('community.pullRequests') }}
         </v-btn>

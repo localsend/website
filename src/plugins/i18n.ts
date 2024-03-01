@@ -16,6 +16,7 @@ import uk from '@/locales/uk.json'
 import zhCN from '@/locales/zh-CN.json'
 import zhTW from '@/locales/zh-TW.json'
 import zhHK from '@/locales/zh-HK.json'
+import he from '@/locales/he.json'
 
 export const locales: { [key: string]: [string, Record<string, any>] } = {
   'cs': ['Čeština', cs],
@@ -24,6 +25,7 @@ export const locales: { [key: string]: [string, Record<string, any>] } = {
   'es': ['Español', es],
   'fr': ['Français', fr],
   'it': ['Italiano', it],
+  'he': ['עברית', he],
   'ja': ['日本語', ja],
   'km': ['ភាសាខ្មែរ', km],
   'ru': ['Русский', ru],
