@@ -7,10 +7,10 @@
   },
   "download": {
     "title": "הורדות",
-    "subTitle": "{os} הורדה עבור",
+    "subTitle": "הורדה עבור {os}",
     "appStores": "חנויות אפליקציות",
     "appStoresDescription": "מומלץ עבור רוב המשתמשים.",
-    "binaries": "Binaries",
+    "binaries": "קבצי התקנה",
     "binariesDescription": "הורדה עבור שימוש לא מקוון.",
     "packageManagers": "מנהלי חבילות",
     "packageManagersDescription": "התקנה באמצעות שורת פקודה.",
