@@ -1,6 +1,6 @@
 {
   "home": {
-    "slogan1": "Condividi file ai device vicini.",
+    "slogan1": "Condividi file con dispositivi nelle vicinanze.",
     "slogan2": "Gratis, open source, multipiattaforma.",
     "download": "Scarica",
     "community": "Comunità"
@@ -21,8 +21,8 @@
   "community": {
     "title": "Comunità",
     "getHelp": "Ottieni Aiuto",
-    "getHelpDescription": "Chiedi o controlla le risposte sulle Discussioni Github.",
-    "getInvolved": "Vieni Coinvolto",
+    "getHelpDescription": "Chiedi o ottieni risposte dentro le Discussioni Github.",
+    "getInvolved": "Partecipa",
     "getInvolvedDescription": "Mettiti in contatto con gli sviluppatori e contribuisci direttamente al progetto.",
     "discord": "Discord",
     "issues": "Problemi",
