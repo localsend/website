@@ -1,0 +1,44 @@
+{
+  "home": {
+    "slogan1": "شارك الملفات مع الأجهزة القريبة.",
+    "slogan2": "مجاني، مفتوح المصدر، متعدد المنصات.",
+    "download": "نزّل",
+    "community": "المجتمع"
+  },
+  "download": {
+    "title": "التنزيلات",
+    "subTitle": "تنزيلات {os}",
+    "appStores": "متاجر التطبيقات",
+    "appStoresDescription": "يُوصى به لمعظم المستخدمين.",
+    "binaries": "ملفات رقمية",
+    "binariesDescription": "تنزيل للاستخدام دون اتصال بالإنترنت.",
+    "packageManagers": "مديري الحزم",
+    "packageManagersDescription": "التثبيت بالطرفيّة.",
+    "allReleases": "جميع الإصدارات",
+    "zip": "ZIP (محمول)",
+    "copiedToClipboard": "نُسخت إلى الحافظة!"
+  },
+  "community": {
+    "title": "المجتمع",
+    "getHelp": "احصل على مُساعدة",
+    "getHelpDescription": "اسأل أو ابحث عن إجابات في مناقشات GitHub.",
+    "getInvolved": "ساهِم معنا",
+    "getInvolvedDescription": "تواصل مع المطورين وساهِم مباشرةً في المشروع.",
+    "discord": "Discord",
+    "issues": "مشكلات",
+    "pullRequests": "طلبات الدمج"
+  },
+  "footer":{
+    "underlicense": "مرخصة بموجب",
+    "mitlicense": "رخصة MIT",
+    "andcontributor": "ومساهمي Localsend.",
+    "github": "Github",
+    "discord": "Discord",
+    "privacy": "الخصوصيّة",
+    "terms": "الشروط",
+    "contact": "التواصل",
+    "disclaimer-line1": "هذا الموقع و LocalSend ليس تابعًا أو معتمدًا أو مرتبطًا بأي شكل من الأشكال بالعلامات التجارية المذكورة في هذا الموقع.",
+    "disclaimer-line2": "جميع العلامات التجارية والشعارات والأسماء التجارية هي ملك لأصحابها. نحن نستخدم هذه المراجع لأغراض إعلامية فقط."
+  },
+  "homepageButton": "الصفحة الرئيسية"
+}
