@@ -1,4 +1,5 @@
 import {createI18n} from 'vue-i18n'
+import ar from '@/locales/ar.json'
 import cs from '@/locales/cs.json'
 import de from '@/locales/de.json'
 import en from '@/locales/en.json'
@@ -19,6 +20,7 @@ import zhHK from '@/locales/zh-HK.json'
 import he from '@/locales/he.json'
 
 export const locales: { [key: string]: [string, Record<string, any>] } = {
+  'ar': ['العربية', ar],
   'cs': ['Čeština', cs],
   'de': ['Deutsch', de],
   'en': ['English', en],
