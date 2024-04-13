@@ -11,22 +11,22 @@
     "appStores": "Tiendas de aplicaciones",
     "appStoresDescription": "Recomendado para la mayoría de usuarios.",
     "binaries": "Binarios",
-    "binariesDescription": "Descarga para uso offline.",
+    "binariesDescription": "Descargas para usar sin conexión.",
     "packageManagers": "Gestores de paquetes",
-    "packageManagersDescription": "Instalar con la terminal.",
+    "packageManagersDescription": "Instala desde la terminal.",
     "allReleases": "Todas las versiones",
     "zip": "ZIP (portable)",
     "copiedToClipboard": "¡Copiado al portapapeles!"
   },
   "community": {
     "title": "Comunidad",
-    "getHelp": "Obtener ayuda",
-    "getHelpDescription": "Preguntar o buscar por respuestas en GitHub Discussions.",
-    "getInvolved": "Participar",
-    "getInvolvedDescription": "Ponerse en contacto con los desarrolladores y contribuir directamente al proyecto.",
+    "getHelp": "Obtén ayuda",
+    "getHelpDescription": "Pregunta o busca respuestas en GitHub Discussions.",
+    "getInvolved": "Participa",
+    "getInvolvedDescription": "Ponte en contacto con los desarrolladores y contribuye directamente al proyecto.",
     "discord": "Discord",
-    "issues": "Issues",
-    "pullRequests": "Pull Requests"
+    "issues": "Propuestas",
+    "pullRequests": "Solicitudes de cambios"
   },
   "homepageButton": "Inicio"
 }
