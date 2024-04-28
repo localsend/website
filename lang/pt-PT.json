@@ -1,0 +1,44 @@
+{
+  "home": {
+    "slogan1": "Partilhe ficheiros com dispositivos próximos.",
+    "slogan2": "Gratuito, de código aberto, multiplataforma.",
+    "download": "Descarregar",
+    "community": "Comunidade"
+  },
+  "download": {
+    "title": "Descargas",
+    "subTitle": "Descargas do {os}",
+    "appStores": "Lojas de Aplicações",
+    "appStoresDescription": "Recomendado para a maioria dos utilizadores.",
+    "binaries": "Ficheiros executáveis",
+    "binariesDescription": "Descarregar para utilização offline.",
+    "packageManagers": "Gestores de Pacotes",
+    "packageManagersDescription": "Instale com o terminal.",
+    "allReleases": "Todas as versões",
+    "zip": "ZIP (portátil)",
+    "copiedToClipboard": "Copiado para a área de transferência!"
+  },
+  "community": {
+    "title": "Comunidade",
+    "getHelp": "Obtenha ajuda",
+    "getHelpDescription": "Pergunte ou procure respostas nas discussões do GitHub.",
+    "getInvolved": "Participe!",
+    "getInvolvedDescription": "Entre em contacto com os criadores e contribua diretamente para o projeto.",
+    "discord": "Discord",
+    "issues": "Problemas",
+    "pullRequests": "Pedidos de integração"
+  },
+  "footer":{
+    "underlicense": "Licenciado ao abrigo da",
+    "mitlicense": "Licença MIT",
+    "andcontributor": "e contribuidores do LocalSend.",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "contact": "Contacto",
+    "disclaimer-line1": "Esta página de Internet e o LocalSend não são afiliados, apoiados ou de qualquer forma associados às marcas mencionadas nesta página.",
+    "disclaimer-line2": "Todas as marcas comerciais, logótipos e nomes de marcas são propriedade dos respectivos proprietários. Estamos a utilizar estas referências apenas para fins informativos."
+  },
+  "homepageButton": "Página inicial"
+}

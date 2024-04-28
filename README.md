@@ -1,12 +1,37 @@
-# LocalSend website
+# LocalSend Website
 
-## Project setup
+## Setup
 
+Make sure to install [pnpm](https://pnpm.io).
+
+```bash
+npm install -g pnpm
 ```
-npm i
-npm run dev
+
+Get dependencies
+
+```bash
+pnpm install
 ```
 
-## Translate
+Start the development server
 
-Checkout this [directory](https://github.com/localsend/website/tree/main/src/locales).
+```bash
+pnpm run dev
+```
+
+## Deployment
+
+Generates the static website in the `dist` directory.
+
+```bash
+pnpm run generate
+```
+
+## Contributing
+
+### Adding a new language
+
+1. Add new JSON file in `locales/` directory.
+2. Add the new language in `i18n.config.ts`.
+3. Add the new language in `nuxt.config.ts`.
