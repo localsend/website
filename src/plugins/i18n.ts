@@ -10,6 +10,7 @@ import ja from '@/locales/ja.json'
 import km from '@/locales/km.json'
 import pl from '@/locales/pl.json'
 import ptBR from '@/locales/pt-BR.json'
+import ptPT from '@/locales/pt-PT.json'
 import ru from '@/locales/ru.json'
 import th from '@/locales/th.json'
 import trTR from '@/locales/tr-TR.json'
@@ -32,7 +33,8 @@ export const locales: { [key: string]: [string, Record<string, any>] } = {
   'km': ['ភាសាខ្មែរ', km],
   'ru': ['Русский', ru],
   'pl': ['Polski', pl],
-  'pt-BR': ['Português brasileiro', ptBR],
+  'pt-BR': ['Português - Brasil', ptBR],
+  'pt-PT': ['Português - Portugal', ptPT],
   'th': ['ภาษาไทย', th],
   'tr-TR': ['Türkçe', trTR],
   'uk': ['Українська', uk],
