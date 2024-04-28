@@ -1,3 +1,18 @@
+<style scoped>
+#logo {
+  animation: rotating 20s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+</style>
+
 <template>
   <div class="fill-viewport d-flex align-center justify-center pa-4 pa-md-12">
     <v-row style="max-width: 1800px">
@@ -7,6 +22,7 @@
         <v-row>
           <v-col cols="12" md="4" class="d-flex justify-center justify-md-end">
             <img
+              id="logo"
               :height="logoHeight"
               alt="LocalSend Logo"
               src="@/assets/logo-512.png"

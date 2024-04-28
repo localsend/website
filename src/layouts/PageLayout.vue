@@ -1,3 +1,18 @@
+<style scoped>
+#logo {
+  animation: rotating 20s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+</style>
+
 <template>
   <div class="fill-viewport pt-md-12">
     <v-row>
@@ -5,6 +20,7 @@
       <!-- Logo -->
       <v-col cols="12">
         <v-img
+          id="logo"
           height="200"
           src="@/assets/logo-512.png"
         />
