@@ -1,0 +1,33 @@
+{
+  "home": {
+    "slogan1": "Partagez des fichiers avec vos appareils à proximité.",
+    "slogan2": "Gratuit, open-source et cross-plateforme.",
+    "download": "Télécharger",
+    "community": "Communauté"
+  },
+  "download": {
+    "title": "Téléchargements",
+    "subTitle": "Téléchargements pour {os}",
+    "appStores": "App Stores",
+    "appStoresDescription": "Recommandés pour la plupart des utilisateurs.",
+    "binaries": "Fichiers APK",
+    "binariesDescription": "Téléchargements pour une utilisation hors-ligne.",
+    "packageManagers": "Gesionnaires de paquets",
+    "packageManagersDescription": "Installer via un terminal.",
+    "allReleases": "Toutes les versions",
+    "zip": "ZIP (portable)",
+    "copiedToClipboard": "Copié au presse-papier!"
+  },
+  "community": {
+    "title": "Communauté",
+    "getHelp": "Trouver de l'aide",
+    "getHelpDescription": "Demandez ou cherchez des réponses dans les discussions Github.",
+    "getInvolved": "Contribuer à LocalSend",
+    "getInvolvedDescription": "Prenez contact avec les développeurs et contribuez directement au projet.",
+    "discord": "Discord",
+    "__Note": "Not sure if I should translate Issues/Pull Requests, as Github itself isn't translated & this just feels more natural",
+    "issues": "Issues", 
+    "pullRequests": "Pull Requests"
+  },
+  "homepageButton": "Menu principal"
+}

@@ -1,0 +1,32 @@
+{
+  "home": {
+    "slogan1": "Condividi file con dispositivi nelle vicinanze.",
+    "slogan2": "Gratis, open source, multipiattaforma.",
+    "download": "Scarica",
+    "community": "Comunità"
+  },
+  "download": {
+    "title": "Scarica",
+    "subTitle": "{os} Downloads",
+    "appStores": "App Store",
+    "appStoresDescription": "Consigliato per la maggior parte degli utenti.",
+    "binaries": "Binario",
+    "binariesDescription": "Scarica per uso offline.",
+    "packageManagers": "Gestione Pacchetti",
+    "packageManagersDescription": "Installa con il terminale.",
+    "allReleases": "Tutte le Versioni",
+    "zip": "ZIP (portatile)",
+    "copiedToClipboard": "Copiato negli appunti!"
+  },
+  "community": {
+    "title": "Comunità",
+    "getHelp": "Ottieni Aiuto",
+    "getHelpDescription": "Chiedi o ottieni risposte dentro le Discussioni Github.",
+    "getInvolved": "Partecipa",
+    "getInvolvedDescription": "Mettiti in contatto con gli sviluppatori e contribuisci direttamente al progetto.",
+    "discord": "Discord",
+    "issues": "Problemi",
+    "pullRequests": "Richieste Pull"
+  },
+  "homepageButton": "Pagina Principale"
+}

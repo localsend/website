@@ -1,0 +1,32 @@
+{
+  "home": {
+    "slogan1": "Sdílení souborů do zařízení poblíž.",
+    "slogan2": "Bezplatný, open-source, multiplatformní.",
+    "download": "Stáhnout",
+    "community": "Komunita"
+  },
+  "download": {
+    "title": "Ke stažení",
+    "subTitle": "Stáhnout pro {os}",
+    "appStores": "Obchody s aplikacemi",
+    "appStoresDescription": "Doporučeno pro většinu uživatelů.",
+    "binaries": "Binární soubory",
+    "binariesDescription": "Stáhnout pro použití offline.",
+    "packageManagers": "Správci balíčků",
+    "packageManagersDescription": "Instalace pomocí terminálu.",
+    "allReleases": "Všechna vydání",
+    "zip": "ZIP (přenosný)",
+    "copiedToClipboard": "Zkopírováno do schránky!"
+  },
+  "community": {
+    "title": "Komunita",
+    "getHelp": "Získejte pomoc",
+    "getHelpDescription": "Zeptejte se nebo se podívejte na odpovědi v diskuzích GitHub.",
+    "getInvolved": "Zapojte se",
+    "getInvolvedDescription": "Spojte se s vývojáři a přispějte přímo do projektu.",
+    "discord": "Discord",
+    "issues": "Problémy",
+    "pullRequests": "Požadavky na sloučení"
+  },
+  "homepageButton": "Domovská stránka"
+}

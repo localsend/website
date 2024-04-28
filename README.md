@@ -1,75 +1,37 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# LocalSend Website
 
 ## Setup
 
-Make sure to install the dependencies:
+Make sure to install [pnpm](https://pnpm.io).
 
 ```bash
-# npm
-npm install
+npm install -g pnpm
+```
 
-# pnpm
+Get dependencies
+
+```bash
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Start the development server
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Deployment
 
-Build the application for production:
+Generates the static website in the `dist` directory.
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm run generate
 ```
 
-Locally preview production build:
+## Contributing
 
-```bash
-# npm
-npm run preview
+### Adding a new language
 
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. Add new JSON file in `locales/` directory.
+2. Add the new language in `i18n.config.ts`.
+3. Add the new language in `nuxt.config.ts`.

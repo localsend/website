@@ -1,0 +1,32 @@
+{
+  "home": {
+    "slogan1": "Делитесь файлами с устройствами поблизости.",
+    "slogan2": "Бесплатный, с открытым исходным кодом, кроссплатформенный.",
+    "download": "Скачать",
+    "community": "Сообщество"
+  },
+  "download": {
+    "title": "Загрузки",
+    "subTitle": "Загрузить для {os}",
+    "appStores": "Магазины приложений",
+    "appStoresDescription": "Рекомендовано для большинства пользователей.",
+    "binaries": "Установщики",
+    "binariesDescription": "Для оффлайн пользования.",
+    "packageManagers": "Менеджеры пакетов",
+    "packageManagersDescription": "Установка через терминал.",
+    "allReleases": "Все версии",
+    "zip": "ZIP (портативная)",
+    "copiedToClipboard": "Скопировано в буфер обмена!"
+  },
+  "community": {
+    "title": "Сообщество",
+    "getHelp": "Получить помощь",
+    "getHelpDescription": "Спрашивайте или ищите ответы на Github Discussions.",
+    "getInvolved": "Принять участие",
+    "getInvolvedDescription": "Свяжитесь с разработчиками и внесите свой вклад в проект.",
+    "discord": "Discord",
+    "issues": "Issues",
+    "pullRequests": "Pull Requests"
+  },
+  "homepageButton": "Домашняя страница"
+}
