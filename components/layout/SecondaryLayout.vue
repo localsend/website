@@ -1,10 +1,12 @@
 <template>
-  <div class="min-h-screen md:pt-12 flex justify-center">
+  <div class="min-h-screen pt-12 pb-12 flex justify-center">
     <div class="flex flex-col items-center">
-      <img
-          src="~/assets/img/logo-512.png" alt="LocalSend Logo"
-          style="height: 200px"
-      />
+      <NuxtLink :to="localePath({ path: '/' })">
+        <img
+            src="~/assets/img/logo-512.png" alt="LocalSend Logo"
+            style="height: 200px"
+        />
+      </NuxtLink>
 
       <h1 class="text-5xl font-black">LocalSend</h1>
       <h2 class="text-2xl font-light">{{ props.subTitle }}</h2>

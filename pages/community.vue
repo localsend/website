@@ -6,32 +6,24 @@
         <h4>{{ t('community.getHelpDescription') }}</h4>
         <div class="flex flex-wrap justify-center">
           <template v-for="button in helpButtons" :key="button.name">
-            <a :href="button.url" target="_blank" class="m-2">
-              <AppButton>{{ button.name }}</AppButton>
-            </a>
+            <AppButton :href="button.url" target="_blank" class="m-2" :dark="true">{{ button.name }}</AppButton>
           </template>
         </div>
 
         <h3 class="text-xl font-bold mt-8">{{ t('community.getInvolved') }}</h3>
         <h4>{{ t('community.getInvolvedDescription') }}</h4>
         <div class="flex flex-wrap justify-center">
-          <a href="https://discord.gg/GSRWmQNP87" target="_blank" class="m-2">
-            <AppButton>
-              {{ t('community.discord') }}
-            </AppButton>
-          </a>
+          <AppButton href="https://discord.gg/GSRWmQNP87" target="_blank" icon="fa6-brands:discord" class="m-2" :dark="true">
+            {{ t('community.discord') }}
+          </AppButton>
 
-          <a href="https://github.com/localsend/localsend/issues" target="_blank" class="m-2">
-            <AppButton>
-              {{ t('community.issues') }}
-            </AppButton>
-          </a>
+          <AppButton href="https://github.com/localsend/localsend/issues" icon="material-symbols:warning-rounded" target="_blank" class="m-2" :dark="true">
+            {{ t('community.issues') }}
+          </AppButton>
 
-          <a href="https://github.com/localsend/localsend/pulls" target="_blank" class="m-2">
-            <AppButton>
-              {{ t('community.pullRequests') }}
-            </AppButton>
-          </a>
+          <AppButton href="https://github.com/localsend/localsend/pulls" icon="material-symbols:call-merge" target="_blank" class="m-2" :dark="true">
+            {{ t('community.pullRequests') }}
+          </AppButton>
         </div>
       </div>
     </template>
