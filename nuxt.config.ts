@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-icon'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-icon', '@nuxtjs/sitemap'],
   devtools: {enabled: true},
   app: {
     head: {
@@ -16,6 +16,9 @@ export default defineNuxtConfig({
         },
       ],
     },
+  },
+  site: {
+    url: 'https://localsend.org',
   },
   i18n: {
     baseUrl: 'https://localsend.org',
