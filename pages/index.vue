@@ -105,15 +105,15 @@ const screenshotHeight = computed(() => {
 onMounted(() => {
   // legacy redirects (remove after next store update)
   if (window.location.hash === '#/privacy') {
-    window.location.href = '/privacy';
+    navigateTo('/privacy');
   }
 
   if (window.location.hash === '#/terms-of-service') {
-    window.location.href = '/terms';
+    navigateTo('/terms');
   }
 
   if (window.location.hash === '#/contact') {
-    window.location.href = '/contact';
+    navigateTo('/contact');
   }
 });
 </script>
