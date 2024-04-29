@@ -32,6 +32,6 @@ pnpm run generate
 
 ### Adding a new language
 
-1. Add new JSON file in `locales/` directory.
+1. Add new JSON file in `lang/` directory.
 2. Add the new language in `i18n.config.ts`.
 3. Add the new language in `nuxt.config.ts`.
