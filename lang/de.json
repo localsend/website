@@ -1,11 +1,19 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend: Teile Dateien mit Geräten in der Nähe",
+      "description": "LocalSend ist ein kostenloses, plattformübergreifendes, Open-Source-Tool, mit dem Sie Dateien mit Geräten in der Nähe teilen können."
+    },
     "slogan1": "Teile Dateien mit Geräten in der Nähe.",
     "slogan2": "Kostenlos, Open Source, Cross-Plattform.",
     "download": "Download",
     "community": "Community"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - Downloads",
+      "description": "Laden Sie LocalSend für Windows, macOS, Linux, Android und iOS herunter."
+    },
     "title": "Downloads",
     "subTitle": "{os} Downloads",
     "appStores": "App-Stores",
@@ -19,6 +27,10 @@
     "copiedToClipboard": "In die Zwischenablage kopiert!"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - Community",
+      "description": "Holen Sie sich Hilfe, machen Sie mit und tragen Sie zum LocalSend-Projekt bei."
+    },
     "title": "Community",
     "getHelp": "Hilfe bekommen",
     "getHelpDescription": "Fragen oder Suchen Sie in den Github-Diskussionen nach Antworten.",
