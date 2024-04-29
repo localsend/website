@@ -24,4 +24,9 @@ import LanguageSwitcher from "~/components/LanguageSwitcher.vue";
   opacity: 0;
   transform: translate(-20px, 0);
 }
+
+body {
+  /* disable horizontal scrolling */
+  overflow-x: hidden;
+}
 </style>
