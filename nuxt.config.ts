@@ -3,6 +3,10 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-icon', '@nuxtjs/sitemap'],
   devtools: {enabled: true},
   app: {
+    pageTransition: {
+      name: 'page',
+      mode: 'out-in',
+    },
     head: {
       link: [
         {

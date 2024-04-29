@@ -14,10 +14,10 @@
         <div class="col-span-12 md:col-span-8 flex items-center justify-center md:justify-start lg:pl-2">
           <div>
             <h1 class="text-5xl sm:text-5xl xl:text-7xl 2xl:text-8xl font-black text-center md:text-start">LocalSend</h1>
-            <h2 class="text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start mt-2">{{ t('home.slogan1') }}</h2>
-            <h2 class="text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start">{{ t('home.slogan2') }}</h2>
+            <h2 class="slogan text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start mt-2">{{ t('home.slogan1') }}</h2>
+            <h2 class="slogan text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start">{{ t('home.slogan2') }}</h2>
 
-            <div class="mt-6 text-center md:text-start">
+            <div class="buttons mt-6 text-center md:text-start">
               <NuxtLink :to="localePath({ path: '/download' })">
                 <AppButton icon="material-symbols:arrow-downward">
                   {{ t('home.download') }}
@@ -127,6 +127,17 @@ onMounted(() => {
 #logo {
   animation: rotating 40s linear infinite;
 }
+
+.slogan {
+  opacity: 0;
+  animation: fadeIn 0.2s 0.3s forwards ease-out;
+}
+
+.buttons {
+  opacity: 0;
+  animation: fadeIn 0.2s 0.5s forwards ease-out;
+}
+
 @keyframes rotating {
   from {
     rotate: 0deg;
@@ -135,4 +146,15 @@ onMounted(() => {
     rotate: 360deg;
   }
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 </style>
