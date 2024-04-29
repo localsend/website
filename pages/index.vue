@@ -7,7 +7,7 @@
           <img
               id="logo"
               src="~/assets/img/logo-512.png" alt="LocalSend Logo"
-              :style="{height: logoHeight + 'px'}"
+              class="h-52 md:h-40 lg:h-40 xl:h-48 2xl:h-56 object-contain"
           />
         </div>
 
@@ -35,14 +35,13 @@
 
       <!-- Screenshots -->
       <div class="col-span-12 sm:col-span-12 md:col-span-4 lg:col-span-5 grid grid-cols-3 gap-8 px-8">
-        <div class="col-span-3 md:col-span-1">
+        <div class="col-span-3 md:col-span-1 flex items-center justify-center">
           <img src="/img/screenshot-iphone.webp" alt="iPhone Screenshot"
-               :style="{height: screenshotHeight + 'px', margin: 'auto'}"
-               class="object-contain"/>
+               class="h-96 object-contain"/>
         </div>
-        <div class="col-span-3 md:col-span-2">
+        <div class="col-span-3 md:col-span-2 flex items-center justify-center">
           <img src="/img/screenshot-pc.webp" alt="PC Screenshot"
-               :style="{height: screenshotHeight + 'px', margin: 'auto'}" class="object-contain"/>
+               class="h-96 object-contain"/>
         </div>
       </div>
     </div>
@@ -50,8 +49,6 @@
 </template>
 
 <script setup lang="ts">
-import {breakpointsTailwind, useBreakpoints} from "@vueuse/core";
-
 definePageMeta({
   title: 'home.seo.title',
   description: 'home.seo.description',
@@ -59,53 +56,6 @@ definePageMeta({
 
 const {t} = useI18n()
 const localePath = useLocalePath()
-
-const breakpoints = useBreakpoints(breakpointsTailwind);
-
-const is2Xl = breakpoints.greaterOrEqual('2xl');
-const isXl = breakpoints.greaterOrEqual('xl');
-const isLg = breakpoints.greaterOrEqual('lg');
-const isMd = breakpoints.greaterOrEqual('md');
-
-const logoHeight = computed(() => {
-  if (is2Xl.value) {
-    return 220;
-  }
-
-  if (isXl.value) {
-    return 200;
-  }
-
-  if (isLg.value) {
-    return 150;
-  }
-
-  if (isMd.value) {
-    return 150;
-  }
-
-  return 200;
-});
-
-const screenshotHeight = computed(() => {
-  if (is2Xl.value) {
-    return 500;
-  }
-
-  if (isXl.value) {
-    return 250;
-  }
-
-  if (isLg.value) {
-    return 200;
-  }
-
-  if (isMd.value) {
-    return 150;
-  }
-
-  return 400;
-});
 
 onMounted(() => {
   // legacy redirects (remove after next store update)
