@@ -1,10 +1,6 @@
 <template>
   <NuxtLayout>
-    <NuxtPage :transition="{
-        name: 'page',
-        mode: 'out-in',
-        onBeforeEnter
-      }"/>
+    <NuxtPage />
     <AppFooter />
     <LanguageSwitcher />
   </NuxtLayout>
@@ -12,13 +8,6 @@
 
 <script setup lang="ts">
 import LanguageSwitcher from "~/components/LanguageSwitcher.vue";
-
-const { finalizePendingLocaleChange } = useI18n()
-
-const onBeforeEnter = async () => {
-  // TODO: https://github.com/nuxt-modules/i18n/issues/2820
-  await finalizePendingLocaleChange()
-}
 </script>
 
 <style>
