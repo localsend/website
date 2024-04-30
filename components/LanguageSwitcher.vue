@@ -13,7 +13,7 @@
   <div class="absolute top-0">
     <!-- dummy select to get the width of the select based on the selected item -->
     <select ref="switchWidthRef" style="visibility: hidden">
-      <option>{{ localeMap[locale] }}</option>
+      <option>{{ hiddenSwitchValue }}</option>
     </select>
   </div>
 </template>
@@ -27,10 +27,12 @@ const switchLocalePath = useSwitchLocalePath()
 const localeIdentity = ref('');
 const switchWidth = ref(0);
 const switchWidthRef = ref<HTMLElement | null>(null);
+const hiddenSwitchValue = ref('');
 
 const changeLocale = (e: Event) => {
   const target = e.target as HTMLSelectElement;
   const path = switchLocalePath(target.value);
+  hiddenSwitchValue.value = localeMap[target.value];
   navigateTo(path);
 
   setTimeout(() => {
@@ -50,6 +52,9 @@ watch(locale, () => {
 onMounted(() => {
   localeIdentity.value = locale.value;
 
-  switchWidth.value = switchWidthRef.value!.offsetWidth;
+  hiddenSwitchValue.value = localeMap[locale.value];
+  setTimeout(() => {
+    switchWidth.value = switchWidthRef.value!.offsetWidth;
+  }, 100);
 })
 </script>

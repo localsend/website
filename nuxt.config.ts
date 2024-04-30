@@ -3,10 +3,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-icon', '@nuxtjs/sitemap'],
   devtools: {enabled: true},
   app: {
-    pageTransition: {
-      name: 'page',
-      mode: 'out-in',
-    },
     head: {
       link: [
         {
@@ -28,6 +24,7 @@ export default defineNuxtConfig({
     baseUrl: 'https://localsend.org',
     strategy: 'prefix_and_default',
     defaultLocale: 'en',
+    skipSettingLocaleOnNavigate: true, // https://i18n.nuxtjs.org/docs/guide/lang-switcher#wait-for-page-transition
     pages: {
       privacy: false,
       terms: false,
