@@ -1,11 +1,19 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend: Partilhe ficheiros para dispositivos próximos",
+      "description": "O LocalSend é uma ferramenta de partilha de ficheiros gratuita, de código aberto e multiplataforma que lhe permite partilhar ficheiros com dispositivos próximos."
+    },
     "slogan1": "Partilhe ficheiros com dispositivos próximos.",
     "slogan2": "Gratuito, de código aberto, multiplataforma.",
     "download": "Descarregar",
     "community": "Comunidade"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - Descargas",
+      "description": "Descarregue o LocalSend para Windows, macOS, Linux, Android e iOS."
+    },
     "title": "Descargas",
     "subTitle": "Descargas do {os}",
     "appStores": "Lojas de Aplicações",
@@ -19,6 +27,10 @@
     "copiedToClipboard": "Copiado para a área de transferência!"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - Communidade",
+      "description": "Obtenha ajuda, participe e contribua para o LocalSend."
+    },
     "title": "Comunidade",
     "getHelp": "Obtenha ajuda",
     "getHelpDescription": "Pergunte ou procure respostas nas discussões do GitHub.",
@@ -36,6 +48,7 @@
     "discord": "Discord",
     "privacy": "Privacidade",
     "terms": "Termos",
+    "imprint": "Marca",
     "contact": "Contacto",
     "disclaimer-line1": "Esta página de Internet e o LocalSend não são afiliados, apoiados ou de qualquer forma associados às marcas mencionadas nesta página.",
     "disclaimer-line2": "Todas as marcas comerciais, logótipos e nomes de marcas são propriedade dos respectivos proprietários. Estamos a utilizar estas referências apenas para fins informativos."
