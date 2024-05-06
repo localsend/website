@@ -7,7 +7,7 @@
             style="height: 40px"
             class="inline-block"
         />
-        <span class="text-3xl font-bold ml-2">LocalSend</span>
+        <span class="text-3xl font-bold ms-2">LocalSend</span>
       </div>
     </NuxtLink>
     <slot></slot>
