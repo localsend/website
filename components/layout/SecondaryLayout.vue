@@ -18,7 +18,7 @@
       </div>
 
       <NuxtLink :to="localePath({ path: '/' })" class="mt-8">
-        <TextButton icon="material-symbols:arrow-back">
+        <TextButton :icon="direction === 'ltr' ? 'material-symbols:arrow-back' : 'material-symbols:arrow-forward'">
           {{ $t('homepageButton') }}
         </TextButton>
       </NuxtLink>
@@ -32,4 +32,11 @@ const props = defineProps({
 });
 
 const localePath = useLocalePath();
+
+const head = useLocaleHead({
+  addDirAttribute: true,
+});
+
+const direction = head.value.htmlAttrs!.dir;
+
 </script>
