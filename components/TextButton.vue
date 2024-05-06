@@ -1,11 +1,11 @@
 <template>
   <div class="inline-block">
     <a v-if="href" :href="href" :target="target" class="flex items-center hover:bg-gray-200 rounded-lg px-2 py-1">
-      <Icon v-if="props.icon" :name="props.icon" class="mr-2"/>
+      <Icon v-if="props.icon" :name="props.icon" class="me-2"/>
       <slot />
     </a>
     <div v-else class="flex items-center hover:bg-gray-200 rounded-lg px-2 py-1">
-      <Icon v-if="props.icon" :name="props.icon" class="mr-2"/>
+      <Icon v-if="props.icon" :name="props.icon" class="me-2"/>
       <slot />
     </div>
   </div>

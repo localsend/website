@@ -26,7 +26,7 @@ export default defineNuxtConfig({
   },
   i18n: {
     baseUrl: 'https://localsend.org',
-    strategy: 'prefix_and_default',
+    strategy: 'prefix_except_default',
     defaultLocale: 'en',
     pages: {
       privacy: false,
@@ -37,7 +37,8 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'ar',
-        iso: 'ar-AR'
+        iso: 'ar-AR',
+        dir: 'rtl'
       },
       {
         code: 'cs',

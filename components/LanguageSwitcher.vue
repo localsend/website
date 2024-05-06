@@ -1,7 +1,7 @@
 <template>
   <div v-if="i18nEnabled" class="absolute" style="top: 20px; right: 20px;">
     <div class="flex items-center">
-      <Icon name="material-symbols:translate" class="mr-1" />
+      <Icon name="material-symbols:translate" class="me-1" />
       <select v-bind:value="localeIdentity" class="rounded-lg bg-white" :style="{'width': `${switchWidth}px`}" @change="changeLocale">
         <option v-for="(locale, index) in locales" :key="index" :value="locale.code">
           {{ localeMap[locale.code] }}

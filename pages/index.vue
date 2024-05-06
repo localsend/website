@@ -23,7 +23,7 @@
                   {{ t('home.download') }}
                 </AppButton>
               </NuxtLink>
-              <NuxtLink :to="localePath({ path: '/community' })" class="ml-4">
+              <NuxtLink :to="localePath({ path: '/community' })" class="ms-4">
                 <AppButton icon="material-symbols:group" :dark="true">
                   {{ t('home.community') }}
                 </AppButton>
