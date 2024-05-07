@@ -19,9 +19,9 @@
       "openSource": "Open Source",
       "openSourceDescription": "Der Quellcode von LocalSend ist öffentlich verfügbar. Jeder kann dazu beitragen.",
       "secure": "Sicher",
-      "secureDescription": "Ende-zu-Ende-Verschlüsselung und lokale Dateiübertragung sorgen für Sicherheit und Datenschutz.",
+      "secureDescription": "Ende-zu-Ende-Verschlüsselung sorgen für Sicherheit und Datenschutz.",
       "easy": "Intuitiv",
-      "easyDescription": "Eine einfache Benutzeroberfläche ohne Registrierung oder Anmeldung. Einfach Dateien teilen."
+      "easyDescription": "Eine einfache Benutzeroberfläche ohne Registrierung. Einfach Dateien teilen."
     },
     "get": "Holen Sie sich LocalSend"
   },

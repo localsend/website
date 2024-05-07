@@ -11,7 +11,7 @@
     "features": {
       "title": "Features",
       "decentralized": "Decentralized",
-      "decentralizedDescription": "Share files without a central server. Your data is yours. The file transfer is completely peer-to-peer.",
+      "decentralizedDescription": "Share files without a central server. The file transfer is completely peer-to-peer.",
       "crossPlatform": "Cross-platform",
       "crossPlatformDescription": "LocalSend is available for Windows, macOS, Linux, Android, and iOS.",
       "free": "Free",
