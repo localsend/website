@@ -84,6 +84,10 @@
           </AppButton>
         </NuxtLink>
       </div>
+
+      <TextButton href="https://github.com/localsend/website" target="_blank" icon="material-symbols:build" class="mb-8">
+        {{ t('home.improveWebsite') }}
+      </TextButton>
     </div>
   </div>
 </template>

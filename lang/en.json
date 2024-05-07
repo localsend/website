@@ -23,7 +23,8 @@
       "easy": "Easy to Use",
       "easyDescription": "A simple user interface without registration. Other devices are discovered automatically."
     },
-    "get": "Get LocalSend"
+    "get": "Get LocalSend",
+    "improveWebsite": "Improve this website"
   },
   "download": {
     "seo": {
