@@ -64,7 +64,7 @@
                      icon="material-symbols:devices"/>
         <FeatureCard :title="t('home.features.free')"
                      :description="t('home.features.freeDescription')"
-                     icon="material-symbols:group"/>
+                     icon="material-symbols:volunteer-activism"/>
         <FeatureCard :title="t('home.features.openSource')"
                      :description="t('home.features.openSourceDescription')"
                      icon="material-symbols:code"/>
