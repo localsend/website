@@ -53,9 +53,9 @@
         </div>
       </div>
     </div>
-    <div class="m-auto max-w-screen-lg flex flex-col items-center">
+    <div class="m-auto max-w-screen-lg flex flex-col items-center mt-4 px-4 lg:px-12">
       <h2 class="text-3xl font-bold">{{ t('home.features.title') }}</h2>
-      <div class="grid grid-cols-3 gap-12 mt-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 lg:gap-12 mt-8">
         <FeatureCard :title="t('home.features.decentralized')"
                      :description="t('home.features.decentralizedDescription')"
                      icon="material-symbols:share"/>
@@ -86,7 +86,7 @@
       </div>
 
       <TextButton href="https://github.com/localsend/website" target="_blank" icon="material-symbols:build" class="mb-8">
-        {{ t('home.improveWebsite') }}
+        {{ t('improveWebsite') }}
       </TextButton>
     </div>
   </div>

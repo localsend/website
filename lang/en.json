@@ -23,8 +23,7 @@
       "easy": "Easy to Use",
       "easyDescription": "A simple user interface without registration. Other devices are discovered automatically."
     },
-    "get": "Get LocalSend",
-    "improveWebsite": "Improve this website"
+    "get": "Get LocalSend"
   },
   "download": {
     "seo": {
@@ -70,5 +69,6 @@
     "disclaimer-line1": "This website and LocalSend is not affiliated with, endorsed by, or in any way associated with the brands mentioned on this site.",
     "disclaimer-line2": "All trademarks, logos, and brand names are the property of their respective owners. We are using these references for informational purposes only."
   },
-  "homepageButton": "Homepage"
+  "homepageButton": "Homepage",
+  "improveWebsite": "Improve this website"
 }
