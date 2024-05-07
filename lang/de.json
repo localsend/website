@@ -7,7 +7,23 @@
     "slogan1": "Teile Dateien mit Geräten in der Nähe.",
     "slogan2": "Kostenlos, Open Source, Cross-Plattform.",
     "download": "Download",
-    "community": "Community"
+    "community": "Community",
+    "features": {
+      "title": "Features",
+      "decentralized": "Dezentral",
+      "decentralizedDescription": "Teilen Sie Dateien ohne zentralen Server. Der Dateitransfer erfolgt vollständig peer-to-peer.",
+      "crossPlatform": "Cross-Plattform",
+      "crossPlatformDescription": "LocalSend ist für Windows, macOS, Linux, Android und iOS verfügbar.",
+      "free": "Kostenlos",
+      "freeDescription": "LocalSend ist kostenlos. Keine Werbung, kein Tracking, keine versteckten Kosten.",
+      "openSource": "Open Source",
+      "openSourceDescription": "Der Quellcode von LocalSend ist öffentlich verfügbar. Jeder kann dazu beitragen.",
+      "secure": "Sicher",
+      "secureDescription": "Ende-zu-Ende-Verschlüsselung und lokale Dateiübertragung sorgen für Sicherheit und Datenschutz.",
+      "easy": "Intuitiv",
+      "easyDescription": "Eine einfache Benutzeroberfläche ohne Registrierung oder Anmeldung. Einfach Dateien teilen."
+    },
+    "get": "Holen Sie sich LocalSend"
   },
   "download": {
     "seo": {
