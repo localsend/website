@@ -79,7 +79,7 @@
                      icon="material-symbols:gesture"/>
       </div>
 
-      <h2 class="text-3xl font-bold mt-24">{{ t('home.mentioned') }}</h2>
+      <h2 class="text-center text-3xl font-bold mt-24">{{ t('home.mentioned') }}</h2>
       <InfiniteHorizontalScroll class="w-full mt-8 [&_a]:mx-4 [&_img]:max-w-none">
         <MentionedCard title="Use This App to Easily Send Files to Any Device"
                        description="Lifehacker"
@@ -119,7 +119,7 @@
                        url="https://www.guidetti-informatica.net/2023/03/invia-file-in-modo-sicuro-sulla-rete-locale-con-lapp-localsend-multipiattaforma/"/>
       </InfiniteHorizontalScroll>
 
-      <h2 class="text-3xl font-bold mt-24">{{ t('home.get') }}</h2>
+      <h2 class="text-center text-3xl font-bold mt-24">{{ t('home.get') }}</h2>
       <div class="mt-8 mb-48 flex items-center justify-center gap-4">
         <NuxtLink :to="localePath({ path: '/download' })">
           <AppButton icon="material-symbols:download" :dark="true">
