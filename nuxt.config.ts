@@ -106,6 +106,10 @@ export default defineNuxtConfig({
         iso: 'uk-UA'
       },
       {
+        code: 'vi',
+        iso: 'vi-VN'
+      },
+      {
         code: 'zh-CN',
         iso: 'zh-CN'
       },
