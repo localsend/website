@@ -40,18 +40,15 @@
     "issues": "مشكلات",
     "pullRequests": "طلبات الدمج"
   },
-  "footer":{
+  "footer": {
     "underlicense": "مرخصة بموجب",
     "mitlicense": "رخصة MIT",
-    "andcontributor": "ومساهمي Localsend.",
     "github": "Github",
     "discord": "Discord",
     "privacy": "الخصوصيّة",
     "terms": "الشروط",
     "imprint": "البصمة",
-    "contact": "التواصل",
-    "disclaimer-line1": "هذا الموقع و LocalSend ليس تابعًا أو معتمدًا أو مرتبطًا بأي شكل من الأشكال بالعلامات التجارية المذكورة في هذا الموقع.",
-    "disclaimer-line2": "جميع العلامات التجارية والشعارات والأسماء التجارية هي ملك لأصحابها. نحن نستخدم هذه المراجع لأغراض إعلامية فقط."
+    "contact": "التواصل"
   },
   "homepageButton": "الصفحة الرئيسية"
 }

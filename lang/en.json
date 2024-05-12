@@ -57,18 +57,15 @@
     "issues": "Issues",
     "pullRequests": "Pull Requests"
   },
-  "footer":{
+  "footer": {
     "underlicense": "Licensed under the",
     "mitlicense": "MIT License",
-    "andcontributor": "and LocalSend Contributors.",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "Privacy",
     "terms": "Terms",
     "imprint": "Imprint",
-    "contact": "Contact",
-    "disclaimer-line1": "This website and LocalSend is not affiliated with, endorsed by, or in any way associated with the brands mentioned on this site.",
-    "disclaimer-line2": "All trademarks, logos, and brand names are the property of their respective owners. We are using these references for informational purposes only."
+    "contact": "Contact"
   },
   "homepageButton": "Homepage",
   "improveWebsite": "Improve this website"

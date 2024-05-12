@@ -31,14 +31,11 @@
   "footer": {
     "underlicense": "Altında lisanslanmıştır",
     "mitlicense": "MIT Lisansı",
-    "andcontributor": "ve LocalSend'e Katkıda Bulunanlar.",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "Gizlilik",
     "terms": "Koşullar",
-    "contact": "İletişim",
-    "disclaimer-line1": "Bu site ve LocalSend'in, sitede bahsi geçen markalarla herhangi bir resmi ilişkisi, onayı ya da ortaklığı bulunmamaktadır.",
-    "disclaimer-line2": "Bütün ticari markalar, logolar ve marka isimleri kendi sahiplerinin mülkiyetindedir. Bu referanslar yalnızca bilgilendirme amaçlı kullanılmaktadır."
+    "contact": "İletişim"
   },
   "homepageButton": "Ana Sayfa"
 }

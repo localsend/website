@@ -8,7 +8,7 @@
           target="_blank">{{ $t('footer.mitlicense') }}</a>
     </p>
     <p>
-      &copy; 2022 - {{ year }} Tien Do Nam {{ t('footer.andcontributor') }}
+      &copy; 2022 - {{ year }} Tien Do Nam
     </p>
 
     <!-- Links -->

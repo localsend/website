@@ -28,17 +28,14 @@
     "issues": "Issues",
     "pullRequests": "Pull Requests"
   },
-  "footer":{
+  "footer": {
     "underlicense": "משוחרר תחת",
     "mitlicense": "רישיון MIT",
-    "andcontributor": "והתורמים של Localsend.",
     "github": "GitHub",
     "discord": "דיסקורד",
     "privacy": "מדיניות פרטיות",
     "terms": "תנאים",
-    "contact": "צור קשר",
-    "disclaimer-line1": "אתר זה ו-LocalSend אינם מזוהים עם, מאושרים על ידי, או קשורים בכל דרך שהיא למותגים המוזכרים באתר זה.",
-    "disclaimer-line2": "כל הסימנים המסחריים, הסמלים ושמות המותג הינם רכושם של בעליהם. אנו משתמשים בהם למטרות מידע בלבד."
+    "contact": "צור קשר"
   },
   "homepageButton": "דף הבית"
 }

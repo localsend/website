@@ -40,18 +40,15 @@
     "issues": "Problemas",
     "pullRequests": "Pedidos de integração"
   },
-  "footer":{
+  "footer": {
     "underlicense": "Licenciado ao abrigo da",
     "mitlicense": "Licença MIT",
-    "andcontributor": "e contribuidores do LocalSend.",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "Privacidade",
     "terms": "Termos",
     "imprint": "Marca",
-    "contact": "Contacto",
-    "disclaimer-line1": "Esta página de Internet e o LocalSend não são afiliados, apoiados ou de qualquer forma associados às marcas mencionadas nesta página.",
-    "disclaimer-line2": "Todas as marcas comerciais, logótipos e nomes de marcas são propriedade dos respectivos proprietários. Estamos a utilizar estas referências apenas para fins informativos."
+    "contact": "Contacto"
   },
   "homepageButton": "Página inicial"
 }
