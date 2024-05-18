@@ -54,18 +54,18 @@
     "getInvolved": "Взяти участь",
     "getInvolvedDescription": "Зв'яжіться з розробниками та зробіть свій внесок у проект.",
     "discord": "Discord",
-    "issues": "Issues",
-    "pullRequests": "Pull Requests"
+    "issues": "Питання",
+    "pullRequests": "Запити на витягування"
   },
   "footer": {
-    "underlicense": "Licensed under the",
-    "mitlicense": "MIT License",
+    "underlicense": "Ліцензовано згідно",
+    "mitlicense": "Ліцензії MIT",
     "github": "GitHub",
     "discord": "Discord",
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "imprint": "Imprint",
-    "contact": "Contact"
+    "privacy": "Конфіденційність",
+    "terms": "Правила",
+    "imprint": "Вихідні дані",
+    "contact": "Контакти"
   },
   "homepageButton": "Домашня сторінка"
   "improveWebsite": "Покращіть цей веб-сайт"
