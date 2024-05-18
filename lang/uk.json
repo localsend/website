@@ -1,35 +1,35 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Share files to nearby devices",
-      "description": "LocalSend is a free, open-source, cross-platform file sharing tool that allows you to share files to nearby devices."
+      "title": "LocalSend: обмінюйтеся файлами з пристроями поблизу",
+      "description": "LocalSend — це безкоштовний, кросплатформний інструмент обміну файлами з відкритим вихідним кодом, який дозволяє ділитися файлами з пристроями поблизу."
     },  
     "slogan1": "Діліться файлами з пристроями поблизу.",
     "slogan2": "Безкоштовний, з відкритим вихідним кодом, кросплатформний.",
     "download": "Завантажити",
     "community": "Спільнота"
     "features": {
-      "title": "Features",
-      "decentralized": "Decentralized",
-      "decentralizedDescription": "Share files without a central server. The file transfer is completely peer-to-peer.",
-      "crossPlatform": "Cross-platform",
-      "crossPlatformDescription": "LocalSend is available for Windows, macOS, Linux, Android, and iOS.",
-      "free": "Free",
-      "freeDescription": "LocalSend is free to use. No ads, no tracking, no hidden costs.",
-      "openSource": "Open Source",
-      "openSourceDescription": "The source code is publicly available. Everyone can contribute to the project.",
-      "secure": "Secure",
-      "secureDescription": "End-to-end encryption ensures that only you and the recipient can access your files.",
-      "easy": "Easy to Use",
-      "easyDescription": "A simple user interface without registration. Other devices are discovered automatically."
+      "title": "Особливості",
+      "decentralized": "Децентралізований",
+      "decentralizedDescription": "Діліться файлами без центрального сервера. Передача файлів повністю однорангова.",
+      "crossPlatform": "Кросплатформний",
+      "crossPlatformDescription": "LocalSend доступний для Windows, macOS, Linux, Android та iOS.",
+      "free": "Безкоштовний",
+      "freeDescription": "LocalSend можна використовувати безкоштовно. Без реклами, відстежування та прихованих витрат.",
+      "openSource": "З відкритим вихідним кодом",
+      "openSourceDescription": "Вихідний код є загальнодоступним. Кожен може зробити свій внесок у проект.",
+      "secure": "Безпечний",
+      "secureDescription": "Наскрізне шифрування гарантує, що лише ви та одержувач матимете доступ до ваших файлів.",
+      "easy": "Простий у використанні",
+      "easyDescription": "Простий інтерфейс без реєстрації. Інші пристрої виявляються автоматично."
     },
-    "mentioned": "Mentioned across the globe",
-    "get": "Get LocalSend"
+    "mentioned": "Згадується у всьому світі",
+    "get": "Отримати LocalSend"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Downloads",
-      "description": "Download LocalSend for Windows, macOS, Linux, Android, and iOS."
+      "title": "LocalSend - Завантаження",
+      "description": "Завантажте LocalSend для Windows, macOS, Linux, Android та iOS."
     },
     "title": "Завантаження",
     "subTitle": "Завантажити для {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Community",
-      "description": "Get help, get involved, and contribute to LocalSend."
+      "title": "LocalSend - Спільнота",
+      "description": "Отримайте допомогу, візьміть участь та зробіть свій внесок у LocalSend."
     },
     "title": "Спільнота",
     "getHelp": "Отримати допомогу",
@@ -68,5 +68,5 @@
     "contact": "Contact"
   },
   "homepageButton": "Домашня сторінка"
-  "improveWebsite": "Improve this website"
+  "improveWebsite": "Покращіть цей веб-сайт"
 }
