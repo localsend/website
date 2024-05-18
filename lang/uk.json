@@ -46,12 +46,12 @@
   "community": {
     "seo": {
       "title": "LocalSend - Спільнота",
-      "description": "Отримайте допомогу, візьміть участь та зробіть свій внесок у LocalSend."
+      "description": "Отримайте допомогу, долучіться та зробіть свій внесок у LocalSend."
     },
     "title": "Спільнота",
     "getHelp": "Отримати допомогу",
     "getHelpDescription": "Запитуйте або шукайте відповіді на Github Discussions.",
-    "getInvolved": "Взяти участь",
+    "getInvolved": "Долучитися",
     "getInvolvedDescription": "Зв'яжіться з розробниками та зробіть свій внесок у проект.",
     "discord": "Discord",
     "issues": "Питання",
