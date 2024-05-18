@@ -1,11 +1,36 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend: Share files to nearby devices",
+      "description": "LocalSend is a free, open-source, cross-platform file sharing tool that allows you to share files to nearby devices."
+    },
     "slogan1": "Делитесь файлами с устройствами поблизости.",
     "slogan2": "Бесплатный, с открытым исходным кодом, кроссплатформенный.",
     "download": "Скачать",
     "community": "Сообщество"
+    "features": {
+      "title": "Features",
+      "decentralized": "Decentralized",
+      "decentralizedDescription": "Share files without a central server. The file transfer is completely peer-to-peer.",
+      "crossPlatform": "Cross-platform",
+      "crossPlatformDescription": "LocalSend is available for Windows, macOS, Linux, Android, and iOS.",
+      "free": "Free",
+      "freeDescription": "LocalSend is free to use. No ads, no tracking, no hidden costs.",
+      "openSource": "Open Source",
+      "openSourceDescription": "The source code is publicly available. Everyone can contribute to the project.",
+      "secure": "Secure",
+      "secureDescription": "End-to-end encryption ensures that only you and the recipient can access your files.",
+      "easy": "Easy to Use",
+      "easyDescription": "A simple user interface without registration. Other devices are discovered automatically."
+    },
+    "mentioned": "Mentioned across the globe",
+    "get": "Get LocalSend"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - Downloads",
+      "description": "Download LocalSend for Windows, macOS, Linux, Android, and iOS."
+    },
     "title": "Загрузки",
     "subTitle": "Загрузить для {os}",
     "appStores": "Магазины приложений",
@@ -19,6 +44,10 @@
     "copiedToClipboard": "Скопировано в буфер обмена!"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - Community",
+      "description": "Get help, get involved, and contribute to LocalSend."
+    },
     "title": "Сообщество",
     "getHelp": "Получить помощь",
     "getHelpDescription": "Спрашивайте или ищите ответы на Github Discussions.",
@@ -28,5 +57,16 @@
     "issues": "Issues",
     "pullRequests": "Pull Requests"
   },
+  "footer": {
+    "underlicense": "Licensed under the",
+    "mitlicense": "MIT License",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "imprint": "Imprint",
+    "contact": "Contact"
+  },
   "homepageButton": "Домашняя страница"
+  "improveWebsite": "Improve this website"
 }
