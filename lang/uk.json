@@ -3,7 +3,7 @@
     "seo": {
       "title": "LocalSend: Share files to nearby devices",
       "description": "LocalSend is a free, open-source, cross-platform file sharing tool that allows you to share files to nearby devices."
-    },    
+    },  
     "slogan1": "Діліться файлами з пристроями поблизу.",
     "slogan2": "Безкоштовний, з відкритим вихідним кодом, кросплатформний.",
     "download": "Завантажити",
@@ -30,7 +30,7 @@
     "seo": {
       "title": "LocalSend - Downloads",
       "description": "Download LocalSend for Windows, macOS, Linux, Android, and iOS."
-    },  
+    },
     "title": "Завантаження",
     "subTitle": "Завантажити для {os}",
     "appStores": "Магазини додатків",
@@ -47,7 +47,7 @@
     "seo": {
       "title": "LocalSend - Community",
       "description": "Get help, get involved, and contribute to LocalSend."
-    }, 
+    },
     "title": "Спільнота",
     "getHelp": "Отримати допомогу",
     "getHelpDescription": "Запитуйте або шукайте відповіді на Github Discussions.",
