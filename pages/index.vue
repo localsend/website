@@ -17,20 +17,20 @@
               <h1 class="text-5xl sm:text-5xl xl:text-7xl 2xl:text-8xl font-black text-center md:text-start">
                 LocalSend
               </h1>
-              <h2 class="slogan text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start mt-2 px-2">
+              <h2 class="slogan text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start mt-2 px-4 md:px-0">
                 {{ t('home.slogan1') }}
               </h2>
-              <h2 class="slogan text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start px-2">
+              <h2 class="slogan text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start px-4 md:px-0">
                 {{ t('home.slogan2') }}
               </h2>
 
-              <div class="buttons mt-6 text-center md:text-start">
+              <div class="buttons mt-4 xl:mt-6 px-4 md:px-0 flex flex-wrap justify-center md:justify-start gap-4">
                 <NuxtLink :to="localePath({ path: '/download' })">
                   <AppButton icon="material-symbols:arrow-downward">
                     {{ t('home.download') }}
                   </AppButton>
                 </NuxtLink>
-                <NuxtLink :to="localePath({ path: '/community' })" class="ms-4">
+                <NuxtLink :to="localePath({ path: '/community' })">
                   <AppButton icon="material-symbols:group" :dark="true">
                     {{ t('home.community') }}
                   </AppButton>
