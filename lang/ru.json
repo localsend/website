@@ -1,11 +1,36 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend: обменивайтесь файлами с устройствами поблизости",
+      "description": "LocalSend — это бесплатный, кроссплатформенный инструмент обмена файлами с открытым исходным кодом, позволяющий делиться файлами с устройствами поблизости."
+    },
     "slogan1": "Делитесь файлами с устройствами поблизости.",
     "slogan2": "Бесплатный, с открытым исходным кодом, кроссплатформенный.",
     "download": "Скачать",
     "community": "Сообщество"
+    "features": {
+      "title": "Особенности",
+      "decentralized": "Децентрализованный",
+      "decentralizedDescription": "Делитесь файлами без центрального сервера. Передача файлов полностью одноранговая.",
+      "crossPlatform": "Кроссплатформенный",
+      "crossPlatformDescription": "LocalSend доступен для Windows, MacOS, Linux, Android и iOS.",
+      "free": "Бесплатный",
+      "freeDescription": "LocalSend можно использовать бесплатно. Без рекламы, отслеживания и скрытых расходов.",
+      "openSource": "С открытым исходным кодом",
+      "openSourceDescription": "Исходный код является общедоступным. Каждый может внести свой вклад в проект.",
+      "secure": "Безопасный",
+      "secureDescription": "Сквозное шифрование гарантирует, что только у вас и получателя будет доступ к вашим файлам.",
+      "easy": "Прост в использовании",
+      "easyDescription": "Простой интерфейс без регистрации. Другие устройства обнаруживаются автоматически."
+    },
+    "mentioned": "Упоминается во всем мире",
+    "get": "Получить LocalSend"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - Загрузки",
+      "description": "Загрузите LocalSend для Windows, macOS, Linux, Android и iOS."
+    },
     "title": "Загрузки",
     "subTitle": "Загрузить для {os}",
     "appStores": "Магазины приложений",
@@ -19,14 +44,29 @@
     "copiedToClipboard": "Скопировано в буфер обмена!"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - Сообщество",
+      "description": "Получите помощь, примите участие и внесите свой вклад в LocalSend."
+    },
     "title": "Сообщество",
     "getHelp": "Получить помощь",
     "getHelpDescription": "Спрашивайте или ищите ответы на Github Discussions.",
     "getInvolved": "Принять участие",
     "getInvolvedDescription": "Свяжитесь с разработчиками и внесите свой вклад в проект.",
     "discord": "Discord",
-    "issues": "Issues",
-    "pullRequests": "Pull Requests"
+    "issues": "Вопросы",
+    "pullRequests": "Запросы на вытягивание"
+  },
+  "footer": {
+    "underlicense": "Лицензировано согласно",
+    "mitlicense": "Лицензии MIT",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Конфиденциальность",
+    "terms": "Правила",
+    "imprint": "Исходные данные",
+    "contact": "Контакты"
   },
   "homepageButton": "Домашняя страница"
+  "improveWebsite": "Улучшить этот веб-сайт"
 }
