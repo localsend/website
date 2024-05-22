@@ -1,5 +1,5 @@
 <template>
-  <div class="h-64 bg-gray-100 text-center text-sm pt-8">
+  <div class="bg-gray-100 text-center text-sm pt-8 pb-10">
     <p>
       {{ t('footer.underlicense') }}
       <a
