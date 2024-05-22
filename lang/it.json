@@ -1,11 +1,36 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend: Condividi file con dispositivi nelle vicinanze",
+      "description": "LocalSend è un software gratis, open source e multipiattaforma che ti consente di condividere file con dispositivi nelle vicinanze."
+    },
     "slogan1": "Condividi file con dispositivi nelle vicinanze.",
     "slogan2": "Gratis, open source, multipiattaforma.",
     "download": "Scarica",
-    "community": "Comunità"
+    "community": "Comunità",
+    "features": {
+      "title": "Caratteristiche",
+      "decentralized": "Decentralizzato",
+      "decentralizedDescription": "Condividi files senza un server. Il trasferimento è completamente peer-to-peer.",
+      "crossPlatform": "Cross-platform",
+      "crossPlatformDescription": "LocalSend è disponibile per Windows, macOS, Linux, Android, e iOS.",
+      "free": "Free",
+      "freeDescription": "LocalSend è gratuito. No ads, no tracking, no costi nascosti.",
+      "openSource": "Open Source",
+      "openSourceDescription": "Il codice sorgente è pubblicamente disponibile. Chiunque può contribuire al progetto.",
+      "secure": "Sicuro",
+      "secureDescription": "La end-to-end encryption garantisce che solo tu e il destinatario possiate accedere ai vostri file.",
+      "easy": "Semplice",
+      "easyDescription": "Interfaccia utente semplice e senza registrazione. Gli altri dispositivi vengono rilevati automaticamente."
+    },
+    "mentioned": "Menzionato in tutto il mondo",
+    "get": "Ottieni LocalSend"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - Downloads",
+      "description": "Scarica LocalSend per Windows, macOS, Linux, Android, e iOS."
+    },
     "title": "Scarica",
     "subTitle": "{os} Downloads",
     "appStores": "App Store",
@@ -19,6 +44,10 @@
     "copiedToClipboard": "Copiato negli appunti!"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - Community",
+      "description": "Ottieni Aiuto, partecipa, e contribuisci a LocalSend."
+    },
     "title": "Comunità",
     "getHelp": "Ottieni Aiuto",
     "getHelpDescription": "Chiedi o ottieni risposte dentro le Discussioni Github.",
@@ -28,5 +57,16 @@
     "issues": "Problemi",
     "pullRequests": "Richieste Pull"
   },
-  "homepageButton": "Pagina Principale"
+  "footer": {
+    "underlicense": "Licenza",
+    "mitlicense": "MIT License",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "imprint": "Imprint",
+    "contact": "Contatti"
+  },
+  "homepageButton": "Pagina Principale",
+  "improveWebsite": "Migliora questo sito"
 }
