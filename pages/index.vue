@@ -17,10 +17,10 @@
               <h1 class="text-5xl sm:text-5xl xl:text-7xl 2xl:text-8xl font-black text-center md:text-start">
                 LocalSend
               </h1>
-              <h2 class="slogan text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start mt-2">
+              <h2 class="slogan text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start mt-2 px-2">
                 {{ t('home.slogan1') }}
               </h2>
-              <h2 class="slogan text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start">
+              <h2 class="slogan text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-light text-center md:text-start px-2">
                 {{ t('home.slogan2') }}
               </h2>
 
