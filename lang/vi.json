@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Chia sẻ tập tin với các thiết bị gần bạn",
+      "description": "LocalSend là một công cụ miễn phí, đa nền tảng, mã nguồn mở, cho phép bạn chia sẻ tập tin với các thiết bị gần bạn."
+    },
+    "slogan1": "Chia sẻ tập tin với các thiết bị gần bạn.",
+    "slogan2": "Miễn phí, mã nguồn mở, đa nền tảng.",
+    "download": "Tải xuống",
+    "community": "Cộng đồng",
+    "features": {
+      "title": "Tính năng",
+      "decentralized": "Phi trung tâm",
+      "decentralizedDescription": "Chia sẻ tập tin mà không cần máy chủ trung tâm. Truyền tải tập tin trên mạng ngang hàng (peer-to-peer).",
+      "crossPlatform": "Đa nền tảng",
+      "crossPlatformDescription": "LocalSend có sẵn trên Windows, macOS, Linux, Android và iOS.",
+      "free": "Miễn phí",
+      "freeDescription": "LocalSend là phần mềm miễn phí. Không có quảng cáo, không theo dõi, không phí ẩn.",
+      "openSource": "Mã nguồn mở",
+      "openSourceDescription": "Mã nguồn của LocalSend là công khai. Mọi người đều có thể đóng góp.",
+      "secure": "An toàn",
+      "secureDescription": "Mã hóa theo qui trình đầu cuối đảm bảo an toàn và bảo vệ dữ liệu.",
+      "easy": "Dễ sử dụng",
+      "easyDescription": "Giao diện đơn giản mà không cần đăng ký. Chia sẻ tập tin dễ dàng."
+    },
+    "mentioned": "Được biết đến trên toàn thế giới",
+    "get": "Tải LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Tải xuống",
+      "description": "Tải LocalSend về các hệ điều hành Windows, macOS, Linux, Android và iOS."
+    },
+    "title": "Tải xuống",
+    "subTitle": "Tải về {os}",
+    "appStores": "Cửa hàng ứng dụng",
+    "appStoresDescription": "Được khuyến nghị cho phần lớn người dùng.",
+    "binaries": "Tập tin nhị phân (binary data)",
+    "binariesDescription": "Tải xuống để sử dụng ngoại tuyến.",
+    "packageManagers": "Quản lý packages",
+    "packageManagersDescription": "Cài đặt qua Terminal.",
+    "allReleases": "Tất cả phiên bản",
+    "zip": "ZIP phần mềm xách tay (portable)",
+    "copiedToClipboard": "Đã sao chép vào Clipboard!"
+  },
+  "community": {
+    "seo": {
+      "title": "Cộng đồng LocalSend",
+      "description": "Nhận sự trợ giúp, tham gia và đóng góp vào dự án LocalSend."
+    },
+    "title": "Cộng đồng",
+    "getHelp": "Nhận sự trợ giúp",
+    "getHelpDescription": "Hỏi hoặc tìm kiếm câu trả lời trong các thảo luận trên Github.",
+    "getInvolved": "Tham gia",
+    "getInvolvedDescription": "Liên lạc với các nhà phát triển phần mềm và đóng góp trực tiếp vào dự án.",
+    "discord": "Discord",
+    "issues": "Vấn đề",
+    "pullRequests": "Pull-Requests"
+  },
+  "footer": {
+    "underlicense": "Được cấp phép dưới",
+    "mitlicense": "Giấy phép MIT",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản sử dụng",
+    "imprint": "Imprint",
+    "contact": "Liên hệ"
+  },
+  "homepageButton": "Trang chính",
+  "improveWebsite": "Cải thiện trang web này"
+}

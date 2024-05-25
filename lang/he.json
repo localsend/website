@@ -1,0 +1,41 @@
+{
+  "home": {
+    "slogan1": "שיתוף קבצים למכשירים בקרבת מקום.",
+    "slogan2": "חינמי, קוד פתוח, וחוצה פלטפורמות.",
+    "download": "הורדה",
+    "community": "קהילה"
+  },
+  "download": {
+    "title": "הורדות",
+    "subTitle": "הורדה עבור {os}",
+    "appStores": "חנויות אפליקציות",
+    "appStoresDescription": "מומלץ עבור רוב המשתמשים.",
+    "binaries": "קבצי התקנה",
+    "binariesDescription": "הורדה עבור שימוש לא מקוון.",
+    "packageManagers": "מנהלי חבילות",
+    "packageManagersDescription": "התקנה באמצעות שורת פקודה.",
+    "allReleases": "כל המהדורות",
+    "zip": "ZIP (גרסה ניידת)",
+    "copiedToClipboard": "הועתק ללוח!"
+  },
+  "community": {
+    "title": "קהילה",
+    "getHelp": "קבל עזרה",
+    "getHelpDescription": "שאל או חפש תשובות ב-Github Discussions.",
+    "getInvolved": "תרומה לפרויקט",
+    "getInvolvedDescription": "צור קשר עם המפתחים ותרום ישירות לפרויקט.",
+    "discord": "דיסקורד",
+    "issues": "Issues",
+    "pullRequests": "Pull Requests"
+  },
+  "footer": {
+    "underlicense": "משוחרר תחת",
+    "mitlicense": "רישיון MIT",
+    "github": "GitHub",
+    "discord": "דיסקורד",
+    "privacy": "מדיניות פרטיות",
+    "terms": "תנאים",
+    "contact": "צור קשר"
+  },
+  "homepageButton": "דף הבית"
+}

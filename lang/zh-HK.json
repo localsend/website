@@ -1,0 +1,30 @@
+{
+  "home": {
+    "slogan1": "分享檔案畀附近裝置",
+    "slogan2": "免費、開源、跨平台",
+    "download": "下載",
+    "community": "社羣"
+  },
+  "download": {
+    "title": "下載",
+    "appStores": "App Store",
+    "appStoresDescription": "建議多數用户揀選",
+    "binaries": "安裝檔",
+    "binariesDescription": "下載以供離線使用",
+    "packageManagers": "套件管理器",
+    "packageManagersDescription": "以終端命令安裝",
+    "allReleases": "所有版本",
+    "zip": "ZIP（可攜式）"
+  },
+  "community": {
+    "title": "社羣",
+    "getHelp": "尋求幫助",
+    "getHelpDescription": "喺 GitHub 討論區問問題或者揾答案",
+    "getInvolved": "參與其中",
+    "getInvolvedDescription": "聯絡開發人員並且直接為專案作出貢獻",
+    "discord": "Discord",
+    "issues": "GitHub Issues",
+    "pullRequests": "Pull Requests"
+  },
+  "homepageButton": "首頁"
+}

@@ -1,0 +1,71 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend：向附近设备共享文件",
+      "description": "LocalSend是一个免费、开源、跨平台的文件共享工具，允许您将文件共享到附近的设备。"
+    },
+    "slogan1": "将文件共享到附近的设备。",
+    "slogan2": "免费、开源、跨平台。",
+    "download": "下载",
+    "community": "社区",
+    "features": {
+      "title": "特点",
+      "decentralized": "去中心化",
+      "decentralizedDescription": "无需中央服务器即可共享文件。文件传输完全点对点。",
+      "crossPlatform": "跨平台",
+      "crossPlatformDescription": "LocalSend可用于Windows、macOS、Linux、Android和iOS。",
+      "free": "免费",
+      "freeDescription": "LocalSend免费使用。无广告、无跟踪、无隐藏付费。",
+      "openSource": "开源",
+      "openSourceDescription": "源代码公开可用。任何人都可以为项目做出贡献。",
+      "secure": "安全",
+      "secureDescription": "端到端加密确保只有您和接收者可以访问您的文件。",
+      "easy": "易于使用",
+      "easyDescription": "无需注册的简单用户界面。其他设备会自动被发现。"
+    },
+    "mentioned": "在全球范围内被提及",
+    "get": "获取LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - 下载",
+      "description": "下载LocalSend适用于Windows、macOS、Linux、Android和iOS。"
+    },
+    "title": "下载",
+    "appStores": "应用商店",
+    "appStoresDescription": "适合大多数用户。",
+    "binaries": "二进制文件",
+    "binariesDescription": "可供离线使用的下载",
+    "packageManagers": "包管理器",
+    "packageManagersDescription": "通过终端安装",
+    "allReleases": "所有版本",
+    "zip": "压缩包（便携式）",
+    "copiedToClipboard": "已复制到剪贴板！"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - 社区",
+      "description": "获取帮助，参与其中，并为LocalSend做出贡献。"
+    },
+    "title": "社区",
+    "getHelp": "获取帮助",
+    "getHelpDescription": "在GitHub讨论区提问或寻找答案",
+    "getInvolved": "参与其中",
+    "getInvolvedDescription": "与开发人员联系并直接为项目做出贡献",
+    "discord": "Discord",
+    "issues": "问题",
+    "pullRequests": "拉取请求"
+  },
+  "footer": {
+    "underlicense": "根据",
+    "mitlicense": "MIT许可证",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "隐私",
+    "terms": "条款",
+    "imprint": "版权声明",
+    "contact": "联系方式"
+  },
+  "homepageButton": "主页",
+  "improveWebsite": "参与改进此网站"
+}

@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Partilhe ficheiros para dispositivos próximos",
+      "description": "O LocalSend é uma ferramenta de partilha de ficheiros gratuita, de código aberto e multiplataforma que lhe permite partilhar ficheiros com dispositivos próximos."
+    },
+    "slogan1": "Partilhe ficheiros com dispositivos próximos.",
+    "slogan2": "Gratuito, de código aberto, multiplataforma.",
+    "download": "Descarregar",
+    "community": "Comunidade",
+    "features": {
+      "title": "Funcionalidades",
+      "decentralized": "Descentralizado",
+      "decentralizedDescription": "Partilhe ficheiros sem um servidor central. A transferência de ficheiros é completamente ponto a ponto.",
+      "crossPlatform": "Multiplataforma",
+      "crossPlatformDescription": "O LocalSend está disponível para Windows, macOS, Linux, Android e iOS.",
+      "free": "Gratuito",
+      "freeDescription": "A utilização do LocalSend é gratuita. Sem anúncios, sem rastreio, sem custos ocultos.",
+      "openSource": "Código aberto",
+      "openSourceDescription": "O código fonte está disponível ao público. Todos podem contribuir para o projeto.",
+      "secure": "Seguro",
+      "secureDescription": "A encriptação de ponta a ponta garante que apenas o utilizador e o destinatário podem aceder aos seus ficheiros.",
+      "easy": "Fácil de usar",
+      "easyDescription": "Uma interface simples e sem a necessidade de registo. Outros dispositivos são detetáveis automaticamente."
+    },
+    "mentioned": "Mencionado em todo o mundo",
+    "get": "Obtenha o LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Descargas",
+      "description": "Descarregue o LocalSend para Windows, macOS, Linux, Android e iOS."
+    },
+    "title": "Descargas",
+    "subTitle": "Descargas do {os}",
+    "appStores": "Lojas de Aplicações",
+    "appStoresDescription": "Recomendado para a maioria dos utilizadores.",
+    "binaries": "Ficheiros executáveis",
+    "binariesDescription": "Descarregar para utilização offline.",
+    "packageManagers": "Gestores de Pacotes",
+    "packageManagersDescription": "Instale com o terminal.",
+    "allReleases": "Todas as versões",
+    "zip": "ZIP (portátil)",
+    "copiedToClipboard": "Copiado para a área de transferência!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Communidade",
+      "description": "Obtenha ajuda, participe e contribua para o LocalSend."
+    },
+    "title": "Comunidade",
+    "getHelp": "Obtenha ajuda",
+    "getHelpDescription": "Pergunte ou procure respostas nas discussões do GitHub.",
+    "getInvolved": "Participe!",
+    "getInvolvedDescription": "Entre em contacto com os criadores e contribua diretamente para o projeto.",
+    "discord": "Discord",
+    "issues": "Problemas",
+    "pullRequests": "Pedidos de integração"
+  },
+  "footer": {
+    "underlicense": "Licenciado ao abrigo da",
+    "mitlicense": "Licença MIT",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "imprint": "Marca",
+    "contact": "Contacto"
+  },
+  "homepageButton": "Página inicial",
+  "improveWebsite": "Melhorar este website"
+}
