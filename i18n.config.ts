@@ -19,12 +19,14 @@ import vi from './lang/vi.json'
 import zhCn from './lang/zh-CN.json'
 import zhHk from './lang/zh-HK.json'
 import zhTw from './lang/zh-TW.json'
+import hindi from './lang/hindi.json'
 
 export const localeMap: { [k: string] : string } = {
   'ar': 'العربية',
   'cs': 'Čeština',
   'de': 'Deutsch',
   'en': 'English',
+  'hindi': "Hindi",
   'es': 'Español',
   'fr': 'Français',
   'it': 'Italiano',
@@ -53,6 +55,7 @@ export default defineI18nConfig(() => ({
     cs,
     de,
     en,
+    hindi,
     es,
     fr,
     he,
