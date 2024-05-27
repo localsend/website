@@ -5,6 +5,7 @@ import en from './lang/en.json'
 import es from './lang/es.json'
 import fr from './lang/fr.json'
 import he from './lang/he.json'
+import hi from './lang/hi.json'
 import it from './lang/it.json'
 import ja from './lang/ja.json'
 import km from './lang/km.json'
@@ -19,18 +20,17 @@ import vi from './lang/vi.json'
 import zhCn from './lang/zh-CN.json'
 import zhHk from './lang/zh-HK.json'
 import zhTw from './lang/zh-TW.json'
-import hindi from './lang/hindi.json'
 
 export const localeMap: { [k: string] : string } = {
   'ar': 'العربية',
   'cs': 'Čeština',
   'de': 'Deutsch',
   'en': 'English',
-  'hindi': "Hindi",
   'es': 'Español',
   'fr': 'Français',
   'it': 'Italiano',
   'he': 'עברית',
+  'hi': 'हिन्दी',
   'ja': '日本語',
   'km': 'ភាសាខ្មែរ',
   'ru': 'Русский',
@@ -55,10 +55,10 @@ export default defineI18nConfig(() => ({
     cs,
     de,
     en,
-    hindi,
     es,
     fr,
     he,
+    hi,
     it,
     ja,
     km,
