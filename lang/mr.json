@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: जवळच्या उपकरणांवर फायली शेअर करा",
+      "description": "LocalSend हा एक मोफत, ओपन-सोर्स, क्रॉस-प्लॅटफॉर्म फाइल शेअरिंग टूल आहे जो तुम्हाला जवळच्या उपकरणांवर फायली शेअर करण्याची परवानगी देतो."
+    },
+    "slogan1": "जवळच्या उपकरणांवर फायली शेअर करा.",
+    "slogan2": "मोफत, ओपन-सोर्स, क्रॉस-प्लॅटफॉर्म.",
+    "download": "डाउनलोड",
+    "community": "समुदाय",
+    "features": {
+      "title": "वैशिष्ट्ये",
+      "decentralized": "विकेंद्रित",
+      "decentralizedDescription": "केंद्रीय सर्व्हरशिवाय फायली शेअर करा. फाइल ट्रान्सफर पूर्णपणे पीअर-टू-पीअर आहे.",
+      "crossPlatform": "क्रॉस-प्लॅटफॉर्म",
+      "crossPlatformDescription": "LocalSend Windows, macOS, Linux, Android, आणि iOS साठी उपलब्ध आहे.",
+      "free": "मोफत",
+      "freeDescription": "LocalSend वापरण्यासाठी मोफत आहे. कोणत्याही जाहिराती नाहीत, ट्रॅकिंग नाही, लपवलेल्या किंमती नाहीत.",
+      "openSource": "ओपन सोर्स",
+      "openSourceDescription": "स्रोत कोड सार्वजनिकरित्या उपलब्ध आहे. प्रत्येकजण प्रकल्पात योगदान देऊ शकतो.",
+      "secure": "सुरक्षित",
+      "secureDescription": "एंड-टू-एंड एन्क्रिप्शन खात्री देते करते की फक्त तुम्ही आणि प्राप्तकर्ता तुमच्या फायलींमध्ये प्रवेश करू शकतात.",
+      "easy": "वापरण्यास सोपे",
+      "easyDescription": "नोंदणीशिवाय एक साधे यूजर इंटरफेस. इतर उपकरणे स्वयंचलितपणे शोधली जातात."
+    },
+    "mentioned": "जगभरात उल्लेख केला",
+    "get": "LocalSend मिळवा"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - डाउनलोड",
+      "description": "Windows, macOS, Linux, Android, आणि iOS साठी LocalSend डाउनलोड करा."
+    },
+    "title": "डाउनलोड",
+    "subTitle": "{os} डाउनलोड",
+    "appStores": "अ‍ॅप स्टोर्स",
+    "appStoresDescription": "बहुतेक वापरकर्त्यांसाठी शिफारस केलेले.",
+    "binaries": "बायनरीज",
+    "binariesDescription": "ऑफलाइन वापरासाठी डाउनलोड करा.",
+    "packageManagers": "पॅकेज व्यवस्थापक",
+    "packageManagersDescription": "टर्मिनलसह स्थापित करा.",
+    "allReleases": "सर्व प्रकाशन",
+    "zip": "ZIP (पोर्टेबल)",
+    "copiedToClipboard": "क्लिपबोर्डवर कॉपी केले!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - समुदाय",
+      "description": "LocalSend ला मदत करा, सामील व्हा, आणि योगदान द्या."
+    },
+    "title": "समुदाय",
+    "getHelp": "मदत घ्या",
+    "getHelpDescription": "GitHub Discussions प्रश्न विचारा किंवा उत्तर शोधा.",
+    "getInvolved": "सहभागी व्हा",
+    "getInvolvedDescription": "विकसकांशी संपर्क साधा आणि थेट प्रकल्पात योगदान द्या.",
+    "discord": "डिस्कॉर्ड",
+    "issues": "समस्या",
+    "pullRequests": "पुल विनंत्या"
+  },
+  "footer": {
+    "underlicense": "च्या अंतर्गत परवाना",
+    "mitlicense": "MIT परवाना",
+    "github": "GitHub",
+    "discord": "डिस्कॉर्ड",
+    "privacy": "गोपनीयता",
+    "terms": "अटी",
+    "imprint": "छाप",
+    "contact": "संपर्क"
+  },
+  "homepageButton": "मुखपृष्ठ",
+  "improveWebsite": "ही वेबसाइट सुधारित करा"
+}
