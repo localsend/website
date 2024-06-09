@@ -9,6 +9,7 @@ import hi from './lang/hi.json'
 import it from './lang/it.json'
 import ja from './lang/ja.json'
 import km from './lang/km.json'
+import mr from './lang/mr.json'
 import pl from './lang/pl.json'
 import ptBr from './lang/pt-BR.json'
 import ptPT from './lang/pt-PT.json'
@@ -33,6 +34,7 @@ export const localeMap: { [k: string] : string } = {
   'hi': 'हिन्दी',
   'ja': '日本語',
   'km': 'ភាសាខ្មែរ',
+  'mr': 'मराठी',
   'ru': 'Русский',
   'pl': 'Polski',
   'pt-BR': 'Português - Brasil',
@@ -62,6 +64,7 @@ export default defineI18nConfig(() => ({
     it,
     ja,
     km,
+    mr,
     pl,
     'pt-BR': ptBr,
     'pt-PT': ptPT,
