@@ -18,7 +18,7 @@
           <slot name="content"></slot>
         </div>
 
-        <NuxtLink :to="localePath({ path: '/' })" class="mt-8">
+        <NuxtLink :to="localePath({ path: '/' })" class="mt-14">
           <TextButton :icon="direction === 'ltr' ? 'material-symbols:arrow-back' : 'material-symbols:arrow-forward'">
             {{ $t('homepageButton') }}
           </TextButton>
