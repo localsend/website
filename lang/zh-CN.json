@@ -1,17 +1,17 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend：向附近设备共享文件",
-      "description": "LocalSend是一个免费、开源、跨平台的文件共享工具，允许您将文件共享到附近的设备。"
+      "title": "LocalSend：向附近设备分享文件",
+      "description": "LocalSend是一个免费、开源、跨平台的文件分享工具，允许您将文件分享到附近的设备。"
     },
-    "slogan1": "将文件共享到附近的设备。",
+    "slogan1": "将文件分享到附近的设备。",
     "slogan2": "免费、开源、跨平台。",
     "download": "下载",
     "community": "社区",
     "features": {
       "title": "特点",
       "decentralized": "去中心化",
-      "decentralizedDescription": "无需中央服务器即可共享文件。文件传输完全点对点。",
+      "decentralizedDescription": "无需中央服务器即可分享文件。文件传输完全点对点。",
       "crossPlatform": "跨平台",
       "crossPlatformDescription": "LocalSend可用于Windows、macOS、Linux、Android和iOS。",
       "free": "免费",
