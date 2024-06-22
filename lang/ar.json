@@ -7,7 +7,24 @@
     "slogan1": "شارك الملفات مع الأجهزة القريبة.",
     "slogan2": "مجاني، مفتوح المصدر، متعدد المنصات.",
     "download": "نزّل",
-    "community": "المجتمع"
+    "community": "المجتمع",
+    "features": {
+      "title": "الميزات",
+      "decentralized": "لامركزية",
+      "decentralizedDescription": "مشاركة الملفات بدون خادم مركزي. يتم نقل الملفات بالكامل من ندّ لِندّ.",
+      "crossPlatform": "متعدد المنصات",
+      "crossPlatformDescription": "LocalSend متاح لأنظمة التشغيل Windows و macOS و Linux و Android و iOS.",
+      "free": "مجانًا",
+      "freeDescription": "LocalSend مجاني للاستخدام. لا إعلانات، لا تتبُع، لا تكاليف خفية.",
+      "openSource": "مفتوح المصدر",
+      "openSourceDescription": "المصدر البرمجي متاح للجمهور. يمكن للجميع المساهمة في المشروع.",
+      "secure": "آمن",
+      "secureDescription": "يضمن التعمية بين الطرفين أنه يمكنك أنت والمُستلم فقط الوصول إلى ملفاتك.",
+      "easy": "سهل الاستخدام",
+      "easyDescription": "واجهة مستخدم بسيطة دون تسجيل. يتم اكتشاف الأجهزة الأخرى تلقائيًا."
+    },
+    "mentioned": "ذُكر في جميع أنحاء العالم",
+    "get": "احصل على LocalSend"
   },
   "download": {
     "seo": {
@@ -51,4 +68,5 @@
     "contact": "التواصل"
   },
   "homepageButton": "الصفحة الرئيسية"
+  "improveWebsite": "حسِّن هذا الموقع"
 }
