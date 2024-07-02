@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: 주변 기기에 파일 공유",
+      "description": "LocalSend는 주변 기기에 파일을 공유할 수 있는 무료, 오픈소스, 크로스 플랫폼 파일 공유 도구입니다."
+    },
+    "slogan1": "주변 기기에 파일을 공유하세요.",
+    "slogan2": "무료, 오픈소스, 크로스 플랫폼.",
+    "download": "다운로드",
+    "community": "커뮤니티",
+    "features": {
+      "title": "특징",
+      "decentralized": "탈중앙화",
+      "decentralizedDescription": "중앙 서버 없이 파일을 공유하세요. 파일 전송은 완전한 P2P 방식입니다.",
+      "crossPlatform": "크로스 플랫폼",
+      "crossPlatformDescription": "LocalSend는 Windows, macOS, Linux, Android 및 iOS에서 사용 가능합니다.",
+      "free": "무료",
+      "freeDescription": "LocalSend는 무료로 사용할 수 있습니다. 광고, 추적기, 숨겨진 비용이 없습니다.",
+      "openSource": "오픈 소스",
+      "openSourceDescription": "소스 코드가 공개되어 있습니다. 누구나 프로젝트에 기여할 수 있습니다.",
+      "secure": "안전함",
+      "secureDescription": "종단간 암호화로 오직 사용자와 수신자만이 파일에 접근할 수 있습니다.",
+      "easy": "사용하기 쉬움",
+      "easyDescription": "가입이 필요없는 간단한 사용자 인터페이스. 다른 기기는 자동으로 감지됩니다."
+    },
+    "mentioned": "전 세계에서 주목받고 있습니다.",
+    "get": "LocalSend 시작하기"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - 다운로드",
+      "description": "Windows, macOS, Linux, Android, iOS용 LocalSend를 다운로드하세요."
+    },
+    "title": "다운로드",
+    "subTitle": "{os} 다운로드",
+    "appStores": "앱 스토어",
+    "appStoresDescription": "대부분의 사용자에게 권장됩니다.",
+    "binaries": "바이너리",
+    "binariesDescription": "오프라인 사용을 위한 다운로드.",
+    "packageManagers": "패키지 관리자",
+    "packageManagersDescription": "터미널로 설치하세요.",
+    "allReleases": "모든 릴리스",
+    "zip": "ZIP (portable)",
+    "copiedToClipboard": "클립보드에 복사되었습니다!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - 커뮤니티",
+      "description": "도움을 받고, 참여하고, LocalSend에 기여하세요."
+    },
+    "title": "커뮤니티",
+    "getHelp": "도움 받기",
+    "getHelpDescription": "GitHub Discussions에서 질문하거나 답변을 찾아보세요.",
+    "getInvolved": "참여하기",
+    "getInvolvedDescription": "개발자와 연락하고 프로젝트에 직접 기여하세요.",
+    "discord": "디스코드",
+    "issues": "이슈",
+    "pullRequests": "풀 리퀘스트"
+  },
+  "footer": {
+    "underlicense": "다음 라이선스에 따라 제공됩니다",
+    "mitlicense": "MIT 라이선스",
+    "github": "GitHub",
+    "discord": "디스코드",
+    "privacy": "개인정보 보호정책",
+    "terms": "이용 약관",
+    "imprint": "법적 고지",
+    "contact": "연락처"
+  },
+  "homepageButton": "홈페이지",
+  "improveWebsite": "이 웹사이트 개선하기"
+}

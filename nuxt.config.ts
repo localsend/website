@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-icon', '@nuxtjs/sitemap'],
-  devtools: {enabled: true},
+  devtools: { enabled: true },
   app: {
     pageTransition: {
       name: 'page',
@@ -82,8 +82,12 @@ export default defineNuxtConfig({
         iso: 'km-KH'
       },
       {
-      	code: 'mr',
-      	iso: 'mr-IN'
+        code: 'ko',
+        iso: 'ko-KR'
+      },
+      {
+        code: 'mr',
+        iso: 'mr-IN'
       },
       {
         code: 'pl',
