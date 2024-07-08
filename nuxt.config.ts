@@ -110,6 +110,10 @@ export default defineNuxtConfig({
         iso: 'th-TH'
       },
       {
+        code: 'te',
+        iso: 'te-IN'
+      },
+      {
         code: 'tr',
         iso: 'tr-TR'
       },

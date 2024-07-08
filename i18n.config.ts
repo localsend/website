@@ -22,6 +22,7 @@ import vi from './lang/vi.json'
 import zhCn from './lang/zh-CN.json'
 import zhHk from './lang/zh-HK.json'
 import zhTw from './lang/zh-TW.json'
+import te from './lang/te.json'
 
 export const localeMap: { [k: string]: string } = {
   'ar': 'العربية',
@@ -42,6 +43,7 @@ export const localeMap: { [k: string]: string } = {
   'pt-BR': 'Português - Brasil',
   'pt-PT': 'Português - Portugal',
   'th': 'ภาษาไทย',
+  'te': 'తెలుగు',
   'tr': 'Türkçe',
   'uk': 'Українська',
   'vi': 'Tiếng Việt',
@@ -73,6 +75,7 @@ export default defineI18nConfig(() => ({
     'pt-PT': ptPT,
     ru,
     th,
+    te,
     tr,
     uk,
     vi,
