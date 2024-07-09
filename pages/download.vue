@@ -136,9 +136,8 @@ const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id166173322
     <img alt="Download on the App Store" src="${new URL('~/assets/img/badges/apple-store-badge.svg', import.meta.url).href}" style="height: 64px">
 </a>`;
 
-const appleQr = `<a href="https://apps.apple.com/us/app/localsend/id1661733229">
-    <img alt="Download on the App Store" src="${new URL('~/assets/img/badges/localsend-appstore.png', import.meta.url).href}" style="height: 289px;">
-</a>`;
+const appleQr = `
+    <img alt="Download on the App Store" src="${new URL('~/assets/img/badges/localsend-appstore.png', import.meta.url).href}" style="height: 289px;">`;
 
 const nix = {
   name: 'Nix',
