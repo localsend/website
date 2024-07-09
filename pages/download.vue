@@ -24,6 +24,17 @@
           </div>
         </div>
 
+        <!-- QR Codes -->
+        <div class="col-span-12 md:col-span-4 bg-gray-100 p-4 rounded-lg"
+             v-if="downloadMetadata[selectedOS].qr.length !== 0">
+          <h3 class="text-xl font-bold">{{ t('download.qrCode') }}</h3>
+          <p>{{ t('download.scanToDownload') }}</p>
+          <div v-for="(qr, index) in downloadMetadata[selectedOS].qr" :key="index" class="mt-4 flex justify-center align-middle">
+            <div v-html="qr" class="inline-block"></div>
+          </div>
+        </div>
+
+
         <!-- Binaries -->
         <div class="col-span-12 md:col-span-4 bg-gray-100 p-4 rounded-lg"
              v-if="downloadMetadata[selectedOS].binaries.length !== 0">
@@ -118,10 +129,15 @@ interface Download {
   stores: string[];
   binaries: Binaries[];
   packageManagers: PackageManager[];
+  qr: string[];
 }
 
 const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id1661733229">
     <img alt="Download on the App Store" src="${new URL('~/assets/img/badges/apple-store-badge.svg', import.meta.url).href}" style="height: 64px">
+</a>`;
+
+const appleQr = `<a href="https://apps.apple.com/us/app/localsend/id1661733229">
+    <img alt="Download on the App Store" src="${new URL('~/assets/img/badges/localsend-appstore.png', import.meta.url).href}" style="height: 289px;">
 </a>`;
 
 const nix = {
@@ -166,6 +182,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
           ],
         },
       ],
+      qr:[]
     },
     [OS.macos]: {
       stores: [appleStore],
@@ -185,6 +202,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
         },
         nix,
       ],
+      qr:[]
     },
     [OS.linux]: {
       stores: [],
@@ -219,7 +237,8 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
           name: 'AUR',
           commands: ['yay -S localsend-bin'],
         },
-      ]
+      ],
+      qr: []
     },
     [OS.android]: {
       stores: [
@@ -243,11 +262,13 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
         }
       ],
       packageManagers: [],
+      qr: []
     },
     [OS.ios]: {
       stores: [appleStore],
       binaries: [],
       packageManagers: [],
+      qr: [appleQr],
     }
   };
 });
