@@ -7,6 +7,7 @@
 </template>
 
 <script setup lang="ts">
+import QRCode from 'qrcode.vue';
 import LanguageSwitcher from "~/components/LanguageSwitcher.vue";
 </script>
 

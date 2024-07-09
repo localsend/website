@@ -33,7 +33,8 @@
           <div class="flex overflow-x-auto space-x-4">
             <div v-for="(store, index) in downloadMetadata[selectedOS].qrs" :key="index"
               class="flex-none flex flex-col justify-center align-middle text-center">
-              <div v-html="store" class="inline-block"></div>
+              <p class="mb-4 bg-[#E5E7EB] p-2 rounded-md">{{ store.name }}</p>
+              <Qrcode :value="store.url" :size="289" :margin="4" level="M" />
             </div>
           </div>
         </div>
@@ -93,7 +94,7 @@
 
 <script setup lang="ts">
 
-
+import Qrcode from "qrcode.vue";
 import TextButton from "~/components/TextButton.vue";
 import SecondaryLayout from "~/components/layout/SecondaryLayout.vue";
 
@@ -131,12 +132,17 @@ interface Binaries {
   url: string;
 }
 
+interface QR {
+  name: string;
+  url:string;
+}
+
 
 interface Download {
   stores: string[];
   binaries: Binaries[];
   packageManagers: PackageManager[];
-  qrs: string[];
+  qrs: QR[];
 }
 
 const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id1661733229">
@@ -259,15 +265,9 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
         </a>`,
       ],
       qrs: [
-        ` <p class="mb-4 bg-[#E5E7EB] p-2 rounded-md">Playstore</p>
-          <img alt="Get it on F-Droid" src="${new URL('~/assets/img/badges/playStoreQR.svg', import.meta.url).href}" style="height: 289px">
-        `,
-        ` <p class="mb-4 bg-[#E5E7EB] p-2 rounded-md">FDroid</p>
-          <img alt="Get it on F-Droid" src="${new URL('~/assets/img/badges/fdroidQR.svg', import.meta.url).href}" style="height: 289px">
-        `,
-        ` <p class="mb-4 bg-[#E5E7EB] p-2 rounded-md">Amazon Store</p>
-          <img alt="Get it on F-Droid" src="${new URL('~/assets/img/badges/amazonStoreQR.svg', import.meta.url).href}" style="height: 289px">
-        `
+        { name: 'Playstore', url: 'https://play.google.com/store/apps/details?id=org.localsend.localsend_app' },
+        { name: 'F-Droid', url: 'https://f-droid.org/packages/org.localsend.localsend_app' },
+        { name: 'Amazon Store', url: 'https://www.amazon.com/dp/B0BW6MP732' }
       ],
       binaries: [
         {
