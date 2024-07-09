@@ -110,6 +110,10 @@ export default defineNuxtConfig({
         iso: 'th-TH'
       },
       {
+        code: 'ta',
+        iso: 'ta-IN'
+      },
+      {
         code: 'te',
         iso: 'te-IN'
       },
