@@ -17,6 +17,7 @@ import ptPT from './lang/pt-PT.json'
 import ru from './lang/ru.json'
 import th from './lang/th.json'
 import ta from './lang/ta.json'
+import ml from './lang/ml.json';
 import tr from './lang/tr.json'
 import uk from './lang/uk.json'
 import vi from './lang/vi.json'
@@ -24,6 +25,7 @@ import zhCn from './lang/zh-CN.json'
 import zhHk from './lang/zh-HK.json'
 import zhTw from './lang/zh-TW.json'
 import te from './lang/te.json'
+
 
 export const localeMap: { [k: string]: string } = {
   'ar': 'العربية',
@@ -45,6 +47,7 @@ export const localeMap: { [k: string]: string } = {
   'pt-PT': 'Português - Portugal',
   'th': 'ภาษาไทย',
   'ta': 'தமிழ்',
+ 'ml': 'മലയാളം',
   'te': 'తెలుగు',
   'tr': 'Türkçe',
   'uk': 'Українська',
