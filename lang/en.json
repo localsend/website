@@ -41,7 +41,9 @@
     "packageManagersDescription": "Install with terminal.",
     "allReleases": "All Releases",
     "zip": "ZIP (portable)",
-    "copiedToClipboard": "Copied to clipboard!"
+    "copiedToClipboard": "Copied to clipboard!",
+    "qrCode": "QR Code",
+    "scanToDownload": "Scan the below QR Code to download"
   },
   "community": {
     "seo": {

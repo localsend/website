@@ -10,12 +10,12 @@
     </template>
 
     <template v-slot:content>
-      <h3 class="text-center text-2xl">{{ t('download.subTitle', {'os': selectedOS}) }}</h3>
+      <h3 class="text-center text-2xl">{{ t('download.subTitle', { 'os': selectedOS }) }}</h3>
 
       <div v-if="selectedOS" class="mt-4 grid grid-cols-12 gap-4">
         <!-- App Stores -->
         <div class="col-span-12 md:col-span-4 bg-gray-100 p-4 rounded-lg"
-             v-if="downloadMetadata[selectedOS].stores.length !== 0">
+          v-if="downloadMetadata[selectedOS].stores.length !== 0">
           <h3 class="text-xl font-bold">{{ t('download.appStores') }}</h3>
           <p>{{ t('download.appStoresDescription') }}</p>
 
@@ -24,9 +24,24 @@
           </div>
         </div>
 
+        <!-- QR Codes -->
+        <div class="col-span-12 md:col-span-4 bg-gray-100 p-4 rounded-lg"
+          v-if="downloadMetadata[selectedOS].qrs.length !== 0">
+          <h3 class="text-xl font-bold">{{ t('download.qrCode') }}</h3>
+          <p class="mb-4">{{ t('download.scanToDownload') }}</p>
+
+          <div class="flex overflow-x-auto space-x-4">
+            <div v-for="(store, index) in downloadMetadata[selectedOS].qrs" :key="index"
+              class="flex-none flex flex-col justify-center align-middle text-center">
+              <div v-html="store" class="inline-block"></div>
+            </div>
+          </div>
+        </div>
+
+
         <!-- Binaries -->
         <div class="col-span-12 md:col-span-4 bg-gray-100 p-4 rounded-lg"
-             v-if="downloadMetadata[selectedOS].binaries.length !== 0">
+          v-if="downloadMetadata[selectedOS].binaries.length !== 0">
           <h3 class="text-xl font-bold">{{ t('download.binaries') }}</h3>
           <p class="mb-4">{{ t('download.binariesDescription') }}</p>
 
@@ -37,20 +52,20 @@
           </div>
 
           <TextButton href="https://github.com/localsend/localsend/releases" icon="material-symbols:history"
-                      class="mt-2">
+            class="mt-2">
             {{ t('download.allReleases') }}
           </TextButton>
         </div>
 
         <!-- Package Managers -->
         <div class="col-span-12 bg-gray-100 p-4 rounded-lg"
-             :class="downloadMetadata[selectedOS].stores.length !== 0 ? 'md:col-span-4' : 'md:col-span-8'"
-             v-if="downloadMetadata[selectedOS].packageManagers.length !== 0">
+          :class="downloadMetadata[selectedOS].stores.length !== 0 ? 'md:col-span-4' : 'md:col-span-8'"
+          v-if="downloadMetadata[selectedOS].packageManagers.length !== 0">
           <h3 class="text-xl font-bold">{{ t('download.packageManagers') }}</h3>
           <p>{{ t('download.packageManagersDescription') }}</p>
 
           <div v-for="packageManager in downloadMetadata[selectedOS].packageManagers" :key="packageManager.name"
-               class="mt-4">
+            class="mt-4">
             <b>{{ packageManager.name }}:</b>
             <div class="mt-2 bg-gray-200 p-2 rounded-lg text-sm">
               <code>
@@ -68,8 +83,8 @@
 
       <!-- Snackbar -->
       <div
-          class="absolute bottom-12 transform left-1/2 -translate-x-1/2 bg-teal-950 text-white px-4 py-2 rounded-lg transition-opacity"
-          :class="copyToClipboardSnackbar ? 'opacity-100' : 'hidden'">
+        class="absolute bottom-12 transform left-1/2 -translate-x-1/2 bg-teal-950 text-white px-4 py-2 rounded-lg transition-opacity"
+        :class="copyToClipboardSnackbar ? 'opacity-100' : 'hidden'">
         {{ t('download.copiedToClipboard') }}
       </div>
     </template>
@@ -77,6 +92,8 @@
 </template>
 
 <script setup lang="ts">
+
+
 import TextButton from "~/components/TextButton.vue";
 import SecondaryLayout from "~/components/layout/SecondaryLayout.vue";
 
@@ -85,7 +102,7 @@ definePageMeta({
   description: 'download.seo.description',
 })
 
-const {t} = useI18n()
+const { t } = useI18n()
 
 enum OS {
   windows = 'Windows',
@@ -114,10 +131,12 @@ interface Binaries {
   url: string;
 }
 
+
 interface Download {
   stores: string[];
   binaries: Binaries[];
   packageManagers: PackageManager[];
+  qrs: string[];
 }
 
 const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id1661733229">
@@ -139,6 +158,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
   return {
     [OS.windows]: {
       stores: [],
+      qrs: [],
       binaries: [
         {
           name: 'EXE',
@@ -169,6 +189,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
     },
     [OS.macos]: {
       stores: [appleStore],
+      qrs: [],
       binaries: [
         {
           name: 'DMG',
@@ -188,6 +209,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
     },
     [OS.linux]: {
       stores: [],
+      qrs: [],
       binaries: [
         {
           name: 'TAR',
@@ -236,6 +258,17 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
           <img alt="Get it on F-Droid" src="${new URL('~/assets/img/badges/amazon-store-badge.svg', import.meta.url).href}" style="height: 59px">
         </a>`,
       ],
+      qrs: [
+        ` <p class="mb-4 bg-[#E5E7EB] p-2 rounded-md">Playstore</p>
+          <img alt="Get it on F-Droid" src="${new URL('~/assets/img/badges/playStoreQR.svg', import.meta.url).href}" style="height: 289px">
+        `,
+        ` <p class="mb-4 bg-[#E5E7EB] p-2 rounded-md">FDroid</p>
+          <img alt="Get it on F-Droid" src="${new URL('~/assets/img/badges/fdroidQR.svg', import.meta.url).href}" style="height: 289px">
+        `,
+        ` <p class="mb-4 bg-[#E5E7EB] p-2 rounded-md">Amazon Store</p>
+          <img alt="Get it on F-Droid" src="${new URL('~/assets/img/badges/amazonStoreQR.svg', import.meta.url).href}" style="height: 289px">
+        `
+      ],
       binaries: [
         {
           name: 'APK',
@@ -246,6 +279,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
     },
     [OS.ios]: {
       stores: [appleStore],
+      qrs: [],
       binaries: [],
       packageManagers: [],
     }
