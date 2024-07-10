@@ -26,11 +26,11 @@
 
         <!-- QR Codes -->
         <div class="col-span-12 md:col-span-4 bg-gray-100 p-4 rounded-lg"
-             v-if="downloadMetadata[selectedOS].qr.length !== 0">
+             v-if="downloadMetadata[selectedOS].qrcode.length !== 0">
           <h3 class="text-xl font-bold">{{ t('download.qrCode') }}</h3>
           <p>{{ t('download.scanToDownload') }}</p>
-          <div v-for="(qr, index) in downloadMetadata[selectedOS].qr" :key="index" class="mt-4 flex justify-center align-middle">
-            <div v-html="qr" class="inline-block"></div>
+          <div v-for="(qrcode, index) in downloadMetadata[selectedOS].qrcode" :key="index" class="mt-4 flex justify-center align-middle">
+            <Qrcode :value="qrcode.url" :size="289"/>
           </div>
         </div>
 
@@ -90,6 +90,8 @@
 <script setup lang="ts">
 import TextButton from "~/components/TextButton.vue";
 import SecondaryLayout from "~/components/layout/SecondaryLayout.vue";
+import { ref } from 'vue';
+import Qrcode from 'qrcode.vue';
 
 definePageMeta({
   title: 'download.seo.title',
@@ -120,6 +122,10 @@ interface PackageManager {
   commands: string[];
 }
 
+interface QrCode{
+  url: string;
+}
+
 interface Binaries {
   name: string;
   url: string;
@@ -129,15 +135,14 @@ interface Download {
   stores: string[];
   binaries: Binaries[];
   packageManagers: PackageManager[];
-  qr: string[];
+  qrcode: QrCode[];
 }
 
 const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id1661733229">
     <img alt="Download on the App Store" src="${new URL('~/assets/img/badges/apple-store-badge.svg', import.meta.url).href}" style="height: 64px">
 </a>`;
 
-const appleQr = `
-    <img alt="Download on the App Store" src="${new URL('~/assets/img/badges/localsend-appstore.png', import.meta.url).href}" style="height: 289px;">`;
+
 
 const nix = {
   name: 'Nix',
@@ -181,7 +186,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
           ],
         },
       ],
-      qr:[]
+      qrcode:[]
     },
     [OS.macos]: {
       stores: [appleStore],
@@ -201,7 +206,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
         },
         nix,
       ],
-      qr:[]
+      qrcode:[]
     },
     [OS.linux]: {
       stores: [],
@@ -237,7 +242,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
           commands: ['yay -S localsend-bin'],
         },
       ],
-      qr: []
+      qrcode: [],
     },
     [OS.android]: {
       stores: [
@@ -261,13 +266,17 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
         }
       ],
       packageManagers: [],
-      qr: []
+      qrcode: []
     },
     [OS.ios]: {
       stores: [appleStore],
       binaries: [],
       packageManagers: [],
-      qr: [appleQr],
+      qrcode: [
+        {
+          url:' https://apps.apple.com/us/app/localsend/id1661733229'
+        }
+      ],
     }
   };
 });
