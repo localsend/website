@@ -120,7 +120,7 @@
       </InfiniteHorizontalScroll>
 
       <h2 class="text-center text-3xl font-bold mt-24">{{ t('home.get') }}</h2>
-      <div class="mt-8 mb-48 flex items-center justify-center gap-4">
+      <div class="mt-8 mb-36 flex items-center justify-center gap-4">
         <NuxtLink :to="localePath({ path: '/download' })">
           <AppButton icon="material-symbols:download" :dark="true">
             {{ t('home.download') }}

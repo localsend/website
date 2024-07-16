@@ -1,0 +1,73 @@
+{
+    "home": {
+      "seo": {
+        "title": "LocalSend: आस-पास के उपकरणों पर फ़ाइलें साझा करें",
+        "description": "LocalSend एक मुफ्त, ओपन-सोर्स, क्रॉस-प्लेटफ़ॉर्म फ़ाइल साझा करने का टूल है जो आपको आस-पास के उपकरणों पर फ़ाइलें साझा करने की अनुमति देता है।"
+      },
+      "slogan1": "आस-पास के उपकरणों पर फ़ाइलें साझा करें।",
+      "slogan2": "मुफ्त, ओपन-सोर्स, क्रॉस-प्लेटफ़ॉर्म।",
+      "download": "डाउनलोड",
+      "community": "समुदाय",
+      "features": {
+        "title": "विशेषताएँ",
+        "decentralized": "विकेंद्रीकृत",
+        "decentralizedDescription": "केंद्रीय सर्वर के बिना फ़ाइलें साझा करें। फ़ाइल स्थानांतरण पूरी तरह से पीयर-टू-पीयर होता है।",
+        "crossPlatform": "क्रॉस-प्लेटफ़ॉर्म",
+        "crossPlatformDescription": "LocalSend Windows, macOS, Linux, Android, और iOS के लिए उपलब्ध है।",
+        "free": "मुफ्त",
+        "freeDescription": "LocalSend का उपयोग मुफ्त है। कोई विज्ञापन नहीं, कोई ट्रैकिंग नहीं, कोई छुपी हुई लागत नहीं।",
+        "openSource": "ओपन-सोर्स",
+        "openSourceDescription": "स्रोत कोड सार्वजनिक रूप से उपलब्ध है। हर कोई परियोजना में योगदान कर सकता है।",
+        "secure": "सुरक्षित",
+        "secureDescription": "एंड-टू-एंड एन्क्रिप्शन सुनिश्चित करता है कि केवल आप और प्राप्तकर्ता आपकी फ़ाइलों को एक्सेस कर सकते हैं।",
+        "easy": "उपयोग में आसान",
+        "easyDescription": "पंजीकरण के बिना एक सरल उपयोगकर्ता इंटरफ़ेस। अन्य उपकरण स्वचालित रूप से खोजे जाते हैं।"
+      },
+      "mentioned": "दुनिया भर में उल्लेखित",
+      "get": "LocalSend प्राप्त करें"
+    },
+    "download": {
+      "seo": {
+        "title": "LocalSend - डाउनलोड",
+        "description": "Windows, macOS, Linux, Android, और iOS के लिए LocalSend डाउनलोड करें।"
+      },
+      "title": "डाउनलोड",
+      "subTitle": "{os} डाउनलोड",
+      "appStores": "ऐप स्टोर",
+      "appStoresDescription": "अधिकांश उपयोगकर्ताओं के लिए अनुशंसित।",
+      "binaries": "बाइनरीज़",
+      "binariesDescription": "ऑफ़लाइन उपयोग के लिए डाउनलोड करें।",
+      "packageManagers": "पैकेज प्रबंधक",
+      "packageManagersDescription": "टर्मिनल के साथ इंस्टॉल करें।",
+      "allReleases": "सभी रिलीज़",
+      "zip": "ZIP (पोर्टेबल)",
+      "copiedToClipboard": "क्लिपबोर्ड पर कॉपी किया गया!"
+    },
+    "community": {
+      "seo": {
+        "title": "LocalSend - समुदाय",
+        "description": "मदद प्राप्त करें, शामिल हों, और LocalSend में योगदान दें।"
+      },
+      "title": "समुदाय",
+      "getHelp": "मदद प्राप्त करें",
+      "getHelpDescription": "GitHub Discussions पर प्रश्न पूछें या उत्तर खोजें।",
+      "getInvolved": "शामिल हों",
+      "getInvolvedDescription": "डेवलपर्स से संपर्क करें और सीधे परियोजना में योगदान दें।",
+      "discord": "डिस्कॉर्ड",
+      "issues": "मुद्दे",
+      "pullRequests": "पुल अनुरोध"
+    },
+    "footer": {
+      "underlicense": "के तहत लाइसेंस प्राप्त",
+      "mitlicense": "MIT लाइसेंस",
+      "github": "GitHub",
+      "discord": "डिस्कॉर्ड",
+      "privacy": "गोपनीयता",
+      "terms": "नियम",
+      "imprint": "छाप",
+      "contact": "संपर्क"
+    },
+    "homepageButton": "मुखपृष्ठ",
+    "improveWebsite": "इस वेबसाइट को सुधारें"
+  }
+  

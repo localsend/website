@@ -1,17 +1,42 @@
 {
   "home": {
-    "slogan1": "近くのデバイスにファイルを共有",
+    "seo": {
+      "title": "LocalSend: 近くのデバイスとファイルを共有",
+      "description": "LocalSendは無料、オープンソース、クロスプラットフォーム対応のファイル共有ツールで、近くのデバイスとファイルを共有することができます。"
+    },
+    "slogan1": "近くのデバイスとファイルを共有",
     "slogan2": "無料、オープンソース、クロスプラットフォーム対応",
     "download": "ダウンロード",
-    "community": "コミュニティー"
+    "community": "コミュニティー",
+    "features": {
+      "title": "機能",
+      "decentralized": "分散型",
+      "decentralizedDescription": "中央サーバーを介さずファイルを共有できます。ファイルの転送は完全にピアツーピアです。",
+      "crossPlatform": "クロスプラットフォーム対応",
+      "crossPlatformDescription": "LocalSendはWindows、macOS、Linux、Android、iOSで利用できます。",
+      "free": "無料",
+      "freeDescription": "LocalSendは無料で利用できます。広告、トラッキング、隠れた費用もありません。",
+      "openSource": "オープンソース",
+      "openSourceDescription": "ソースコードは一般に公開されており、誰でもプロジェクトに貢献できます。",
+      "secure": "セキュア",
+      "secureDescription": "エンドツーエンドの暗号化により、あなたと受信者のみがファイルにアクセスできます。",
+      "easy": "簡単操作",
+      "easyDescription": "登録不要のシンプルなユーザーインターフェース。他のデバイスは自動的に検出されます。"
+    },
+    "mentioned": "世界中で紹介されています",
+    "get": "LocalSendを入手"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - ダウンロード",
+      "description": "Windows、macOS、Linux、Android、iOS用のLocalSendをダウンロードします。"
+    },
     "title": "ダウンロード",
-    "subTitle": "{os}向けにダウンロード",
+    "subTitle": "{os}用のダウンロード",
     "appStores": "アプリストア",
-    "appStoresDescription": "ほとんどのユーザーにおすすめです。",
+    "appStoresDescription": "ほとんどのユーザーにおすすめの方法です。",
     "binaries": "バイナリー",
-    "binariesDescription": "オフラインでも使用できるダウンロード方法です。",
+    "binariesDescription": "オフラインでの使用向けにダウンロードします。",
     "packageManagers": "パッケージマネージャー",
     "packageManagersDescription": "ターミナルからインストールします。",
     "allReleases": "すべてのリリース",
@@ -19,14 +44,29 @@
     "copiedToClipboard": "クリップボードにコピーしました！"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - コミュニティー",
+      "description": "LocalSendについて質問したり、プロジェクトに参加、貢献しましょう。"
+    },
     "title": "コミュニティー",
-    "getHelp": "助けを得る",
-    "getHelpDescription": "GitHubディスカッションで質問するか答えを検索できます。",
+    "getHelp": "質問する",
+    "getHelpDescription": "GitHubディスカッションで質問したり、回答を検索できます。",
     "getInvolved": "参加する",
-    "getInvolvedDescription": "開発者と連絡を取り、プロジェクトに直接貢献します。",
+    "getInvolvedDescription": "開発者と連絡を取ってプロジェクトに直接貢献します。",
     "discord": "Discord",
     "issues": "イシュー",
     "pullRequests": "プルリクエスト"
   },
-  "homepageButton": "ホームページ"
+  "footer": {
+    "underlicense": "ライセンス:",
+    "mitlicense": "MIT ライセンス",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "imprint": "法的情報",
+    "contact": "問い合わせ"
+  },
+  "homepageButton": "ホームページ",
+  "improveWebsite": "このウェブサイトを改善する"
 }

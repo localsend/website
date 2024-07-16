@@ -1,12 +1,38 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend：與附近的裝置分享檔案",
+      "description": "LocalSend 是一款免費、開源、跨平台的檔案分享工具，可讓您與附近的裝置分享檔案。"
+    },
     "slogan1": "將檔案分享至附近的裝置",
     "slogan2": "免費、開源、跨平台",
     "download": "下載",
-    "community": "社群"
+    "community": "社群",
+    "features": {
+      "title": "功能",
+      "decentralized": "分散式",
+      "decentralizedDescription": "無須中央伺服器即可分享檔案，檔案的傳輸完全「點對點」。",
+      "crossPlatform": "跨平台",
+      "crossPlatformDescription": "LocalSend 可在 Windows、macOS、Linux、Android 及 iOS 上使用。",
+      "free": "免費",
+      "freeDescription": "LocalSend 完全免費，並且沒有廣告、不會追蹤使用記錄、也沒有隱藏扣款。",
+      "openSource": "開源",
+      "openSourceDescription": "原始碼可公開存取，每個人都可參與到此專案。",
+      "secure": "安全",
+      "secureDescription": "端對端加密確保僅有您和接收者能存取您的檔案。",
+      "easy": "簡便易用",
+      "easyDescription": "簡易的使用者介面，無須註冊，可以自動偵測其他裝置。"
+    },
+    "mentioned": "享譽全球",
+    "get": "取得 LocalSend"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - 下載",
+      "description": "下載 LocalSend，適用於 Windows、macOS、Linux、Android 及 iOS。"
+    },
     "title": "下載",
+    "subTitle": "{os} 下載",
     "appStores": "App Store",
     "appStoresDescription": "建議大多數使用者使用這個選項",
     "binaries": "二進位檔案",
@@ -14,9 +40,14 @@
     "packageManagers": "套件管理員",
     "packageManagersDescription": "使用終端機安裝",
     "allReleases": "所有版本",
-    "zip": "ZIP (可攜式)"
+    "zip": "ZIP (可攜式)",
+    "copiedToClipboard": "已複製到剪貼簿！"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - 社群",
+      "description": "取得說明、參與其中、並為 LocalSend 的開發作出貢獻。"
+    },
     "title": "社群",
     "getHelp": "取得說明",
     "getHelpDescription": "在 Github 討論區提問或尋找答案",
@@ -26,5 +57,16 @@
     "issues": "問題",
     "pullRequests": "提取要求"
   },
-  "homepageButton": "首頁"
+  "footer": {
+    "underlicense": "本專案依據",
+    "mitlicense": "MIT 授權條款授權",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "隱私權",
+    "terms": "條款",
+    "imprint": "法律聲明",
+    "contact": "聯絡方式"
+  },
+  "homepageButton": "首頁",
+  "improveWebsite": "改善這個網站"
 }
