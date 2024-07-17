@@ -87,6 +87,6 @@ export default defineI18nConfig(() => ({
     'zh-CN': zhCn,
     'zh-HK': zhHk,
     'zh-TW': zhTw,
-    'mal-IN' : ml,
+    'mal-IN' : mal,
   }
 }))
