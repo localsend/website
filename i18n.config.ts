@@ -24,6 +24,7 @@ import zhCn from './lang/zh-CN.json'
 import zhHk from './lang/zh-HK.json'
 import zhTw from './lang/zh-TW.json'
 import te from './lang/te.json'
+import mal from './lang/mal-IN.json'
 
 export const localeMap: { [k: string]: string } = {
   'ar': 'العربية',
@@ -52,6 +53,7 @@ export const localeMap: { [k: string]: string } = {
   'zh-CN': '简体中文',
   'zh-TW': '繁體中文 – 台灣',
   'zh-HK': '繁體中文 – 香港',
+  'mal-IN' : 'മലയാളം',
 };
 
 export default defineI18nConfig(() => ({
@@ -85,5 +87,6 @@ export default defineI18nConfig(() => ({
     'zh-CN': zhCn,
     'zh-HK': zhHk,
     'zh-TW': zhTw,
+    'mal-IN' : mal,
   }
 }))
