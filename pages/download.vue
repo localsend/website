@@ -264,10 +264,14 @@ onMounted(async () => {
   selectedOS.value = detectOS();
 
   const assetsMetadata = await requestGithubAssets();
-  assetsMap.value = assetsMetadata.reduce<{ [key: string]: string }>((acc, obj) => {
-    const key = obj.name.split(".").pop();
+  assetsMap.value = assetsMetadata.reduce<{ [key: string]: string }>((acc, asset) => {
+    const key = asset.name.split(".").pop();
     if (key) {
-      acc[key] = obj.browser_download_url;
+      if (key === 'apk' && !asset.name.includes('arm64v8')) {
+        // Skip APKs that are not for arm64v8 architecture
+        return acc;
+      }
+      acc[key] = asset.browser_download_url;
     }
     return acc;
   }, {});
