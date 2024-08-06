@@ -1,11 +1,36 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend: שיתוף קבצים למכשירים בקרבת מקום",
+      "description": "LocalSend הוא כלי חינמי, קוד פתוח וחוצה פלטפורמות לשיתוף קבצים המאפשר לך לשתף קבצים למכשירים בקרבת מקום."
+    },
     "slogan1": "שיתוף קבצים למכשירים בקרבת מקום.",
     "slogan2": "חינמי, קוד פתוח, וחוצה פלטפורמות.",
     "download": "הורדה",
-    "community": "קהילה"
+    "community": "קהילה",
+    "features": {
+      "title": "תכונות",
+      "decentralized": "מבוזר",
+      "decentralizedDescription": "שיתוף קבצים ללא שרת מרכזי. העברת הקבצים היא לחלוטין עמית-לעמית.",
+      "crossPlatform": "חוצה פלטפורמות",
+      "crossPlatformDescription": "LocalSend זמין עבור Windows, macOS, Linux, Android, ו-iOS.",
+      "free": "חינמי",
+      "freeDescription": "LocalSend הוא חינמי לשימוש. ללא פרסומות, ללא מעקב, ללא עלויות נסתרות.",
+      "openSource": "קוד פתוח",
+      "openSourceDescription": "קוד המקור זמין לציבור. כל אחד יכול לתרום לפרויקט.",
+      "secure": "מאובטח",
+      "secureDescription": "הצפנה מקצה לקצה מבטיחה שרק אתה והנמען יכולים לגשת לקבצים שלך.",
+      "easy": "קל לשימוש",
+      "easyDescription": "ממשק משתמש פשוט ללא הרשמה. מכשירים אחרים מתגלים אוטומטית."
+    },
+    "mentioned": "הוזכר ברחבי העולם",
+    "get": "קבל את LocalSend"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - הורדות",
+      "description": "הורד את LocalSend עבור Windows, macOS, Linux, Android, ו-iOS."
+    },
     "title": "הורדות",
     "subTitle": "הורדה עבור {os}",
     "appStores": "חנויות אפליקציות",
@@ -19,6 +44,10 @@
     "copiedToClipboard": "הועתק ללוח!"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - קהילה",
+      "description": "קבל עזרה, השתתף ותרום ל-LocalSend."
+    },
     "title": "קהילה",
     "getHelp": "קבל עזרה",
     "getHelpDescription": "שאל או חפש תשובות ב-Github Discussions.",
@@ -35,7 +64,9 @@
     "discord": "דיסקורד",
     "privacy": "מדיניות פרטיות",
     "terms": "תנאים",
+    "imprint": "חותמת",
     "contact": "צור קשר"
   },
-  "homepageButton": "דף הבית"
+  "homepageButton": "דף הבית",
+  "improveWebsite": "שפר אתר זה"
 }
