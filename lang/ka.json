@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: ಸಮೀಪದ ಸಾಧನಗಳಿಗೆ ಕಡತಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ",
+      "description": "LocalSend ಒಂದು ಉಚಿತ, ಮುಕ್ತ-ಆದಾಯ, ಅತಿರೇಕದ ಕಡತ ಹಂಚಿಕೆಯ ಸಾಧನವಾಗಿದೆ, ಇದು ನಿಮಗೆ ಸಮೀಪದ ಸಾಧನಗಳಿಗೆ ಕಡತಗಳನ್ನು ಹಂಚಲು ಅನುಮತಿಸುತ್ತದೆ."
+    },
+    "slogan1": "ಸಮೀಪದ ಸಾಧನಗಳಿಗೆ ಕಡತಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ.",
+    "slogan2": "ಉಚಿತ, ಮುಕ್ತ-ಆದಾಯ, ಅತಿರೇಕದ.",
+    "download": "ಡೌನ್‌ಲೋಡ್",
+    "community": "ಸಮುದಾಯ",
+    "features": {
+      "title": "ಸಮರ್ಥನೆಗಳು",
+      "decentralized": "ವಿಕೇಂದ್ರಿತ",
+      "decentralizedDescription": "ಮಧ್ಯಮ ಸರವಿಲ್ಲದೆ ಕಡತಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ. ಕಡತ ಹಸ್ತಾಂತರ ಸಂಪೂರ್ಣವಾಗಿ ಪೀರ್-ಟು-ಪೀರ್.",
+      "crossPlatform": "ಅತಿರೇಕ",
+      "crossPlatformDescription": "LocalSend ವಿಂಡೋಸ್, ಮ್ಯಾಕ್‌ಒಎಸ್, ಲಿನಕ್ಸ್, ಆಂಡ್ರಾಯ್ಡ್, ಮತ್ತು iOS ಗಾಗಿ ಲಭ್ಯವಿದೆ.",
+      "free": "ಉಚಿತ",
+      "freeDescription": "LocalSend ಬಳಸಲು ಉಚಿತ. ಯಾವುದೇ ಜಾಹಿರಾತುಗಳು, ಯಾವುದೇ ಹಿಂಬಾಲಿಕೆ, ಯಾವುದೇ ಮರೆಮಾಚಿದ ವೆಚ್ಚಗಳು ಇಲ್ಲ.",
+      "openSource": "ಮುಕ್ತ-ಆದಾಯ",
+      "openSourceDescription": "ಮೂಲ ಕೋಡ್ ಸಾರ್ವಜನಿಕವಾಗಿ ಲಭ್ಯವಿದೆ. ಪ್ರತಿ ಒಬ್ಬರೂ ಯೋಜನೆಗೆ ಕೊಡುಗೆ ನೀಡಬಹುದು.",
+      "secure": "ಸುರಕ್ಷಿತ",
+      "secureDescription": "ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಷನ್ ಖಚಿತಪಡಿಸುತ್ತದೆ ಕಡತಗಳನ್ನು ನೀವು ಮತ್ತು ಸ್ವೀಕರಿಸುವವರು ಮಾತ್ರ ಪ್ರವೇಶಿಸಬಲ್ಲರು.",
+      "easy": "ಬಳಸಲು ಸುಲಭ",
+      "easyDescription": "ನೋಂದಣೆಯಿಲ್ಲದೆ ಸರಳ ಬಳಕೆದಾರ ಇಂಟರ್ಫೇಸ್. ಇತರ ಸಾಧನಗಳು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಹಚ್ಚಲ್ಪಡುತ್ತವೆ."
+    },
+    "mentioned": "ವಿಶ್ವಾದ್ಯಂತ ಉಲ್ಲೇಖಿಸಲಾಗಿದೆ",
+    "get": "LocalSend ಪಡೆಯಿರಿ"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - ಡೌನ್‌ಲೋಡ್ಗಳು",
+      "description": "LocalSend ವಿಂಡೋಸ್, ಮ್ಯಾಕ್‌ಒಎಸ್, ಲಿನಕ್ಸ್, ಆಂಡ್ರಾಯ್ಡ್, ಮತ್ತು iOS ಗಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
+    },
+    "title": "ಡೌನ್‌ಲೋಡ್ಗಳು",
+    "subTitle": "{os} ಡೌನ್‌ಲೋಡ್ಗಳು",
+    "appStores": "ಅಪ್ ಸ್ಟೋರ್ಸ್",
+    "appStoresDescription": "ಬಹುತೇಕ ಬಳಕೆದಾರರಿಗೆ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ.",
+    "binaries": "ಬೈನರಿಗಳು",
+    "binariesDescription": "ಆಫ್‌ಲೈನ್ ಬಳಕೆಗಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.",
+    "packageManagers": "ಪ್ಯಾಕೇಜ್ ನಿರ್ವಹಣೆಗಳು",
+    "packageManagersDescription": "ಟೆರ್ಮಿನಲ್ ಮೂಲಕ ಸ್ಥಾಪನೆ ಮಾಡಿ.",
+    "allReleases": "ಎಲ್ಲಾ ಬಿಡುಗಡೆಗಳು",
+    "zip": "ZIP (ಪೊರ್ಟಬಲ್)",
+    "copiedToClipboard": "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - ಸಮುದಾಯ",
+      "description": "LocalSend ಗೆ ಸಹಾಯ ಪಡೆಯಿರಿ, ಭಾಗವಹಿಸಿ, ಮತ್ತು ಕೊಡುಗೆ ನೀಡಿ."
+    },
+    "title": "ಸಮುದಾಯ",
+    "getHelp": "ಸಹಾಯ ಪಡೆಯಿರಿ",
+    "getHelpDescription": "GitHub ಚರ್ಚೆಗಳಲ್ಲಿ ಪ್ರಶ್ನೆ ಅಥವಾ ಉತ್ತರಗಳನ್ನು ಹುಡುಕಿ.",
+    "getInvolved": "ಭಾಗವಹಿಸಿ",
+    "getInvolvedDescription": "ವಿಕಸಕರೊಂದಿಗೆ ಸಂಪರ್ಕಕ್ಕೆ ಬರಲಿ ಮತ್ತು ಯೋಜನೆಗೆ ನೇರವಾಗಿ ಕೊಡುಗೆ ನೀಡಿ.",
+    "discord": "Discord",
+    "issues": "ಸಮಸ್ಯೆಗಳು",
+    "pullRequests": "ಪುಲ್ ವಿನಂತಿಗಳು"
+  },
+  "footer": {
+    "underlicense": "ಅಡಿಯಲ್ಲಿ ಪರವಾನಗಿ ಹೊಂದಿರುತ್ತದೆ",
+    "mitlicense": "MIT ಪರವಾನಗಿ",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "ಗೋಪ್ಯತೆ",
+    "terms": "ನಿಯಮಗಳು",
+    "imprint": "ಮುದ್ರಣ",
+    "contact": "ಸಂಪರ್ಕಗಳು"
+  },
+  "homepageButton": "ಮುಖ್ಯ ಪುಟ",
+  "improveWebsite": "ಈ ವೆಬ್‌ಸೈಟ್ ಸುಧಾರಿಸಿ"
+}
