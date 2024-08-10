@@ -150,6 +150,10 @@ export default defineNuxtConfig({
         code: 'mal-IN',
         iso: 'mal-IN',
       },
+      {
+        code: 'fil',
+        iso: 'fil-PH',
+      }
     ],
   },
   nitro: {
