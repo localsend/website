@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Μοιραστείτε αρχεία με κοντινές συσκευές",
+      "description": "Το LocalSend είναι ένα δωρεάν, ανοικτού κώδικα, cross-platform εργαλείο διαμοιρασμού που επιτρέπει να μοιράζεστε αρχεία με κοντινές συσκευές."
+    },
+    "slogan1": "Μοιραστείτε αρχεία με κοντινές συσκευέςShare files to nearby devices.",
+    "slogan2": "Δωρεάν, ανοικτού κώδικα, cross-platform.",
+    "download": "Κατεβάστε",
+    "community": "Κοινότητα",
+    "features": {
+      "title": "Χαρακτηριστικά",
+      "decentralized": "Αποκεντρωμένο",
+      "decentralizedDescription": "Μοιραστείτε αρχεία χωρίς ένα κεντρικό server. Η μεταφορά των αρχείων είναι πλήρως peer-to-peer.",
+      "crossPlatform": "Cross-platform",
+      "crossPlatformDescription": "Το LocalSend είναι διαθέσιμο για Windows, macOS, Linux, Android, και iOS.",
+      "free": "Δωρεάν",
+      "freeDescription": "Το LocalSend είναι δωρεάν. Όχι διαφημίσεις, όχι παρακολούθηση, όχι κρυφά κόστη.",
+      "openSource": "Ανοικτού κώδικα",
+      "openSourceDescription": "Ο κώδικας είναι δημοσίως διαθέσιμος. Ο καθένας μπορεί να συνεισφέρει στο έργο.",
+      "secure": "Ασφαλές",
+      "secureDescription": "End-to-end κρυπτογράφηση εξασφαλίζει ότι μόνο εσείς και ο παραλήπτης μπορεί να έχει πρόσβαση στα αρχεία σας.",
+      "easy": "Εύκολο στη χρήση",
+      "easyDescription": "Μία απλή διεπαφή χρήστη χωρίς εγγραφή. Οι άλλες συσκευές εντοπίζονται αυτόματα."
+    },
+    "mentioned": "Αναφορές ανά την υφήλιο",
+    "get": "Πάρτε το LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Λήψεις",
+      "description": "Κατεβάστε το LocalSend για Windows, macOS, Linux, Android, και iOS."
+    },
+    "title": "Λήψεις",
+    "subTitle": "{os} Λήψεις",
+    "appStores": "App Stores",
+    "appStoresDescription": "Προτείνεται για την πλειοψηφία των χρηστών.",
+    "binaries": "Binaries",
+    "binariesDescription": "Κατεβάστε για χρήση offline.",
+    "packageManagers": "Package Managers",
+    "packageManagersDescription": "Κατεβάστε για το τερματικό.",
+    "allReleases": "Όλες οι εκδόσεις",
+    "zip": "ZIP (Φορητό)",
+    "copiedToClipboard": "Αντιγράφηκε στο clipboard!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Κοινότητα",
+      "description": "Βρείτε βοήθεια, συμμετάσχετε, και συνεισφέρετε στο LocalSend."
+    },
+    "title": "Κοινότητα",
+    "getHelp": "Βρείτε βοήθεια",
+    "getHelpDescription": "Ρωτήστε ή βρείτε απαντήσεις στο GitHub Discussions.",
+    "getInvolved": "Συμμετάσχετε",
+    "getInvolvedDescription": "Ελάτε σε επαφή με τους προγραμματιστές και συνεισφέρετε άμεσα στο έργο.",
+    "discord": "Discord",
+    "issues": "Προβλήματα",
+    "pullRequests": "Αιτήματα για αλλαγές"
+  },
+  "footer": {
+    "underlicense": "Αδειοδοτήθηκε από",
+    "mitlicense": "MIT License",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Απόρρητο",
+    "terms": "Όροι και προϋποθέσεις",
+    "imprint": "Imprint",
+    "contact": "Επικοινωνία"
+  },
+  "homepageButton": "Αρχική",
+  "improveWebsite": "Βελτιώστε αυτή την ιστοσελίδα"
+}
