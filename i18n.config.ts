@@ -43,7 +43,7 @@ export const localeMap: { [k: string]: string } = {
   'he': 'עברית',
   'hi': 'हिन्दी',
   'ja': '日本語',
-  'ka': 'ಕನ್ನಡ'
+  'ka': 'ಕನ್ನಡ',
   'km': 'ភាសាខ្មែរ',
   'ko': '한국어',
   'mal-IN' : 'മലയാളം',
