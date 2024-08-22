@@ -3,13 +3,16 @@ import cs from './lang/cs.json'
 import de from './lang/de.json'
 import en from './lang/en.json'
 import es from './lang/es.json'
+import fil from './lang/fil.json'
 import fr from './lang/fr.json'
 import he from './lang/he.json'
 import hi from './lang/hi.json'
 import it from './lang/it.json'
 import ja from './lang/ja.json'
+import ka from './lang/ka.json'
 import km from './lang/km.json'
 import ko from './lang/ko.json'
+import mal from './lang/mal-IN.json'
 import mr from './lang/mr.json'
 import pl from './lang/pl.json'
 import ptBr from './lang/pt-BR.json'
@@ -18,15 +21,13 @@ import ru from './lang/ru.json'
 import sr from './lang/sr.json'
 import th from './lang/th.json'
 import ta from './lang/ta.json'
+import te from './lang/te.json'
 import tr from './lang/tr.json'
 import uk from './lang/uk.json'
 import vi from './lang/vi.json'
 import zhCn from './lang/zh-CN.json'
 import zhHk from './lang/zh-HK.json'
 import zhTw from './lang/zh-TW.json'
-import te from './lang/te.json'
-import mal from './lang/mal-IN.json'
-import fil from './lang/fil.json'
 
 export const localeMap: { [k: string]: string } = {
   'ar': 'العربية',
@@ -34,13 +35,16 @@ export const localeMap: { [k: string]: string } = {
   'de': 'Deutsch',
   'en': 'English',
   'es': 'Español',
+  'fil': 'Filipino',
   'fr': 'Français',
   'it': 'Italiano',
   'he': 'עברית',
   'hi': 'हिन्दी',
   'ja': '日本語',
+  'ka': 'ಕನ್ನಡ'
   'km': 'ភាសាខ្មែរ',
   'ko': '한국어',
+  'mal-IN' : 'മലയാളം',
   'mr': 'मराठी',
   'ru': 'Русский',
   'sr': 'Srpski',
@@ -56,8 +60,6 @@ export const localeMap: { [k: string]: string } = {
   'zh-CN': '简体中文',
   'zh-TW': '繁體中文 – 台灣',
   'zh-HK': '繁體中文 – 香港',
-  'mal-IN' : 'മലയാളം',
-  'fil': 'Filipino',
 };
 
 export default defineI18nConfig(() => ({
@@ -70,13 +72,16 @@ export default defineI18nConfig(() => ({
     de,
     en,
     es,
+    'fil': fil,
     fr,
     he,
     hi,
     it,
     ja,
+    ka,
     km,
     ko,
+    'mal-IN' : mal,
     mr,
     pl,
     'pt-BR': ptBr,
@@ -92,7 +97,5 @@ export default defineI18nConfig(() => ({
     'zh-CN': zhCn,
     'zh-HK': zhHk,
     'zh-TW': zhTw,
-    'mal-IN' : mal,
-    'fil': fil,
   }
 }))
