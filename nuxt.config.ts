@@ -49,6 +49,10 @@ export default defineNuxtConfig({
         iso: 'de-DE'
       },
       {
+        code: 'el',
+        iso: 'el-GR'
+      },
+      {
         code: 'en',
         iso: 'en-US',
         isCatchallLocale: true

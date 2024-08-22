@@ -1,6 +1,7 @@
 import ar from './lang/ar.json'
 import cs from './lang/cs.json'
 import de from './lang/de.json'
+import el from './lang/el.json'
 import en from './lang/en.json'
 import es from './lang/es.json'
 import fil from './lang/fil.json'
@@ -33,6 +34,7 @@ export const localeMap: { [k: string]: string } = {
   'ar': 'العربية',
   'cs': 'Čeština',
   'de': 'Deutsch',
+  'el': 'Ελληνικά',
   'en': 'English',
   'es': 'Español',
   'fil': 'Filipino',
@@ -70,6 +72,7 @@ export default defineI18nConfig(() => ({
     ar,
     cs,
     de,
+    el,
     en,
     es,
     'fil': fil,
