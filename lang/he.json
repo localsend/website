@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "משוחרר תחת",
-    "mitlicense": "רישיון MIT",
+    "license": "רישיון Apache 2.0",
     "github": "GitHub",
     "discord": "דיסקורד",
     "privacy": "מדיניות פרטיות",

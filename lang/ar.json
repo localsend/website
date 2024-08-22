@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "مرخصة بموجب",
-    "mitlicense": "رخصة MIT",
+    "license": "رخصة Apache 2.0",
     "github": "Github",
     "discord": "Discord",
     "privacy": "الخصوصيّة",

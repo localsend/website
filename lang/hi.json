@@ -59,7 +59,7 @@
     },
     "footer": {
       "underlicense": "के तहत लाइसेंस प्राप्त",
-      "mitlicense": "MIT लाइसेंस",
+      "license": "Apache 2.0 लाइसेंस",
       "github": "GitHub",
       "discord": "डिस्कॉर्ड",
       "privacy": "गोपनीयता",

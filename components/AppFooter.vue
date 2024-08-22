@@ -3,9 +3,9 @@
     <p>
       {{ t('footer.underlicense') }}
       <a
-          href="https://opensource.org/licenses/MIT"
+          href="https://www.apache.org/licenses/LICENSE-2.0"
           class="text-decoration-none text-teal-600"
-          target="_blank">{{ $t('footer.mitlicense') }}</a>
+          target="_blank">{{ $t('footer.license') }}</a>
     </p>
     <p>
       &copy; 2022 - {{ year }} Tien Do Nam

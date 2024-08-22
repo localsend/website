@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "다음 라이선스에 따라 제공됩니다",
-    "mitlicense": "MIT 라이선스",
+    "license": "Apache 2.0 라이선스",
     "github": "GitHub",
     "discord": "디스코드",
     "privacy": "개인정보 보호정책",

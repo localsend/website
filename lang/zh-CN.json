@@ -58,7 +58,7 @@
   },
   "footer": {
     "underlicense": "根据",
-    "mitlicense": "MIT许可证",
+    "license": "Apache 2.0许可证",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "隐私",

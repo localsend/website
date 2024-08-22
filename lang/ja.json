@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "ライセンス:",
-    "mitlicense": "MIT ライセンス",
+    "license": "Apache 2.0 ライセンス",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "プライバシー",

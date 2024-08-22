@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "ស្ថិតនៅក្រោមអញ្ញាប័ណ្ណនៃ",
-    "mitlicense": "អញ្ញាប័ណ្ណ MIT",
+    "license": "អញ្ញាប័ណ្ណ Apache 2.0",
     "github": "Github",
     "discord": "Discord",
     "privacy": "ឯកជនភាព",

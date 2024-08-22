@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "Licencirano pod",
-    "mitlicense": "MIT Dozvolom",
+    "license": "Apache 2.0 Dozvolom",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "Privacy",

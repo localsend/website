@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "Ліцензовано згідно",
-    "mitlicense": "Ліцензії MIT",
+    "license": "Ліцензії Apache 2.0",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "Конфіденційність",

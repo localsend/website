@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "Αδειοδοτήθηκε από",
-    "mitlicense": "MIT License",
+    "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "Απόρρητο",

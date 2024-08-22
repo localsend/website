@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "ಅಡಿಯಲ್ಲಿ ಪರವಾನಗಿ ಹೊಂದಿರುತ್ತದೆ",
-    "mitlicense": "MIT ಪರವಾನಗಿ",
+    "license": "Apache 2.0 ಪರವಾನಗಿ",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "ಗೋಪ್ಯತೆ",

@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "Được cấp phép dưới",
-    "mitlicense": "Giấy phép MIT",
+    "license": "Giấy phép Apache 2.0",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "Quyền riêng tư",

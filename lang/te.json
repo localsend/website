@@ -59,7 +59,7 @@
     },
     "footer": {
       "underlicense": "కింద లైసెన్స్ పొందింది",
-      "mitlicense": "MIT లైసెన్స్",
+      "license": "Apache 2.0 లైసెన్స్",
       "github": "గీతుబ్",
       "discord": "డిస్కోర్డ్",
       "privacy": "ప్రైవసీ",

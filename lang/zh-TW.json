@@ -59,7 +59,7 @@
   },
   "footer": {
     "underlicense": "本專案依據",
-    "mitlicense": "MIT 授權條款授權",
+    "license": "Apache 2.0 授權條款授權",
     "github": "GitHub",
     "discord": "Discord",
     "privacy": "隱私權",
