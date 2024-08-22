@@ -58,12 +58,17 @@ export default defineNuxtConfig({
         iso: 'es-ES'
       },
       {
+        code: 'fil',
+        iso: 'fil-PH',
+      },
+      {
         code: 'fr',
         iso: 'fr-FR'
       },
       {
         code: 'he',
-        iso: 'he-IL'
+        iso: 'he-IL',
+        dir: 'rtl'
       },
       {
         code: 'hi',
@@ -78,12 +83,20 @@ export default defineNuxtConfig({
         iso: 'ja-JP'
       },
       {
+        code: 'ka',
+        iso: 'ka-IN',
+      },
+      {
         code: 'km',
         iso: 'km-KH'
       },
       {
         code: 'ko',
         iso: 'ko-KR'
+      },
+      {
+        code: 'mal-IN',
+        iso: 'mal-IN',
       },
       {
         code: 'mr',
@@ -104,6 +117,10 @@ export default defineNuxtConfig({
       {
         code: 'ru',
         iso: 'ru-RU'
+      },
+      {
+        code: 'sr',
+        iso: 'sr-RS'
       },
       {
         code: 'th',
@@ -140,14 +157,6 @@ export default defineNuxtConfig({
       {
         code: 'zh-TW',
         iso: 'zh-TW',
-      },
-      {
-        code: 'mal-IN',
-        iso: 'mal-IN',
-      },
-       {
-        code: 'ka',
-        iso: 'ka-IN',
       },
     ],
   },

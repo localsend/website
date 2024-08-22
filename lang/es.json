@@ -1,11 +1,36 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend: Comparte archivos a dispotivos cercanos",
+      "description": "LocalSend es una herramienta gratis, de código abierto y multiplataforma para compartir archivos a dispositivos cercanos"
+    },
     "slogan1": "Comparte archivos a dispositivos cercanos.",
     "slogan2": "Gratis, código abierto, multiplataforma.",
     "download": "Descargar",
-    "community": "Comunidad"
+    "community": "Comunidad",
+    "features": {
+      "title": "Características",
+      "decentralized": "Descentralizado",
+      "decentralizedDescription": "Comparte archivos sin un servidor central. La transferencia de archivos es completamente de igual a igual.",
+      "crossPlatform": "Multiplataforma",
+      "crossPlatformDescription": "LocalSend está disponible para Windows, macOS, Linux, Android, e iOS.",
+      "free": "Gratis",
+      "freeDescription": "LocalSend es gratuito. Sin anuncios, sin rastreo, sin costes ocultos.",
+      "openSource": "Código abierto",
+      "openSourceDescription": "El código fuente esta disponible públicamente. Todo el mundo puede contribuir al proyecto.",
+      "secure": "Seguro",
+      "secureDescription": "La encriptación de extremo a extemo asegura que solo tu y el destinatario podais acceder a los archivos.",
+      "easy": "Facil de Usar",
+      "easyDescription": "Una interfaz de usuario simple y sin registro. Otros dispositivos se descubren automáticamente."
+    },
+    "mentioned": "Mencionado alrededor del mundo",
+    "get": "Obtén LocalSend"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - Descargas",
+      "description": "Descarga LocalSend para Windows, macOS, Linux, Android, e iOS."
+    },
     "title": "Descargas",
     "subTitle": "Descargas para {os}",
     "appStores": "Tiendas de aplicaciones",
@@ -19,14 +44,29 @@
     "copiedToClipboard": "¡Copiado al portapapeles!"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - Comunidad",
+      "description": "Obtén ayuda, participa, y contribuye a LocalSend."
+    },
     "title": "Comunidad",
     "getHelp": "Obtén ayuda",
     "getHelpDescription": "Pregunta o busca respuestas en GitHub Discussions.",
     "getInvolved": "Participa",
     "getInvolvedDescription": "Ponte en contacto con los desarrolladores y contribuye directamente al proyecto.",
     "discord": "Discord",
-    "issues": "Propuestas",
+    "issues": "Problemas",
     "pullRequests": "Solicitudes de cambios"
   },
-  "homepageButton": "Inicio"
+  "footer": {
+    "underlicense": "Licenciado bajo la",
+    "mitlicense": "Licencia MIT",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "imprint": "Impreso",
+    "contact": "Contactos"
+  },
+  "homepageButton": "Inicio",
+  "improveWebsite": "Mejora esta página web"
 }
