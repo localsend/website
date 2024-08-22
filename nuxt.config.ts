@@ -63,7 +63,8 @@ export default defineNuxtConfig({
       },
       {
         code: 'he',
-        iso: 'he-IL'
+        iso: 'he-IL',
+        dir: 'rtl'
       },
       {
         code: 'hi',
@@ -106,6 +107,10 @@ export default defineNuxtConfig({
         iso: 'ru-RU'
       },
       {
+        code: 'sr',
+        iso: 'sr-RS'
+      },
+      {
         code: 'th',
         iso: 'th-TH'
       },
@@ -145,6 +150,10 @@ export default defineNuxtConfig({
         code: 'mal-IN',
         iso: 'mal-IN',
       },
+      {
+        code: 'fil',
+        iso: 'fil-PH',
+      }
     ],
   },
   nitro: {

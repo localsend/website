@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Deli fajlove sa lokalnim uredjajima",
+      "description": "LocalSend je slobodan, open-source, cross-platform program za deljenje fajlova koji vam omogućava da delite fajlove sa lokalnim uredjajima."
+    },
+    "slogan1": "Deli fajlove sa lokalnim uredjajima.",
+    "slogan2": "Slobodan program, otvorenog koda, više platformi.",
+    "download": "Preuzmi",
+    "community": "Zajednica",
+    "features": {
+      "title": "Odlike",
+      "decentralized": "Decentralizovan",
+      "decentralizedDescription": "Deli fajlove bez centralnog servera. Razmena fajlova je totalno peer-to-peer.",
+      "crossPlatform": "Na više platformi",
+      "crossPlatformDescription": "LocalSend je dostupan za Windows, macOS, Linux, Android, iOS.",
+      "free": "Slobodan",
+      "freeDescription": "LocalSend je besplatan za upotrebu. Nema reklama, praćenja, nema skrivenih troškova.",
+      "openSource": "Otvorenog koda",
+      "openSourceDescription": "Programski kod je javno dostupan. Svako može da doprinese ovom projektu.",
+      "secure": "Siguran",
+      "secureDescription": "Enkripcija End-to-end osigurava da samo Vi i primalac možete da pristupite vašim fajlovima.",
+      "easy": "Lak za korišćenje",
+      "easyDescription": "Jednostavan korisnički interfejs bez registracije. Drugi uredjaji su otkriveni automatski."
+    },
+    "mentioned": "O LocalSend-u se priča svuda po svetu",
+    "get": "Preuzmi LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Preuzimanja",
+      "description": "Preuzmi LocalSend za Windows, macOS, Linux, Android, iOS."
+    },
+    "title": "Preuzimanja",
+    "subTitle": "{os} Preuzimanja",
+    "appStores": "App Prodavnice",
+    "appStoresDescription": "Preporučeno za većinu korisnika.",
+    "binaries": "Kompajlirano",
+    "binariesDescription": "Preuzmi za offline upotrebu.",
+    "packageManagers": "Paket menadžeri",
+    "packageManagersDescription": "Instaliraj pomoću terminala.",
+    "allReleases": "Sve verzije",
+    "zip": "ZIP (portable)",
+    "copiedToClipboard": "Kopirano u clipboard!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Zajednica",
+      "description": "Zatraži pomoć, uključi se, doprinesi LocalSend-u."
+    },
+    "title": "Zajednica",
+    "getHelp": "Zatraži pomoć",
+    "getHelpDescription": "Pitaj ili traži odgovore na GitHub Razgovorima.",
+    "getInvolved": "Uključi se",
+    "getInvolvedDescription": "Udji u kontakt sa developerima i doprinesi direktno projektu.",
+    "discord": "Discord",
+    "issues": "Issues",
+    "pullRequests": "Pull Requests"
+  },
+  "footer": {
+    "underlicense": "Licencirano pod",
+    "mitlicense": "MIT Dozvolom",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "imprint": "Imprint",
+    "contact": "Contacts"
+  },
+  "homepageButton": "Glavna strana",
+  "improveWebsite": "Unapredi ovu web stranu"
+}
