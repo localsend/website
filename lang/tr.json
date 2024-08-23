@@ -1,11 +1,36 @@
 {
   "home": {
+    "seo": {
+      "description": "LocalSend, yakındaki cihazlarla dosya paylaşmanıza olanak tanıyan ücretsiz, açık kaynaklı, platformlar arası bir dosya paylaşım aracıdır.",
+      "title": "LocalSend: Dosyaları yakındaki cihazlarla paylaşın"
+    },
     "slogan1": "Yakınınızdaki cihazlarla dosya paylaşın.",
     "slogan2": "Ücretsiz, açık kaynaklı, tüm platformlar için.",
     "download": "İndir",
-    "community": "Topluluk"
+    "community": "Topluluk",
+    "features": {
+      "title": "Özellikler",
+      "decentralized": "Merkezi Olmayan",
+      "decentralizedDescription": "Dosyaları merkezi bir sunucu olmadan paylaşın. Dosya transferi tamamen eşler arası (peer-to-peer) gerçekleşir.",
+      "crossPlatform": "Çapraz-platform",
+      "crossPlatformDescription": "LocalSend Windows, macOS, Linux, Android ve iOS için kullanılabilir.",
+      "free": "Ücretsiz",
+      "freeDescription": "LocalSend'i kullanmak ücretsizdir. Reklam yok, takip yok, gizli maliyet yok.",
+      "openSource": "Açık Kaynak",
+      "openSourceDescription": "Kaynak kodu herkese açıktır. Herkes projeye katkıda bulunabilir.",
+      "secure": "Güvenli",
+      "secureDescription": "Uçtan uca şifreleme, dosyalarınıza yalnızca sizin ve alıcının erişebilmesini sağlar.",
+      "easy": "Kolay Kullanım",
+      "easyDescription": "Kayıt olmadan basit bir kullanıcı arayüzü. Diğer cihazlar otomatik olarak keşfedilir.",
+    },
+    "mentioned": "Dünyanın dört bir yanında anılıyor",
+    "get": "LocalSend'i edinin"
   },
   "download": {
+    "seo": {
+      "description": "LocalSend'i Windows, macOS, Linux, Android ve iOS için indirin.",
+      "title": "LocalSend - İndirmeler"
+    },
     "title": "İndirmeler",
     "subTitle": "{os} İndirmeleri",
     "appStores": "Uygulama Mağazaları",
@@ -19,14 +44,18 @@
     "copiedToClipboard": "Panoya kopyalandı!"
   },
   "community": {
+    "seo": {
+      "description": "Yardım alın, dahil olun ve LocalSend'e katkıda bulunun.",
+      "title": "LocalSend - Topluluk"
+    },
     "title": "Topluluk",
     "getHelp": "Yardım al",
     "getHelpDescription": "Github'da sorunuzu sorun veya cevap arayın.",
     "getInvolved": "Katılın",
     "getInvolvedDescription": "Geliştiricilerle iletişime geçin ve projeye doğrudan katkıda bulunun.",
     "discord": "Discord",
-    "issues": "Issues",
-    "pullRequests": "Pull Requests"
+    "issues": "Sorunlar (Issues)",
+    "pullRequests": "Çekme İstekleri (Pull Requests)"
   },
   "footer": {
     "underlicense": "Altında lisanslanmıştır",
@@ -35,7 +64,9 @@
     "discord": "Discord",
     "privacy": "Gizlilik",
     "terms": "Koşullar",
-    "contact": "İletişim"
+    "imprint": "Künye",
+    "contact": "İletişim",
   },
-  "homepageButton": "Ana Sayfa"
+  "homepageButton": "Ana Sayfa",
+  "improveWebsite": "Bu web sitesini geliştirin"
 }
