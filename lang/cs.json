@@ -1,11 +1,36 @@
 {
   "home": {
-    "slogan1": "Sdílení souborů do zařízení poblíž.",
+    "seo": {
+      "title": "LocalSend: Sdílejte soubory do okolních zařízení",
+      "description": "LocalSend je bezplatný, open-source, multiplatformní nástroj pro sdílení souborů, který umožňuje sdílet soubory do okolních zařízení."
+    },
+    "slogan1": "Sdílejte soubory do okolních zařízení.",
     "slogan2": "Bezplatný, open-source, multiplatformní.",
     "download": "Stáhnout",
-    "community": "Komunita"
+    "community": "Komunita",
+    "features": {
+      "title": "Funkce",
+      "decentralized": "Decentralizovaný",
+      "decentralizedDescription": "Sdílejte soubory bez centrálního serveru. PřeShare files without a central server. Přenos souborů probíhá zcela peer-to-peer.",
+      "crossPlatform": "Multiplatformní",
+      "crossPlatformDescription": "LocalSend je dostupný pro Windows, macOS, Linux, Android a iOS.",
+      "free": "Bezplatný",
+      "freeDescription": "LocalSend je zcela zdarma. Žádné reklamy, žádné sledování, žádné skryté poplatky.",
+      "openSource": "Otevřený",
+      "openSourceDescription": "Zdrojový kód je veřejně dostupný. Do projektu může přispět každý.",
+      "secure": "Bezpečný",
+      "secureDescription": "Koncové šifrování zajišťuje, že k souborům máte přístup pouze vy a příjemce.",
+      "easy": "Jednoduchý",
+      "easyDescription": "Jednoduché uživatelské rozhraní bez registrace. Ostatní zařízení se objevují automaticky."
+    },
+    "mentioned": "Používán po celém světě",
+    "get": "Získejte LocalSend"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - Stáhnout",
+      "description": "Stáhněte si LocalSend pro Windows, macOS, Linux, Android a iOS."
+    },
     "title": "Ke stažení",
     "subTitle": "Stáhnout pro {os}",
     "appStores": "Obchody s aplikacemi",
@@ -19,14 +44,29 @@
     "copiedToClipboard": "Zkopírováno do schránky!"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - Komunita",
+      "description": "Získejte pomoc, zapojte se a přispějte do LocalSend."
+    },
     "title": "Komunita",
     "getHelp": "Získejte pomoc",
-    "getHelpDescription": "Zeptejte se nebo se podívejte na odpovědi v diskuzích GitHub.",
+    "getHelpDescription": "Zeptejte se nebo si najděte odpovědi v diskuzích GitHub.",
     "getInvolved": "Zapojte se",
     "getInvolvedDescription": "Spojte se s vývojáři a přispějte přímo do projektu.",
     "discord": "Discord",
     "issues": "Problémy",
-    "pullRequests": "Požadavky na sloučení"
+    "pullRequests": "Žádosti o sloučení"
   },
-  "homepageButton": "Domovská stránka"
+  "footer": {
+    "underlicense": "Licencováno pod",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Soukromí",
+    "terms": "Podmínky",
+    "imprint": "Imprint",
+    "contact": "Kontakty"
+  },
+  "homepageButton": "Domovská stránka",
+  "improveWebsite": "Zlepšete tento web"
 }
