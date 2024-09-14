@@ -29,6 +29,8 @@ import vi from './lang/vi.json'
 import zhCn from './lang/zh-CN.json'
 import zhHk from './lang/zh-HK.json'
 import zhTw from './lang/zh-TW.json'
+import bn from './lang/bn.json'
+
 
 export const localeMap: { [k: string]: string } = {
   'ar': 'العربية',
@@ -62,6 +64,7 @@ export const localeMap: { [k: string]: string } = {
   'zh-CN': '简体中文',
   'zh-TW': '繁體中文 – 台灣',
   'zh-HK': '繁體中文 – 香港',
+  'bn': 'বাংলা',
 };
 
 export default defineI18nConfig(() => ({
@@ -100,5 +103,6 @@ export default defineI18nConfig(() => ({
     'zh-CN': zhCn,
     'zh-HK': zhHk,
     'zh-TW': zhTw,
+    bn,
   }
 }))
