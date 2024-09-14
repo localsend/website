@@ -162,6 +162,10 @@ export default defineNuxtConfig({
         code: 'zh-TW',
         iso: 'zh-TW',
       },
+          {
+        code: 'bn',
+        iso: 'bn-BD'
+      },
     ],
   },
   nitro: {
