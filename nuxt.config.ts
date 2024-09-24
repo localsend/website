@@ -79,6 +79,10 @@ export default defineNuxtConfig({
         iso: 'hi-IN'
       },
       {
+        code: 'id',
+        iso: 'id-ID'
+      },
+      {
         code: 'it',
         iso: 'it-IT'
       },
