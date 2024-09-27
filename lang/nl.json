@@ -11,17 +11,17 @@
     "features": {
       "title": "Functies",
       "decentralized": "Gedecentraliseerd",
-      "decentralizedDescription": "Deel bestanden zonder centrale server. De bestandsoverdracht vindt peer-to-peer plaats.",
+      "decentralizedDescription": "Deel bestanden zonder centrale server. De bestandsoverdracht vindt geheel peer-to-peer plaats.",
       "crossPlatform": "Multiplatform",
       "crossPlatformDescription": "LocalSend is beschikbaar voor Windows, macOS, Linux, Android en iOS.",
-      "free": "Free",
+      "free": "Gratis",
       "freeDescription": "LocalSend is gratis te gebruiken. Zonder advertenties, tracking of verborgen kosten.",
       "openSource": "Opensource",
       "openSourceDescription": "De broncode is openbaar beschikbaar. Iedereen kan bijdragen aan het project.",
       "secure": "Veilig",
       "secureDescription": "Dankzij end-to-endversleuteling kunnen alleen jij en de ontvanger de bestanden openen.",
       "easy": "Gebruiksvriendelijk",
-      "easyDescription": "Een eenvoudige interface, en geen registratie vereist. Andere apparaten worden automatisch gevonden."
+      "easyDescription": "Een eenvoudige interface, en geen registratie vereist. Andere apparaten worden automatisch gedetecteerd."
     },
     "mentioned": "Internationaal bekend",
     "get": "LocalSend downloaden"
