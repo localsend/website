@@ -15,6 +15,7 @@ import km from './lang/km.json'
 import ko from './lang/ko.json'
 import mal from './lang/mal-IN.json'
 import mr from './lang/mr.json'
+import nl from './lang/nl.json'
 import pl from './lang/pl.json'
 import ptBr from './lang/pt-BR.json'
 import ptPT from './lang/pt-PT.json'
@@ -48,6 +49,7 @@ export const localeMap: { [k: string]: string } = {
   'ko': '한국어',
   'mal-IN' : 'മലയാളം',
   'mr': 'मराठी',
+  'nl': 'Nederlands',
   'ru': 'Русский',
   'sr': 'Srpski',
   'pl': 'Polski',
@@ -86,6 +88,7 @@ export default defineI18nConfig(() => ({
     ko,
     'mal-IN' : mal,
     mr,
+    nl,
     pl,
     'pt-BR': ptBr,
     'pt-PT': ptPT,
