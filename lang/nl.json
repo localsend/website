@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Deel bestanden met apparaten in de buurt",
+      "description": "LocalSend is een gratis, opensource en multiplaform app waarmee je bestanden kunt delen met apparaten in de buurt."
+    },
+    "slogan1": "Deel bestanden met apparaten in de buurt.",
+    "slogan2": "Gratis, opensource en multiplatform.",
+    "download": "Downloaden",
+    "community": "Community",
+    "features": {
+      "title": "Functies",
+      "decentralized": "Gedecentraliseerd",
+      "decentralizedDescription": "Deel bestanden zonder centrale server. De bestandsoverdracht vindt peer-to-peer plaats.",
+      "crossPlatform": "Multiplatform",
+      "crossPlatformDescription": "LocalSend is beschikbaar voor Windows, macOS, Linux, Android en iOS.",
+      "free": "Free",
+      "freeDescription": "LocalSend is gratis te gebruiken. Zonder advertenties, tracking of verborgen kosten.",
+      "openSource": "Opensource",
+      "openSourceDescription": "De broncode is openbaar beschikbaar. Iedereen kan bijdragen aan het project.",
+      "secure": "Veilig",
+      "secureDescription": "Dankzij end-to-endversleuteling kunnen alleen jij en de ontvanger de bestanden openen.",
+      "easy": "Gebruiksvriendelijk",
+      "easyDescription": "Een eenvoudige interface, en geen registratie vereist. Andere apparaten worden automatisch gevonden."
+    },
+    "mentioned": "Internationaal bekend",
+    "get": "LocalSend downloaden"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Downloads",
+      "description": "Download LocalSend voor Windows, macOS, Linux, Android en iOS."
+    },
+    "title": "Downloads",
+    "subTitle": "Downloads voor {os}",
+    "appStores": "App-stores",
+    "appStoresDescription": "Aanbevolen voor de meeste gebruikers.",
+    "binaries": "Gecompileerde versie",
+    "binariesDescription": "Downloaden voor offline gebruik.",
+    "packageManagers": "Pakketbeheer",
+    "packageManagersDescription": "Installeren via terminal.",
+    "allReleases": "Alle versies",
+    "zip": "ZIP (direct uitvoerbaar)",
+    "copiedToClipboard": "Gekopieerd naar klembord!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Community",
+      "description": "Stel vragen en help mee aan LocalSend."
+    },
+    "title": "Community",
+    "getHelp": "Hulp vragen",
+    "getHelpDescription": "Stel vragen of zoek antwoorden op GitHub.",
+    "getInvolved": "Meehelpen",
+    "getInvolvedDescription": "Kom in contact met de ontwikkelaars en help mee aan het project.",
+    "discord": "Discord",
+    "issues": "Problemen",
+    "pullRequests": "Pull-requests"
+  },
+  "footer": {
+    "underlicense": "Gelicentieerd onder de",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "imprint": "Impressum",
+    "contact": "Contact"
+  },
+  "homepageButton": "Startpagina",
+  "improveWebsite": "Deze website verbeteren"
+}
