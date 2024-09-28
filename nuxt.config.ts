@@ -107,6 +107,10 @@ export default defineNuxtConfig({
         iso: 'mr-IN'
       },
       {
+        code: 'nl',
+        iso: 'nl-NL'
+      },
+      {
         code: 'pl',
         iso: 'pl-PL'
       },
