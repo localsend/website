@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Berbagi fail ke perangkat sekitar",
+      "description": "LocalSend gratis, sumber-terbuka, alat berbagi fail antar-perangkat yang memungkinkan kamu untuk berbagi dengan perangkat sekitar."
+    },
+    "slogan1": "Berbagi fail ke perangkat sekitar.",
+    "slogan2": "Gratis, sumber-terbuka, antar-perangkat.",
+    "download": "Unduh",
+    "community": "Komunitas",
+    "features": {
+      "title": "Fitur",
+      "decentralized": "Tidak Terpusat",
+      "decentralizedDescription": "Berbagi fail tanpa server pusat. Pemindahan fail dilakukan utuh secara pribadi-ke-pribadi.",
+      "crossPlatform": "Antar-Perangkat",
+      "crossPlatformDescription": "LocalSend tersedia untuk Windows, macOS, Linux, Android, dan iOS.",
+      "free": "Gratis",
+      "freeDescription": "LocalSend gratis digunakan. Bebas iklan, bebas pelacakan, tanpa biaya tersembunyi.",
+      "openSource": "Sumber Terbuka",
+      "openSourceDescription": "Kode sumber tersedia secara umum. Semua orang dapat berkontribusi terhadap projek.",
+      "secure": "Aman",
+      "secureDescription": "Enkripsi end-to-end menjamin hanya kamu dan penerima yang dapat mengakses fail.",
+      "easy": "Mudah Digunakan",
+      "easyDescription": "Antarmuka pengguna sederhana tanpa mendaftar. Perangkat lain ditemukan secara otomatis."
+    },
+    "mentioned": "Disebut di seluruh dunia",
+    "get": "Dapatkan LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Unduh",
+      "description": "Unduh LocalSend untuk Windows, macOS, Linux, Android, dan iOS."
+    },
+    "title": "Unduh",
+    "subTitle": "{os} Unduh",
+    "appStores": "App Stores",
+    "appStoresDescription": "Direkomendasikan sebagian besar pengguna.",
+    "binaries": "Binari",
+    "binariesDescription": "Unduh untuk pemasangan luring.",
+    "packageManagers": "Manager Paket",
+    "packageManagersDescription": "Instal dengan terminal.",
+    "allReleases": "Semua Rilis",
+    "zip": "ZIP (portabel)",
+    "copiedToClipboard": "Disalin ke papan klip!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Komunitas",
+      "description": "Dapatkan bantuan, ikut terlibat, dan kontribusi terhadap LocalSend."
+    },
+    "title": "Komunitas",
+    "getHelp": "Dapatkan Bantuan",
+    "getHelpDescription": "Tanya atau lihat jawaban dari GitHub Discussions.",
+    "getInvolved": "Ikut Terlibat",
+    "getInvolvedDescription": "Terhubung dengan para pengembang dan kontribusi langsung terhadap projek.",
+    "discord": "Discord",
+    "issues": "Issues",
+    "pullRequests": "Pull Requests"
+  },
+  "footer": {
+    "underlicense": "Di bawah lisensi",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "imprint": "Jejak",
+    "contact": "Hubungi"
+  },
+  "homepageButton": "Halaman utama",
+  "improveWebsite": "Perbaiki website ini"
+}
