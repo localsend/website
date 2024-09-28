@@ -79,6 +79,10 @@ export default defineNuxtConfig({
         iso: 'hi-IN'
       },
       {
+        code: 'id',
+        iso: 'id-ID'
+      },
+      {
         code: 'it',
         iso: 'it-IT'
       },
@@ -107,6 +111,10 @@ export default defineNuxtConfig({
         iso: 'mr-IN'
       },
       {
+        code: 'nl',
+        iso: 'nl-NL'
+      },
+      {
         code: 'pl',
         iso: 'pl-PL'
       },
@@ -125,6 +133,10 @@ export default defineNuxtConfig({
       {
         code: 'sr',
         iso: 'sr-RS'
+      },
+       {
+        code: 'sk',
+        iso: 'sk-SK'
       },
       {
         code: 'th',

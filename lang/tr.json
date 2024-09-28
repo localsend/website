@@ -21,7 +21,7 @@
       "secure": "Güvenli",
       "secureDescription": "Uçtan uca şifreleme, dosyalarınıza yalnızca sizin ve alıcının erişebilmesini sağlar.",
       "easy": "Kolay Kullanım",
-      "easyDescription": "Kayıt olmadan basit bir kullanıcı arayüzü. Diğer cihazlar otomatik olarak keşfedilir.",
+      "easyDescription": "Kayıt olmadan basit bir kullanıcı arayüzü. Diğer cihazlar otomatik olarak keşfedilir."
     },
     "mentioned": "Dünyanın dört bir yanında anılıyor",
     "get": "LocalSend'i edinin"
@@ -65,7 +65,7 @@
     "privacy": "Gizlilik",
     "terms": "Koşullar",
     "imprint": "Künye",
-    "contact": "İletişim",
+    "contact": "İletişim"
   },
   "homepageButton": "Ana Sayfa",
   "improveWebsite": "Bu web sitesini geliştirin"
