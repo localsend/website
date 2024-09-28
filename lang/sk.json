@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Zdieľanie súborov so zariadeniami v okolí",
+      "description": "LocalSend je bezplatný nástroj na zdieľanie súborov s otvoreným zdrojom na viacerých platformách, ktorý vám umožňuje zdieľať súbory so zariadeniami v okolí."
+    },
+    "slogan1": "Zdieľajte súbory so zariadeniami v okolí.",
+    "slogan2": "Bezplatný, open-source, multiplatformový.",
+    "download": "Stiahnuť",
+    "community": "Comunita",
+    "features": {
+      "title": "Vlastnosti",
+      "decentralized": "Decentralizovaný",
+      "decentralizedDescription": "Zdieľajte súbory bez centrálneho servera. Prenos súborov je úplne peer-to-peer.",
+      "crossPlatform": "Multiplatformový",
+      "crossPlatformDescription": "LocalSend je k dispozícii pre Windows, MacOS, Linux, Android a iOS.",
+      "free": "Zadarmo",
+      "freeDescription": "LocalSend je zadarmo. Žiadne reklamy, žiadne sledovanie, žiadne skryté náklady.",
+      "openSource": "Open-Source",
+      "openSourceDescription": "Zdrojový kód je verejne dostupný. Do projektu môže prispieť každý.",
+      "secure": "Bezpečný",
+      "secureDescription": "Šifrovanie typu end-to-end zaisťuje, že k vašim súborom máte prístup iba vy a príjemca.",
+      "easy": "Jednoduchý na použitie",
+      "easyDescription": "Jednoduché používateľské rozhranie bez registrácie. Ostatné zariadenia sa zistia automaticky."
+    },
+    "mentioned": "Zmienky po celom svete",
+    "get": "Získajte LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Na stiahnutie",
+      "description": "Stiahnite si LocalSend pre Windows, MacOS, Linux, Android a iOS."
+    },
+    "title": "Na stiahnutie",
+    "subTitle": "Stiahnuť pre {os}",
+    "appStores": "Obchody s aplikáciami",
+    "appStoresDescription": "Odporúčané pre väčšinu používateľov.",
+    "binaries": "Binárne súbory",
+    "binariesDescription": "Stiahnuť pre použitie offline.",
+    "packageManagers": "Správcovia balíkov",
+    "packageManagersDescription": "Nainštalujte pomocou terminálu.",
+    "allReleases": "Všetky vydania",
+    "zip": "ZIP (prenosná verzia)",
+    "copiedToClipboard": "Skopírované do schránky!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Komunita",
+      "description": "Získajte pomoc, zapojte sa a prispievajte do LocalSend."
+    },
+    "title": "Komunita",
+    "getHelp": "Získajte pomoc",
+    "getHelpDescription": "Spýtajte sa alebo sa pozrite na odpovede v diskusiách na GitHub.",
+    "getInvolved": "Zapojte sa",
+    "getInvolvedDescription": "Spojte sa s vývojármi a prispejte priamo k projektu.",
+    "discord": "Discord",
+    "issues": "Problémy",
+    "pullRequests": "Požiadavky na zlúčenie"
+  },
+  "footer": {
+    "underlicense": "Licencované pod",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Ochrana súkromia",
+    "terms": "Podmienky",
+    "imprint": "Informácie o vydavateľovi",
+    "contact": "Kontakty"
+  },
+  "homepageButton": "Domovská stránka",
+  "improveWebsite": "Vylepšite tento web"
+}
