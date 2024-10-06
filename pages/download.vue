@@ -178,10 +178,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       packageManagers: [
         {
           name: 'Homebrew',
-          commands: [
-            'brew tap localsend/localsend',
-            'brew install localsend',
-          ],
+          commands: ['brew install --cask localsend'],
         },
         nix,
       ],
