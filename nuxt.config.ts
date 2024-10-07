@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "nuxt-icon",
     "@nuxtjs/sitemap",
+    "shadcn-nuxt",
   ],
   devtools: { enabled: true },
   app: {
