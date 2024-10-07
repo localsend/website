@@ -10,17 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@vueuse/components": "^11.1.0",
     "@vueuse/core": "^10.9.0",
     "@vueuse/nuxt": "^10.9.0",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
-    "lucide-vue-next": "^0.447.0",
     "nuxt": "^3.11.2",
-    "radix-vue": "^1.9.6",
-    "shadcn-nuxt": "^0.10.4",
-    "tailwind-merge": "^2.5.3",
-    "tailwindcss-animate": "^1.0.7",
     "vue": "^3.4.26",
     "vue-router": "^4.3.2"
   },
