@@ -9,7 +9,7 @@
           src="~/assets/img/logo-512.png"
           alt="LocalSend Logo"
           style="height: 40px"
-          class="inline-block dark:invert"
+          class="inline-block"
         />
         <span class="ms-2 text-3xl font-bold dark:text-white">LocalSend</span>
       </div>
