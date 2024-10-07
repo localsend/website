@@ -19,29 +19,13 @@ watchEffect(() => (mode.value = state.value));
 
 <template>
   <button @click="next()">
-    <i
-      v-if="state === 'dark'"
-      i-carbon-moon
-      inline-block
-      align-middle
-      class="align-middle"
-    />
-    <i
-      v-if="state === 'light'"
-      i-carbon-sun
-      inline-block
-      align-middle
-      class="align-middle"
-    />
-    <i
-      v-if="state === 'auto'"
-      i-carbon-laptop
-      inline-block
-      align-middle
-      class="align-middle"
-    />
+    <select name="color-mode" id="color-mode">
+      <option value="dark">Dark</option>
+      <option value="light">Light</option>
+      <option value="auto">System</option>
+    </select>
 
-    <span class="ml-2 capitalize">{{ state }}</span>
+    <span class="sr-only ml-2 capitalize">{{ state }}</span>
   </button>
 </template>
 
