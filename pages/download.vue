@@ -7,7 +7,7 @@
           v-for="os in OS"
           :key="os"
           class="mx-2 mb-4"
-          @click="selectedOS = os"
+          @click="setOS(os)"
           :dark="selectedOS !== os"
         >
           {{ os }}
@@ -317,6 +317,15 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
   };
 });
 
+const router = useRouter();
+
+function setOS(os: OS) {
+  selectedOS.value = os;
+
+  // set to query
+  router.push({ query: { os: os.toLowerCase() } });
+}
+
 const copyToClipboardSnackbar = ref(false);
 
 function copyToClipboard(text: string) {
@@ -326,7 +335,8 @@ function copyToClipboard(text: string) {
 }
 
 onMounted(async () => {
-  selectedOS.value = detectOS();
+  const os = (router.currentRoute.value.query.os ?? '').toLowerCase();
+  selectedOS.value = Object.values(OS).find((o) => o.toLowerCase() === os) ?? detectOS();
 
   const assetsMetadata = await requestGithubAssets();
   assetsMap.value = assetsMetadata.reduce<{ [key: string]: string }>(
