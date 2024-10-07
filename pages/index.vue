@@ -1,12 +1,8 @@
 <template>
-  <div>
+  <div class="dark:bg-gray-900">
     <div class="flex min-h-screen items-center justify-center pt-12 md:pt-0">
       <div style="max-width: 1800px" class="grid grid-cols-12">
         <!-- Logo and text -->
-        <h1>Color mode: {{ dark }}</h1>
-        <h1>Color mode: {{ "System Mode: " + systemMode }}</h1>
-        <ColorMode />
-        <h1 class="text-blue-800 dark:text-red-700">Color mode: {{ 2 + 2 }}</h1>
         <div
           class="col-span-12 grid grid-cols-12 pb-12 sm:col-span-12 md:col-span-8 md:pb-0 lg:col-span-7"
         >
@@ -26,17 +22,17 @@
           >
             <div>
               <h1
-                class="text-center text-5xl font-black sm:text-5xl md:text-start xl:text-7xl 2xl:text-8xl"
+                class="text-center text-5xl font-black dark:text-white sm:text-5xl md:text-start xl:text-7xl 2xl:text-8xl"
               >
                 LocalSend
               </h1>
               <h2
-                class="slogan mt-2 px-4 text-center text-xl font-light md:px-0 md:text-start md:text-xl xl:text-2xl 2xl:text-3xl"
+                class="slogan mt-2 px-4 text-center text-xl font-light dark:text-gray-300 md:px-0 md:text-start md:text-xl xl:text-2xl 2xl:text-3xl"
               >
                 {{ t("home.slogan1") }}
               </h2>
               <h2
-                class="slogan px-4 text-center text-xl font-light md:px-0 md:text-start md:text-xl xl:text-2xl 2xl:text-3xl"
+                class="slogan px-4 text-center text-xl font-light dark:text-gray-300 md:px-0 md:text-start md:text-xl xl:text-2xl 2xl:text-3xl"
               >
                 {{ t("home.slogan2") }}
               </h2>
@@ -45,7 +41,10 @@
                 class="buttons mt-4 flex flex-wrap justify-center gap-4 px-4 md:justify-start md:px-0 xl:mt-6"
               >
                 <NuxtLink :to="localePath({ path: '/download' })">
-                  <AppButton icon="material-symbols:arrow-downward">
+                  <AppButton
+                    icon="material-symbols:arrow-downward"
+                    :dark="true"
+                  >
                     {{ t("home.download") }}
                   </AppButton>
                 </NuxtLink>
@@ -90,7 +89,9 @@
     <div
       class="m-auto mt-4 flex max-w-screen-lg flex-col items-center px-4 lg:px-12"
     >
-      <h2 class="text-3xl font-bold">{{ t("home.features.title") }}</h2>
+      <h2 class="text-3xl font-bold dark:text-white">
+        {{ t("home.features.title") }}
+      </h2>
       <div
         class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-12"
       >
@@ -126,7 +127,7 @@
         />
       </div>
 
-      <h2 class="mt-24 text-center text-3xl font-bold">
+      <h2 class="mt-24 text-center text-3xl font-bold dark:text-white">
         {{ t("home.mentioned") }}
       </h2>
       <InfiniteHorizontalScroll
@@ -142,7 +143,9 @@
         </div>
       </InfiniteHorizontalScroll>
 
-      <h2 class="mt-24 text-center text-3xl font-bold">{{ t("home.get") }}</h2>
+      <h2 class="mt-24 text-center text-3xl font-bold dark:text-white">
+        {{ t("home.get") }}
+      </h2>
       <div class="mb-36 mt-8 flex items-center justify-center gap-4">
         <NuxtLink :to="localePath({ path: '/download' })">
           <AppButton icon="material-symbols:download" :dark="true">
@@ -155,7 +158,7 @@
         href="https://github.com/localsend/website"
         target="_blank"
         icon="material-symbols:build"
-        class="mb-8"
+        class="mb-8 dark:text-gray-300"
       >
         {{ t("improveWebsite") }}
       </TextButton>
@@ -168,15 +171,6 @@ definePageMeta({
   title: "home.seo.title",
   description: "home.seo.description",
 });
-
-import ColorMode from "~/components/ColorMode.vue";
-
-import { useColorMode } from "@vueuse/core";
-
-const { system, store } = useColorMode();
-
-let dark = store.value;
-let systemMode = system.value;
 
 const { t } = useI18n();
 const localePath = useLocalePath();
