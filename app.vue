@@ -2,12 +2,14 @@
   <NuxtLayout>
     <NuxtPage />
     <AppFooter />
+    <ColorMode />
     <LanguageSwitcher />
   </NuxtLayout>
 </template>
 
 <script setup lang="ts">
 import LanguageSwitcher from "~/components/LanguageSwitcher.vue";
+import ColorMode from "~/components/ColorMode.vue";
 </script>
 
 <style>

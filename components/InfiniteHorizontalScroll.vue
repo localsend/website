@@ -1,16 +1,41 @@
 <template>
-  <div class="flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_100px,_black_calc(100%-100px),transparent_100%)]">
-    <div class="flex items-center" :class="direction === 'ltr' ? 'infinite-animation-ltr' : 'infinite-animation-rtl'" aria-hidden="true">
+  <div
+    class="flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_100px,_black_calc(100%-100px),transparent_100%)]"
+  >
+    <div
+      class="flex items-center"
+      :class="
+        direction === 'ltr'
+          ? 'infinite-animation-ltr'
+          : 'infinite-animation-rtl'
+      "
+      aria-hidden="true"
+    >
       <slot />
     </div>
-    <div class="flex items-center" :class="direction === 'ltr' ? 'infinite-animation-ltr' : 'infinite-animation-rtl'" aria-hidden="true">
+    <div
+      class="flex items-center"
+      :class="
+        direction === 'ltr'
+          ? 'infinite-animation-ltr'
+          : 'infinite-animation-rtl'
+      "
+      aria-hidden="true"
+    >
       <slot />
     </div>
-    <div class="flex items-center" :class="direction === 'ltr' ? 'infinite-animation-ltr' : 'infinite-animation-rtl'" aria-hidden="true">
+    <div
+      class="flex items-center"
+      :class="
+        direction === 'ltr'
+          ? 'infinite-animation-ltr'
+          : 'infinite-animation-rtl'
+      "
+      aria-hidden="true"
+    >
       <slot />
     </div>
   </div>
-
 </template>
 
 <script setup lang="ts">
