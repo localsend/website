@@ -37,6 +37,7 @@ import bn from './lang/bn.json'
 
 export const localeMap: { [k: string]: string } = {
   'ar': 'العربية',
+  'bn': 'বাংলা',
   'cs': 'Čeština',
   'de': 'Deutsch',
   'el': 'Ελληνικά',
@@ -70,7 +71,6 @@ export const localeMap: { [k: string]: string } = {
   'zh-CN': '简体中文',
   'zh-TW': '繁體中文 – 台灣',
   'zh-HK': '繁體中文 – 香港',
-  'bn': 'বাংলা',
 };
 
 export default defineI18nConfig(() => ({
@@ -79,6 +79,7 @@ export default defineI18nConfig(() => ({
   fallbackLocale: 'en',
   messages: {
     ar,
+    bn,
     cs,
     de,
     el,
@@ -112,6 +113,5 @@ export default defineI18nConfig(() => ({
     'zh-CN': zhCn,
     'zh-HK': zhHk,
     'zh-TW': zhTw,
-    bn,
   }
 }))

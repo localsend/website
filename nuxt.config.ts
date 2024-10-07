@@ -42,146 +42,146 @@ export default defineNuxtConfig({
     locales: [
       {
         code: "ar",
-        iso: "ar-AR",
+        language: "ar-AR",
         dir: "rtl",
       },
       {
+        code: "bn",
+        language: "bn-BD",
+      },
+      {
         code: "cs",
-        iso: "cs-CZ",
+        language: "cs-CZ",
       },
       {
         code: "de",
-        iso: "de-DE",
+        language: "de-DE",
       },
       {
         code: "el",
-        iso: "el-GR",
+        language: "el-GR",
       },
       {
         code: "en",
-        iso: "en-US",
+        language: "en-US",
         isCatchallLocale: true,
       },
       {
         code: "es",
-        iso: "es-ES",
+        language: "es-ES",
       },
       {
         code: "fil",
-        iso: "fil-PH",
+        language: "fil-PH",
       },
       {
         code: "fr",
-        iso: "fr-FR",
+        language: "fr-FR",
       },
       {
         code: "he",
-        iso: "he-IL",
+        language: "he-IL",
         dir: "rtl",
       },
       {
         code: "hi",
-        iso: "hi-IN",
+        language: "hi-IN",
       },
       {
         code: "id",
-        iso: "id-ID",
+        language: "id-ID",
       },
       {
         code: "it",
-        iso: "it-IT",
+        language: "it-IT",
       },
       {
         code: "ja",
-        iso: "ja-JP",
+        language: "ja-JP",
       },
       {
         code: "ka",
-        iso: "ka-IN",
+        language: "ka-IN",
       },
       {
         code: "km",
-        iso: "km-KH",
+        language: "km-KH",
       },
       {
         code: "ko",
-        iso: "ko-KR",
+        language: "ko-KR",
       },
       {
         code: "mal-IN",
-        iso: "mal-IN",
+        language: "mal-IN",
       },
       {
         code: "mr",
-        iso: "mr-IN",
+        language: "mr-IN",
       },
       {
         code: "nl",
-        iso: "nl-NL",
+        language: "nl-NL",
       },
       {
         code: "pl",
-        iso: "pl-PL",
+        language: "pl-PL",
       },
       {
         code: "pt-BR",
-        iso: "pt-BR",
+        language: "pt-BR",
       },
       {
         code: "pt-PT",
-        iso: "pt-PT",
+        language: "pt-PT",
       },
       {
         code: "ru",
-        iso: "ru-RU",
+        language: "ru-RU",
       },
       {
         code: "sr",
-        iso: "sr-RS",
+        language: "sr-RS",
       },
       {
         code: "sk",
-        iso: "sk-SK",
+        language: "sk-SK",
       },
       {
         code: "th",
-        iso: "th-TH",
+        language: "th-TH",
       },
       {
         code: "ta",
-        iso: "ta-IN",
+        language: "ta-IN",
       },
       {
         code: "te",
-        iso: "te-IN",
+        language: "te-IN",
       },
       {
         code: "tr",
-        iso: "tr-TR",
+        language: "tr-TR",
       },
       {
         code: "uk",
-        iso: "uk-UA",
+        language: "uk-UA",
       },
       {
         code: "vi",
-        iso: "vi-VN",
+        language: "vi-VN",
       },
       {
         code: "zh-CN",
-        iso: "zh-CN",
+        language: "zh-CN",
       },
       {
         code: "zh-HK",
-        iso: "zh-HK",
+        language: "zh-HK",
       },
       {
         code: "zh-TW",
-        iso: "zh-TW",
-      },
-      {
-        code: "bn",
-        iso: "bn-BD",
+        language: "zh-TW",
       },
     ],
   },
