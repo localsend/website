@@ -4,7 +4,7 @@
       v-if="href"
       :href="href"
       :target="target"
-      class="flex items-center rounded-lg px-4 py-2 font-bold text-white hover:bg-teal-700 dark:text-gray-300 dark:hover:bg-teal-500"
+      class="flex items-center rounded-lg px-4 py-2 font-bold text-white hover:bg-teal-700 dark:text-gray-300 dark:hover:bg-teal-800"
       :class="dark ? 'bg-teal-950' : 'bg-teal-600'"
     >
       <Icon
@@ -16,7 +16,7 @@
     </a>
     <button
       v-else
-      class="flex items-center rounded-lg px-4 py-2 font-bold text-white hover:bg-teal-700 dark:text-gray-300 dark:hover:bg-teal-500"
+      class="flex items-center rounded-lg px-4 py-2 font-bold text-white hover:bg-teal-700 dark:text-gray-300 dark:hover:bg-teal-800"
       :class="dark ? 'bg-teal-950' : 'bg-teal-600'"
     >
       <Icon
