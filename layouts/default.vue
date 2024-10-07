@@ -23,7 +23,7 @@ const description = computed(() => route.meta.description ? t(route.meta.descrip
         <Meta :id="meta.id" :property="meta.property" :content="meta.content"/>
       </template>
     </Head>
-    <Body>
+    <Body class="dark:bg-gray-900">
     <slot/>
     </Body>
     </Html>

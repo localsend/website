@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:bg-gray-900">
+  <div>
     <div class="flex min-h-screen items-center justify-center pt-12 md:pt-0">
       <div style="max-width: 1800px" class="grid grid-cols-12">
         <!-- Logo and text -->
