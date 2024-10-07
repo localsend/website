@@ -4,7 +4,7 @@
       <Icon name="material-symbols:translate" class="me-1 dark:text-white" />
       <select
         v-bind:value="localeIdentity"
-        class="rounded-lg bg-white"
+        class="rounded-lg bg-white text-black dark:bg-gray-900 dark:text-white"
         :style="{ width: `${switchWidth}px` }"
         @change="changeLocale"
       >
