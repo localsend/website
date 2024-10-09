@@ -71,6 +71,10 @@ export default defineNuxtConfig({
         language: "es-ES",
       },
       {
+        code: "fa",
+        language: "fa-IR",
+      },
+      {
         code: "fil",
         language: "fil-PH",
       },
