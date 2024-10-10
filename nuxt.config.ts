@@ -73,6 +73,7 @@ export default defineNuxtConfig({
       {
         code: "fa",
         language: "fa-IR",
+        dir: "rtl",
       },
       {
         code: "fil",
