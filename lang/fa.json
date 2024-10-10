@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: هم‌رسانی پرونده‌ها با دستگاه‌های نزدیک",
+      "description": "LocalSend یک ابزار هم‌رسانی فایل رایگان، متن باز و چندسکویی است که به شما امکان می‌دهد پرونده‌ها را با دستگاه‌های نزدیک هم‌رسانی کنید"
+    },
+    "slogan1": "پرونده‌ها را با دستگاه‌های نزدیکتان هم‌رسانی کنید",
+    "slogan2": "رایگان، متن‌باز، چندسکویی.",
+    "download": "دریافت",
+    "community": "جامعه",
+    "features": {
+      "title": "ویژگی‌ها",
+      "decentralized": "نامتمرکز",
+      "decentralizedDescription": "پرونده‌ها را بدون کارساز مرکزی هم‌رسانی کنید هم‌رسانی به روش کاملاً همتا به همتا است.",
+      "crossPlatform": "چندسکویی",
+      "crossPlatformDescription": "LocalSend برای ویندوز، مک، لینوکس، اندروید و آی‌او‌اس در دسترس است.",
+      "free": "رایگان",
+      "freeDescription": "LocalSend رایگان است. بدون تبلیغات، بدون ردیابی، بدون هزینه‌های پنهان.",
+      "openSource": "متن باز",
+      "openSourceDescription": "کد منبع به‌طور عمومی در دسترس است. هر کسی می‌تواند پروژه را یاری کند.",
+      "secure": "ایمن",
+      "secureDescription": "رمزگذاری همتا به همتا تضمین می‌کند که تنها شما و گیرنده می‌توانید به پرونده‌های‌تان دسترسی داشته باشید.",
+      "easy": "کاربری آسان",
+      "easyDescription": "یک رابط کاربری ساده بدون نیاز به ثبت‌نام. دستگاه‌های دیگر خودکار شناسایی می‌شوند."
+    },
+    "mentioned": "در سرتاسر جهان یاد شده",
+    "get": "LocalSend را دریافت کنید"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - دریافت",
+      "description": "LocalSend را برای ویندوز، مک، لینوکس، اندروید و آی‌او‌اس دریافت کنید."
+    },
+    "title": "دریافت",
+    "subTitle": "دربافت {os}",
+    "appStores": "فروشگاه‌های برنامه",
+    "appStoresDescription": "برای بیشتر کاربران توصیه می‌شود.",
+    "binaries": "باینری‌ها",
+    "binariesDescription": "برای کاربری بدون اینترنت دریافت کنید.",
+    "packageManagers": "مدیران بسته",
+    "packageManagersDescription": "با ترمینال نصب کنید.",
+    "allReleases": "همه نسخه‌ها",
+    "zip": "ZIP (قابل حمل)",
+    "copiedToClipboard": "در بریده‌دان رونوشت گرفته شد!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - جامعه",
+      "description": "کمک بگیرید، درگیر شوید و به LocalSend کمک کنید."
+    },
+    "title": "جامعه",
+    "getHelp": "کمک بگیرید",
+    "getHelpDescription": "سوال بپرسید یا به دنبال پاسخ‌ها در بحث‌های گیت‌هاب باشید.",
+    "getInvolved": "درگیر شوید",
+    "getInvolvedDescription": "با توسعه‌دهندگان تماس بگیرید و مستقیماً به پروژه کمک کنید.",
+    "discord": "دیسکورد",
+    "issues": "مسائل",
+    "pullRequests": "درخواست‌های گیت"
+  },
+  "footer": {
+    "underlicense": "تحت مجوز",
+    "license": "مجوز آپاچی 2.0",
+    "github": "گیت‌هاب",
+    "discord": "دیسکورد",
+    "privacy": "حریم خصوصی",
+    "terms": "شرایط",
+    "imprint": "چاپ",
+    "contact": "راه های گفتگو"
+  },
+  "homepageButton": "صفحه خانه",
+  "improveWebsite": "این وب‌سایت را بهبود دهید"
+}
