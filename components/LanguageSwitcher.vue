@@ -1,25 +1,23 @@
 <template>
-  <div v-if="i18nEnabled" class="absolute" style="top: 20px; right: 20px">
-    <div class="flex items-center">
-      <Icon name="material-symbols:translate" class="me-1 dark:text-white" />
-      <select
-        v-bind:value="localeIdentity"
-        class="rounded-lg bg-white text-black dark:bg-gray-900 dark:text-white"
-        :style="{ width: `${switchWidth}px` }"
-        @change="changeLocale"
+  <div v-if="i18nEnabled" class="flex items-center">
+    <Icon name="material-symbols:translate" class="me-1 dark:text-white" />
+    <select
+      v-bind:value="localeIdentity"
+      class="rounded-lg bg-white text-black dark:bg-gray-900 dark:text-white"
+      :style="{ width: `${switchWidth}px` }"
+      @change="changeLocale"
+    >
+      <option
+        v-for="(locale, index) in locales"
+        :key="index"
+        :value="locale.code"
       >
-        <option
-          v-for="(locale, index) in locales"
-          :key="index"
-          :value="locale.code"
-        >
-          {{ localeMap[locale.code] }}
-        </option>
-      </select>
-    </div>
+        {{ localeMap[locale.code] }}
+      </option>
+    </select>
   </div>
 
-  <div class="absolute top-0">
+  <div class="absolute top-0 pointer-events-none">
     <!-- dummy select to get the width of the select based on the selected item -->
     <select ref="switchWidthRef" style="visibility: hidden">
       <option>{{ localeMap[locale] }}</option>
