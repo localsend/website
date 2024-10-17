@@ -173,6 +173,11 @@ export default defineNuxtConfig({
         language: "uk-UA",
       },
       {
+        code:"ug",
+        language:"ug-CN",
+        dir: "rtl", 
+      },
+      {
         code: "vi",
         language: "vi-VN",
       },
