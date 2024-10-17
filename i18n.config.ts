@@ -34,6 +34,7 @@ import zhCn from './lang/zh-CN.json'
 import zhHk from './lang/zh-HK.json'
 import zhTw from './lang/zh-TW.json'
 import bn from './lang/bn.json'
+import ug from './lang/ug.json'
 
 
 export const localeMap: { [k: string]: string } = {
@@ -69,6 +70,7 @@ export const localeMap: { [k: string]: string } = {
   'te': 'తెలుగు',
   'tr': 'Türkçe',
   'uk': 'Українська',
+  'ug': 'ئۇيغۇرچە'
   'vi': 'Tiếng Việt',
   'zh-CN': '简体中文',
   'zh-TW': '繁體中文 – 台灣',
@@ -112,6 +114,7 @@ export default defineI18nConfig(() => ({
     te,
     tr,
     uk,
+    ug,
     vi,
     'zh-CN': zhCn,
     'zh-HK': zhHk,
