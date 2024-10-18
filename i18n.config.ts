@@ -70,7 +70,7 @@ export const localeMap: { [k: string]: string } = {
   'te': 'తెలుగు',
   'tr': 'Türkçe',
   'uk': 'Українська',
-  'ug': 'ئۇيغۇرچە'
+  'ug': 'ئۇيغۇرچە',
   'vi': 'Tiếng Việt',
   'zh-CN': '简体中文',
   'zh-TW': '繁體中文 – 台灣',
