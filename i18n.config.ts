@@ -61,6 +61,7 @@ export const localeMap: { [k: string]: string } = {
   nl: "Nederlands",
   ru: "Русский",
   sr: "Srpski",
+  sv: "Svenska",
   sk: "Slovenčina",
   pl: "Polski",
   "pt-BR": "Português - Brasil",
@@ -75,7 +76,6 @@ export const localeMap: { [k: string]: string } = {
   "zh-CN": "简体中文",
   "zh-TW": "繁體中文 – 台灣",
   "zh-HK": "繁體中文 – 香港",
-  sv: "Svenska",
 };
 
 export default defineI18nConfig(() => ({
@@ -109,6 +109,7 @@ export default defineI18nConfig(() => ({
     "pt-PT": ptPT,
     ru,
     sr,
+    sv,
     sk,
     th,
     ta,
@@ -120,6 +121,5 @@ export default defineI18nConfig(() => ({
     "zh-CN": zhCn,
     "zh-HK": zhHk,
     "zh-TW": zhTw,
-    sv,
   },
 }));
