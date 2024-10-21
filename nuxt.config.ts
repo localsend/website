@@ -6,7 +6,9 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxtjs/sitemap",
   ],
+
   devtools: { enabled: true },
+
   app: {
     pageTransition: {
       name: "page",
@@ -26,9 +28,11 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   site: {
     url: "https://localsend.org",
   },
+
   i18n: {
     baseUrl: "https://localsend.org",
     strategy: "prefix_except_default",
@@ -173,9 +177,9 @@ export default defineNuxtConfig({
         language: "uk-UA",
       },
       {
-        code:"ug",
-        language:"ug-CN",
-        dir: "rtl", 
+        code: "ug",
+        language: "ug-CN",
+        dir: "rtl",
       },
       {
         code: "vi",
@@ -193,11 +197,18 @@ export default defineNuxtConfig({
         code: "zh-TW",
         language: "zh-TW",
       },
+      {
+        code: "sv",
+        language: "sv-SE",
+      },
     ],
   },
+
   nitro: {
     prerender: {
       autoSubfolderIndex: false,
     },
   },
+
+  compatibilityDate: "2024-10-20",
 });

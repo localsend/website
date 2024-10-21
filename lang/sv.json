@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Dela filer med närliggande enheter",
+      "description": "LocalSend är ett gratis, öppen källkod, plattformsoberoende fildelningsverktyg som låter dig dela filer med närliggande enheter."
+    },
+    "slogan1": "Dela filer med närliggande enheter.",
+    "slogan2": "Gratis, öppen källkod, plattformsoberoende.",
+    "download": "Ladda ner",
+    "community": "Gemenskap",
+    "features": {
+      "title": "Funktioner",
+      "decentralized": "Decentraliserad",
+      "decentralizedDescription": "Dela filer utan en central server. Filöverföringen är helt peer-to-peer.",
+      "crossPlatform": "Plattformsoberoende",
+      "crossPlatformDescription": "LocalSend är tillgängligt för Windows, macOS, Linux, Android och iOS.",
+      "free": "Gratis",
+      "freeDescription": "LocalSend är gratis att använda. Inga annonser, ingen spårning, inga dolda kostnader.",
+      "openSource": "Öppen källkod",
+      "openSourceDescription": "Källkoden är offentligt tillgänglig. Alla kan bidra till projektet.",
+      "secure": "Säker",
+      "secureDescription": "End-to-end-kryptering säkerställer att endast du och mottagaren kan komma åt dina filer.",
+      "easy": "Lätt att använda",
+      "easyDescription": "Ett enkelt användargränssnitt utan registrering. Andra enheter upptäcks automatiskt."
+    },
+    "mentioned": "Omnämnd över hela världen",
+    "get": "Skaffa LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Nedladdningar",
+      "description": "Ladda ner LocalSend för Windows, macOS, Linux, Android och iOS."
+    },
+    "title": "Nedladdningar",
+    "subTitle": "Nedladdningar för {os}",
+    "appStores": "App-butiker",
+    "appStoresDescription": "Rekommenderas för de flesta användare.",
+    "binaries": "Binärer",
+    "binariesDescription": "Ladda ner för offline-användning.",
+    "packageManagers": "Pakethanterare",
+    "packageManagersDescription": "Installera via terminal.",
+    "allReleases": "Alla versioner",
+    "zip": "ZIP (portabel)",
+    "copiedToClipboard": "Kopierat till urklipp!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Gemenskap",
+      "description": "Få hjälp, engagera dig och bidra till LocalSend."
+    },
+    "title": "Gemenskap",
+    "getHelp": "Få hjälp",
+    "getHelpDescription": "Ställ frågor eller sök efter svar på GitHub Discussions.",
+    "getInvolved": "Engagera dig",
+    "getInvolvedDescription": "Kontakta utvecklarna och bidra direkt till projektet.",
+    "discord": "Discord",
+    "issues": "Problem",
+    "pullRequests": "Pull-förfrågningar"
+  },
+  "footer": {
+    "underlicense": "Licensierad under",
+    "license": "Apache 2.0-licensen",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Integritet",
+    "terms": "Villkor",
+    "imprint": "Avtryck",
+    "contact": "Kontakt"
+  },
+  "homepageButton": "Hemsida",
+  "improveWebsite": "Förbättra denna webbplats"
+}
