@@ -1,11 +1,36 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend: Udostępniaj pliki urządzeniom w pobliżu",
+      "description": "LocalSend to bezpłatne, otwarte, wieloplatformowe narzędzie do udostępniania plików, które umożliwia udostępnianie plików pobliskim urządzeniom."
+    },
     "slogan1": "Udostępniaj pliki urządzeniom w pobliżu.",
-    "slogan2": "Darmowa, otwarto-źródłowa, wieloplatformowa.",
+    "slogan2": "Darmowy, otwarto-źródłowy, wieloplatformowy.",
     "download": "Pobierz",
-    "community": "Społeczność"
+    "community": "Społeczność",
+    "features": {
+      "title": "Features",
+      "decentralized": "Zdecentralizowany",
+      "decentralizedDescription": "Udostępniaj pliki bez głównego serwera. Transfer plików odbywa się całkowicie peer-to-peer.",
+      "crossPlatform": "Wieloplatformowy",
+      "crossPlatformDescription": "LocalSend jest dostępny na Windows, macOS, Linux, Android, oraz iOS.",
+      "free": "Darmowy",
+      "freeDescription": "LocalSend jest darmowy w użyciu. Brak reklam, śledzenia, ukrytych kosztów.",
+      "openSource": "Otwarte źródło",
+      "openSourceDescription": "Kod źródłowy jest publicznie dostępny. Każdy może przyczynić się do rozwoju projektu.",
+      "secure": "Bezpieczny",
+      "secureDescription": "Szyfrowanie end-to-end zapewnia, że tylko Ty i odbiorca możecie uzyskać dostęp do plików.",
+      "easy": "Łatwy w obsłudze",
+      "easyDescription": "Prosty interfejs użytkownika bez rejestracji. Inne urządzenia są automatycznie wykrywane."
+    },
+    "mentioned": "Mówi się o nim na całym świecie",
+    "get": "Uzyskaj LocalSend"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - Pobieranie",
+      "description": "Pobierz LocalSend na Windows, macOS, Linux, Android, oraz iOS."
+    },
     "title": "Pobieranie",
     "subTitle": "Pobierz na {os}",
     "appStores": "Sklepy z aplikacjami",
@@ -15,10 +40,14 @@
     "packageManagers": "Menedżery pakietów",
     "packageManagersDescription": "Zainstaluj za pomocą terminalu.",
     "allReleases": "Wszystkie wydania",
-    "zip": "ZIP (przenośny)",
+    "zip": "ZIP (wersja przenośna)",
     "copiedToClipboard": "Skopiowano do schowka!"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - Społeczność",
+      "description": "Uzyskaj pomoc, zaangażuj się i przyczyń się do rozwoju LocalSend."
+    },
     "title": "Społeczność",
     "getHelp": "Uzyskaj wsparcie",
     "getHelpDescription": "Zapytaj lub poszukaj odpowiedzi na Github Discussions.",
@@ -28,5 +57,16 @@
     "issues": "Problemy",
     "pullRequests": "Pull Requesty"
   },
-  "homepageButton": "Strona główna"
+  "footer": {
+    "underlicense": "Na licencji",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Prywatność",
+    "terms": "Warunki",
+    "imprint": "Imprint",
+    "contact": "Kontakt"
+  },
+  "homepageButton": "Strona główna",
+  "improveWebsite": "Improve this website"
 }
