@@ -10,7 +10,7 @@
     "subTitle": "Téléchargements pour {os}",
     "appStores": "App Stores",
     "appStoresDescription": "Recommandés pour la plupart des utilisateurs.",
-    "binaries": "Fichiers APK",
+    "binaries": "Fichiers Binaires",
     "binariesDescription": "Téléchargements pour une utilisation hors-ligne.",
     "packageManagers": "Gesionnaires de paquets",
     "packageManagersDescription": "Installer via un terminal.",
