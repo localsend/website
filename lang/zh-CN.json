@@ -23,17 +23,18 @@
       "easy": "易于使用",
       "easyDescription": "无需注册的简单用户界面。其他设备会自动被发现。"
     },
-    "mentioned": "在全球范围内被提及",
+    "mentioned": "享誉全球",
     "get": "获取LocalSend"
   },
   "download": {
     "seo": {
       "title": "LocalSend - 下载",
-      "description": "下载LocalSend适用于Windows、macOS、Linux、Android和iOS。"
+      "description": "下载适用于Windows、macOS、Linux、Android和iOS的LocalSend。"
     },
     "title": "下载",
+    "subTitle": "{os}版下载",
     "appStores": "应用商店",
-    "appStoresDescription": "适合大多数用户。",
+    "appStoresDescription": "适合大多数用户",
     "binaries": "二进制文件",
     "binariesDescription": "可供离线使用的下载",
     "packageManagers": "包管理器",
