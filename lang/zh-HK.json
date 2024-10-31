@@ -1,12 +1,38 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend：分享檔案畀附近裝置",
+      "description": "LocalSend 係一款免費、開源、跨平台嘅檔案分享工具，畀你隨時隨地喺附近嘅裝置之間傳輸檔案。"
+    },
     "slogan1": "分享檔案畀附近裝置",
     "slogan2": "免費、開源、跨平台",
     "download": "下載",
-    "community": "社羣"
+    "community": "社羣",
+    "features": {
+      "title": "特色",
+      "decentralized": "分散式",
+      "decentralizedDescription": "點對點傳輸檔案，完全唔使經任何中介 server，保障你嘅私隱。",
+      "crossPlatform": "跨平台",
+      "crossPlatformDescription": "LocalSend 喺 Windows、macOS、Linux、Android 同 iOS 都用得㗎。",
+      "free": "免費",
+      "freeDescription": "LocalSend 完全免費，並且冇任何廣告或者隱藏課金成分，亦唔會收集用户資料。",
+      "openSource": "開源",
+      "openSourceDescription": "個 app 嘅原始碼係公開嘅，所有人都可以對其作出貢獻。",
+      "secure": "安全",
+      "secureDescription": "傳輸經端對端加密，檔案得你同接收者先可以睇到。",
+      "easy": "簡單易用",
+      "easyDescription": "易於操作嘅界面，毋須註冊即可使用。個 app 會自動偵測其他裝置，方便快捷。"
+    },
+    "mentioned": "享譽全球",
+    "get": "取得 LocalSend"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend – 下載",
+      "description": "下載適用於 Windows、macOS、Linux、Android 同 iOS 嘅 LocalSend。"
+    },
     "title": "下載",
+    "subTitle": "{os} 版下載",
     "appStores": "App Store",
     "appStoresDescription": "建議多數用户揀選",
     "binaries": "安裝檔",
@@ -14,17 +40,33 @@
     "packageManagers": "套件管理器",
     "packageManagersDescription": "以終端命令安裝",
     "allReleases": "所有版本",
-    "zip": "ZIP（可攜式）"
+    "zip": "ZIP（可攜式）",
+    "copiedToClipboard": "已複製到剪貼簿！"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend – 社羣",
+      "description": "尋求幫助、參與其中、並且對 LocalSend 作出貢獻。"
+    },
     "title": "社羣",
     "getHelp": "尋求幫助",
     "getHelpDescription": "喺 GitHub 討論區問問題或者揾答案",
     "getInvolved": "參與其中",
-    "getInvolvedDescription": "聯絡開發人員並且直接為專案作出貢獻",
+    "getInvolvedDescription": "與開發人員接觸，並且直接為專案作出貢獻",
     "discord": "Discord",
     "issues": "GitHub Issues",
     "pullRequests": "Pull Requests"
   },
-  "homepageButton": "首頁"
+  "footer": {
+    "underlicense": "本專案根據",
+    "license": "Apache 2.0 特許條款發佈",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "私隱權政策",
+    "terms": "服務條款",
+    "imprint": "法律聲明",
+    "contact": "聯絡方法"
+  },
+  "homepageButton": "首頁",
+  "improveWebsite": "參與改善呢個網站"
 }
