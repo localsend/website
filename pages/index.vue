@@ -143,6 +143,15 @@
         </div>
       </InfiniteHorizontalScroll>
 
+      <div class="mt-8" v-if="locale !== 'zh-CN'">
+        <!-- YouTube video; We disable this for mainland China because YouTube is not available there. -->
+        <iframe width="560" height="315" :src="youtubeVideo"
+                class="max-sm:w-screen"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
       <h2 class="mt-24 text-center text-3xl font-bold dark:text-white">
         {{ t("home.get") }}
       </h2>
@@ -172,7 +181,7 @@ definePageMeta({
   description: "home.seo.description",
 });
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
 const localePath = useLocalePath();
 
 onMounted(() => {
@@ -199,16 +208,16 @@ interface MentionedArticle {
 
 const mentionedArticles: MentionedArticle[] = [
   {
-    title: "Use This App to Easily Send Files to Any Device",
-    description: "Lifehacker",
+    title: "LocalSend: An Open-Source AirDrop Alternative For Everyone!",
+    description: "It's FOSS",
     language: "twemoji:flag-united-states",
-    url: "https://lifehacker.com/tech/use-localsend-app-to-send-files-across-devices",
+    url: "https://news.itsfoss.com/localsend/",
   },
   {
-    title: "Freeware LocalSend: Wie AirDrop für alle Plattformen",
-    description: "ifun",
+    title: "Mit Localsend lassen sich Dateien schnell im WLAN teilen",
+    description: "DataCenter-Insider",
     language: "twemoji:flag-germany",
-    url: "https://www.ifun.de/freeware-localsend-wie-airdrop-fuer-alle-plattformen-220789/",
+    url: "https://www.datacenter-insider.de/mit-localsend-lassen-sich-dateien-schnell-im-wlan-teilen-a-a3b134cc1f9960fbfced8c556ed239b8/",
   },
   {
     title:
@@ -258,6 +267,15 @@ const mentionedArticles: MentionedArticle[] = [
     url: "https://www.guidetti-informatica.net/2023/03/invia-file-in-modo-sicuro-sulla-rete-locale-con-lapp-localsend-multipiattaforma/",
   },
 ];
+
+const youtubeVideo = computed(() => {
+  switch (locale.value) {
+    case "de":
+      return "https://www.youtube-nocookie.com/embed/qfXkF-W09zk?si=UEUSbWlhsGaJ87yQ";
+    default:
+      return "https://www.youtube-nocookie.com/embed/2ITezMkbAqE?si=Kn9k4ju5HTX5S6JJ";
+  }
+});
 </script>
 
 <style scoped>
