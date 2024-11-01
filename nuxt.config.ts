@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "nuxt-icon",
     "@nuxtjs/sitemap",
+    "@nuxt/content",
   ],
 
   devtools: { enabled: true },
@@ -42,6 +43,7 @@ export default defineNuxtConfig({
       terms: false,
       imprint: false,
       contact: false,
+      news: false,
     },
     locales: [
       {

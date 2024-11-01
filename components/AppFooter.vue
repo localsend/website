@@ -32,6 +32,15 @@
         {{ t("footer.discord") }}
       </TextButton>
 
+      <NuxtLink to="/news" class="ms-2">
+        <TextButton icon="material-symbols:article">
+          {{ t("news.title") }}
+        </TextButton>
+      </NuxtLink>
+    </div>
+
+    <!-- Links -->
+    <div class="mt-4 flex flex-wrap justify-center">
       <NuxtLink to="/privacy" class="ms-2">
         <TextButton icon="material-symbols:shield-lock">
           {{ t("footer.privacy") }}

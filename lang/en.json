@@ -57,6 +57,10 @@
     "issues": "Issues",
     "pullRequests": "Pull Requests"
   },
+  "news": {
+    "title": "News",
+    "showAll": "Show all news"
+  },
   "footer": {
     "underlicense": "Licensed under the",
     "license": "Apache License 2.0",
