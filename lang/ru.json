@@ -57,6 +57,10 @@
     "issues": "Вопросы",
     "pullRequests": "Запросы на вытягивание"
   },
+  "news": {
+    "title": "Новости",
+    "showAll": "Показать все новости"
+  },
   "footer": {
     "underlicense": "Лицензировано согласно",
     "license": "Лицензии Apache 2.0",
