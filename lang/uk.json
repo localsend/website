@@ -57,6 +57,10 @@
     "issues": "Питання",
     "pullRequests": "Запити на витягування"
   },
+  "news": {
+    "title": "Новини",
+    "showAll": "Показати всі новини"
+  },
   "footer": {
     "underlicense": "Ліцензовано згідно",
     "license": "Ліцензії Apache 2.0",
