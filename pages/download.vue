@@ -114,8 +114,8 @@
                   class="cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-600"
                   @click="() => copyToClipboard(command)"
                 >
-                  <span class="text-gray-400 dark:text-gray-500">&gt;</span>
-                  {{ command }}<br />
+                  <span class="text-gray-400 dark:text-gray-500 select-none">
+                    &dollar; </span>{{ command }}<br />
                 </span>
               </code>
             </div>
