@@ -32,11 +32,12 @@
         {{ t("footer.discord") }}
       </TextButton>
 
-      <NuxtLink to="/news" class="ms-2">
-        <TextButton icon="material-symbols:article">
-          {{ t("news.title") }}
-        </TextButton>
-      </NuxtLink>
+      <!-- https://github.com/nuxt/content/issues/1229 -->
+<!--      <NuxtLink to="/news" class="ms-2">-->
+<!--        <TextButton icon="material-symbols:article">-->
+<!--          {{ t("news.title") }}-->
+<!--        </TextButton>-->
+<!--      </NuxtLink>-->
     </div>
 
     <!-- Links -->
