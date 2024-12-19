@@ -1,7 +1,7 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Delite fajlove sa lokalnim uređajima",
+      "title": "LocalSend: Delite fajlove sa uređajima u blizini",
       "description": "LocalSend je besplatan, otvorenog koda, višeplatformski program za deljenje fajlova koji vam omogućava da delite fajlove sa uređajima u blizini."
     },
     "slogan1": "Delite fajlove sa uređajima u blizini.",
@@ -50,7 +50,7 @@
     },
     "title": "Zajednica",
     "getHelp": "Potražite pomoć",
-    "getHelpDescription": "Pitajte ili pronađite odgovore na GitHub Razgovorima.",
+    "getHelpDescription": "Pitajte ili pronađite odgovore na GitHub razgovorima.",
     "getInvolved": "Uključite se",
     "getInvolvedDescription": "Stupite u kontakt sa programerima i direktno doprinesite projektu.",
     "discord": "Discord",
