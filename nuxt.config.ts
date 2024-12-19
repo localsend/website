@@ -155,6 +155,10 @@ export default defineNuxtConfig({
         language: "sr-RS",
       },
       {
+        code: "sr-Cyrl",
+        language: "sr-RS",
+      },
+      {
         code: "sk",
         language: "sk-SK",
       },

@@ -23,6 +23,7 @@ import ptBr from "./lang/pt-BR.json";
 import ptPT from "./lang/pt-PT.json";
 import ru from "./lang/ru.json";
 import sr from "./lang/sr.json";
+import srCyrl from "./lang/sr-Cyrl.json";
 import sk from "./lang/sk.json";
 import th from "./lang/th.json";
 import ta from "./lang/ta.json";
@@ -60,7 +61,8 @@ export const localeMap: { [k: string]: string } = {
   mr: "मराठी",
   nl: "Nederlands",
   ru: "Русский",
-  sr: "Srpski",
+  sr: "Srpski (latinica)",
+  srCyrl: "Српски (ћирилица)",
   sv: "Svenska",
   sk: "Slovenčina",
   pl: "Polski",
@@ -109,6 +111,7 @@ export default defineI18nConfig(() => ({
     "pt-PT": ptPT,
     ru,
     sr,
+    srCyrl,
     sv,
     sk,
     th,
