@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Делите фајлове са уређајима у близини",
+      "description": "LocalSend је бесплатан, отвореног кода, вишеплатформски програм за дељење фајлова који вам омогућава да делите фајлове са уређајима у близини."
+    },
+    "slogan1": "Делите фајлове са уређајима у близини.",
+    "slogan2": "Бесплатан, отвореног кода, вишеплатформски.",
+    "download": "Преузми",
+    "community": "Заједница",
+    "features": {
+      "title": "Карактеристике",
+      "decentralized": "Децентрализован",
+      "decentralizedDescription": "Делите фајлове без централног сервера. Размена фајлова је потпуно peer-to-peer.",
+      "crossPlatform": "Вишеплатформски",
+      "crossPlatformDescription": "LocalSend је доступан за Windows, macOS, Linux, Android и iOS.",
+      "free": "Бесплатан",
+      "freeDescription": "LocalSend је бесплатан за употребу. Нема реклама, нема праћења, нема скривених трошкова.",
+      "openSource": "Отвореног кода",
+      "openSourceDescription": "Изворни код је јавно доступан. Свако може да допринесе овом пројекту.",
+      "secure": "Безбедан",
+      "secureDescription": "Шифровање с краја на крај обезбеђује да само ви и прималац можете приступити вашим фајловима.",
+      "easy": "Једноставан за употребу",
+      "easyDescription": "Једноставан кориснички интерфејс без регистрације. Други уређаји се откривају аутоматски."
+    },
+    "mentioned": "Помињан широм света",
+    "get": "Набавите LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Преузимања",
+      "description": "Преузмите LocalSend за Windows, macOS, Linux, Android или iOS."
+    },
+    "title": "Преузимања",
+    "subTitle": "Преузимања за {os}",
+    "appStores": "Продавнице апликација",
+    "appStoresDescription": "Препоручено за већину корисника.",
+    "binaries": "Бинарни фајлови",
+    "binariesDescription": "Преузмите за офлајн употребу.",
+    "packageManagers": "Менаџери пакета",
+    "packageManagersDescription": "Инсталирајте помоћу терминала.",
+    "allReleases": "Сва издања",
+    "zip": "ZIP (преносиви)",
+    "copiedToClipboard": "Копирано у привремену меморију!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Заједница",
+      "description": "Потражите помоћ, укључите се, допринесите LocalSend пројекту."
+    },
+    "title": "Заједница",
+    "getHelp": "Потражите помоћ",
+    "getHelpDescription": "Питајте или пронађите одговоре на GitHub разговорима.",
+    "getInvolved": "Укључите се",
+    "getInvolvedDescription": "Ступите у контакт са програмерима и директно допринесите пројекту.",
+    "discord": "Discord",
+    "issues": "Пријава проблема",
+    "pullRequests": "Захтеви за повлачење"
+  },
+  "footer": {
+    "underlicense": "Лиценцирано под",
+    "license": "Apache 2.0 лиценцом",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Приватност",
+    "terms": "Услови",
+    "imprint": "Импресум",
+    "contact": "Контакти"
+  },
+  "homepageButton": "Почетна страница",
+  "improveWebsite": "Унапреди ову веб-страницу"
+}
