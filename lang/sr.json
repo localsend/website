@@ -55,7 +55,7 @@
     "getInvolvedDescription": "Stupite u kontakt sa programerima i direktno doprinesite projektu.",
     "discord": "Discord",
     "issues": "Prijava problema",
-    "pullRequests": "Zahtevi za povlačenje"
+    "pullRequests": "Pull requestovi"
   },
   "footer": {
     "underlicense": "Licencirano pod",
