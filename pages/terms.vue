@@ -1,4 +1,7 @@
 <template>
+       <div :class="['content', { 'sidebar-open': isSidebarOpen }]">
+      <Toc />
+      <div :class="['terms-content', { 'sidebar-open': isSidebarOpen }]">
   <LegalLayout>
     <h1>LocalSend - Terms and Conditions</h1>
     <p>Last updated: December 29, 2022</p>
@@ -86,21 +89,67 @@
       <li>By email: support@localsend.org</li>
     </ul>
   </LegalLayout>
+  </div>
+    </div>
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue';
 import LegalLayout from "~/components/layout/LegalLayout.vue";
+import Toc from "~/components/Toc.vue";
 
 defineI18nRoute(false);
+
+const isSidebarOpen = ref(true);
+
+const updateSidebarState = () => {
+  isSidebarOpen.value = window.innerWidth > 768;
+};
+
+window.addEventListener('resize', updateSidebarState);
+onMounted(updateSidebarState);
 </script>
 
 <style scoped>
+.content {
+  display: flex;
+  transition: margin-left 0.3s ease;
+}
+
+.terms-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 0vw;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar-open .terms-content {
+  margin-left: 20vw;
+}
+
+
+@media (max-width: 768px) {
+  .terms-content {
+    margin-left: 0 !important;
+  }
+
+  .sidebar-container {
+    width: 100%;
+  }
+}
+
 h1 {
   font-size: 1.2rem;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 h2 {
   font-weight: bold;
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 10px;
 }
 </style>
