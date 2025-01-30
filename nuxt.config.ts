@@ -135,6 +135,10 @@ export default defineNuxtConfig({
         language: "nl-NL",
       },
       {
+        code: "oc",
+        language: "oc-FR",
+      },
+      {
         code: "pl",
         language: "pl-PL",
       },
