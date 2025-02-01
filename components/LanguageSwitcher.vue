@@ -3,7 +3,7 @@
     <Icon name="material-symbols:translate" class="me-1 dark:text-white" />
     <select
       v-bind:value="localeIdentity"
-      class="rounded-lg bg-white text-black dark:bg-gray-900 dark:text-white"
+      class="rounded-lg text-black dark:text-white bg-white dark:bg-gray-900"
       :style="{ width: `${switchWidth}px` }"
       @change="changeLocale"
     >
@@ -12,31 +12,31 @@
         :key="index"
         :value="locale.code"
       >
-        {{ localeMap[locale.code] }}
+        {{ locale.name }}
       </option>
     </select>
   </div>
 
   <div class="absolute top-0 pointer-events-none">
     <!-- dummy select to get the width of the select based on the selected item -->
-    <select ref="switchWidthRef" style="visibility: hidden">
-      <option>{{ localeMap[locale] }}</option>
+    <select ref="switch-width" style="visibility: hidden">
+      <option>{{ currLocaleName }}</option>
     </select>
   </div>
 </template>
 
 <script setup lang="ts">
-import { localeMap } from "~/i18n.config";
-
 const { locale, locales } = useI18n();
 const switchLocalePath = useSwitchLocalePath();
 
 const localeIdentity = ref("");
 const switchWidth = ref(0);
-const switchWidthRef = ref<HTMLElement | null>(null);
+const switchWidthRef = useTemplateRef("switch-width");
 
 const changeLocale = (e: Event) => {
   const target = e.target as HTMLSelectElement;
+
+  // @ts-ignore
   const path = switchLocalePath(target.value);
   navigateTo(path);
 
@@ -44,6 +44,10 @@ const changeLocale = (e: Event) => {
     switchWidth.value = switchWidthRef.value!.offsetWidth;
   }, 100);
 };
+
+const currLocaleName = computed(() => {
+  return locales.value.find((l) => l.code === locale.value)?.name;
+});
 
 const i18nEnabled = computed(() => {
   // returns true if the resulting path is not empty
