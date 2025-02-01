@@ -1,11 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
+    "@nuxt/icon",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/i18n",
-    "nuxt-icon",
     "@nuxtjs/sitemap",
-    "@nuxt/content",
   ],
 
   devtools: { enabled: true },
