@@ -138,13 +138,14 @@
 <script setup lang="ts">
 import TextButton from "~/components/TextButton.vue";
 import SecondaryLayout from "~/components/layout/SecondaryLayout.vue";
+import {requestGithubAssets} from "~/utils/requestGithubAssets";
 
 definePageMeta({
   title: "download.seo.title",
   description: "download.seo.description",
 });
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 enum OS {
   windows = "Windows",
@@ -194,17 +195,33 @@ const assetsMap: Ref<{ [key: string]: string }> = ref({});
 const fallbackUrl = "https://github.com/localsend/localsend/releases";
 
 const downloadMetadata = computed<Record<OS, Download>>(() => {
+  const downloadUrl = (extension: string) => {
+    const assetUrl = assetsMap.value[extension];
+    if (assetUrl) {
+      if (locale.value === 'zh-CN') {
+        // GitHub is partly blocked in China, so we use a mirror for the download.
+        // Ref: https://github.com/localsend/localsend/issues/2250
+        // https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-linux-x86-64.deb
+        // https://d.localsend.org/LocalSend-1.16.1-linux-x86-64.deb
+        const fileName = assetUrl.split('/').pop();
+        return `https://d.localsend.org/${fileName}`;
+      }
+      return assetUrl;
+    }
+    return fallbackUrl;
+  };
+
   return {
     [OS.windows]: {
       stores: [],
       binaries: [
         {
           name: "EXE",
-          url: assetsMap.value["exe"] ?? fallbackUrl,
+          url: downloadUrl("exe"),
         },
         {
           name: t("download.zip"),
-          url: assetsMap.value["zip"] ?? fallbackUrl,
+          url: downloadUrl("zip"),
         },
       ],
       packageManagers: [
@@ -227,7 +244,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       binaries: [
         {
           name: "DMG",
-          url: assetsMap.value["dmg"] ?? fallbackUrl,
+          url: downloadUrl("dmg"),
         },
       ],
       packageManagers: [
@@ -243,15 +260,15 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       binaries: [
         {
           name: "TAR",
-          url: assetsMap.value["gz"] ?? fallbackUrl,
+          url: downloadUrl("gz"),
         },
         {
           name: "DEB",
-          url: assetsMap.value["deb"] ?? fallbackUrl,
+          url: downloadUrl("deb"),
         },
         {
           name: "AppImage",
-          url: assetsMap.value["AppImage"] ?? fallbackUrl,
+          url: downloadUrl("AppImage"),
         },
       ],
       packageManagers: [
@@ -304,7 +321,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       binaries: [
         {
           name: "APK",
-          url: assetsMap.value["apk"] ?? fallbackUrl,
+          url: downloadUrl("apk"),
         },
       ],
       packageManagers: [],
@@ -335,7 +352,7 @@ function copyToClipboard(text: string) {
 }
 
 onMounted(async () => {
-  const os = (router.currentRoute.value.query.os ?? '').toLowerCase();
+  const os = (router.currentRoute.value.query.os?.toString() ?? '').toLowerCase();
   selectedOS.value = Object.values(OS).find((o) => o.toLowerCase() === os) ?? detectOS();
 
   const assetsMetadata = await requestGithubAssets();
