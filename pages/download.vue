@@ -108,6 +108,7 @@
               class="mt-2 rounded-lg bg-gray-200 p-2 text-sm dark:bg-gray-700 dark:text-gray-300"
             >
               <code>
+                <div class="relative">
                 <span
                   v-for="(command, index) in packageManager.commands"
                   :key="index"
@@ -116,7 +117,11 @@
                 >
                   <span class="text-gray-400 dark:text-gray-500 select-none">
                     &dollar; </span>{{ command }}<br />
-                </span>
+                  </span>
+                  <button @click="copyToClipboard(packageManager.commands)" class="absolute top-0 right-0 text-gray-400 hover:text-gray-700 dark:hover:text-white">
+                    <Icon name="i-lucide-copy" class="w-5 h-5" />
+                  </button>
+                </div>
               </code>
             </div>
           </div>
@@ -345,8 +350,9 @@ function setOS(os: OS) {
 
 const copyToClipboardSnackbar = ref(false);
 
-function copyToClipboard(text: string) {
-  navigator.clipboard.writeText(text);
+function copyToClipboard(text: string | string []) {
+  const textToCopy = Array.isArray(text) ? text.join('\n') : text;
+  navigator.clipboard.writeText(textToCopy);
   copyToClipboardSnackbar.value = true;
   setTimeout(() => (copyToClipboardSnackbar.value = false), 3000);
 }
