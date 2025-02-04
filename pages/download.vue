@@ -107,22 +107,22 @@
             <div
               class="mt-2 rounded-lg bg-gray-200 p-2 text-sm dark:bg-gray-700 dark:text-gray-300"
             >
-              <code>
-                <div class="relative">
-                <span
-                  v-for="(command, index) in packageManager.commands"
-                  :key="index"
-                  class="cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-600"
-                  @click="() => copyToClipboard(command)"
-                >
+              <div class="relative">
+                <code>
+                  <span
+                    v-for="(command, index) in packageManager.commands"
+                    :key="index"
+                    class="cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-600"
+                    @click="() => copyToClipboard(command)"
+                  >
                   <span class="text-gray-400 dark:text-gray-500 select-none">
                     &dollar; </span>{{ command }}<br />
                   </span>
                   <button @click="copyToClipboard(packageManager.commands)" class="absolute top-0 right-0 text-gray-400 hover:text-gray-700 dark:hover:text-white">
                     <Icon name="i-lucide-copy" class="w-5 h-5" />
                   </button>
-                </div>
-              </code>
+                </code>
+              </div>
             </div>
           </div>
         </div>
