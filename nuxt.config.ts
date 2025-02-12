@@ -59,6 +59,12 @@ export default defineNuxtConfig({
         name: "বাংলা",
       },
       {
+        code: "ca",
+        language: "ca-ES",
+        file: "ca.json",
+        name: "Català",
+      },
+      {
         code: "cs",
         language: "cs-CZ",
         file: "cs.json",
