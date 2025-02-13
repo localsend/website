@@ -1,32 +1,76 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend: Compartilhe arquivos com dispositivos próximos",
+      "description": "LocalSend é uma ferramenta gratuita, de código aberto e multiplataforma para compartilhar arquivos com dispositivos próximos."
+    },
     "slogan1": "Compartilhe arquivos com dispositivos próximos.",
     "slogan2": "Gratuito, de código aberto e multiplataforma.",
     "download": "Download",
-    "community": "Comunidade"
+    "community": "Comunidade",
+    "mentioned": "Mencionado ao redor do mundo inteiro",
+    "get": "Obtenha o LocalSend",
+    "features": {
+      "title": "Funcionalidades",
+      "decentralized": "Descentralizado",
+      "decentralizedDescription": "Compartilhe arquivos sem um servidor central. A transferência de arquivos é completamente pessoa para pessoa.",
+      "crossPlatform": "Multiplataforma",
+      "crossPlatformDescription": "LocalSend está disponível para Windows, macOS, Linux, Android e iOS.",
+      "free": "Gratuito",
+      "freeDescription": "LocalSend é gratuito para uso. Sem anúncios, sem rastreamento e sem custos escondidos.",
+      "openSource": "Código aberto",
+      "openSourceDescription": "O código-fonte está disponível publicamente. Todos podem contribuir para o projeto.",
+      "secure": "Seguro",
+      "secureDescription": "A criptografia de ponta a ponta garante que apenas você e o destinatário possam acessar seus arquivos.",
+      "easy": "Fácil",
+      "easyDescription": "Uma interface de usuário simples, sem registros. Outros dispositivos são encontrados automaticamente."
+    }
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - Downloads",
+      "description": "Faça o download do LocalSend para Windows, macOS, Linux, Android e iOS."
+    },
     "title": "Downloads",
     "subTitle": "Downloads do {os}",
     "appStores": "Lojas de Aplicativos",
     "appStoresDescription": "Recomendado para a maioria dos usuários.",
-    "binaries": "Arquivos executáveis",
+    "binaries": "Arquivos Executáveis",
     "binariesDescription": "Faça o download para uso offline.",
     "packageManagers": "Gerenciadores de Pacotes",
-    "packageManagersDescription": "Instale com o terminal.",
+    "packageManagersDescription": "Instale pelo terminal.",
     "allReleases": "Todas as Versões",
     "zip": "ZIP (portátil)",
     "copiedToClipboard": "Copiado para a área de transferência!"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - Comunidade",
+      "description": "Obtenha ajuda, envolva-se e contribua para o LocalSend."
+    },
     "title": "Comunidade",
     "getHelp": "Obtenha ajuda",
-    "getHelpDescription": "Pergunte ou procure respostas nas discussões do Github.",
+    "getHelpDescription": "Pergunte ou procure respostas nas discussões do GitHub.",
     "getInvolved": "Participe!",
     "getInvolvedDescription": "Entre em contato com os desenvolvedores e contribua diretamente para o projeto.",
     "discord": "Discord",
     "issues": "Issues",
     "pullRequests": "Pull Requests"
   },
-  "homepageButton": "Página Inicial"
+  "news": {
+    "title": "Notícias",
+    "showAll": "Mostrar todas as notícias"
+  },
+  "footer": {
+    "underlicense": "Licenciado sob",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "imprint": "Informações Legais",
+    "contact": "Contatos"
+  },
+  "homepageButton": "Página Inicial",
+  "improveWebsite": "Melhore o website"
 }
