@@ -1,0 +1,76 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Compartició de fitxers entre dispositius propers",
+      "description": "El LocalSend és una eina de compartició de fitxers lliure, de codi obert i multiplataforma, que us permet compartir fitxers entre dispositius propers."
+    },
+    "slogan1": "Compartiu fitxers entre dispositius propers.",
+    "slogan2": "Lliure, de codi obert i multiplataforma.",
+    "download": "Baixada",
+    "community": "Comunitat",
+    "features": {
+      "title": "Característiques",
+      "decentralized": "Descentralitzat",
+      "decentralizedDescription": "Compartiu fitxers sense cap servidor central. La transferència es fa completament d'igual a igual.",
+      "crossPlatform": "Multiplataforma",
+      "crossPlatformDescription": "El LocalSend es troba disponible per al Windows, macOS, Linux, Android i iOS.",
+      "free": "Lliure",
+      "freeDescription": "El LocalSend és d'ús lliure. Sense anuncis, seguiment a usuaris ni costs ocults.",
+      "openSource": "Codi obert",
+      "openSourceDescription": "El codi font es troba disponible públicament. Tothom pot contribuir al projecte.",
+      "secure": "Segur",
+      "secureDescription": "El xifratge d'extrem a extrem assegura que només vós i el destinatari pugueu accedir als fitxers.",
+      "easy": "Fàcil d'utilitzar",
+      "easyDescription": "Una interfície d'usuari senzilla, sense registres. Els altres dispositius es detecten de manera automàtica."
+    },
+    "mentioned": "Mencions arreu del món",
+    "get": "Obteniu el LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Baixades",
+      "description": "Baixeu el LocalSend per al Windows, macOS, Linux, Android i iOS."
+    },
+    "title": "Baixades",
+    "subTitle": "Baixades per a {os}",
+    "appStores": "Botigues d'aplicacions",
+    "appStoresDescription": "Recomanat per a la majoria d'usuaris.",
+    "binaries": "Executables",
+    "binariesDescription": "Baixeu-ho per a l'ús fora de línia.",
+    "packageManagers": "Gestors de paquets",
+    "packageManagersDescription": "Instal·lació amb la terminal.",
+    "allReleases": "Totes les publicacions",
+    "zip": "ZIP (portable)",
+    "copiedToClipboard": "S'ha copiat al porta-retalls!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Comunitat",
+      "description": "Obteniu ajuda, involucreu-vos i contribuïu al LocalSend."
+    },
+    "title": "Comunitat",
+    "getHelp": "Obteniu ajuda",
+    "getHelpDescription": "Demaneu o cerqueu respostes a les Discussions del GitHub.",
+    "getInvolved": "Involucreu-vos",
+    "getInvolvedDescription": "Contacteu amb els desenvolupadors i contribuïu de manera directa al projecte.",
+    "discord": "Discord",
+    "issues": "Errors",
+    "pullRequests": "Peticions d'implementació"
+  },
+  "news": {
+    "title": "Notícies",
+    "showAll": "Mostra-les totes"
+  },
+  "footer": {
+    "underlicense": "Llicència: ",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privadesa",
+    "terms": "Condicions",
+    "imprint": "Legal",
+    "contact": "Contactes"
+  },
+  "homepageButton": "Pàgina d'inici",
+  "improveWebsite": "Milloreu aquest lloc web"
+}
