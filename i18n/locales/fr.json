@@ -1,5 +1,9 @@
 {
   "home": {
+    "seo": {
+      "title": "LocalSend : Partagez des fichiers avec vos appareils à proximité",
+      "description": "LocalSend est un outil gratuit, open source et cross-plateforme pour partager des fichiers avec les appareils avec vos proximité."
+    },
     "slogan1": "Partagez des fichiers avec vos appareils à proximité.",
     "slogan2": "Gratuit, open-source et cross-plateforme.",
     "download": "Télécharger",
@@ -23,6 +27,10 @@
     "get": "Obtenez LocalSend"
   },
   "download": {
+    "seo": {
+      "title": "LocalSend - Téléchargements",
+      "description": "Téléchargez LocalSend pour Windows, macOS, Linux, Android et iOS."
+    },
     "title": "Téléchargements",
     "subTitle": "Téléchargements pour {os}",
     "appStores": "App Stores",
@@ -36,6 +44,10 @@
     "copiedToClipboard": "Copié dans le presse-papier !"
   },
   "community": {
+    "seo": {
+      "title": "LocalSend - Communauté",
+      "description": "Obtenez de l'aide, participez et contribuez à LocalSend."
+    },
     "title": "Communauté",
     "getHelp": "Obtenir de l'aide",
     "getHelpDescription": "Demandez ou cherchez des réponses dans les discussions GitHub.",
@@ -45,6 +57,10 @@
     "__Note": "Not sure if I should translate Issues/Pull Requests, as Github itself isn't translated & this just feels more natural",
     "issues": "Issues", 
     "pullRequests": "Pull Requests"
+  },
+  "news": {
+    "title": "Actualités",
+    "showAll": "Afficher toutes les actualités"
   },
   "homepageButton": "Menu principal",
   "footer": {
