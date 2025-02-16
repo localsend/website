@@ -3,7 +3,24 @@
     "slogan1": "Partagez des fichiers avec vos appareils à proximité.",
     "slogan2": "Gratuit, open-source et cross-plateforme.",
     "download": "Télécharger",
-    "community": "Communauté"
+    "community": "Communauté",
+    "features": {
+      "title": "Pourquoi LocalSend ?",
+      "decentralized": "Décentralisé",
+      "decentralizedDescription": "Partagez des fichiers de pair-à-pair, sans passer par un serveur central.",
+      "crossPlatform": "Cross-plateforme",
+      "crossPlatformDescription": "LocalSend est disponible sous Windows, macOS, Linux, Android et iOS.",
+      "free": "Libre et gratuit",
+      "freeDescription": "LocalSend est libre et gratuit d'utilisation. Pas de publicité, pas de pistage, pas de coûts cachés.",
+      "openSource": "Open source",
+      "openSourceDescription": "Le code source est libre et ouvert. Tout le monde peut contribuer !",
+      "secure": "Sécurisé",
+      "secureDescription": "Grâce au chiffrement de bout-en-bout, les fichiers restent entre vous et votre destinataire.",
+      "easy": "Facile d'utilisation",
+      "easyDescription": "L'interface est simple, ne nécessite aucun compte et détecte automatiquement les autres appareils."
+    },
+    "mentioned": "Le monde entier en parle",
+    "get": "Obtenez LocalSend"
   },
   "download": {
     "title": "Téléchargements",
@@ -16,7 +33,7 @@
     "packageManagersDescription": "Installer via un terminal.",
     "allReleases": "Toutes les versions",
     "zip": "ZIP (portable)",
-    "copiedToClipboard": "Copié au presse-papier!"
+    "copiedToClipboard": "Copié dans le presse-papier !"
   },
   "community": {
     "title": "Communauté",
@@ -29,5 +46,16 @@
     "issues": "Issues", 
     "pullRequests": "Pull Requests"
   },
-  "homepageButton": "Menu principal"
+  "homepageButton": "Menu principal",
+  "footer": {
+    "underlicense": "Sous licence",
+    "license": "Apache 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Vie privée",
+    "terms": "CGU",
+    "imprint": "Mentions légales",
+    "contact": "Contact"
+  },
+  "improveWebsite": "Améliorer ce site"
 }
