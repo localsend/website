@@ -144,12 +144,11 @@
       </InfiniteHorizontalScroll>
 
       <div class="mt-8" v-if="locale !== 'zh-CN'">
-        <!-- YouTube video; We disable this for mainland China because YouTube is not available there. -->
-        <iframe width="560" height="315" :src="youtubeVideo"
-                class="max-sm:w-screen"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- YouTube video; a clickable screenshot is used to ease network usage on devices. -->
+        <!-- We disable We disable this for mainland China because YouTube is not available there. -->
+        <a :href="youtubeVideo" target="_blank" rel="noopener noreferrer">
+          <img src="~/assets/img/video-preview.webp" width="560" alt="{{ t('home.video') }}">
+        </a>
       </div>
 
       <h2 class="mt-24 text-center text-3xl font-bold dark:text-white">
@@ -271,9 +270,9 @@ const mentionedArticles: MentionedArticle[] = [
 const youtubeVideo = computed(() => {
   switch (locale.value) {
     case "de":
-      return "https://www.youtube-nocookie.com/embed/qfXkF-W09zk?si=UEUSbWlhsGaJ87yQ";
+      return "https://www.youtube.com/watch?v=qfXkF-W09zk";
     default:
-      return "https://www.youtube-nocookie.com/embed/2ITezMkbAqE?si=Kn9k4ju5HTX5S6JJ";
+      return "https://www.youtube.com/watch?v=2ITezMkbAqE";
   }
 });
 </script>
