@@ -116,6 +116,12 @@ export default defineNuxtConfig({
         name: "Français",
       },
       {
+        code: "gl",
+        language: "gl-ES",
+        file: "gl.json",
+        name: "Galego",
+      },
+      {
         code: "he",
         language: "he-IL",
         file: "he.json",
