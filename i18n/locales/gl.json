@@ -1,78 +1,77 @@
 {
-    "home": {
-      "seo": {
-        "title": "LocalSend: Comparte ficheiros a dispotivos próximos",
-        "description": "LocalSend é unha ferramenta gratuita, de código aberto e multiplataforma para compartir ficheiros a dispositivos próximos"
-      },
-      "slogan1": "Comparte ficheiros a dispositivos próximos.",
-      "slogan2": "Gratuito, código aberto, multiplataforma.",
-      "download": "Descargar",
-      "community": "Comunidade",
-      "features": {
-        "title": "Características",
-        "decentralized": "Descentralizado",
-        "decentralizedDescription": "Comparte ficheiros sen un servidor central. A transferencia de ficheiros é completamente de igual a igual.",
-        "crossPlatform": "Multiplataforma",
-        "crossPlatformDescription": "LocalSend está dispoñíbel Windows, macOS, Linux, Android, e iOS.",
-        "free": "Gratuito",
-        "freeDescription": "LocalSend é gratuito. Sen anuncios, sen rastrexadores, sen custes ocultos.",
-        "openSource": "Código aberto",
-        "openSourceDescription": "O código fonte está dispoñíbel publicamente. Todo o mundo pode contribuír ao proxecto.",
-        "secure": "Seguro",
-        "secureDescription": "O cifrado de extremo a extremo garante que só ti e o destinatario poidan acceder aos ficheiros.",
-        "easy": "Sinxelo de empregar",
-        "easyDescription": "Unha interface sinxela sen rexistro. Outros dispositivos descóbrense automáticamente."
-      },
-      "mentioned": "Mencionado arredor do mundo",
-      "get": "Obteña LocalSend",
-      "video": "Vexa un vídeo de presentación de LocalSend en YouTube"
+  "home": {
+    "seo": {
+      "title": "LocalSend: Comparte ficheiros a dispotivos próximos",
+      "description": "LocalSend é unha ferramenta gratuita, de código aberto e multiplataforma para compartir ficheiros a dispositivos próximos"
     },
-    "download": {
-      "seo": {
-        "title": "LocalSend - Descargas",
-        "description": "Descarga LocalSend para Windows, macOS, Linux, Android, e iOS."
-      },
-      "title": "Descargas",
-      "subTitle": "Descargas para {os}",
-      "appStores": "Tendas de aplicacións",
-      "appStoresDescription": "Recomendada para a maioría de usuarios.",
-      "binaries": "Binarios",
-      "binariesDescription": "Descarga para empregar sen conexión.",
-      "packageManagers": "Xestores de paquetes",
-      "packageManagersDescription": "Instalar mediante a terminal.",
-      "allReleases": "Todas as versións",
-      "zip": "ZIP (portable)",
-      "copiedToClipboard": "Copiado ao portapeis!"
+    "slogan1": "Comparte ficheiros a dispositivos próximos.",
+    "slogan2": "Gratuito, código aberto, multiplataforma.",
+    "download": "Descargar",
+    "community": "Comunidade",
+    "features": {
+      "title": "Características",
+      "decentralized": "Descentralizado",
+      "decentralizedDescription": "Comparte ficheiros sen un servidor central. A transferencia de ficheiros é completamente de igual a igual.",
+      "crossPlatform": "Multiplataforma",
+      "crossPlatformDescription": "LocalSend está dispoñíbel para Windows, macOS, Linux, Android, e iOS.",
+      "free": "Gratuito",
+      "freeDescription": "LocalSend é gratuito. Sen anuncios, sen rastrexadores, sen custos ocultos.",
+      "openSource": "Código aberto",
+      "openSourceDescription": "O código fonte está dispoñíbel publicamente. Todo o mundo pode contribuír ao proxecto.",
+      "secure": "Seguro",
+      "secureDescription": "O cifrado de extremo a extremo garante que só ti e o destinatario poidan acceder aos ficheiros.",
+      "easy": "Sinxelo de empregar",
+      "easyDescription": "Unha interface sinxela sen rexistro. Outros dispositivos descóbrense automáticamente."
     },
-    "community": {
-      "seo": {
-        "title": "LocalSend - Comunidade",
-        "description": "Obtén axuda, implícate, e contribúe a LocalSend."
-      },
-      "title": "Comunidade",
-      "getHelp": "Obtén axuda",
-      "getHelpDescription": "Pregunta ou busca respostas en GitHub Discussions.",
-      "getInvolved": "Involúcrate",
-      "getInvolvedDescription": "Ponte en contacto cos desenvolvedores e contribúe directamente ao proxecto.",
-      "discord": "Discord",
-      "issues": "Problemas",
-      "pullRequests": "Solicitudes de cambios"
+    "mentioned": "Mencionado arredor do mundo",
+    "get": "Obteña LocalSend",
+    "video": "Vexa un vídeo de presentación de LocalSend en YouTube"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Descargas",
+      "description": "Descarga LocalSend para Windows, macOS, Linux, Android, e iOS."
     },
-    "news": {
-      "title": "Novas",
-      "showAll": "Amosar todas as novas"
+    "title": "Descargas",
+    "subTitle": "Descargas para {os}",
+    "appStores": "Tendas de aplicacións",
+    "appStoresDescription": "Recomendada para a maioría de usuarios.",
+    "binaries": "Binarios",
+    "binariesDescription": "Descarga para empregar sen conexión.",
+    "packageManagers": "Xestores de paquetes",
+    "packageManagersDescription": "Instalar mediante a terminal.",
+    "allReleases": "Todas as versións",
+    "zip": "ZIP (portable)",
+    "copiedToClipboard": "Copiado ao portapapeis!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Comunidade",
+      "description": "Obtén axuda, implícate, e contribúe a LocalSend."
     },
-    "footer": {
-      "underlicense": "Licenciado baixo a",
-      "license": "Apache License 2.0",
-      "github": "GitHub",
-      "discord": "Discord",
-      "privacy": "Privacidade",
-      "terms": "Termos",
-      "imprint": "Impreso",
-      "contact": "Contactos"
-    },
-    "homepageButton": "Inicio",
-    "improveWebsite": "Mellora esta páxina web"
-  }
-  
+    "title": "Comunidade",
+    "getHelp": "Obtén axuda",
+    "getHelpDescription": "Pregunta ou busca respostas en GitHub Discussions.",
+    "getInvolved": "Involúcrate",
+    "getInvolvedDescription": "Ponte en contacto cos desenvolvedores e contribúe directamente ao proxecto.",
+    "discord": "Discord",
+    "issues": "Problemas",
+    "pullRequests": "Solicitudes de cambios"
+  },
+  "news": {
+    "title": "Novas",
+    "showAll": "Amosar todas as novas"
+  },
+  "footer": {
+    "underlicense": "Licenciado baixo a",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "imprint": "Impreso",
+    "contact": "Contactos"
+  },
+  "homepageButton": "Inicio",
+  "improveWebsite": "Mellora esta páxina web"
+}
