@@ -1,7 +1,7 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Comparte archivos a dispotivos cercanos",
+      "title": "LocalSend: Comparte archivos a dispositivos cercanos",
       "description": "LocalSend es una herramienta gratis, de código abierto y multiplataforma para compartir archivos a dispositivos cercanos"
     },
     "slogan1": "Comparte archivos a dispositivos cercanos.",
@@ -17,10 +17,10 @@
       "free": "Gratis",
       "freeDescription": "LocalSend es gratuito. Sin anuncios, sin rastreo, sin costes ocultos.",
       "openSource": "Código abierto",
-      "openSourceDescription": "El código fuente esta disponible públicamente. Todo el mundo puede contribuir al proyecto.",
+      "openSourceDescription": "El código fuente está disponible públicamente. Todo el mundo puede contribuir al proyecto.",
       "secure": "Seguro",
-      "secureDescription": "La encriptación de extremo a extemo asegura que solo tu y el destinatario podais acceder a los archivos.",
-      "easy": "Facil de Usar",
+      "secureDescription": "La encriptación de extremo a extemo asegura que sólo tú y el destinatario podáis acceder a los archivos.",
+      "easy": "Fácil de Usar",
       "easyDescription": "Una interfaz de usuario simple y sin registro. Otros dispositivos se descubren automáticamente."
     },
     "mentioned": "Mencionado alrededor del mundo",
