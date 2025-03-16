@@ -175,6 +175,8 @@
 </template>
 
 <script setup lang="ts">
+import { useSeoMeta } from '#imports'
+
 definePageMeta({
   title: "home.seo.title",
   description: "home.seo.description",
@@ -182,6 +184,21 @@ definePageMeta({
 
 const { t, locale } = useI18n();
 const localePath = useLocalePath();
+
+// Add SEO meta tags using Nuxt's built-in useSeoMeta
+useSeoMeta({
+  title: 'LocalSend - Share files across devices',
+  description: 'A free, open-source app for sharing files between nearby devices without internet connection.',
+  ogTitle: 'LocalSend - Share files across devices',
+  ogDescription: 'A free, open-source app for sharing files between nearby devices without internet connection.',
+  ogImage: 'https://localsend.org/img/logo-512.png',
+  ogUrl: 'https://localsend.org',
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'LocalSend - Share files across devices',
+  twitterDescription: 'A free, open-source app for sharing files between nearby devices without internet connection.',
+  twitterImage: 'https://localsend.org/img/logo-512.png'
+})
 
 onMounted(() => {
   // legacy redirects (remove after next store update)
@@ -227,7 +244,7 @@ const mentionedArticles: MentionedArticle[] = [
   },
   {
     title:
-      "Cette application universelle offre un partage de fichiers inspiré d’AirDrop à tous vos appareils",
+      "Cette application universelle offre un partage de fichiers inspiré d'AirDrop à tous vos appareils",
     description: "01net",
     language: "twemoji:flag-france",
     url: "https://www.01net.com/astuces/cette-application-universelle-offre-un-partage-de-fichiers-inspire-dairdrop-a-tous-vos-appareils.html",
@@ -260,7 +277,7 @@ const mentionedArticles: MentionedArticle[] = [
   },
   {
     title:
-      "Invia file in modo sicuro sulla rete locale con l’app LocalSend multipiattaforma",
+      "Invia file in modo sicuro sulla rete locale con l'app LocalSend multipiattaforma",
     description: "Guidetti Informatica",
     language: "twemoji:flag-italy",
     url: "https://www.guidetti-informatica.net/2023/03/invia-file-in-modo-sicuro-sulla-rete-locale-con-lapp-localsend-multipiattaforma/",

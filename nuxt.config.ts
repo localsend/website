@@ -15,6 +15,18 @@ export default defineNuxtConfig({
       mode: "out-in",
     },
     head: {
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { name: 'description', content: 'LocalSend - A free, open-source app for sharing files between nearby devices without internet connection.' },
+        { name: 'og:title', content: 'LocalSend - Share files across devices' },
+        { name: 'og:description', content: 'A free, open-source app for sharing files between nearby devices without internet connection.' },
+        { name: 'og:image', content: 'https://localsend.org/img/logo-512.png' },
+        { name: 'og:url', content: 'https://localsend.org' },
+        { name: 'og:type', content: 'website' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+      ],
       link: [
         {
           rel: "icon",
@@ -25,12 +37,33 @@ export default defineNuxtConfig({
           sizes: "180x180",
           href: "/apple-touch-icon.png",
         },
+        {
+          rel: "canonical",
+          href: "https://localsend.org",
+        },
       ],
     },
   },
 
   site: {
     url: "https://localsend.org",
+  },
+
+  sitemap: {
+    urls: [],
+    xslColumns: [
+      { label: 'URL', width: '60%' },
+      { label: 'Last Modified', select: 'sitemap:lastmod', width: '25%' },
+      { label: 'Priority', select: 'sitemap:priority', width: '15%' },
+    ],
+    defaults: {
+      changefreq: 'weekly',
+      priority: 0.8,
+      lastmod: new Date(),
+    },
+    strictNuxtContentPaths: true,
+    xsl: true,
+    cacheTtl: 1000 * 60 * 60 * 24,
   },
 
   i18n: {

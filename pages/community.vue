@@ -32,6 +32,7 @@
 
 <script setup lang="ts">
 import SecondaryLayout from "~/components/layout/SecondaryLayout.vue";
+import { useSeoMeta } from '#imports'
 
 definePageMeta({
   title: 'community.seo.title',
@@ -39,6 +40,21 @@ definePageMeta({
 })
 
 const {t} = useI18n()
+
+// Add SEO meta tags using Nuxt's built-in useSeoMeta
+useSeoMeta({
+  title: 'LocalSend Community - Join our community',
+  description: 'Join the LocalSend community. Get help, contribute to the project, or connect with other users.',
+  ogTitle: 'LocalSend Community - Join our community',
+  ogDescription: 'Join the LocalSend community. Get help, contribute to the project, or connect with other users.',
+  ogImage: 'https://localsend.org/img/logo-512.png',
+  ogUrl: 'https://localsend.org/community',
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'LocalSend Community - Join our community',
+  twitterDescription: 'Join the LocalSend community. Get help, contribute to the project, or connect with other users.',
+  twitterImage: 'https://localsend.org/img/logo-512.png'
+})
 
 interface HelpButton {
   name: string;

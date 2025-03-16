@@ -144,6 +144,7 @@
 import TextButton from "~/components/TextButton.vue";
 import SecondaryLayout from "~/components/layout/SecondaryLayout.vue";
 import {requestGithubAssets} from "~/utils/requestGithubAssets";
+import { useSeoMeta } from '#imports'
 
 definePageMeta({
   title: "download.seo.title",
@@ -151,6 +152,21 @@ definePageMeta({
 });
 
 const { t, locale } = useI18n();
+
+// Add SEO meta tags using Nuxt's built-in useSeoMeta
+useSeoMeta({
+  title: 'Download LocalSend - Available for all platforms',
+  description: 'Download LocalSend for Windows, macOS, Linux, Android, and iOS. Share files across devices without internet connection.',
+  ogTitle: 'Download LocalSend - Available for all platforms',
+  ogDescription: 'Download LocalSend for Windows, macOS, Linux, Android, and iOS. Share files across devices without internet connection.',
+  ogImage: 'https://localsend.org/img/screenshot-pc.webp',
+  ogUrl: 'https://localsend.org/download',
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Download LocalSend - Available for all platforms',
+  twitterDescription: 'Download LocalSend for Windows, macOS, Linux, Android, and iOS. Share files across devices without internet connection.',
+  twitterImage: 'https://localsend.org/img/screenshot-pc.webp'
+})
 
 enum OS {
   windows = "Windows",
