@@ -13,7 +13,7 @@
               id="logo"
               src="~/assets/img/logo-512.png"
               alt="LocalSend Logo"
-              class="h-52 object-contain md:h-40 lg:h-40 xl:h-48 2xl:h-56"
+              class="h-52 object-contain md:h-40 lg:h-40 xl:h-48 2xl:h-56 aspect-square"
             />
           </div>
 
@@ -68,7 +68,7 @@
             <img
               src="/img/screenshot-iphone.webp"
               alt="iPhone Screenshot"
-              class="h-96 object-contain"
+              class="h-96 object-contain aspect-auto"
             />
           </div>
           <div
@@ -77,7 +77,7 @@
             <img
               src="/img/screenshot-pc.webp"
               alt="PC Screenshot"
-              class="h-96 object-contain"
+              class="h-96 object-contain aspect-square"
             />
           </div>
         </div>
@@ -147,7 +147,7 @@
         <!-- YouTube video; a clickable screenshot is used to ease network usage on devices. -->
         <!-- We disable We disable this for mainland China because YouTube is not available there. -->
         <a :href="youtubeVideo" target="_blank" rel="noopener noreferrer">
-          <img src="~/assets/img/video-preview.webp" width="560" alt="{{ t('home.video') }}">
+          <img class="aspect-video" src="~/assets/img/video-preview.webp" width="560" alt="{{ t('home.video') }}">
         </a>
       </div>
 
