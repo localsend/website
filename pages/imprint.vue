@@ -8,8 +8,8 @@
     <br><br>
     <h2>Angaben gemäß § 5 TMG</h2>
     <p>Tien Do Nam</p>
-    <p>Endersstr. 5</p>
-    <p>04177 Leipzig</p>
+    <p>{{ imprintStreet }}</p>
+    <p>{{ imprintCity }}</p>
     <p>Deutschland</p>
 
     <br>
@@ -27,6 +27,9 @@
 import LegalLayout from "~/components/layout/LegalLayout.vue";
 
 defineI18nRoute(false);
+
+const imprintStreet = process.env.IMPRINT_STREET;
+const imprintCity = process.env.IMPRINT_CITY;
 </script>
 
 <style scoped>
