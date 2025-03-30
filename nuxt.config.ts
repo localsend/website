@@ -37,7 +37,6 @@ export default defineNuxtConfig({
     baseUrl: "https://localsend.org",
     strategy: "prefix_except_default",
     defaultLocale: "en",
-    vueI18n: './i18n.config.ts',
     pages: {
       privacy: false,
       terms: false,
