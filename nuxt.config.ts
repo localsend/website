@@ -311,5 +311,13 @@ export default defineNuxtConfig({
     },
   },
 
+  // https://stackoverflow.com/questions/67703133/how-to-use-env-variables-in-nuxt-2-or-3
+  vite: {
+    define: {
+      'process.env.IMPRINT_STREET': JSON.stringify(process.env.IMPRINT_STREET),
+      'process.env.IMPRINT_CITY': JSON.stringify(process.env.IMPRINT_CITY),
+    }
+  },
+
   compatibilityDate: "2024-10-20",
 });
