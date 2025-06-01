@@ -96,6 +96,12 @@ export default defineNuxtConfig({
         name: "Español",
       },
       {
+        code: "et",
+        language: "et-EE",
+        file: "et.json",
+        name: "Eesti",
+      },
+      {
         code: "fa",
         language: "fa-IR",
         file: "fa.json",
