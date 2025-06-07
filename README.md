@@ -2,7 +2,7 @@
 
 ## Setup
 
-Make sure to install [pnpm](https://pnpm.io).
+Make sure to install [npm](https://pnpm.io).
 
 ```bash
 npm install -g pnpm
