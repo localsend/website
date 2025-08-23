@@ -193,7 +193,14 @@ const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id166173322
 
 const nix = {
   name: "Nix",
-  commands: ["nix-shell -p localsend", "pkgs.localsend # Config"],
+  commands: [
+    "sudo nano /etc/nixos/configuration.nix",
+    "# Add these lines:",
+    "programs.localsend.enable = true;",
+    "programs.localsend.openFirewall = true;",
+    "# Save and exit the file ,then run:",
+    "sudo nixos-rebuild switch"
+  ],
 };
 
 const assetsMap: Ref<{ [key: string]: string }> = ref({});
