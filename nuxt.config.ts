@@ -308,6 +308,12 @@ export default defineNuxtConfig({
         file: "zh-TW.json",
         name: "繁體中文 – 台灣",
       },
+      {
+        code: "ckb",
+        language: "ckb",
+        file: "ckb.json",
+        name: "کوردی ناوەندی",
+      },
     ],
   },
 
