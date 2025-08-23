@@ -194,11 +194,9 @@ const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id166173322
 const nix = {
   name: "Nix",
   commands: [
-    "sudo nano /etc/nixos/configuration.nix",
-    "# Add these lines:",
+    "# Edit /etc/nixos/configuration.nix",
     "programs.localsend.enable = true;",
-    "programs.localsend.openFirewall = true;",
-    "# Save and exit the file ,then run:",
+    "# Then run",
     "sudo nixos-rebuild switch"
   ],
 };
