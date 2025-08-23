@@ -48,6 +48,11 @@
                     {{ t("home.download") }}
                   </AppButton>
                 </NuxtLink>
+                <a href="https://web.localsend.org" target="_blank">
+                  <AppButton icon="material-symbols:language" :dark="true">
+                    {{ t("Try web") }}
+                  </AppButton>
+                </a>
                 <NuxtLink :to="localePath({ path: '/community' })">
                   <AppButton icon="material-symbols:group" :dark="true">
                     {{ t("home.community") }}
