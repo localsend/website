@@ -44,10 +44,10 @@
             >
               <span>{{ locale.name }}</span>
               <span
-                v-if="englishNames[locale.code]"
+                v-if="locale.englishName"
                 class="ml-2 text-xs text-gray-500 dark:text-gray-400"
               >
-                ({{ englishNames[locale.code] }})
+                ({{ locale.englishName }})
               </span>
             </li>
             <li
@@ -67,52 +67,6 @@
 import { ref, computed, watch, onMounted, onBeforeUnmount } from "vue";
 const { locale, locales } = useI18n();
 const switchLocalePath = useSwitchLocalePath();
-
-const englishNames: Record<string, string> = {
-  ar: "Arabic",
-  bn: "Bengali",
-  ca: "Catalan",
-  cs: "Czech",
-  de: "German",
-  el: "Greek",
-  en: "English",
-  es: "Spanish",
-  et: "Estonian",
-  fa: "Persian",
-  fil: "Filipino",
-  fr: "French",
-  gl: "Galician",
-  he: "Hebrew",
-  hi: "Hindi",
-  id: "Indonesian",
-  it: "Italian",
-  ja: "Japanese",
-  ka: "Kannada",
-  km: "Khmer",
-  ko: "Korean",
-  "mal-IN": "Malayalam",
-  mr: "Marathi",
-  nl: "Dutch",
-  oc: "Occitan",
-  pl: "Polish",
-  "pt-BR": "Portuguese (Brazil)",
-  "pt-PT": "Portuguese (Portugal)",
-  ru: "Russian",
-  sk: "Slovak",
-  sr: "Serbian (Latin)",
-  "sr-Cyrl": "Serbian (Cyrillic)",
-  sv: "Swedish",
-  ta: "Tamil",
-  te: "Telugu",
-  th: "Thai",
-  tr: "Turkish",
-  ug: "Uyghur",
-  uk: "Ukrainian",
-  vi: "Vietnamese",
-  "zh-CN": "Chinese (Simplified)",
-  "zh-HK": "Chinese (Hong Kong)",
-  "zh-TW": "Chinese (Taiwan)",
-};
 
 const localeIdentity = ref("");
 const dropdownOpen = ref(false);
@@ -137,7 +91,7 @@ const selectLocale = (code: string) => {
 const filteredLocales = computed(() => {
   if (!searchQuery.value) return locales.value;
   return locales.value.filter((l: any) => {
-    const english = englishNames[l.code]?.toLowerCase() || "";
+    const english = l.englishName?.toLowerCase() || "";
     return (
       l.name.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
       english.includes(searchQuery.value.toLowerCase()) ||
