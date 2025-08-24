@@ -68,6 +68,14 @@ export default defineNuxtConfig({
         englishName: "Catalan",
       },
       {
+        code: "ckb",
+        language: "ckb",
+        file: "ckb.json",
+        name: "کوردی ناوەندی",
+        englishName: "Central Kurdish",
+        dir: "rtl",
+      },
+      {
         code: "cs",
         language: "cs-CZ",
         file: "cs.json",
@@ -350,12 +358,6 @@ export default defineNuxtConfig({
         file: "zh-TW.json",
         name: "繁體中文 – 台灣",
         englishName: "Chinese (Taiwan)",
-      },
-      {
-        code: "ckb",
-        language: "ckb",
-        file: "ckb.json",
-        name: "کوردی ناوەندی",
       },
     ],
   },
