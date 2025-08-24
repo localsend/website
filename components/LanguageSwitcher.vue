@@ -1,7 +1,6 @@
 <template>
   <div v-if="i18nEnabled" class="relative flex items-center" ref="dropdownContainer">
-    <Icon name="material-symbols:translate" class="me-1 dark:text-white" />
-    <div class="relative w-40">
+    <div class="relative w-48">
       <button
         @click.stop="toggleDropdown"
         class="flex items-center justify-between w-full px-3 py-2 rounded-lg bg-white dark:bg-gray-900 text-black dark:text-white border border-gray-300 dark:border-gray-700 focus:outline-none"
