@@ -32,6 +32,24 @@
         {{ t("footer.discord") }}
       </TextButton>
 
+      <TextButton
+          href="https://reddit.com/r/localsend"
+          target="_blank"
+          icon="fa6-brands:reddit"
+          class="ms-2"
+      >
+        {{ t("footer.reddit") }}
+      </TextButton>
+
+      <TextButton
+          href="https://shop.localsend.org"
+          target="_blank"
+          icon="fa6-solid:shirt"
+          class="ms-2"
+      >
+        {{ t("footer.merch") }}
+      </TextButton>
+
       <!-- https://github.com/nuxt/content/issues/1229 -->
 <!--      <NuxtLink to="/news" class="ms-2">-->
 <!--        <TextButton icon="material-symbols:article">-->
