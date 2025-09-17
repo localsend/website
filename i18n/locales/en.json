@@ -9,6 +9,9 @@
     "download": "Download",
     "web": "Web",
     "community": "Community",
+    "sponsors": {
+      "title": "Sponsors"
+    },
     "features": {
       "title": "Features",
       "decentralized": "Decentralized",

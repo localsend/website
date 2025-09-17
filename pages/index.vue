@@ -91,8 +91,21 @@
 
     <!-- End of hero section -->
 
+    <h2 class="text-center text-3xl font-bold dark:text-white">
+      {{ t("home.sponsors.title") }}
+    </h2>
+
+    <div class="flex items-center justify-center pt-12 md:pt-0 mt-4">
+      <p class="text-center dark:text-white">
+        Browser testing via
+        <a href="https://www.lambdatest.com/" target="_blank">
+          <img src="https://www.lambdatest.com/blue-logo.png" style="vertical-align: middle;" width="250" height="45" />
+        </a>
+      </p>
+    </div>
+
     <div
-      class="m-auto mt-4 flex max-w-screen-lg flex-col items-center px-4 lg:px-12"
+      class="m-auto mt-24 flex max-w-screen-lg flex-col items-center px-4 lg:px-12"
     >
       <h2 class="text-3xl font-bold dark:text-white">
         {{ t("home.features.title") }}
