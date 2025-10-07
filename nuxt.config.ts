@@ -37,6 +37,10 @@ export default defineNuxtConfig({
     baseUrl: "https://localsend.org",
     strategy: "prefix_except_default",
     defaultLocale: "en",
+    detectBrowserLanguage: {
+      useCookie: true,
+      redirectOn: "no prefix",
+    },
     pages: {
       privacy: false,
       terms: false,
