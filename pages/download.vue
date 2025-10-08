@@ -262,7 +262,6 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
           name: "Homebrew",
           commands: ["brew install --cask localsend"],
         },
-        nix,
       ],
     },
     [OS.linux]: {
