@@ -2,24 +2,24 @@
   "home": {
     "seo": {
       "title": "LocalSend: Condividi file con dispositivi nelle vicinanze",
-      "description": "LocalSend è un software gratis, open source e multipiattaforma che ti consente di condividere file con dispositivi nelle vicinanze."
+      "description": "LocalSend è un software gratuito, open source e multipiattaforma che ti consente di condividere file con dispositivi nelle vicinanze."
     },
     "slogan1": "Condividi file con dispositivi nelle vicinanze.",
-    "slogan2": "Gratis, open source, multipiattaforma.",
+    "slogan2": "Gratuito, open source, multipiattaforma.",
     "download": "Scarica",
     "community": "Comunità",
     "features": {
       "title": "Caratteristiche",
       "decentralized": "Decentralizzato",
       "decentralizedDescription": "Condividi files senza un server. Il trasferimento è completamente peer-to-peer.",
-      "crossPlatform": "Cross-platform",
+      "crossPlatform": "Multipiattaforma",
       "crossPlatformDescription": "LocalSend è disponibile per Windows, macOS, Linux, Android, e iOS.",
-      "free": "Free",
-      "freeDescription": "LocalSend è gratuito. No ads, no tracking, no costi nascosti.",
-      "openSource": "Open Source",
+      "free": "Gratuito",
+      "freeDescription": "LocalSend è gratuito. Nessuna pubblicità, nessun tracciamento, niente costi nascosti.",
+      "openSource": "Open source",
       "openSourceDescription": "Il codice sorgente è pubblicamente disponibile. Chiunque può contribuire al progetto.",
       "secure": "Sicuro",
-      "secureDescription": "La end-to-end encryption garantisce che solo tu e il destinatario possiate accedere ai vostri file.",
+      "secureDescription": "La crittografia end-to-end garantisce che solo tu e il destinatario possiate accedere ai vostri file.",
       "easy": "Semplice",
       "easyDescription": "Interfaccia utente semplice e senza registrazione. Gli altri dispositivi vengono rilevati automaticamente."
     },
@@ -32,25 +32,25 @@
       "description": "Scarica LocalSend per Windows, macOS, Linux, Android, e iOS."
     },
     "title": "Scarica",
-    "subTitle": "{os} Downloads",
+    "subTitle": "{os} downloads",
     "appStores": "App Store",
     "appStoresDescription": "Consigliato per la maggior parte degli utenti.",
     "binaries": "Binario",
     "binariesDescription": "Scarica per uso offline.",
-    "packageManagers": "Gestione Pacchetti",
+    "packageManagers": "Gestione pacchetti",
     "packageManagersDescription": "Installa con il terminale.",
-    "allReleases": "Tutte le Versioni",
+    "allReleases": "Tutte le versioni",
     "zip": "ZIP (portatile)",
     "copiedToClipboard": "Copiato negli appunti!"
   },
   "community": {
     "seo": {
       "title": "LocalSend - Community",
-      "description": "Ottieni Aiuto, partecipa, e contribuisci a LocalSend."
+      "description": "Ottieni aiuto, partecipa, e contribuisci a LocalSend."
     },
     "title": "Comunità",
-    "getHelp": "Ottieni Aiuto",
-    "getHelpDescription": "Chiedi o ottieni risposte dentro le Discussioni Github.",
+    "getHelp": "Ottieni aiuto",
+    "getHelpDescription": "Chiedi o ottieni risposte dentro le discussioni Github.",
     "getInvolved": "Partecipa",
     "getInvolvedDescription": "Mettiti in contatto con gli sviluppatori e contribuisci direttamente al progetto.",
     "discord": "Discord",
@@ -67,6 +67,6 @@
     "imprint": "Imprint",
     "contact": "Contatti"
   },
-  "homepageButton": "Pagina Principale",
+  "homepageButton": "Pagina principale",
   "improveWebsite": "Migliora questo sito"
 }
