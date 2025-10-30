@@ -230,6 +230,13 @@ export default defineNuxtConfig({
         englishName: "Dutch",
       },
       {
+        code: "no",
+        language: "nb-NO",
+        file: "no.json",
+        name: "Norsk",
+        englishName: "Norwegian",
+      },
+      {
         code: "oc",
         language: "oc-FR",
         file: "oc.json",

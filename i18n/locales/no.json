@@ -1,0 +1,72 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Del filer med enheter i nærheten",
+      "description": "LocalSend er en gratis, åpen kildekode og plattformuavhengig app som lar deg dele filer med enheter i nærheten."
+    },
+    "slogan1": "Del filer med enheter i nærheten.",
+    "slogan2": "Gratis, åpen kildekode og plattformuavhengig.",
+    "download": "Last ned",
+    "community": "Fellesskap",
+    "features": {
+      "title": "Funksjoner",
+      "decentralized": "Desentralisert",
+      "decentralizedDescription": "Del filer uten en sentral server. Filoverføringen skjer helt peer-to-peer.",
+      "crossPlatform": "Plattformuavhengig",
+      "crossPlatformDescription": "LocalSend er tilgjengelig for Windows, macOS, Linux, Android og iOS.",
+      "free": "Gratis",
+      "freeDescription": "LocalSend er gratis å bruke. Ingen reklame, sporing eller skjulte kostnader.",
+      "openSource": "Åpen kildekode",
+      "openSourceDescription": "Kildekoden er offentlig tilgjengelig. Alle kan bidra til prosjektet.",
+      "secure": "Sikker",
+      "secureDescription": "Takket være ende-til-ende-kryptering kan bare du og mottakeren åpne filene.",
+      "easy": "Brukervennlig",
+      "easyDescription": "Et enkelt grensesnitt, og ingen registrering kreves. Andre enheter oppdages automatisk."
+    },
+    "mentioned": "Internasjonalt omtalt",
+    "get": "Last ned LocalSend"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Nedlastinger",
+      "description": "Last ned LocalSend for Windows, macOS, Linux, Android og iOS."
+    },
+    "title": "Nedlastinger",
+    "subTitle": "Nedlastinger for {os}",
+    "appStores": "App-butikker",
+    "appStoresDescription": "Anbefalt for de fleste brukere.",
+    "binaries": "Kompilerte versjoner",
+    "binariesDescription": "Last ned for bruk uten nett.",
+    "packageManagers": "Pakkebehandlere",
+    "packageManagersDescription": "Installer via terminalen.",
+    "allReleases": "Alle versjoner",
+    "zip": "ZIP (kjørbar direkte)",
+    "copiedToClipboard": "Kopiert til utklippstavlen!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Fellesskap",
+      "description": "Still spørsmål og bidra til LocalSend."
+    },
+    "title": "Fellesskap",
+    "getHelp": "Få hjelp",
+    "getHelpDescription": "Still spørsmål eller finn svar på GitHub.",
+    "getInvolved": "Bli med",
+    "getInvolvedDescription": "Kom i kontakt med utviklerne og bidra til prosjektet.",
+    "discord": "Discord",
+    "issues": "Problemer",
+    "pullRequests": "Pull-forespørsler"
+  },
+  "footer": {
+    "underlicense": "Lisensiert under",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "privacy": "Personvern",
+    "terms": "Vilkår",
+    "imprint": "Impressum",
+    "contact": "Kontakt"
+  },
+  "homepageButton": "Hjemmeside",
+  "improveWebsite": "Forbedre dette nettstedet"
+}
