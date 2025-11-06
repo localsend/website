@@ -1,0 +1,84 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: Partajează fișiere cu dispozitivele din apropiere",
+      "description": "LocalSend este un instrument gratuit, open-source și multiplatformă pentru partajarea fișierelor, care îți permite să trimiți fișiere către dispozitivele din apropier ta."
+    },
+    "slogan1": "Partajează fișiere cu dispozitivele din apropiere.",
+    "slogan2": "Gratuit, open-source, multiplatformă.",
+    "download": "Descarcă",
+    "web": "Web",
+    "community": "Comunitate",
+    "sponsors": {
+      "title": "Sponsori"
+    },
+    "features": {
+      "title": "Caracteristici",
+      "decentralized": "Descentralizat",
+      "decentralizedDescription": "Partajează fișiere fără un server central. Transferul este complet peer-to-peer.",
+      "crossPlatform": "Multiplatformă",
+      "crossPlatformDescription": "LocalSend este disponibil pentru Windows, macOS, Linux, Android și iOS.",
+      "free": "Gratuit",
+      "freeDescription": "LocalSend este gratuit de utilizat. Fără reclame, fără colectare de date, fără costuri ascunse.",
+      "openSource": "Open Source",
+      "openSourceDescription": "Codul sursă este disponibil public. Oricine poate contribui la proiect.",
+      "secure": "Securizat",
+      "secureDescription": "Criptarea end-to-end garantează că doar tu și destinatarul puteți accesa fișierele.",
+      "easy": "Ușor de utilizat",
+      "easyDescription": "O interfață simplă, fără înregistrare. Alte dispozitive sunt descoperite automat."
+    },
+    "mentioned": "Menționat în toată lumea",
+    "get": "Descarcă LocalSend",
+    "video": "Urmărește o prezentare video a LocalSend pe YouTube"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Descărcări",
+      "description": "Descarcă LocalSend pentru Windows, macOS, Linux, Android și iOS."
+    },
+    "title": "Descărcări",
+    "subTitle": "Descărcări pentru {os}",
+    "appStores": "Magazine de aplicații",
+    "appStoresDescription": "Recomandat pentru majoritatea utilizatorilor.",
+    "binaries": "Binare",
+    "binariesDescription": "Descarcă pentru utilizare offline.",
+    "packageManagers": "Manageri de pachete",
+    "packageManagersDescription": "Instalează din terminal.",
+    "allReleases": "Toate versiunile",
+    "zip": "ZIP (portabil)",
+    "copiedToClipboard": "Copiat în clipboard!"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Comunitate",
+      "description": "Primește ajutor, implică-te și contribuie la LocalSend."
+    },
+    "title": "Comunitate",
+    "getHelp": "Obține ajutor",
+    "getHelpDescription": "Adresează întrebări sau caută răspunsuri în discuțiile de pe GitHub.",
+    "getInvolved": "Implică-te",
+    "getInvolvedDescription": "Ia legătura cu dezvoltatorii și contribuie direct la proiect.",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "issues": "Probleme",
+    "pullRequests": "Cereri de modificare"
+  },
+  "news": {
+    "title": "Știri",
+    "showAll": "Afișează toate știrile"
+  },
+  "footer": {
+    "underlicense": "Licențiat sub",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Produse",
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni și condiții",
+    "imprint": "Informații legale",
+    "contact": "Contact"
+  },
+  "homepageButton": "Pagina principală",
+  "improveWebsite": "Îmbunătățește acest site"
+}
