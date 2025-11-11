@@ -13,7 +13,7 @@
       "decentralized": "Decentralizzato",
       "decentralizedDescription": "Condividi files senza un server. Il trasferimento è completamente peer-to-peer.",
       "crossPlatform": "Multipiattaforma",
-      "crossPlatformDescription": "LocalSend è disponibile per Windows, macOS, Linux, Android, e iOS.",
+      "crossPlatformDescription": "LocalSend è disponibile per Windows, macOS, Linux, Android e iOS.",
       "free": "Gratuito",
       "freeDescription": "LocalSend è gratuito. Nessuna pubblicità, nessun tracciamento, niente costi nascosti.",
       "openSource": "Open source",
@@ -29,7 +29,7 @@
   "download": {
     "seo": {
       "title": "LocalSend - Downloads",
-      "description": "Scarica LocalSend per Windows, macOS, Linux, Android, e iOS."
+      "description": "Scarica LocalSend per Windows, macOS, Linux, Android e iOS."
     },
     "title": "Scarica",
     "subTitle": "{os} downloads",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Community",
-      "description": "Ottieni aiuto, partecipa, e contribuisci a LocalSend."
+      "title": "LocalSend - Comunità",
+      "description": "Ottieni aiuto, partecipa e contribuisci a LocalSend."
     },
     "title": "Comunità",
     "getHelp": "Ottieni aiuto",
