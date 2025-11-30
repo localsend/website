@@ -7,7 +7,11 @@
     "slogan1": "Zdieľajte súbory so zariadeniami v okolí.",
     "slogan2": "Bezplatný, open-source, multiplatformový.",
     "download": "Stiahnuť",
+    "web": "Web",
     "community": "Komunita",
+    "sponsors": {
+      "title": "Sponzori"
+    },
     "features": {
       "title": "Vlastnosti",
       "decentralized": "Decentralizovaný",
@@ -24,7 +28,8 @@
       "easyDescription": "Jednoduché používateľské rozhranie bez registrácie. Ostatné zariadenia sa zistia automaticky."
     },
     "mentioned": "Zmienky po celom svete",
-    "get": "Získajte LocalSend"
+    "get": "Získajte LocalSend",
+    "video": "Pozrite si videoprezentáciu LocalSend na YouTube"
   },
   "download": {
     "seo": {
@@ -54,14 +59,21 @@
     "getInvolved": "Zapojte sa",
     "getInvolvedDescription": "Spojte sa s vývojármi a prispejte priamo k projektu.",
     "discord": "Discord",
+    "reddit": "Reddit",
     "issues": "Problémy",
     "pullRequests": "Požiadavky na zlúčenie"
+  },
+  "news": {
+    "title": "Novinky",
+    "showAll": "Zobraziť všetky novinky"
   },
   "footer": {
     "underlicense": "Licencované pod",
     "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merch",
     "privacy": "Ochrana súkromia",
     "terms": "Podmienky",
     "imprint": "Informácie o vydavateľovi",
