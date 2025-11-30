@@ -8,6 +8,9 @@
     "slogan2": "免费、开源、跨平台。",
     "download": "下载",
     "community": "社区",
+    "sponsors": {
+      "title": "赞助商"
+    },
     "features": {
       "title": "特点",
       "decentralized": "去中心化",

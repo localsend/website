@@ -118,7 +118,7 @@
                   <span class="text-gray-400 dark:text-gray-500 select-none">
                     &dollar; </span>{{ command }}<br />
                   </span>
-                  <button @click="copyToClipboard(packageManager.commands)" class="absolute top-0 right-0 text-gray-400 hover:text-gray-700 dark:hover:text-white">
+                  <button @click="copyToClipboard(packageManager.commands)" class="absolute top-0 end-0 text-gray-400 hover:text-gray-700 dark:hover:text-white">
                     <Icon name="i-lucide-copy" class="w-5 h-5" />
                   </button>
                 </code>
@@ -143,7 +143,7 @@
 <script setup lang="ts">
 import TextButton from "~/components/TextButton.vue";
 import SecondaryLayout from "~/components/layout/SecondaryLayout.vue";
-import {requestGithubAssets} from "~/utils/requestGithubAssets";
+import { requestGithubAssets } from "~/utils/requestGithubAssets";
 
 definePageMeta({
   title: "download.seo.title",
@@ -193,7 +193,12 @@ const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id166173322
 
 const nix = {
   name: "Nix",
-  commands: ["nix-shell -p localsend", "pkgs.localsend # Config"],
+  commands: [
+    "# Edit /etc/nixos/configuration.nix",
+    "programs.localsend.enable = true;",
+    "# Then run",
+    "sudo nixos-rebuild switch"
+  ],
 };
 
 const assetsMap: Ref<{ [key: string]: string }> = ref({});
@@ -257,7 +262,6 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
           name: "Homebrew",
           commands: ["brew install --cask localsend"],
         },
-        nix,
       ],
     },
     [OS.linux]: {

@@ -17,6 +17,10 @@
             {{ t('community.discord') }}
           </AppButton>
 
+          <AppButton href="https://reddit.com/r/localsend" target="_blank" icon="fa6-brands:reddit" class="m-2" :dark="true">
+            {{ t('community.reddit') }}
+          </AppButton>
+
           <AppButton href="https://github.com/localsend/localsend/issues" icon="material-symbols:warning-rounded" target="_blank" class="m-2" :dark="true">
             {{ t('community.issues') }}
           </AppButton>

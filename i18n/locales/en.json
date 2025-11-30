@@ -7,7 +7,11 @@
     "slogan1": "Share files to nearby devices.",
     "slogan2": "Free, open-source, cross-platform.",
     "download": "Download",
+    "web": "Web",
     "community": "Community",
+    "sponsors": {
+      "title": "Sponsors"
+    },
     "features": {
       "title": "Features",
       "decentralized": "Decentralized",
@@ -55,6 +59,7 @@
     "getInvolved": "Get Involved",
     "getInvolvedDescription": "Get in contact with the developers and contribute directly to the project.",
     "discord": "Discord",
+    "reddit": "Reddit",
     "issues": "Issues",
     "pullRequests": "Pull Requests"
   },
@@ -67,6 +72,8 @@
     "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merch",
     "privacy": "Privacy",
     "terms": "Terms",
     "imprint": "Imprint",
