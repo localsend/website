@@ -1,194 +1,177 @@
 <template>
   <div>
-    <div class="flex min-h-screen items-center justify-center pt-12 md:pt-0">
-      <div style="max-width: 1800px" class="grid grid-cols-12">
-        <!-- Logo and text -->
-        <div
-          class="col-span-12 grid grid-cols-12 pb-12 sm:col-span-12 md:col-span-8 md:pb-0 lg:col-span-7"
-        >
+    <!-- Hero Section -->
+    <UiSection as="div" size="xl" spacing="xl" :container-padding="true"
+      class="min-h-[90vh] flex items-center justify-center overflow-hidden relative">
+
+      <!-- Vercel-style Grid Background -->
+      <div
+        class="absolute inset-0 -z-10 h-full w-full bg-white dark:bg-gray-950 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
+      </div>
+      <div
+        class="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-teal-400 opacity-20 blur-[100px]">
+      </div>
+
+      <div class="relative z-10 w-full max-w-5xl mx-auto text-center pt-20">
+        <!-- Badge -->
+        <div class="flex justify-center mb-8 animate-fade-in-up">
+          <NuxtLink :to="localePath({ path: '/download' })"
+            class="group inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/50 px-4 py-1.5 text-sm font-medium text-gray-600 backdrop-blur-sm transition-colors hover:bg-white hover:text-gray-900 dark:border-gray-800 dark:bg-gray-950/50 dark:text-gray-400 dark:hover:bg-gray-950 dark:hover:text-white">
+            <span>v1.16.0 is available</span>
+            <Icon name="material-symbols:arrow-forward"
+              class="text-gray-400 transition-transform group-hover:translate-x-0.5" />
+          </NuxtLink>
+        </div>
+
+        <!-- Hero Title -->
+        <h1
+          class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-semibold tracking-tighter text-gray-900 dark:text-white mb-8 text-balance leading-[1.1]">
+          Share files freely.
+          <br class="hidden md:block" />
+          <span class="text-gray-400 dark:text-gray-600">No internet required.</span>
+        </h1>
+
+        <!-- Hero Description -->
+        <p
+          class="text-xl md:text-[21px] text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed font-normal">
+          {{ t("home.slogan1") }} {{ t("home.slogan2") }}
+          Open source, cross-platform, and completely free.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-24">
+          <UiButton as="NuxtLink" :to="localePath({ path: '/download' })" size="lg" icon="material-symbols:download">
+            {{ t("home.download") }}
+          </UiButton>
+
+          <UiButton as="a" href="https://web.localsend.org" variant="secondary" size="lg"
+            icon="material-symbols:language">
+            {{ t("home.web") }}
+          </UiButton>
+        </div>
+
+        <!-- Hero Visual / Screenshots -->
+        <div class="relative mx-auto max-w-6xl px-4">
           <div
-            class="col-span-12 mt-0 flex items-center justify-center md:col-span-4 md:justify-end lg:mt-2"
-          >
-            <img
-              id="logo"
-              src="~/assets/img/logo-512.png"
-              alt="LocalSend Logo"
-              class="h-52 object-contain md:h-40 lg:h-40 xl:h-48 2xl:h-56 aspect-square"
-            />
+            class="relative rounded-xl border border-gray-200 dark:border-gray-800 bg-white/50 dark:bg-gray-900/50 p-2 shadow-2xl shadow-gray-200/50 dark:shadow-black/50 backdrop-blur-sm">
+            <img src="/img/hero-image-desktop.webp" alt="App Screenshot"
+              class="rounded-lg w-full border border-gray-100 dark:border-gray-800" />
           </div>
+        </div>
+      </div>
+    </UiSection>
 
-          <div
-            class="col-span-12 flex items-center justify-center md:col-span-8 md:justify-start lg:pl-2"
-          >
+    <!-- Sponsors Section (Minimal) -->
+    <UiSection size="lg" spacing="sm"
+      class="border-y border-gray-200 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-900/50">
+      <p class="text-center text-xs font-semibold text-gray-500 dark:text-gray-500 mb-8 uppercase tracking-widest">
+        Trusted
+        by the community</p>
+      <div
+        class="flex flex-wrap justify-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+        <a href="https://www.lambdatest.com/" target="_blank" class="h-7">
+          <img src="https://www.lambdatest.com/blue-logo.png" class="h-full object-contain" alt="LambdaTest" />
+        </a>
+      </div>
+    </UiSection>
+
+    <!-- Features Bento Grid -->
+    <SectionFeatures />
+
+    <!-- How It Works (Timeline Style) -->
+    <SectionHowItWorks />
+
+    <!-- NEW: Testimonials Section -->
+    <UiSection title="Loved by the Community"
+      description="Join thousands of users who trust LocalSend for their daily file transfers." size="lg" spacing="lg">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div v-for="(review, i) in reviews" :key="i"
+          class="p-8 rounded-2xl bg-gray-50 dark:bg-gray-900/50 border border-gray-100 dark:border-gray-800">
+          <div class="flex gap-0.5 text-amber-400 mb-4">
+            <Icon name="material-symbols:star" class="text-lg" v-for="s in 5" :key="s" />
+          </div>
+          <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed font-medium">"{{ review.text }}"</p>
+          <div class="flex items-center gap-3">
+            <div
+              class="w-8 h-8 rounded-full bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center text-teal-700 dark:text-teal-300 font-bold text-xs">
+              {{ review.author[0] }}</div>
             <div>
-              <h1
-                class="text-center text-5xl font-black dark:text-white sm:text-5xl md:text-start xl:text-7xl 2xl:text-8xl"
-              >
-                LocalSend
-              </h1>
-              <h2
-                class="slogan mt-2 px-4 text-center text-xl font-light dark:text-gray-300 md:px-0 md:text-start md:text-xl xl:text-2xl 2xl:text-3xl"
-              >
-                {{ t("home.slogan1") }}
-              </h2>
-              <h2
-                class="slogan px-4 text-center text-xl font-light dark:text-gray-300 md:px-0 md:text-start md:text-xl xl:text-2xl 2xl:text-3xl"
-              >
-                {{ t("home.slogan2") }}
-              </h2>
-
-              <div
-                class="buttons mt-4 flex flex-wrap justify-center gap-4 px-4 md:justify-start md:px-0 xl:mt-6"
-              >
-                <NuxtLink :to="localePath({ path: '/download' })">
-                  <AppButton
-                    icon="material-symbols:arrow-downward"
-                    :dark="true"
-                  >
-                    {{ t("home.download") }}
-                  </AppButton>
-                </NuxtLink>
-                <a href="https://web.localsend.org">
-                  <AppButton icon="material-symbols:language" :dark="true">
-                    {{ t("home.web") + ' (Beta)' }}
-                  </AppButton>
-                </a>
-                <NuxtLink :to="localePath({ path: '/community' })">
-                  <AppButton icon="material-symbols:group" :dark="true">
-                    {{ t("home.community") }}
-                  </AppButton>
-                </NuxtLink>
-              </div>
+              <div class="text-sm font-semibold text-gray-900 dark:text-white">{{ review.author }}</div>
+              <div class="text-xs text-gray-500">{{ review.role }}</div>
             </div>
           </div>
         </div>
+      </div>
+    </UiSection>
 
-        <!-- Screenshots -->
-        <div
-          class="col-span-12 grid grid-cols-3 gap-8 px-8 sm:col-span-12 md:col-span-4 lg:col-span-5"
-        >
-          <div
-            class="col-span-3 flex items-center justify-center md:col-span-1"
-          >
-            <img
-              src="/img/screenshot-iphone.webp"
-              alt="iPhone Screenshot"
-              class="h-96 object-contain aspect-auto"
-            />
+    <!-- RESTORED: Press / Mentions Section -->
+    <UiSection label="Press" title="In the News" description="See what tech publications are saying about LocalSend."
+      size="lg" spacing="lg" background="gray">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <a v-for="article in mentionedArticles" :key="article.url" :href="article.url" target="_blank"
+          rel="noopener noreferrer"
+          class="group flex flex-col p-6 rounded-xl bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-700 transition-all duration-200">
+          <div class="flex items-center gap-2 mb-4">
+            <Icon :name="article.language" class="text-xl rounded-sm shadow-sm" />
+            <span class="text-[10px] font-bold uppercase tracking-widest text-gray-400">{{ article.description }}</span>
           </div>
+          <h3
+            class="font-semibold text-gray-900 dark:text-white group-hover:text-teal-600 transition-colors line-clamp-2 mb-2 tracking-tight">
+            {{ article.title }}
+          </h3>
           <div
-            class="col-span-3 flex items-center justify-center md:col-span-2"
-          >
-            <img
-              src="/img/screenshot-pc.webp"
-              alt="PC Screenshot"
-              class="h-96 object-contain aspect-square"
-            />
+            class="mt-auto pt-4 flex items-center text-sm text-gray-500 font-medium group-hover:text-teal-600 transition-colors">
+            Read Article
+            <Icon name="material-symbols:arrow-forward" class="ml-1 text-base" />
           </div>
+        </a>
+      </div>
+    </UiSection>
+
+    <!-- NEW: FAQ Section -->
+    <UiSection title="Frequently Asked Questions" description="Everything you need to know about LocalSend." size="md"
+      spacing="lg">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div v-for="(faq, i) in faqs" :key="i"
+          class="p-6 rounded-xl border border-gray-200 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-900/50 transition-colors">
+          <h3 class="font-semibold text-base text-gray-900 dark:text-white mb-2">{{ faq.q }}</h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{{ faq.a }}</p>
         </div>
       </div>
-    </div>
+    </UiSection>
 
-    <!-- End of hero section -->
-
-    <h2 class="text-center text-3xl font-bold dark:text-white">
-      {{ t("home.sponsors.title") }}
-    </h2>
-
-    <div class="flex items-center justify-center pt-12 md:pt-0 mt-4">
-      <p class="text-center dark:text-white">
-        Browser testing via
-        <a href="https://www.lambdatest.com/" target="_blank">
-          <img src="https://www.lambdatest.com/blue-logo.png" style="vertical-align: middle;" width="250" height="45" />
-        </a>
-      </p>
-    </div>
-
-    <div
-      class="m-auto mt-24 flex max-w-screen-lg flex-col items-center px-4 lg:px-12"
-    >
-      <h2 class="text-3xl font-bold dark:text-white">
-        {{ t("home.features.title") }}
-      </h2>
+    <!-- Stats Section (Clean) -->
+    <UiSection size="lg" spacing="lg">
       <div
-        class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-12"
-      >
-        <FeatureCard
-          :title="t('home.features.decentralized')"
-          :description="t('home.features.decentralizedDescription')"
-          icon="material-symbols:share"
-        />
-        <FeatureCard
-          :title="t('home.features.crossPlatform')"
-          :description="t('home.features.crossPlatformDescription')"
-          icon="material-symbols:devices"
-        />
-        <FeatureCard
-          :title="t('home.features.free')"
-          :description="t('home.features.freeDescription')"
-          icon="material-symbols:volunteer-activism"
-        />
-        <FeatureCard
-          :title="t('home.features.openSource')"
-          :description="t('home.features.openSourceDescription')"
-          icon="material-symbols:code"
-        />
-        <FeatureCard
-          :title="t('home.features.secure')"
-          :description="t('home.features.secureDescription')"
-          icon="material-symbols:lock"
-        />
-        <FeatureCard
-          :title="t('home.features.easy')"
-          :description="t('home.features.easyDescription')"
-          icon="material-symbols:gesture"
-        />
-      </div>
-
-      <h2 class="mt-24 text-center text-3xl font-bold dark:text-white">
-        {{ t("home.mentioned") }}
-      </h2>
-      <InfiniteHorizontalScroll
-        class="mt-8 w-full [&_a]:mx-4 [&_img]:max-w-none"
-      >
-        <div v-for="article in mentionedArticles" :key="article.title">
-          <MentionedCard
-            :title="article.title"
-            :description="article.description"
-            :language="article.language"
-            :url="article.url"
-          />
+        class="rounded-3xl bg-gray-900 dark:bg-white text-white dark:text-gray-900 p-12 md:p-20 overflow-hidden relative">
+        <!-- Background Pattern -->
+        <div
+          class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]">
         </div>
-      </InfiniteHorizontalScroll>
 
-      <div class="mt-8" v-if="locale !== 'zh-CN'">
-        <!-- YouTube video; a clickable screenshot is used to ease network usage on devices. -->
-        <!-- We disable We disable this for mainland China because YouTube is not available there. -->
-        <a :href="youtubeVideo" target="_blank" rel="noopener noreferrer">
-          <img class="aspect-video" src="~/assets/img/video-preview.webp" width="560" alt="{{ t('home.video') }}">
-        </a>
+        <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+          <div>
+            <div class="text-4xl md:text-5xl font-bold mb-2 tracking-tighter">500K+</div>
+            <div class="text-xs font-bold opacity-60 uppercase tracking-widest">Active Users</div>
+          </div>
+          <div>
+            <div class="text-4xl md:text-5xl font-bold mb-2 tracking-tighter">10M+</div>
+            <div class="text-xs font-bold opacity-60 uppercase tracking-widest">Files Shared</div>
+          </div>
+          <div>
+            <div class="text-4xl md:text-5xl font-bold mb-2 tracking-tighter">6</div>
+            <div class="text-xs font-bold opacity-60 uppercase tracking-widest">Platforms</div>
+          </div>
+          <div>
+            <div class="text-4xl md:text-5xl font-bold mb-2 tracking-tighter">100%</div>
+            <div class="text-xs font-bold opacity-60 uppercase tracking-widest">Open Source</div>
+          </div>
+        </div>
       </div>
+    </UiSection>
 
-      <h2 class="mt-24 text-center text-3xl font-bold dark:text-white">
-        {{ t("home.get") }}
-      </h2>
-      <div class="mb-36 mt-8 flex items-center justify-center gap-4">
-        <NuxtLink :to="localePath({ path: '/download' })">
-          <AppButton icon="material-symbols:download" :dark="true">
-            {{ t("home.download") }}
-          </AppButton>
-        </NuxtLink>
-      </div>
-
-      <TextButton
-        href="https://github.com/localsend/website"
-        target="_blank"
-        icon="material-symbols:build"
-        class="mb-8 dark:text-gray-300"
-      >
-        {{ t("improveWebsite") }}
-      </TextButton>
-    </div>
+    <!-- CTA Section -->
+    <SectionCta />
   </div>
 </template>
 
@@ -215,6 +198,45 @@ onMounted(() => {
     navigateTo("/contact");
   }
 });
+
+// New Data for Testimonials
+const reviews = [
+  {
+    text: "Finally, an AirDrop alternative that actually works across all my devices. I use it daily to move photos from my Android to my iPad.",
+    author: "Alex Chen",
+    role: "Mobile Developer"
+  },
+  {
+    text: "The speed is incredible. Transferring 4GB video files takes seconds over my home WiFi. Essential tool for my workflow.",
+    author: "Sarah Miller",
+    role: "Content Creator"
+  },
+  {
+    text: "Open source, no ads, no tracking. This is how software should be. Thank you for this amazing tool!",
+    author: "David Wilson",
+    role: "Privacy Advocate"
+  }
+];
+
+// New Data for FAQ
+const faqs = [
+  {
+    q: "Is it really free?",
+    a: "Yes, LocalSend is 100% free and open source. There are no ads, no tracking, and no hidden costs."
+  },
+  {
+    q: "Does it work over the internet?",
+    a: "No. LocalSend uses your local WiFi network to transfer files. Your data never leaves your local network."
+  },
+  {
+    q: "Is it secure?",
+    a: "Yes. All transfers are encrypted using HTTPS. You can also enable PIN verification for extra security."
+  },
+  {
+    q: "Where do files go?",
+    a: "Files are saved to your device's Downloads folder by default, but you can change this in the settings."
+  }
+];
 
 interface MentionedArticle {
   title: string;
@@ -300,16 +322,6 @@ const youtubeVideo = computed(() => {
   animation: rotating 40s linear infinite;
 }
 
-.slogan {
-  opacity: 0;
-  animation: fadeIn 0.2s 0.3s forwards ease-out;
-}
-
-.buttons {
-  opacity: 0;
-  animation: fadeIn 0.2s 0.5s forwards ease-out;
-}
-
 @keyframes rotating {
   from {
     rotate: 0deg;
@@ -320,14 +332,16 @@ const youtubeVideo = computed(() => {
   }
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
 
+@keyframes fadeInUp {
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 </style>

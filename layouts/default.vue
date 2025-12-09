@@ -13,19 +13,28 @@ const description = computed(() => route.meta.description ? t(route.meta.descrip
 <template>
   <div>
     <Html :lang="localeHead.htmlAttrs.lang" :dir="localeHead.htmlAttrs.dir">
+
     <Head>
       <Title>{{ title }}</Title>
-      <Meta v-if="description" name="description" :content="description"/>
+      <Meta v-if="description" name="description" :content="description" />
       <template v-for="link in localeHead.link" :key="link.id">
-        <Link :id="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang"/>
+        <Link :id="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang" />
       </template>
       <template v-for="meta in localeHead.meta" :key="meta.id">
-        <Meta :id="meta.id" :property="meta.property" :content="meta.content"/>
+        <Meta :id="meta.id" :property="meta.property" :content="meta.content" />
       </template>
     </Head>
-    <Body class="dark:bg-gray-900">
-    <slot/>
+
+    <Body class="font-sans antialiased bg-white dark:bg-gray-950 text-gray-900 dark:text-white">
+      <Navigation />
+
+      <main>
+        <slot />
+      </main>
+
+
     </Body>
+
     </Html>
   </div>
 </template>
