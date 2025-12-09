@@ -1,7 +1,7 @@
 <template>
     <header
         class="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-gray-800 bg-white/80 dark:bg-gray-950/80 backdrop-blur-lg supports-[backdrop-filter]:bg-white/60 supports-[backdrop-filter]:dark:bg-gray-950/60">
-        <nav class="mx-auto flex h-16 max-w-[1800px] items-center justify-between px-4 lg:px-8">
+        <nav class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 lg:px-8">
             <!-- Logo & Brand -->
             <div class="flex items-center gap-8">
                 <NuxtLink :to="localePath({ path: '/' })" class="flex items-center gap-3 group">
@@ -39,9 +39,6 @@
 
             <!-- Right Side Actions -->
             <div class="flex items-center gap-2">
-                <!-- Language Switcher -->
-                <LanguageSwitcher />
-
                 <!-- Theme Toggle -->
                 <button @click="toggleTheme"
                     class="flex h-9 w-9 items-center justify-center rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-gray-900 dark:hover:text-white transition-colors"
@@ -50,9 +47,12 @@
                     <Icon v-else name="material-symbols:dark-mode" class="text-xl" />
                 </button>
 
+                <!-- Language Switcher -->
+                <LanguageSwitcher />
+
                 <!-- CTA Button - Desktop -->
                 <div class="hidden sm:block">
-                    <UiButton as="NuxtLink" :to="localePath({ path: '/download' })" size="sm"
+                    <UiButton as="NuxtLink" :to="localePath({ path: '/download' })" size="md"
                         icon="material-symbols:download" class="capitalize">
                         {{ t("download") }}
                     </UiButton>

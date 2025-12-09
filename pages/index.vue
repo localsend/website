@@ -1,79 +1,10 @@
 <template>
-  <div>
+  <div :key="$route.fullPath">
     <!-- Hero Section -->
-    <UiSection as="div" size="xl" spacing="xl" :container-padding="true"
-      class="min-h-[90vh] flex items-center justify-center overflow-hidden relative">
+    <SectionHero />
 
-      <!-- Vercel-style Grid Background -->
-      <div
-        class="absolute inset-0 -z-10 h-full w-full bg-white dark:bg-gray-950 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
-      </div>
-      <div
-        class="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-teal-400 opacity-20 blur-[100px]">
-      </div>
-
-      <div class="relative z-10 w-full max-w-5xl mx-auto text-center pt-20">
-        <!-- Badge -->
-        <div class="flex justify-center mb-8 animate-fade-in-up">
-          <NuxtLink :to="localePath({ path: '/download' })"
-            class="group inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/50 px-4 py-1.5 text-sm font-medium text-gray-600 backdrop-blur-sm transition-colors hover:bg-white hover:text-gray-900 dark:border-gray-800 dark:bg-gray-950/50 dark:text-gray-400 dark:hover:bg-gray-950 dark:hover:text-white">
-            <span>v1.16.0 is available</span>
-            <Icon name="material-symbols:arrow-forward"
-              class="text-gray-400 transition-transform group-hover:translate-x-0.5" />
-          </NuxtLink>
-        </div>
-
-        <!-- Hero Title -->
-        <h1
-          class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-semibold tracking-tighter text-gray-900 dark:text-white mb-8 text-balance leading-[1.1]">
-          Share files freely.
-          <br class="hidden md:block" />
-          <span class="text-gray-400 dark:text-gray-600">No internet required.</span>
-        </h1>
-
-        <!-- Hero Description -->
-        <p
-          class="text-xl md:text-[21px] text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed font-normal">
-          {{ t("home.slogan1") }} {{ t("home.slogan2") }}
-          Open source, cross-platform, and completely free.
-        </p>
-
-        <!-- CTA Buttons -->
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-24">
-          <UiButton as="NuxtLink" :to="localePath({ path: '/download' })" size="lg" icon="material-symbols:download">
-            {{ t("home.download") }}
-          </UiButton>
-
-          <UiButton as="a" href="https://web.localsend.org" variant="secondary" size="lg"
-            icon="material-symbols:language">
-            {{ t("home.web") }}
-          </UiButton>
-        </div>
-
-        <!-- Hero Visual / Screenshots -->
-        <div class="relative mx-auto max-w-6xl px-4">
-          <div
-            class="relative rounded-xl border border-gray-200 dark:border-gray-800 bg-white/50 dark:bg-gray-900/50 p-2 shadow-2xl shadow-gray-200/50 dark:shadow-black/50 backdrop-blur-sm">
-            <img src="/img/hero-image-desktop.webp" alt="App Screenshot"
-              class="rounded-lg w-full border border-gray-100 dark:border-gray-800" />
-          </div>
-        </div>
-      </div>
-    </UiSection>
-
-    <!-- Sponsors Section (Minimal) -->
-    <UiSection size="lg" spacing="sm"
-      class="border-y border-gray-200 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-900/50">
-      <p class="text-center text-xs font-semibold text-gray-500 dark:text-gray-500 mb-8 uppercase tracking-widest">
-        Trusted
-        by the community</p>
-      <div
-        class="flex flex-wrap justify-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-        <a href="https://www.lambdatest.com/" target="_blank" class="h-7">
-          <img src="https://www.lambdatest.com/blue-logo.png" class="h-full object-contain" alt="LambdaTest" />
-        </a>
-      </div>
-    </UiSection>
+    <!-- Sponsors Section -->
+    <SectionSponsors />
 
     <!-- Features Bento Grid -->
     <SectionFeatures />
@@ -140,35 +71,8 @@
       </div>
     </UiSection>
 
-    <!-- Stats Section (Clean) -->
-    <UiSection size="lg" spacing="lg">
-      <div
-        class="rounded-3xl bg-gray-900 dark:bg-white text-white dark:text-gray-900 p-12 md:p-20 overflow-hidden relative">
-        <!-- Background Pattern -->
-        <div
-          class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]">
-        </div>
-
-        <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
-          <div>
-            <div class="text-4xl md:text-5xl font-bold mb-2 tracking-tighter">500K+</div>
-            <div class="text-xs font-bold opacity-60 uppercase tracking-widest">Active Users</div>
-          </div>
-          <div>
-            <div class="text-4xl md:text-5xl font-bold mb-2 tracking-tighter">10M+</div>
-            <div class="text-xs font-bold opacity-60 uppercase tracking-widest">Files Shared</div>
-          </div>
-          <div>
-            <div class="text-4xl md:text-5xl font-bold mb-2 tracking-tighter">6</div>
-            <div class="text-xs font-bold opacity-60 uppercase tracking-widest">Platforms</div>
-          </div>
-          <div>
-            <div class="text-4xl md:text-5xl font-bold mb-2 tracking-tighter">100%</div>
-            <div class="text-xs font-bold opacity-60 uppercase tracking-widest">Open Source</div>
-          </div>
-        </div>
-      </div>
-    </UiSection>
+    <!-- Stats Section (Real Data) -->
+    <SectionStats />
 
     <!-- CTA Section -->
     <SectionCta />

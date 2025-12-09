@@ -1,6 +1,6 @@
 <template>
   <footer class="border-t border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-950">
-    <div class="mx-auto max-w-[1800px] px-4 py-12 lg:px-8">
+    <div class="mx-auto max-w-7xl px-4 py-12 lg:px-8">
       <div class="grid grid-cols-1 gap-8 md:grid-cols-4 lg:gap-12">
 
         <!-- Brand Column -->
