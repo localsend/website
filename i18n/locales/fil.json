@@ -1,73 +1,182 @@
 {
-    "home": {
-      "seo": {
-        "title": "LocalSend: LocalSend: I-share ang mga file sa kalapit na mga device",
-        "description": "Ang LocalSend ay isang libreng, open-source, cross-platform file sharing tool na nagbibigay-daan sa iyo upang mag-share ng mga file sa mga kalapit na mga device."
-      },
-      "slogan1": "I-share ang mga file sa mga kalapit na mga device.",
-      "slogan2": "Libre, open-source, cross-platform.",
-      "download": "I-download",
-      "community": "Komunidad",
-      "features": {
-        "title": "Mga Features",
-        "decentralized": "Desentralisado",
-        "decentralizedDescription": "Mag-share ng mga file nang walang central server. Ang pag-share ng file ay lubos na peer-to-peer.",
-        "crossPlatform": "Cross-platform",  
-        "crossPlatformDescription": "Ang LocalSend ay magagamit para sa Windows, macOS, Linux, Android, at iOS.",
-        "free": "Libre",
-        "freeDescription": "Ang LocalSend ay libre gamitin. Walang ads, walang tracking, walang nakatagong mga bayarin.",
-        "openSource": "Open Source",
-        "openSourceDescription": "Ang source code ay pampubliko. Maaaring mag-ambag ang sinuman sa proyekto.",
-        "secure": "Ligtas",
-        "secureDescription": "Ang end-to-end encryption ay tinitiyak na ikaw at ang tumanggap lamang ang makaka-access sa mga file.",
-        "easy": "Madaling Gamitin",
-        "easyDescription": "Isang simpleng user interface na hindi na kaylangan ng rehistrasyon. Awtomatikong made-detect ang ibang mga device"
-      },
-      "mentioned": "Nabanggit sa buong mundo",
-      "get": "Kunin ang LocalSend"
+  "home": {
+    "seo": {
+      "title": "LocalSend: Magbahagi ng mga file sa mga kalapit na device",
+      "description": "Ang LocalSend ay isang libreng, open-source, at cross-platform na tool para sa pagbabahagi ng mga file sa mga kalapit na device."
     },
-    "download": {
-      "seo": {
-        "title": "LocalSend - Mga Downloads",
-        "description": "I-download ang LocalSend para sa Windows, macOS, Linux, Android, at iOS."
-      },
-      "title": "Mga Downloads",
-      "subTitle": "{os} Downloads",
-      "appStores": "App Stores",
-      "appStoresDescription": "Inirerekomenda para sa karamihan ng mga gumagamit.",
-      "binaries": "Binaries",
-      "binariesDescription": "I-download para sa offline na paggamit.",
-      "packageManagers": "Package Managers",
-      "packageManagersDescription": "I-install gamit ang terminal.",
-      "allReleases": "Lahat ng Release",
-      "zip": "ZIP (portable)",
-      "copiedToClipboard": "Nakopya sa clipboard!"
+    "hero": {
+      "badge": "Sinusuportahan ang lahat ng pangunahing platform!",
+      "title1": "Magbahagi ng mga file nang malaya.",
+      "title2": "Hindi kailangan ng internet.",
+      "subtitle": "Open source, cross-platform, at ganap na libre."
     },
-    "community": {
-      "seo": {
-        "title": "LocalSend - Komunidad",
-        "description": "Kumuha ng tulong, makilahok, at mag-ambag sa LocalSend."
-      },
-      "title": "Komunidad",
-      "getHelp": "Humingi ng Tulong",
-      "getHelpDescription": "Magtanong o maghanap ng mga sagot sa GitHub Discussions.",
-      "getInvolved": "Makilahok",
-      "getInvolvedDescription": "Makipag-ugnayan sa mga developer at mag-ambag nang direkta sa proyekto.",
-      "discord": "Discord",
-      "issues": "Mga Isyu",
-      "pullRequests": "Mga Pull Requests"
+    "slogan1": "Magbahagi ng mga file sa mga kalapit na device.",
+    "slogan2": "Libre, open-source, at cross-platform.",
+    "download": "I-download",
+    "web": "Web",
+    "community": "Komunidad",
+    "stats": {
+      "stars": "Mga bituin sa GitHub",
+      "downloads": "Mga download",
+      "contributors": "Mga tagapag-ambag",
+      "ads": "Mga ads o tracker"
     },
-    "footer": {
-      "underlicense": "Lisensyado sa ilalim ng",
-      "license": "Apache License 2.0",
-      "github": "GitHub",
-      "discord": "Discord",
-      "privacy": "Privacy",
-      "terms": "Mga Termino",
-      "imprint": "Imprint",
-      "contact": "Mga Contact"
+    "testimonials": {
+      "title": "Minamahal ng Komunidad",
+      "description": "Sumali sa libu-libong gumagamit na nagtitiwala sa LocalSend para sa kanilang araw-araw na paglipat ng file."
     },
-    "homepageButton": "Homepage",
-    "improveWebsite": "I-improve ang website na ito"
+    "sponsors": {
+      "title": "Suportado Ng",
+      "description": "Ang LocalSend ay libre at open-source, salamat sa aming mga partner at komunidad.",
+      "infrastructure": "Infrastructure Partner",
+      "lambdaTestDescription": "Tinitiyak ang perpektong paggana ng LocalSend sa 3000+ browser at OS environment.",
+      "becomeSponsor": "Maging Sponsor",
+      "becomeSponsorDescription": "Gusto mo ang LocalSend? Suportahan ang development at tulungan itong manatiling buhay."
+    },
+    "features": {
+      "title": "Mga Tampok",
+      "description": "Lahat ng kailangan mo para sa ligtas at mabilis na pagbabahagi ng file sa iyong lokal na network.",
+      "decentralized": "Desentralisado",
+      "decentralizedDescription": "Magbahagi ng mga file nang walang central server. Ang transfer ay peer-to-peer.",
+      "crossPlatform": "Cross-platform",
+      "crossPlatformDescription": "Available ang LocalSend para sa Windows, macOS, Linux, Android, at iOS.",
+      "free": "Libre",
+      "freeDescription": "Libreng gamitin ang LocalSend. Walang ads, walang tracking, walang nakatagong bayarin.",
+      "openSource": "Open Source",
+      "openSourceDescription": "Ang source code ay pampubliko. Maaaring mag-ambag ang kahit sino.",
+      "secure": "Ligtas",
+      "secureDescription": "Tinitiyak ng end-to-end encryption na ikaw at ang recipient lamang ang may access sa iyong mga file.",
+      "easy": "Madaling Gamitin",
+      "easyDescription": "Simple at walang registrasyon. Awtomatikong natutuklasan ang ibang mga device.",
+      "noInternet": "Hindi Kailangan ng Internet",
+      "noInternetDescription": "Gumagana nang offline. Hindi lumalabas sa lokal na network ang iyong data.",
+      "fast": "Napakabilis",
+      "fastDescription": "Maglipat ng mga file sa pinakamataas na bilis ng iyong WiFi network. Walang limitasyon sa bandwidth."
+    },
+    "press": {
+      "title": "Sa Balita",
+      "description": "Tingnan kung ano ang sinasabi ng tech media tungkol sa LocalSend.",
+      "readArticle": "Basahin ang Artikulo"
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "description": "Lahat ng dapat malaman tungkol sa LocalSend.",
+      "q1": "Libre ba talaga ito?",
+      "a1": "Oo, ang LocalSend ay 100% libre at open-source. Walang ads, walang tracking, at walang nakatagong bayarin.",
+      "q2": "Gumagana ba ito sa internet?",
+      "a2": "Hindi. Ginagamit ng LocalSend ang iyong lokal na WiFi para sa paglipat ng file. Hindi lumalabas ang data sa iyong network.",
+      "q3": "Ligtas ba ito?",
+      "a3": "Oo. Ang lahat ng transfer ay naka-encrypt gamit ang HTTPS. Maaari ka ring gumamit ng PIN verification para sa dagdag na seguridad.",
+      "q4": "Saan napupunta ang mga file?",
+      "a4": "Sa folder na Downloads bilang default, ngunit puwedeng baguhin sa settings.",
+      "q5": "Anong mga platform ang suportado?",
+      "a5": "Available ang LocalSend sa Windows, macOS, Linux, Android, at iOS.",
+      "q6": "Kailangan ko bang gumawa ng account?",
+      "a6": "Hindi. Walang account o login na kailangan. I-install at magsimulang magbahagi."
+    },
+    "mentioned": "Binanggit sa buong mundo",
+    "get": "Kunin ang LocalSend",
+    "video": "Panoorin ang presentasyon ng LocalSend sa YouTube"
+  },
+  "cta": {
+    "title": "Handa nang magsimula?",
+    "description": "I-download ang LocalSend ngayon at madaling magbahagi ng mga file sa iyong mga device.",
+    "download": "I-download"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Mga Download",
+      "description": "I-download ang LocalSend para sa Windows, macOS, Linux, Android, at iOS."
+    },
+    "title": "Mga Download",
+    "subTitle": "{os} Downloads",
+    "appStores": "App Stores",
+    "appStoresDescription": "Inirerekomenda para sa karamihan ng mga gumagamit.",
+    "binaries": "Binaries",
+    "binariesDescription": "I-download para sa offline use.",
+    "packageManagers": "Package Managers",
+    "packageManagersDescription": "I-install mula sa terminal.",
+    "allReleases": "Lahat ng Bersyon",
+    "zip": "ZIP",
+    "copiedToClipboard": "Nakopya sa clipboard!",
+    "noOptions": "Walang karagdagang download options para sa {os}.",
+    "scanToInstall": "I-scan para i-install",
+    "scanDescription": "I-scan ang QR code gamit ang iyong {os} device upang buksan ang pahina ng download.",
+    "installer": "Installer",
+    "portable": "Portable"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Komunidad",
+      "description": "Kumuha ng tulong, makilahok, at mag-ambag sa LocalSend."
+    },
+    "title": "Komunidad",
+    "getHelp": "Kumuha ng Tulong",
+    "getHelpDescription": "Magtanong o maghanap ng sagot sa GitHub Discussions.",
+    "getInvolved": "Makilahok",
+    "getInvolvedDescription": "Makipag-ugnayan sa mga developer at direktang mag-ambag sa proyekto.",
+    "discord": "Discord",
+    "discordDescription": "Sumali sa aming aktibong server upang makipag-usap sa mga developer at makakuha ng agarang suporta.",
+    "reddit": "Reddit",
+    "redditDescription": "Sumali sa mga talakayan at manatiling updated.",
+    "issues": "Mga Isyu",
+    "issuesDescription": "May nakita kang bug? Tingnan ang aming issue tracker.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Handa nang mag-ambag ng code? Magbukas ng PR.",
+    "contribute": "Mag-ambag",
+    "contributeDescription": "Tulungan kaming pagandahin ang LocalSend.",
+    "languageSpecific": "Sumali sa mga usapang pang-wika."
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontak - LocalSend",
+      "description": "Makipag-ugnayan sa team o komunidad."
+    },
+    "title": "Makipag-ugnayan sa Amin",
+    "description": "Makipag-ugnayan sa team o komunidad.",
+    "bugReport": "Mag-report ng Bug",
+    "bugReportDescription": "May problema? I-report ito sa GitHub Issues para maayos namin.",
+    "openIssues": "Buksan ang GitHub Issues",
+    "email": "Magpadala ng Email",
+    "emailDescription": "Para sa pangkalahatang tanong, partnership, o pribadong usapin."
+  },
+  "news": {
+    "title": "Balita",
+    "showAll": "Ipakita lahat ng balita"
+  },
+  "footer": {
+    "description": "Magbahagi ng mga file sa kalapit na device nang walang internet. Open-source, cross-platform, at libre.",
+    "underlicense": "Lisensyado sa ilalim ng",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merch",
+    "privacy": "Privacy",
+    "terms": "Mga Tuntunin",
+    "imprint": "Imprint",
+    "contact": "Kontak",
+    "product": "Produkto",
+    "community": "Komunidad",
+    "legal": "Legal",
+    "download": "I-download",
+    "webapp": "Web App"
+  },
+  "homepageButton": "Homepage",
+  "improveWebsite": "Pagandahin ang website na ito",
+  "navigation": {
+    "downloads": "Mga Download",
+    "community": "Komunidad",
+    "contacts": "Kontak"
+  },
+  "howItWorks": {
+    "title": "Paano Ito Gumagana",
+    "description": "Walang kailangan na setup. I-install lang at magsimulang magbahagi.",
+    "step1Title": "I-install at Buksan",
+    "step1Desc": "I-download ang LocalSend sa lahat ng iyong device. Walang account, walang login, walang server.",
+    "step2Title": "Pumili ng mga File",
+    "step2Desc": "Pumili ng mga larawan, video, dokumento, o text. Suportado ang lahat ng uri ng file.",
+    "step3Title": "Tapikin para Ipadala",
+    "step3Desc": "Tapikin ang kalapit na device. Ang transfer ay agad na nagaganap sa iyong lokal na network."
   }
-  
+}

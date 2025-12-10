@@ -4,16 +4,38 @@
       "title": "LocalSend: Share files to nearby devices",
       "description": "LocalSend is a free, open-source, cross-platform file sharing tool that allows you to share files to nearby devices."
     },
+    "hero": {
+      "badge": "All major platforms supported!",
+      "title1": "Share files freely.",
+      "title2": "No internet required.",
+      "subtitle": "Open source, cross-platform, and completely free."
+    },
     "slogan1": "Share files to nearby devices.",
     "slogan2": "Free, open-source, cross-platform.",
     "download": "Download",
     "web": "Web",
     "community": "Community",
+    "stats": {
+      "stars": "GitHub Stars",
+      "downloads": "Downloads",
+      "contributors": "Contributors",
+      "ads": "Ads or Trackers"
+    },
+    "testimonials": {
+      "title": "Loved by the Community",
+      "description": "Join thousands of users who trust LocalSend for their daily file transfers."
+    },
     "sponsors": {
-      "title": "Sponsors"
+      "title": "Supported By",
+      "description": "LocalSend is free and open source, made possible by our partners and community.",
+      "infrastructure": "Infrastructure Partner",
+      "lambdaTestDescription": "Ensuring LocalSend works flawlessly across 3000+ browser and OS environments.",
+      "becomeSponsor": "Become a Sponsor",
+      "becomeSponsorDescription": "Love LocalSend? Support development and help keep the project alive."
     },
     "features": {
       "title": "Features",
+      "description": "Everything you need for secure, fast file sharing across your local network.",
       "decentralized": "Decentralized",
       "decentralizedDescription": "Share files without a central server. The file transfer is completely peer-to-peer.",
       "crossPlatform": "Cross-platform",
@@ -25,11 +47,41 @@
       "secure": "Secure",
       "secureDescription": "End-to-end encryption ensures that only you and the recipient can access your files.",
       "easy": "Easy to Use",
-      "easyDescription": "A simple user interface without registration. Other devices are discovered automatically."
+      "easyDescription": "A simple user interface without registration. Other devices are discovered automatically.",
+      "noInternet": "No Internet Required",
+      "noInternetDescription": "Works completely offline. Your data never leaves your local network.",
+      "fast": "Blazing Fast",
+      "fastDescription": "Transfer files at the maximum speed of your WiFi network. No bandwidth limits."
+    },
+    "press": {
+      "title": "In the News",
+      "description": "See what tech publications are saying about LocalSend.",
+      "readArticle": "Read Article"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Everything you need to know about LocalSend.",
+      "q1": "Is it really free?",
+      "a1": "Yes, LocalSend is 100% free and open source. There are no ads, no tracking, and no hidden costs.",
+      "q2": "Does it work over the internet?",
+      "a2": "No. LocalSend uses your local WiFi network to transfer files. Your data never leaves your local network.",
+      "q3": "Is it secure?",
+      "a3": "Yes. All transfers are encrypted using HTTPS. You can also enable PIN verification for extra security.",
+      "q4": "Where do files go?",
+      "a4": "Files are saved to your device's Downloads folder by default, but you can change this in the settings.",
+      "q5": "Which platforms are supported?",
+      "a5": "LocalSend is available for Windows, macOS, Linux, Android, and iOS.",
+      "q6": "Do I need to create an account?",
+      "a6": "No. LocalSend does not require any account or login. Just install and start sharing."
     },
     "mentioned": "Mentioned across the globe",
     "get": "Get LocalSend",
     "video": "Watch a video presentation of LocalSend on YouTube"
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "description": "Download LocalSend now and share files effortlessly across your devices.",
+    "download": "Download"
   },
   "download": {
     "seo": {
@@ -45,8 +97,13 @@
     "packageManagers": "Package Managers",
     "packageManagersDescription": "Install with terminal.",
     "allReleases": "All Releases",
-    "zip": "ZIP (portable)",
-    "copiedToClipboard": "Copied to clipboard!"
+    "zip": "ZIP",
+    "copiedToClipboard": "Copied to clipboard!",
+    "noOptions": "No additional download options available for {os}.",
+    "scanToInstall": "Scan to Install",
+    "scanDescription": "Scan this QR code with your {os} device to open the download page directly.",
+    "installer": "Installer",
+    "portable": "Portable"
   },
   "community": {
     "seo": {
@@ -59,15 +116,36 @@
     "getInvolved": "Get Involved",
     "getInvolvedDescription": "Get in contact with the developers and contribute directly to the project.",
     "discord": "Discord",
+    "discordDescription": "Join our active server to chat with developers and get instant help.",
     "reddit": "Reddit",
+    "redditDescription": "Participate in discussions and stay updated with announcements.",
     "issues": "Issues",
-    "pullRequests": "Pull Requests"
+    "issuesDescription": "Found a bug? Check our issue tracker.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Ready to contribute code? Open a PR.",
+    "contribute": "Contribute",
+    "contributeDescription": "Help us improve LocalSend.",
+    "languageSpecific": "Join language-specific discussions."
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact - LocalSend",
+      "description": "Get in touch with the team or the community."
+    },
+    "title": "Contact Us",
+    "description": "Get in touch with the team or the community.",
+    "bugReport": "Report a Bug",
+    "bugReportDescription": "Found an issue? Please report it on our GitHub Issues page so we can track and fix it.",
+    "openIssues": "Open GitHub Issues",
+    "email": "Email Us",
+    "emailDescription": "For general inquiries, partnership opportunities, or private matters."
   },
   "news": {
     "title": "News",
     "showAll": "Show all news"
   },
   "footer": {
+    "description": "Share files to nearby devices without internet. Open source, cross-platform, and free.",
     "underlicense": "Licensed under the",
     "license": "Apache License 2.0",
     "github": "GitHub",
@@ -77,8 +155,28 @@
     "privacy": "Privacy",
     "terms": "Terms",
     "imprint": "Imprint",
-    "contact": "Contacts"
+    "contact": "Contact",
+    "product": "Product",
+    "community": "Community",
+    "legal": "Legal",
+    "download": "Download",
+    "webapp": "Web App"
   },
   "homepageButton": "Homepage",
-  "improveWebsite": "Improve this website"
+  "improveWebsite": "Improve this website",
+  "navigation": {
+    "downloads": "Downloads",
+    "community": "Community",
+    "contacts": "Contact"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "description": "Zero configuration. Just install and start sharing.",
+    "step1Title": "Install & Open",
+    "step1Desc": "Download LocalSend on all your devices. No account, no login, no servers.",
+    "step2Title": "Select Files",
+    "step2Desc": "Choose photos, videos, documents, or text. Any file type is supported.",
+    "step3Title": "Tap to Send",
+    "step3Desc": "Tap the nearby device. The transfer happens instantly over your local network."
+  }
 }

@@ -1,30 +1,87 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Deel bestanden met apparaten in de buurt",
-      "description": "LocalSend is een gratis, opensource en multiplaform app waarmee je bestanden kunt delen met apparaten in de buurt."
+      "title": "LocalSend: Bestanden delen met apparaten in de buurt",
+      "description": "LocalSend is een gratis, open-source en multiplatform tool om bestanden te delen met apparaten in de buurt."
+    },
+    "hero": {
+      "badge": "Alle belangrijke platforms worden ondersteund!",
+      "title1": "Deel bestanden vrij.",
+      "title2": "Geen internet nodig.",
+      "subtitle": "Open-source, multiplatform en volledig gratis."
     },
     "slogan1": "Deel bestanden met apparaten in de buurt.",
-    "slogan2": "Gratis, opensource en multiplatform.",
+    "slogan2": "Gratis, open-source en multiplatform.",
     "download": "Downloaden",
+    "web": "Web",
     "community": "Community",
+    "stats": {
+      "stars": "GitHub-sterren",
+      "downloads": "Downloads",
+      "contributors": "Bijdragers",
+      "ads": "Advertenties of trackers"
+    },
+    "testimonials": {
+      "title": "Geliefd bij de community",
+      "description": "Sluit je aan bij duizenden gebruikers die LocalSend vertrouwen voor hun dagelijkse bestandsoverdrachten."
+    },
+    "sponsors": {
+      "title": "Gesponsord door",
+      "description": "LocalSend is gratis en open-source dankzij onze partners en de community.",
+      "infrastructure": "Infrastructuurpartner",
+      "lambdaTestDescription": "Zorgt ervoor dat LocalSend perfect werkt in meer dan 3000 browser- en OS-omgevingen.",
+      "becomeSponsor": "Word sponsor",
+      "becomeSponsorDescription": "Vind je LocalSend geweldig? Steun de ontwikkeling en help het project voort te zetten."
+    },
     "features": {
       "title": "Functies",
-      "decentralized": "Gedecentraliseerd",
-      "decentralizedDescription": "Deel bestanden zonder centrale server. De bestandsoverdracht vindt geheel peer-to-peer plaats.",
+      "description": "Alles wat je nodig hebt om bestanden snel en veilig te delen via je lokale netwerk.",
+      "decentralized": "Gedeconcentreerd",
+      "decentralizedDescription": "Bestanden delen zonder centrale server. De overdracht is volledig peer-to-peer.",
       "crossPlatform": "Multiplatform",
       "crossPlatformDescription": "LocalSend is beschikbaar voor Windows, macOS, Linux, Android en iOS.",
       "free": "Gratis",
-      "freeDescription": "LocalSend is gratis te gebruiken. Zonder advertenties, tracking of verborgen kosten.",
-      "openSource": "Opensource",
-      "openSourceDescription": "De broncode is openbaar beschikbaar. Iedereen kan bijdragen aan het project.",
+      "freeDescription": "LocalSend is volledig gratis. Geen advertenties, geen tracking en geen verborgen kosten.",
+      "openSource": "Open-source",
+      "openSourceDescription": "De broncode is openbaar. Iedereen kan bijdragen.",
       "secure": "Veilig",
-      "secureDescription": "Dankzij end-to-endversleuteling kunnen alleen jij en de ontvanger de bestanden openen.",
+      "secureDescription": "End-to-end encryptie zorgt ervoor dat alleen jij en de ontvanger toegang hebben tot de bestanden.",
       "easy": "Gebruiksvriendelijk",
-      "easyDescription": "Een eenvoudige interface, en geen registratie vereist. Andere apparaten worden automatisch gedetecteerd."
+      "easyDescription": "Eenvoudige interface zonder registratie. Apparaten in de buurt worden automatisch gedetecteerd.",
+      "noInternet": "Geen internet",
+      "noInternetDescription": "Werkt volledig offline. Je gegevens verlaten je lokale netwerk nooit.",
+      "fast": "Supersnel",
+      "fastDescription": "Bestanden overdragen met de maximale snelheid van je WiFi-netwerk. Geen bandbreedte-limieten."
     },
-    "mentioned": "Internationaal bekend",
-    "get": "LocalSend downloaden"
+    "press": {
+      "title": "In de media",
+      "description": "Lees wat tech-media over LocalSend zeggen.",
+      "readArticle": "Artikel lezen"
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "description": "Alles wat je moet weten over LocalSend.",
+      "q1": "Is het echt gratis?",
+      "a1": "Ja, LocalSend is 100% gratis en open-source. Geen advertenties, geen tracking en geen verborgen kosten.",
+      "q2": "Werkt het via internet?",
+      "a2": "Nee. LocalSend gebruikt je lokale WiFi-netwerk. Je gegevens verlaten het netwerk niet.",
+      "q3": "Is het veilig?",
+      "a3": "Ja. Alle overdrachten zijn versleuteld via HTTPS. Je kunt ook PIN-verificatie inschakelen.",
+      "q4": "Waar worden bestanden opgeslagen?",
+      "a4": "Standaard in de map Downloads, maar dit kan worden aangepast in de instellingen.",
+      "q5": "Welke platforms worden ondersteund?",
+      "a5": "LocalSend is beschikbaar voor Windows, macOS, Linux, Android en iOS.",
+      "q6": "Heb ik een account nodig?",
+      "a6": "Nee. LocalSend vereist geen account of aanmelding. Installeer het en begin direct met delen."
+    },
+    "mentioned": "Wereldwijd genoemd",
+    "get": "LocalSend downloaden",
+    "video": "Bekijk een LocalSend-presentatie op YouTube"
+  },
+  "cta": {
+    "title": "Klaar om te beginnen?",
+    "description": "Download nu LocalSend en deel eenvoudig bestanden tussen je apparaten.",
+    "download": "Downloaden"
   },
   "download": {
     "seo": {
@@ -32,41 +89,94 @@
       "description": "Download LocalSend voor Windows, macOS, Linux, Android en iOS."
     },
     "title": "Downloads",
-    "subTitle": "Downloads voor {os}",
-    "appStores": "App-stores",
+    "subTitle": "{os} Downloads",
+    "appStores": "Appstores",
     "appStoresDescription": "Aanbevolen voor de meeste gebruikers.",
-    "binaries": "Gecompileerde versie",
-    "binariesDescription": "Downloaden voor offline gebruik.",
-    "packageManagers": "Pakketbeheer",
-    "packageManagersDescription": "Installeren via terminal.",
-    "allReleases": "Alle versies",
-    "zip": "ZIP (direct uitvoerbaar)",
-    "copiedToClipboard": "Gekopieerd naar klembord!"
+    "binaries": "Binaries",
+    "binariesDescription": "Download voor offline gebruik.",
+    "packageManagers": "Pakketbeheerders",
+    "packageManagersDescription": "Installeren via de terminal.",
+    "allReleases": "Alle releases",
+    "zip": "ZIP",
+    "copiedToClipboard": "Gekopieerd naar klembord!",
+    "noOptions": "Geen extra downloadopties beschikbaar voor {os}.",
+    "scanToInstall": "Scan om te installeren",
+    "scanDescription": "Scan deze QR-code met je {os}-apparaat om de downloadpagina te openen.",
+    "installer": "Installer",
+    "portable": "Portable"
   },
   "community": {
     "seo": {
       "title": "LocalSend - Community",
-      "description": "Stel vragen en help mee aan LocalSend."
+      "description": "Krijg hulp, doe mee en draag bij aan LocalSend."
     },
     "title": "Community",
-    "getHelp": "Hulp vragen",
-    "getHelpDescription": "Stel vragen of zoek antwoorden op GitHub.",
-    "getInvolved": "Meehelpen",
-    "getInvolvedDescription": "Kom in contact met de ontwikkelaars en help mee aan het project.",
+    "getHelp": "Hulp krijgen",
+    "getHelpDescription": "Stel vragen of vind antwoorden in GitHub Discussions.",
+    "getInvolved": "Doe mee",
+    "getInvolvedDescription": "Maak contact met ontwikkelaars en draag direct bij aan het project.",
     "discord": "Discord",
-    "issues": "Problemen",
-    "pullRequests": "Pull-requests"
+    "discordDescription": "Word lid van onze actieve server om met ontwikkelaars te praten en direct ondersteuning te krijgen.",
+    "reddit": "Reddit",
+    "redditDescription": "Neem deel aan discussies en blijf up-to-date.",
+    "issues": "Issues",
+    "issuesDescription": "Een bug gevonden? Bekijk onze issuetracker.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Klaar om met code bij te dragen? Open een PR.",
+    "contribute": "Bijdragen",
+    "contributeDescription": "Help ons LocalSend te verbeteren.",
+    "languageSpecific": "Doe mee aan taalgerichte discussies."
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact - LocalSend",
+      "description": "Neem contact op met het team of de community."
+    },
+    "title": "Neem contact met ons op",
+    "description": "Neem contact op met het team of de community.",
+    "bugReport": "Bug melden",
+    "bugReportDescription": "Een probleem gevonden? Meld het op GitHub Issues zodat we het kunnen oplossen.",
+    "openIssues": "Open Issues op GitHub",
+    "email": "E-mail sturen",
+    "emailDescription": "Voor algemene vragen, samenwerkingen of privéberichten."
+  },
+  "news": {
+    "title": "Nieuws",
+    "showAll": "Alle nieuwsberichten bekijken"
   },
   "footer": {
-    "underlicense": "Gelicentieerd onder de",
+    "description": "Deel bestanden met apparaten in de buurt zonder internet. Open-source, multiplatform en gratis.",
+    "underlicense": "Onder licentie",
     "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merch",
     "privacy": "Privacy",
     "terms": "Voorwaarden",
-    "imprint": "Impressum",
-    "contact": "Contact"
+    "imprint": "Imprint",
+    "contact": "Contact",
+    "product": "Product",
+    "community": "Community",
+    "legal": "Juridisch",
+    "download": "Downloaden",
+    "webapp": "Webapp"
   },
   "homepageButton": "Startpagina",
-  "improveWebsite": "Deze website verbeteren"
+  "improveWebsite": "Deze website verbeteren",
+  "navigation": {
+    "downloads": "Downloads",
+    "community": "Community",
+    "contacts": "Contact"
+  },
+  "howItWorks": {
+    "title": "Hoe het werkt",
+    "description": "Geen configuratie nodig. Installeer en begin direct met delen.",
+    "step1Title": "Installeren & openen",
+    "step1Desc": "Installeer LocalSend op al je apparaten. Geen account, geen login, geen server.",
+    "step2Title": "Bestanden selecteren",
+    "step2Desc": "Selecteer foto’s, video’s, documenten of tekst. Alle bestandstypen worden ondersteund.",
+    "step3Title": "Tik om te verzenden",
+    "step3Desc": "Tik op het apparaat in de buurt. De overdracht gebeurt onmiddellijk via je lokale netwerk."
+  }
 }

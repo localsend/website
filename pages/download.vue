@@ -1,148 +1,218 @@
 <template>
-  <SecondaryLayout :sub-title="t('download.title')">
-    <template v-slot:tabs>
-      <!-- OS Buttons -->
-      <div class="mt-8 flex flex-wrap justify-center dark:text-gray-300">
-        <AppButton
-          v-for="os in OS"
-          :key="os"
-          class="mx-2 mb-4"
-          @click="setOS(os)"
-          :dark="selectedOS !== os"
-        >
+  <div>
+    <!-- Hero Section -->
+    <PageHeader :title="t('download.title')"
+      :description="t('download.subTitle', { os: selectedOS || 'your device' })" />
+
+    <!-- Download Content -->
+    <UiSection v-if="selectedOS" size="md" spacing="lg" class="min-h-[500px] pt-0">
+      <!-- OS Selection Tabs -->
+      <div class="flex flex-wrap justify-center gap-3 relative z-20 pb-16">
+        <button v-for="os in OS" :key="os" @click="setOS(os)" :class="[
+          'px-6 py-3 rounded-full text-sm font-medium transition-all duration-200 flex items-center gap-2 border',
+          selectedOS === os
+            ? 'bg-gray-900 dark:bg-white text-white dark:text-gray-900 border-transparent shadow-lg scale-105'
+            : 'bg-white dark:bg-gray-900 text-gray-600 dark:text-gray-400 border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800'
+        ]">
+          <Icon :name="getOSIcon(os)" class="text-lg" />
           {{ os }}
-        </AppButton>
+        </button>
       </div>
-    </template>
 
-    <template v-slot:content>
-      <h3 class="text-center text-2xl dark:text-white">
-        {{ t("download.subTitle", { os: selectedOS }) }}
-      </h3>
-
-      <div
-        v-if="selectedOS"
-        class="mt-4 grid grid-cols-12 gap-4 dark:text-gray-300"
-      >
-        <!-- App Stores -->
-        <div
-          class="col-span-12 rounded-lg bg-gray-100 p-4 dark:bg-gray-800 md:col-span-4"
-          v-if="downloadMetadata[selectedOS].stores.length !== 0"
-        >
-          <h3 class="text-xl font-bold dark:text-white">
-            {{ t("download.appStores") }}
-          </h3>
-          <p class="dark:text-gray-400">
-            {{ t("download.appStoresDescription") }}
-          </p>
-
+      <!-- Blueprint Container -->
+      <div class="relative rounded-2xl overflow-hidden">
+        <!-- Blueprint Lines -->
+        <div class="absolute inset-0 pointer-events-none">
+          <!-- Top horizontal lines -->
           <div
-            v-for="(store, index) in downloadMetadata[selectedOS].stores"
-            :key="index"
-            class="mt-4"
-          >
-            <div v-html="store" class="inline-block"></div>
+            class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-300 dark:via-gray-700 to-transparent opacity-50">
+          </div>
+          <div
+            class="absolute top-1 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-800 to-transparent opacity-30">
+          </div>
+
+          <!-- Bottom horizontal lines -->
+          <div
+            class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-300 dark:via-gray-700 to-transparent opacity-50">
+          </div>
+          <div
+            class="absolute -bottom-1 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-800 to-transparent opacity-30">
+          </div>
+
+          <!-- Left vertical lines -->
+          <div
+            class="absolute top-0 bottom-0 left-0 w-px bg-gradient-to-b from-transparent via-gray-300 dark:via-gray-700 to-transparent opacity-50">
+          </div>
+          <div
+            class="absolute top-0 bottom-0 left-1 w-px bg-gradient-to-b from-transparent via-gray-200 dark:via-gray-800 to-transparent opacity-30">
+          </div>
+
+          <!-- Right vertical lines -->
+          <div
+            class="absolute top-0 bottom-0 right-0 w-px bg-gradient-to-b from-transparent via-gray-300 dark:via-gray-700 to-transparent opacity-50">
+          </div>
+          <div
+            class="absolute top-0 bottom-0 -right-1 w-px bg-gradient-to-b from-transparent via-gray-200 dark:via-gray-800 to-transparent opacity-30">
+          </div>
+
+          <!-- Corner markers with rounded positioning -->
+          <div
+            class="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-gray-400 dark:border-gray-600 rounded-tl-lg">
+          </div>
+          <div
+            class="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-gray-400 dark:border-gray-600 rounded-tr-lg">
+          </div>
+          <div
+            class="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-gray-400 dark:border-gray-600 rounded-bl-lg">
+          </div>
+          <div
+            class="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-gray-400 dark:border-gray-600 rounded-br-lg">
           </div>
         </div>
 
-        <!-- Binaries -->
-        <div
-          class="col-span-12 rounded-lg bg-gray-100 p-4 dark:bg-gray-800 md:col-span-4"
-          v-if="downloadMetadata[selectedOS].binaries.length !== 0"
-        >
-          <h3 class="text-xl font-bold dark:text-white">
-            {{ t("download.binaries") }}
-          </h3>
-          <p class="mb-4 dark:text-gray-400">
-            {{ t("download.binariesDescription") }}
-          </p>
-
-          <div
-            v-for="binary in downloadMetadata[selectedOS].binaries"
-            :key="binary.name"
-            class="mt-2"
-          >
-            <TextButton
-              :href="binary.url"
-              icon="material-symbols:download"
-              class="dark:text-gray-300"
-            >
-              {{ binary.name }}
-            </TextButton>
-          </div>
-
-          <TextButton
-            href="https://github.com/localsend/localsend/releases"
-            icon="material-symbols:history"
-            class="mt-2 dark:text-gray-300"
-          >
-            {{ t("download.allReleases") }}
-          </TextButton>
-        </div>
-
-        <!-- Package Managers -->
-        <div
-          class="col-span-12 rounded-lg bg-gray-100 p-4 dark:bg-gray-800"
-          :class="
-            downloadMetadata[selectedOS].stores.length !== 0
-              ? 'md:col-span-4'
-              : 'md:col-span-8'
-          "
-          v-if="downloadMetadata[selectedOS].packageManagers.length !== 0"
-        >
-          <h3 class="text-xl font-bold dark:text-white">
-            {{ t("download.packageManagers") }}
-          </h3>
-          <p class="dark:text-gray-400">
-            {{ t("download.packageManagersDescription") }}
-          </p>
-
-          <div
-            v-for="packageManager in downloadMetadata[selectedOS]
-              .packageManagers"
-            :key="packageManager.name"
-            class="mt-4"
-          >
-            <b class="dark:text-white">{{ packageManager.name }}:</b>
+        <!-- Main Content Grid with Inner Blueprint Lines -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 py-12 px-8 relative">
+          <!-- Vertical divider line for desktop -->
+          <div class="hidden lg:block absolute top-0 bottom-0 left-1/2 transform -translate-x-1/2 pointer-events-none">
             <div
-              class="mt-2 rounded-lg bg-gray-200 p-2 text-sm dark:bg-gray-700 dark:text-gray-300"
-            >
-              <div class="relative">
-                <code>
-                  <span
-                    v-for="(command, index) in packageManager.commands"
-                    :key="index"
-                    class="cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-600"
-                    @click="() => copyToClipboard(command)"
-                  >
-                  <span class="text-gray-400 dark:text-gray-500 select-none">
-                    &dollar; </span>{{ command }}<br />
-                  </span>
-                  <button @click="copyToClipboard(packageManager.commands)" class="absolute top-0 end-0 text-gray-400 hover:text-gray-700 dark:hover:text-white">
-                    <Icon name="i-lucide-copy" class="w-5 h-5" />
-                  </button>
-                </code>
+              class="h-full w-px bg-gradient-to-b from-transparent via-gray-300 dark:via-gray-700 to-transparent opacity-50">
+            </div>
+            <div
+              class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-gray-400 dark:bg-gray-600">
+            </div>
+          </div>
+
+          <!-- Left Column: Direct Downloads & Stores -->
+          <div class="lg:col-span-5 space-y-10 relative">
+            <!-- Section marker -->
+            <div class="absolute -left-8 top-0 w-6 h-px bg-gray-300 dark:bg-gray-700"></div>
+
+            <!-- App Stores -->
+            <div v-if="downloadMetadata[selectedOS].stores.length > 0" class="space-y-4">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2">
+                <Icon name="material-symbols:shopping-bag" class="text-teal-500" />
+                {{ t("download.appStores") }}
+              </h3>
+              <div class="flex flex-wrap gap-4">
+                <div v-for="(store, index) in downloadMetadata[selectedOS].stores" :key="index" v-html="store"
+                  class="transition-transform hover:scale-105 origin-left"></div>
               </div>
+            </div>
+
+            <!-- Direct Binaries -->
+            <div v-if="downloadMetadata[selectedOS].binaries.length > 0" class="space-y-4">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2">
+                <Icon name="material-symbols:download" class="text-teal-500" />
+                {{ t("download.binaries") }}
+              </h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <a v-for="binary in downloadMetadata[selectedOS].binaries" :key="binary.name" :href="binary.url"
+                  class="flex items-center justify-between p-4 rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-teal-500 dark:hover:border-teal-500 hover:shadow-md transition-all group">
+                  <span class="font-medium text-gray-700 dark:text-gray-200">{{ binary.name }}</span>
+                  <Icon name="material-symbols:download"
+                    class="text-gray-400 group-hover:text-teal-500 transition-colors" />
+                </a>
+              </div>
+
+              <a href="https://github.com/localsend/localsend/releases" target="_blank"
+                class="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-teal-600 transition-colors mt-2">
+                <Icon name="material-symbols:history" />
+                {{ t("download.allReleases") }}
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Package Managers (Terminal Style) -->
+          <div class="lg:col-span-7 relative">
+            <!-- Section marker -->
+            <div class="absolute -right-8 top-0 w-6 h-px bg-gray-300 dark:bg-gray-700"></div>
+
+            <div v-if="downloadMetadata[selectedOS].packageManagers.length > 0" class="space-y-6">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2">
+                <Icon name="material-symbols:terminal" class="text-teal-500" />
+                {{ t("download.packageManagers") }}
+              </h3>
+
+              <div class="grid gap-6">
+                <div v-for="pm in downloadMetadata[selectedOS].packageManagers" :key="pm.name"
+                  class="rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-[#1e1e1e] shadow-xl">
+                  <!-- Terminal Header -->
+                  <div class="flex items-center justify-between px-4 py-2 bg-[#252526] border-b border-[#333]">
+                    <div class="flex gap-1.5">
+                      <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
+                      <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
+                      <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
+                    </div>
+                    <span class="text-xs text-gray-400 font-mono font-bold">{{ pm.name }}</span>
+                    <div class="w-10"></div> <!-- Spacer for centering -->
+                  </div>
+
+                  <!-- Terminal Content -->
+                  <div class="p-5 font-mono text-sm relative group">
+                    <div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <button @click="copyToClipboard(pm.commands)"
+                        class="p-2 rounded-md bg-white/10 hover:bg-white/20 text-white transition-colors"
+                        title="Copy to clipboard">
+                        <Icon name="material-symbols:content-copy-outline" class="text-lg" />
+                      </button>
+                    </div>
+
+                    <div v-for="(cmd, i) in pm.commands" :key="i" class="mb-2 last:mb-0">
+                      <span class="text-gray-500 select-none mr-2">$</span>
+                      <span class="text-gray-300">{{ cmd }}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Empty State for OS without Package Managers (like iOS) -->
+            <div
+              v-else-if="downloadMetadata[selectedOS].stores.length === 0 && downloadMetadata[selectedOS].binaries.length === 0"
+              class="flex flex-col items-center justify-center h-64 text-center border border-dashed border-gray-200 dark:border-gray-800 rounded-2xl bg-gray-50 dark:bg-gray-900/50">
+              <Icon name="material-symbols:info-outline" class="text-4xl text-gray-400 mb-2" />
+              <p class="text-gray-500">{{ t('download.noOptions', { os: selectedOS }) }}</p>
+            </div>
+
+            <!-- Mobile QR Code Card (When no package managers but stores exist) -->
+            <div v-else
+              class="h-full min-h-[400px] rounded-3xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900/50 p-8 flex flex-col items-center justify-center text-center relative overflow-hidden">
+              <!-- Background Pattern -->
+              <div
+                class="absolute inset-0 opacity-50 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] dark:bg-[radial-gradient(#374151_1px,transparent_1px)] [background-size:16px_16px]">
+              </div>
+
+              <div class="relative z-10 bg-white p-4 rounded-2xl shadow-xl shadow-gray-200/50 dark:shadow-none mb-8">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://localsend.org/download"
+                  alt="QR Code" class="w-48 h-48" />
+              </div>
+
+              <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-3 relative z-10">{{
+                t('download.scanToInstall') }}</h3>
+              <p class="text-gray-500 dark:text-gray-400 max-w-xs relative z-10 leading-relaxed">
+                {{ t('download.scanDescription', { os: selectedOS }) }}
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div v-else style="height: 300px"></div>
+    </UiSection>
 
-      <!-- Snackbar -->
+    <!-- Snackbar -->
+    <div class="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 transform transition-all duration-300"
+      :class="copyToClipboardSnackbar ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0 pointer-events-none'">
       <div
-        class="absolute bottom-12 left-1/2 -translate-x-1/2 transform rounded-lg bg-teal-950 px-4 py-2 text-white transition-opacity"
-        :class="copyToClipboardSnackbar ? 'opacity-100' : 'hidden'"
-      >
+        class="bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-6 py-3 rounded-full shadow-xl flex items-center gap-2 font-medium">
+        <Icon name="material-symbols:check-circle" class="text-teal-500" />
         {{ t("download.copiedToClipboard") }}
       </div>
-    </template>
-  </SecondaryLayout>
+    </div>
+
+    <SectionCta />
+  </div>
 </template>
 
 <script setup lang="ts">
-import TextButton from "~/components/TextButton.vue";
-import SecondaryLayout from "~/components/layout/SecondaryLayout.vue";
 import { requestGithubAssets } from "~/utils/requestGithubAssets";
 
 definePageMeta({
@@ -151,6 +221,7 @@ definePageMeta({
 });
 
 const { t, locale } = useI18n();
+const router = useRouter();
 
 enum OS {
   windows = "Windows",
@@ -160,7 +231,19 @@ enum OS {
   ios = "iOS",
 }
 
+function getOSIcon(os: OS): string {
+  switch (os) {
+    case OS.windows: return 'mdi:microsoft-windows';
+    case OS.macos: return 'mdi:apple';
+    case OS.linux: return 'mdi:linux';
+    case OS.android: return 'mdi:android';
+    case OS.ios: return 'mdi:apple-ios';
+    default: return 'material-symbols:devices';
+  }
+}
+
 function detectOS(): OS {
+  if (import.meta.server) return OS.windows;
   const userAgent = navigator.userAgent;
   const substrings = ["Win", "Macintosh", "X11", "Android", "iP"];
   const idx = substrings.findIndex((s) => userAgent.includes(s));
@@ -186,9 +269,8 @@ interface Download {
 }
 
 const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id1661733229">
-    <img alt="Download on the App Store" src="${
-      new URL("~/assets/img/badges/apple-store-badge.svg", import.meta.url).href
-    }" style="height: 64px">
+    <img alt="Download on the App Store" src="${new URL("~/assets/img/badges/apple-store-badge.svg", import.meta.url).href
+  }" style="height: 52px">
 </a>`;
 
 const nix = {
@@ -209,10 +291,6 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
     const assetUrl = assetsMap.value[extension];
     if (assetUrl) {
       if (locale.value === 'zh-CN') {
-        // GitHub is partly blocked in China, so we use a mirror for the download.
-        // Ref: https://github.com/localsend/localsend/issues/2250
-        // https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-linux-x86-64.deb
-        // https://d.localsend.org/LocalSend-1.16.1-linux-x86-64.deb
         const fileName = assetUrl.split('/').pop();
         return `https://d.localsend.org/${fileName}`;
       }
@@ -226,11 +304,11 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       stores: [],
       binaries: [
         {
-          name: "EXE",
+          name: `EXE (${t('download.installer')})`,
           url: downloadUrl("exe"),
         },
         {
-          name: t("download.zip"),
+          name: `${t("download.zip")} (${t('download.portable')})`,
           url: downloadUrl("zip"),
         },
       ],
@@ -268,7 +346,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       stores: [],
       binaries: [
         {
-          name: "TAR",
+          name: "TAR.GZ",
           url: downloadUrl("gz"),
         },
         {
@@ -303,28 +381,25 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       stores: [
         `<a href='https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
           <img alt='Get it on Google Play'
-               src="${
-                 new URL(
-                   "~/assets/img/badges/google-play-badge.svg",
-                   import.meta.url
-                 ).href
-               }"
-               style="height: 60px"
+               src="${new URL(
+          "~/assets/img/badges/google-play-badge.svg",
+          import.meta.url
+        ).href
+        }"
+               style="height: 52px"
           />
         </a>`,
         `<a href="https://f-droid.org/packages/org.localsend.localsend_app">
-          <img alt="Get it on F-Droid" src="${
-            new URL("~/assets/img/badges/f-droid-badge.svg", import.meta.url)
-              .href
-          }" style="height: 60px">
+          <img alt="Get it on F-Droid" src="${new URL("~/assets/img/badges/f-droid-badge.svg", import.meta.url)
+          .href
+        }" style="height: 52px">
         </a>`,
         `<a href="https://www.amazon.com/dp/B0BW6MP732">
-          <img alt="Get it on F-Droid" src="${
-            new URL(
-              "~/assets/img/badges/amazon-store-badge.svg",
-              import.meta.url
-            ).href
-          }" style="height: 59px">
+          <img alt="Get it on Amazon Appstore" src="${new URL(
+          "~/assets/img/badges/amazon-store-badge.svg",
+          import.meta.url
+        ).href
+        }" style="height: 52px">
         </a>`,
       ],
       binaries: [
@@ -343,18 +418,14 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
   };
 });
 
-const router = useRouter();
-
 function setOS(os: OS) {
   selectedOS.value = os;
-
-  // set to query
   router.push({ query: { os: os.toLowerCase() } });
 }
 
 const copyToClipboardSnackbar = ref(false);
 
-function copyToClipboard(text: string | string []) {
+function copyToClipboard(text: string | string[]) {
   const textToCopy = Array.isArray(text) ? text.join('\n') : text;
   navigator.clipboard.writeText(textToCopy);
   copyToClipboardSnackbar.value = true;
@@ -369,13 +440,9 @@ onMounted(async () => {
   assetsMap.value = assetsMetadata.reduce<{ [key: string]: string }>(
     (acc, asset) => {
       const key = asset.name.split(".").pop();
-      if (!key) {
-        // Skip assets without extension
-        return acc;
-      }
+      if (!key) return acc;
 
       if (key === "apk" && !asset.name.includes("arm64v8")) {
-        // Skip APKs that are not for arm64v8 architecture
         return acc;
       }
 

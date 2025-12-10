@@ -1,72 +1,182 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: שיתוף קבצים למכשירים בקרבת מקום",
-      "description": "LocalSend הוא כלי חינמי, קוד פתוח וחוצה פלטפורמות לשיתוף קבצים המאפשר לך לשתף קבצים למכשירים בקרבת מקום."
+      "title": "LocalSend: העברת קבצים למכשירים בקרבתך",
+      "description": "LocalSend הוא כלי חינמי, בקוד פתוח ורב־פלטפורמטי שמאפשר להעביר קבצים למכשירים קרובים."
     },
-    "slogan1": "שיתוף קבצים למכשירים בקרבת מקום.",
-    "slogan2": "חינמי, קוד פתוח, וחוצה פלטפורמות.",
+    "hero": {
+      "badge": "כל הפלטפורמות המרכזיות נתמכות!",
+      "title1": "העבירו קבצים בחופשיות.",
+      "title2": "ללא צורך באינטרנט.",
+      "subtitle": "קוד פתוח, רב־פלטפורמטי וחינמי לחלוטין."
+    },
+    "slogan1": "העברת קבצים למכשירים קרובים.",
+    "slogan2": "חינמי, בקוד פתוח ורב־פלטפורמטי.",
     "download": "הורדה",
+    "web": "אתר",
     "community": "קהילה",
+    "stats": {
+      "stars": "כוכבים ב־GitHub",
+      "downloads": "הורדות",
+      "contributors": "תורמים",
+      "ads": "מודעות או עוקבים"
+    },
+    "testimonials": {
+      "title": "אהוב על ידי הקהילה",
+      "description": "הצטרפו לאלפי משתמשים שסומכים על LocalSend להעברת הקבצים היומית שלהם."
+    },
+    "sponsors": {
+      "title": "בחסות",
+      "description": "LocalSend הוא חינמי ובקוד פתוח — הודות לשותפינו ולקהילה.",
+      "infrastructure": "שותף לתשתית",
+      "lambdaTestDescription": "מבטיח ש־LocalSend יעבוד ללא תקלות ביותר מ־3000 סביבת דפדפן ומערכת הפעלה.",
+      "becomeSponsor": "הפוך/י לספונסר",
+      "becomeSponsorDescription": "אוהבים את LocalSend? תמכו בפיתוחו ועזרו לשמור על הפרויקט פעיל."
+    },
     "features": {
       "title": "תכונות",
+      "description": "כל מה שצריך להעברת קבצים מהירה ובטוחה ברשת המקומית.",
       "decentralized": "מבוזר",
-      "decentralizedDescription": "שיתוף קבצים ללא שרת מרכזי. העברת הקבצים היא לחלוטין עמית-לעמית.",
-      "crossPlatform": "חוצה פלטפורמות",
-      "crossPlatformDescription": "LocalSend זמין עבור Windows, macOS, Linux, Android, ו-iOS.",
+      "decentralizedDescription": "העברת קבצים ללא שרת מרכזי. התקשורת מתבצעת peer-to-peer.",
+      "crossPlatform": "רב־פלטפורמטי",
+      "crossPlatformDescription": "LocalSend זמין עבור Windows, macOS, Linux, Android ו־iOS.",
       "free": "חינמי",
-      "freeDescription": "LocalSend הוא חינמי לשימוש. ללא פרסומות, ללא מעקב, ללא עלויות נסתרות.",
+      "freeDescription": "LocalSend חינמי לחלוטין. בלי פרסומות, בלי מעקב ובלי עמלות נסתרות.",
       "openSource": "קוד פתוח",
-      "openSourceDescription": "קוד המקור זמין לציבור. כל אחד יכול לתרום לפרויקט.",
+      "openSourceDescription": "הקוד זמין לציבור. כל אחד יכול לתרום.",
       "secure": "מאובטח",
-      "secureDescription": "הצפנה מקצה לקצה מבטיחה שרק אתה והנמען יכולים לגשת לקבצים שלך.",
+      "secureDescription": "הצפנה מקצה־לקצה מבטיחה שרק אתם והמקבל תוכלו לגשת לקבצים.",
       "easy": "קל לשימוש",
-      "easyDescription": "ממשק משתמש פשוט ללא הרשמה. מכשירים אחרים מופיעים אוטומטית."
+      "easyDescription": "ממשק פשוט ללא הרשמה. המכשירים מזוהים אוטומטית.",
+      "noInternet": "ללא צורך באינטרנט",
+      "noInternetDescription": "פועל באופן מלא ללא אינטרנט. הנתונים שלכם לא יוצאים מהרשת המקומית.",
+      "fast": "מהיר מאוד",
+      "fastDescription": "העברת קבצים במהירות המקסימלית של רשת ה־WiFi. ללא הגבלת רוחב פס."
     },
-    "mentioned": "הוזכר ברחבי העולם",
-    "get": "קבל את LocalSend"
+    "press": {
+      "title": "בתקשורת",
+      "description": "גלו מה כלי התקשורת אומרים על LocalSend.",
+      "readArticle": "קריאת הכתבה"
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "description": "כל המידע שצריך על LocalSend.",
+      "q1": "זה באמת חינמי?",
+      "a1": "כן! LocalSend חינמי לחלוטין ובקוד פתוח. בלי פרסומות, בלי מעקב ובלי עלויות נסתרות.",
+      "q2": "האם זה עובד דרך האינטרנט?",
+      "a2": "לא. LocalSend משתמש ברשת ה־WiFi המקומית להעברת קבצים. המידע לא יוצא מהרשת.",
+      "q3": "זה מאובטח?",
+      "a3": "כן. כל ההעברות מוצפנות ב־HTTPS. ניתן להפעיל אימות PIN לשכבת אבטחה נוספת.",
+      "q4": "לאן הקבצים נשמרים?",
+      "a4": "ברירת המחדל היא תיקיית ההורדות, אך ניתן לשנות זאת בהגדרות.",
+      "q5": "אילו פלטפורמות נתמכות?",
+      "a5": "LocalSend זמין עבור Windows, macOS, Linux, Android ו־iOS.",
+      "q6": "האם צריך ליצור חשבון?",
+      "a6": "לא. לא צריך חשבון או כניסה. פשוט מתקינים ומתחילים לשתף."
+    },
+    "mentioned": "מוזכר ברחבי העולם",
+    "get": "הורדת LocalSend",
+    "video": "צפו בהצגת LocalSend ב־YouTube"
+  },
+  "cta": {
+    "title": "מוכנים להתחיל?",
+    "description": "הורידו את LocalSend כעת והעבירו קבצים בקלות בין המכשירים שלכם.",
+    "download": "הורדה"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - הורדות",
-      "description": "הורד את LocalSend עבור Windows, macOS, Linux, Android, ו-iOS."
+      "title": "LocalSend — הורדות",
+      "description": "הורידו את LocalSend עבור Windows, macOS, Linux, Android ו־iOS."
     },
     "title": "הורדות",
-    "subTitle": "הורדה עבור {os}",
+    "subTitle": "הורדות עבור {os}",
     "appStores": "חנויות אפליקציות",
-    "appStoresDescription": "מומלץ עבור רוב המשתמשים.",
-    "binaries": "קבצי התקנה",
-    "binariesDescription": "הורדה עבור שימוש לא מקוון.",
+    "appStoresDescription": "מומלץ לרוב המשתמשים.",
+    "binaries": "קבצים בינאריים",
+    "binariesDescription": "הורדה לשימוש ללא חיבור.",
     "packageManagers": "מנהלי חבילות",
-    "packageManagersDescription": "התקנה באמצעות שורת פקודה.",
-    "allReleases": "כל המהדורות",
-    "zip": "ZIP (גרסה ניידת)",
-    "copiedToClipboard": "הועתק ללוח!"
+    "packageManagersDescription": "התקנה דרך הטרמינל.",
+    "allReleases": "כל הגרסאות",
+    "zip": "ZIP",
+    "copiedToClipboard": "הועתק ללוח!",
+    "noOptions": "אין אפשרויות הורדה נוספות עבור {os}.",
+    "scanToInstall": "סריקה להתקנה",
+    "scanDescription": "סרקו את קוד ה־QR עם מכשיר ה־{os} שלכם לפתיחת דף ההורדה.",
+    "installer": "מתקין",
+    "portable": "נייד"
   },
   "community": {
     "seo": {
-      "title": "LocalSend - קהילה",
-      "description": "קבל עזרה, השתתף ותרום ל-LocalSend."
+      "title": "LocalSend — קהילה",
+      "description": "קבלו עזרה, הצטרפו ותרמו ל־LocalSend."
     },
     "title": "קהילה",
-    "getHelp": "קבל עזרה",
-    "getHelpDescription": "שאל או חפש תשובות ב-Github Discussions.",
-    "getInvolved": "תרומה לפרויקט",
-    "getInvolvedDescription": "צור קשר עם המפתחים ותרום ישירות לפרויקט.",
-    "discord": "דיסקורד",
-    "issues": "Issues",
-    "pullRequests": "Pull Requests"
+    "getHelp": "קבלו עזרה",
+    "getHelpDescription": "שאילו שאלות או מצאו תשובות ב־GitHub Discussions.",
+    "getInvolved": "הצטרפות",
+    "getInvolvedDescription": "צור קשר עם המפתחים ותרמו ישירות לפרויקט.",
+    "discord": "Discord",
+    "discordDescription": "הצטרפו לשרת הפעיל שלנו לשיחות עם המפתחים ולקבלת תמיכה מיידית.",
+    "reddit": "Reddit",
+    "redditDescription": "השתתפו בדיונים ועדכונים.",
+    "issues": "בעיות",
+    "issuesDescription": "מצאתם באג? בדקו את עוקב הבעיות שלנו.",
+    "pullRequests": "בקשות משיכה",
+    "prDescription": "רוצים לתרום קוד? פתחו Pull Request.",
+    "contribute": "תרומה",
+    "contributeDescription": "עזרו לנו לשפר את LocalSend.",
+    "languageSpecific": "הצטרפות לדיונים לפי שפה."
+  },
+  "contact": {
+    "seo": {
+      "title": "יצירת קשר — LocalSend",
+      "description": "צרו קשר עם הצוות או הקהילה."
+    },
+    "title": "צרו קשר",
+    "description": "צרו קשר עם הצוות או עם הקהילה.",
+    "bugReport": "דיווח על באג",
+    "bugReportDescription": "מצאתם בעיה? דווחו עליה ב־GitHub Issues כדי שנוכל לתקן אותה.",
+    "openIssues": "פתיחת GitHub Issues",
+    "email": "שליחת אימייל",
+    "emailDescription": "לשאלות כלליות, שיתופי פעולה או נושאים פרטיים."
+  },
+  "news": {
+    "title": "חדשות",
+    "showAll": "הצגת כל החדשות"
   },
   "footer": {
-    "underlicense": "משוחרר תחת",
-    "license": "רישיון Apache 2.0",
+    "description": "העברת קבצים למכשירים קרובים — ללא אינטרנט. קוד פתוח, רב־פלטפורמטי וחינמי.",
+    "underlicense": "ברישיון",
+    "license": "Apache License 2.0",
     "github": "GitHub",
-    "discord": "דיסקורד",
-    "privacy": "מדיניות פרטיות",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "מרצ'",
+    "privacy": "פרטיות",
     "terms": "תנאים",
-    "imprint": "חותמת",
-    "contact": "צור קשר"
+    "imprint": "חותם",
+    "contact": "יצירת קשר",
+    "product": "מוצר",
+    "community": "קהילה",
+    "legal": "משפטי",
+    "download": "הורדה",
+    "webapp": "אפליקציית ווב"
   },
-  "homepageButton": "דף הבית",
-  "improveWebsite": "שפר אתר זה"
+  "homepageButton": "עמוד הבית",
+  "improveWebsite": "שפרו אתר זה",
+  "navigation": {
+    "downloads": "הורדות",
+    "community": "קהילה",
+    "contacts": "יצירת קשר"
+  },
+  "howItWorks": {
+    "title": "איך זה עובד",
+    "description": "ללא הגדרות. פשוט התקינו והתחילו לשתף.",
+    "step1Title": "התקנה ופתיחה",
+    "step1Desc": "הורידו את LocalSend לכל המכשירים. ללא חשבון, ללא התחברות, ללא שרתים.",
+    "step2Title": "בחירת קבצים",
+    "step2Desc": "בחרו תמונות, סרטונים, מסמכים או טקסט. כל סוגי הקבצים נתמכים.",
+    "step3Title": "הקישו לשליחה",
+    "step3Desc": "הקישו על מכשיר קרוב. ההעברה מתבצעת מיד דרך הרשת המקומית."
+  }
 }

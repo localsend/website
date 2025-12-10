@@ -1,72 +1,182 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend：與附近的裝置分享檔案",
-      "description": "LocalSend 是一款免費、開源、跨平台的檔案分享工具，可讓您與附近的裝置分享檔案。"
+      "title": "LocalSend：與附近裝置分享檔案",
+      "description": "LocalSend 是一款免費、開源、跨平台的工具，可讓你與附近的裝置分享檔案。"
     },
-    "slogan1": "將檔案分享至附近的裝置",
-    "slogan2": "免費、開源、跨平台",
+    "hero": {
+      "badge": "支援所有主流平台！",
+      "title1": "自由分享檔案。",
+      "title2": "不需網路。",
+      "subtitle": "開源、跨平台，而且完全免費。"
+    },
+    "slogan1": "與附近裝置分享檔案。",
+    "slogan2": "免費、開源、跨平台。",
     "download": "下載",
+    "web": "網頁版",
     "community": "社群",
-    "features": {
-      "title": "功能",
-      "decentralized": "分散式",
-      "decentralizedDescription": "無須中央伺服器即可分享檔案，檔案的傳輸完全「點對點」。",
-      "crossPlatform": "跨平台",
-      "crossPlatformDescription": "LocalSend 可在 Windows、macOS、Linux、Android 及 iOS 上使用。",
-      "free": "免費",
-      "freeDescription": "LocalSend 完全免費，並且沒有廣告、不會追蹤使用記錄、也沒有隱藏扣款。",
-      "openSource": "開源",
-      "openSourceDescription": "原始碼可公開存取，每個人都可參與到此專案。",
-      "secure": "安全",
-      "secureDescription": "端對端加密確保僅有您和接收者能存取您的檔案。",
-      "easy": "簡便易用",
-      "easyDescription": "簡易的使用者介面，無須註冊，可以自動偵測其他裝置。"
+    "stats": {
+      "stars": "GitHub 星標",
+      "downloads": "下載次數",
+      "contributors": "貢獻者",
+      "ads": "廣告或追蹤器"
     },
-    "mentioned": "享譽全球",
-    "get": "取得 LocalSend"
+    "testimonials": {
+      "title": "深受社群喜愛",
+      "description": "加入每天使用 LocalSend 傳輸檔案的數千名使用者行列。"
+    },
+    "sponsors": {
+      "title": "贊助商",
+      "description": "LocalSend 之所以能保持免費與開源，要感謝我們的合作夥伴與社群。",
+      "infrastructure": "基礎設施夥伴",
+      "lambdaTestDescription": "確保 LocalSend 能在超過 3000 種瀏覽器與作業系統環境中順暢運作。",
+      "becomeSponsor": "成為贊助商",
+      "becomeSponsorDescription": "喜歡 LocalSend 嗎？支持開發，協助專案持續前進。"
+    },
+    "features": {
+      "title": "功能特色",
+      "description": "提供你在本地網路中快速、安全分享檔案所需的一切功能。",
+      "decentralized": "去中心化",
+      "decentralizedDescription": "不需中央伺服器，完全以點對點傳輸（P2P）。",
+      "crossPlatform": "跨平台",
+      "crossPlatformDescription": "LocalSend 支援 Windows、macOS、Linux、Android 與 iOS。",
+      "free": "免費",
+      "freeDescription": "LocalSend 完全免費——沒有廣告、沒有追蹤、沒有隱藏費用。",
+      "openSource": "開源",
+      "openSourceDescription": "程式碼公開，歡迎任何人參與貢獻。",
+      "secure": "安全",
+      "secureDescription": "端到端加密確保只有你與接收者能讀取檔案。",
+      "easy": "容易使用",
+      "easyDescription": "操作介面簡潔，不需註冊。系統會自動偵測附近裝置。",
+      "noInternet": "不需網路",
+      "noInternetDescription": "完全離線運作，你的資料永遠不會離開本地網路。",
+      "fast": "高速",
+      "fastDescription": "以 WiFi 的最高速度傳送檔案，不受頻寬限制。"
+    },
+    "press": {
+      "title": "媒體報導",
+      "description": "看看科技媒體如何評價 LocalSend。",
+      "readArticle": "閱讀文章"
+    },
+    "faq": {
+      "title": "常見問題",
+      "description": "常見的 LocalSend 相關問題與解答。",
+      "q1": "真的免費嗎？",
+      "a1": "是的！LocalSend 100% 免費且開源。無廣告、無追蹤、無隱藏費用。",
+      "q2": "它能透過網際網路運作嗎？",
+      "a2": "不能。LocalSend 使用你的本地 WiFi 網路，資料永遠不會離開該網路。",
+      "q3": "安全嗎？",
+      "a3": "很安全。所有傳輸皆使用 HTTPS 加密，也支援 PIN 驗證。",
+      "q4": "檔案會儲存在哪裡？",
+      "a4": "預設儲存在「下載」資料夾，你可在設定中變更。",
+      "q5": "支援哪些平台？",
+      "a5": "Windows、macOS、Linux、Android 與 iOS。",
+      "q6": "需要帳號嗎？",
+      "a6": "不需要。免註冊、免登入——安裝即可使用。"
+    },
+    "mentioned": "全球媒體報導",
+    "get": "下載 LocalSend",
+    "video": "觀看 LocalSend 的 YouTube 介紹影片"
+  },
+  "cta": {
+    "title": "準備好開始了嗎？",
+    "description": "下載 LocalSend，在你的裝置之間輕鬆分享檔案。",
+    "download": "下載"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - 下載",
-      "description": "下載適用於 Windows、macOS、Linux、Android 及 iOS 的 LocalSend。"
+      "title": "LocalSend – 下載",
+      "description": "下載適用於 Windows、macOS、Linux、Android 與 iOS 的 LocalSend。"
     },
     "title": "下載",
-    "subTitle": "{os} 版下載",
-    "appStores": "App Store",
-    "appStoresDescription": "建議大多數使用者使用這個選項",
-    "binaries": "二進位檔案",
-    "binariesDescription": "下載以供離線使用",
-    "packageManagers": "套件管理員",
-    "packageManagersDescription": "使用終端機安裝",
+    "subTitle": "{os} 下載",
+    "appStores": "應用商店",
+    "appStoresDescription": "推薦給大多數使用者。",
+    "binaries": "可執行檔",
+    "binariesDescription": "下載以供離線使用。",
+    "packageManagers": "套件管理工具",
+    "packageManagersDescription": "可使用終端機安裝。",
     "allReleases": "所有版本",
-    "zip": "ZIP (可攜式)",
-    "copiedToClipboard": "已複製到剪貼簿！"
+    "zip": "ZIP",
+    "copiedToClipboard": "已複製到剪貼簿！",
+    "noOptions": "沒有 {os} 的額外下載選項。",
+    "scanToInstall": "掃描以安裝",
+    "scanDescription": "使用你的 {os} 裝置掃描此 QR code 以開啟下載頁面。",
+    "installer": "安裝程式",
+    "portable": "可攜式版本"
   },
   "community": {
     "seo": {
-      "title": "LocalSend - 社群",
-      "description": "取得說明、參與其中、並為 LocalSend 的開發作出貢獻。"
+      "title": "LocalSend – 社群",
+      "description": "取得協助、加入討論並為 LocalSend 貢獻力量。"
     },
     "title": "社群",
-    "getHelp": "取得說明",
-    "getHelpDescription": "在 GitHub 討論區提問或尋找答案",
-    "getInvolved": "參與其中",
-    "getInvolvedDescription": "與開發人員取得聯絡並直接為專案做出貢獻",
+    "getHelp": "取得協助",
+    "getHelpDescription": "在 GitHub Discussions 提問或尋找答案。",
+    "getInvolved": "參與貢獻",
+    "getInvolvedDescription": "與開發者互動並直接參與專案。",
     "discord": "Discord",
-    "issues": "問題",
-    "pullRequests": "提取要求"
+    "discordDescription": "加入我們的 Discord 伺服器，可即時和開發者交流並取得支援。",
+    "reddit": "Reddit",
+    "redditDescription": "參與討論並掌握最新消息。",
+    "issues": "問題追蹤",
+    "issuesDescription": "發現 bug？請查看問題追蹤系統。",
+    "pullRequests": "Pull Requests",
+    "prDescription": "想用程式碼貢獻？歡迎送出 PR。",
+    "contribute": "貢獻",
+    "contributeDescription": "一起協助改善 LocalSend。",
+    "languageSpecific": "加入你的語言討論區。"
+  },
+  "contact": {
+    "seo": {
+      "title": "聯絡我們 – LocalSend",
+      "description": "聯絡開發團隊或社群。"
+    },
+    "title": "聯絡我們",
+    "description": "聯絡開發團隊或社群。",
+    "bugReport": "回報錯誤",
+    "bugReportDescription": "發現問題？請在 GitHub Issues 回報，我們會協助修正。",
+    "openIssues": "開啟 GitHub Issues",
+    "email": "寄送 Email",
+    "emailDescription": "適用於一般詢問、合作提案或私人訊息。"
+  },
+  "news": {
+    "title": "最新消息",
+    "showAll": "查看全部消息"
   },
   "footer": {
-    "underlicense": "本專案依據",
-    "license": "Apache 2.0 授權條款授權",
+    "description": "無需網路即可與附近裝置分享檔案。開源、跨平台、完全免費。",
+    "underlicense": "授權方式",
+    "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
-    "privacy": "隱私權",
-    "terms": "條款",
-    "imprint": "法律聲明",
-    "contact": "聯絡方式"
+    "reddit": "Reddit",
+    "merch": "周邊商品",
+    "privacy": "隱私政策",
+    "terms": "使用條款",
+    "imprint": "法律資訊",
+    "contact": "聯絡",
+    "product": "產品",
+    "community": "社群",
+    "legal": "法律",
+    "download": "下載",
+    "webapp": "網頁應用程式"
   },
   "homepageButton": "首頁",
-  "improveWebsite": "改善這個網站"
+  "improveWebsite": "改善此網站",
+  "navigation": {
+    "downloads": "下載",
+    "community": "社群",
+    "contacts": "聯絡"
+  },
+  "howItWorks": {
+    "title": "運作方式",
+    "description": "無需設定。安裝後即可開始分享。",
+    "step1Title": "安裝並開啟",
+    "step1Desc": "在所有裝置上安裝 LocalSend；不需帳號、不需登入、不需伺服器。",
+    "step2Title": "選擇檔案",
+    "step2Desc": "可選擇相片、影片、文件或文字——支援所有檔案類型。",
+    "step3Title": "點擊傳送",
+    "step3Desc": "點擊附近裝置，即可透過本地網路立即傳送檔案。"
+  }
 }

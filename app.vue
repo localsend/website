@@ -2,10 +2,10 @@
   <NuxtLayout>
     <NuxtPage />
     <AppFooter />
-    <div class="absolute flex gap-2" style="top: 20px; right: 20px">
+    <!-- <div class="absolute flex gap-2" style="top: 20px; right: 20px">
       <ColorMode />
       <LanguageSwitcher />
-    </div>
+    </div> -->
     <Script src="https://sponsorapp.io/platform.js?p=01a74969ff16b90b" />
   </NuxtLayout>
 </template>
@@ -13,6 +13,13 @@
 <script setup lang="ts">
 import LanguageSwitcher from "~/components/LanguageSwitcher.vue";
 import ColorMode from "~/components/ColorMode.vue";
+useHead({
+  script: [
+    {
+      innerHTML: `if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) { document.documentElement.classList.add('dark') } else { document.documentElement.classList.remove('dark') }`
+    }
+  ]
+})
 </script>
 
 <style>
@@ -20,6 +27,7 @@ import ColorMode from "~/components/ColorMode.vue";
 .page-leave-active {
   transition: all 0.2s;
 }
+
 .page-enter-from {
   opacity: 0;
   transform: translate(20px, 0);

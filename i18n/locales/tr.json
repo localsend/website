@@ -1,72 +1,182 @@
 {
   "home": {
     "seo": {
-      "description": "LocalSend, yakındaki cihazlarla dosya paylaşmanıza olanak tanıyan ücretsiz, açık kaynaklı, platformlar arası bir dosya paylaşım aracıdır.",
-      "title": "LocalSend: Dosyaları yakındaki cihazlarla paylaşın"
+      "title": "LocalSend: Yakındaki cihazlarla dosya paylaşın",
+      "description": "LocalSend, yakındaki cihazlarla dosya paylaşmanıza olanak tanıyan ücretsiz, açık kaynaklı ve çoklu platform bir araçtır."
     },
-    "slogan1": "Yakınınızdaki cihazlarla dosya paylaşın.",
-    "slogan2": "Ücretsiz, açık kaynaklı, tüm platformlar için.",
+    "hero": {
+      "badge": "Tüm büyük platformları destekler!",
+      "title1": "Dosyaları özgürce paylaşın.",
+      "title2": "İnternet olmadan.",
+      "subtitle": "Açık kaynak, çoklu platform ve tamamen ücretsiz."
+    },
+    "slogan1": "Yakındaki cihazlarla dosya paylaşın.",
+    "slogan2": "Ücretsiz, açık kaynak ve çoklu platform.",
     "download": "İndir",
+    "web": "Web",
     "community": "Topluluk",
+    "stats": {
+      "stars": "GitHub Yıldızları",
+      "downloads": "İndirilme sayısı",
+      "contributors": "Katkıda bulunanlar",
+      "ads": "Reklam veya takipçi"
+    },
+    "testimonials": {
+      "title": "Topluluk tarafından seviliyor",
+      "description": "Günlük dosya transferleri için LocalSend’e güvenen binlerce kullanıcıya katılın."
+    },
+    "sponsors": {
+      "title": "Sponsorlar",
+      "description": "LocalSend, ortaklarımız ve topluluğumuz sayesinde ücretsiz ve açık kaynaktır.",
+      "infrastructure": "Altyapı ortağı",
+      "lambdaTestDescription": "LocalSend’in 3000'den fazla tarayıcı ve işletim sistemi ortamında kusursuz çalışmasını sağlar.",
+      "becomeSponsor": "Sponsor olun",
+      "becomeSponsorDescription": "LocalSend’i seviyor musunuz? Gelişimini destekleyin ve projenin devam etmesine yardımcı olun."
+    },
     "features": {
       "title": "Özellikler",
-      "decentralized": "Merkezi Olmayan",
-      "decentralizedDescription": "Dosyaları merkezi bir sunucu olmadan paylaşın. Dosya transferi tamamen eşler arası (peer-to-peer) gerçekleşir.",
-      "crossPlatform": "Çapraz-platform",
-      "crossPlatformDescription": "LocalSend Windows, macOS, Linux, Android ve iOS için kullanılabilir.",
+      "description": "Yerel ağınız üzerinden hızlı ve güvenli dosya paylaşımı için ihtiyacınız olan her şey.",
+      "decentralized": "Merkeziyetsiz",
+      "decentralizedDescription": "Merkezi sunucu olmadan paylaşım. Transfer tamamen peer-to-peer yapılır.",
+      "crossPlatform": "Çoklu platform",
+      "crossPlatformDescription": "LocalSend; Windows, macOS, Linux, Android ve iOS için kullanılabilir.",
       "free": "Ücretsiz",
-      "freeDescription": "LocalSend'i kullanmak ücretsizdir. Reklam yok, takip yok, gizli maliyet yok.",
-      "openSource": "Açık Kaynak",
-      "openSourceDescription": "Kaynak kodu herkese açıktır. Herkes projeye katkıda bulunabilir.",
+      "freeDescription": "LocalSend tamamen ücretsizdir. Reklam yok, takip yok, gizli ücret yok.",
+      "openSource": "Açık kaynak",
+      "openSourceDescription": "Kaynak kodu herkese açıktır. Herkes katkıda bulunabilir.",
       "secure": "Güvenli",
-      "secureDescription": "Uçtan uca şifreleme, dosyalarınıza yalnızca sizin ve alıcının erişebilmesini sağlar.",
-      "easy": "Kolay Kullanım",
-      "easyDescription": "Kayıt olmadan basit bir kullanıcı arayüzü. Diğer cihazlar otomatik olarak keşfedilir."
+      "secureDescription": "Uçtan uca şifreleme sayesinde dosyalara yalnızca siz ve alıcı erişebilir.",
+      "easy": "Kullanımı kolay",
+      "easyDescription": "Basit arayüz, kayıt gerekmez. Yakındaki cihazlar otomatik olarak algılanır.",
+      "noInternet": "İnternetsiz",
+      "noInternetDescription": "Tamamen çevrimdışı çalışır. Verileriniz asla yerel ağınızdan çıkmaz.",
+      "fast": "Çok hızlı",
+      "fastDescription": "Dosyaları WiFi ağınızın maksimum hızında aktarın. Bant genişliği sınırlaması yok."
     },
-    "mentioned": "Dünyanın dört bir yanında anılıyor",
-    "get": "LocalSend'i edinin"
+    "press": {
+      "title": "Basında",
+      "description": "Teknoloji basınının LocalSend hakkında neler söylediğine göz atın.",
+      "readArticle": "Makaleyi oku"
+    },
+    "faq": {
+      "title": "Sıkça sorulan sorular",
+      "description": "LocalSend hakkında bilmeniz gereken her şey.",
+      "q1": "Gerçekten ücretsiz mi?",
+      "a1": "Evet! LocalSend %100 ücretsiz ve açık kaynaktır. Reklam yok, takip yok, gizli ücret yok.",
+      "q2": "İnternet üzerinden mi çalışıyor?",
+      "a2": "Hayır. LocalSend yerel WiFi ağınızı kullanır. Veriler ağdan dışarı çıkmaz.",
+      "q3": "Güvenli mi?",
+      "a3": "Evet. Tüm transferler HTTPS ile şifrelenir. PIN doğrulaması da kullanılabilir.",
+      "q4": "Dosyalar nereye kaydediliyor?",
+      "a4": "Varsayılan olarak Downloads klasörüne, ancak ayarlardan değiştirebilirsiniz.",
+      "q5": "Hangi platformlar destekleniyor?",
+      "a5": "Windows, macOS, Linux, Android ve iOS.",
+      "q6": "Hesap gerekli mi?",
+      "a6": "Hayır. Hesap veya giriş gerekmez — yükleyin ve kullanmaya başlayın."
+    },
+    "mentioned": "Dünya genelinde bahsedildi",
+    "get": "LocalSend’i indir",
+    "video": "YouTube’da LocalSend tanıtımını izleyin"
+  },
+  "cta": {
+    "title": "Hazır mısınız?",
+    "description": "LocalSend’i indirerek cihazlarınız arasında dosyaları kolayca paylaşın.",
+    "download": "İndir"
   },
   "download": {
     "seo": {
-      "description": "LocalSend'i Windows, macOS, Linux, Android ve iOS için indirin.",
-      "title": "LocalSend - İndirmeler"
+      "title": "LocalSend – İndirmeler",
+      "description": "Windows, macOS, Linux, Android ve iOS için LocalSend’i indirin."
     },
     "title": "İndirmeler",
-    "subTitle": "{os} İndirmeleri",
+    "subTitle": "{os} için indirmeler",
     "appStores": "Uygulama Mağazaları",
     "appStoresDescription": "Çoğu kullanıcı için önerilir.",
-    "binaries": "Binaries",
+    "binaries": "Binary dosyalar",
     "binariesDescription": "Çevrimdışı kullanım için indirin.",
-    "packageManagers": "Paket Yöneticileri",
-    "packageManagersDescription": "Terminal ile yükleyin.",
-    "allReleases": "Tüm Sürümler",
-    "zip": "ZIP (taşınabilir)",
-    "copiedToClipboard": "Panoya kopyalandı!"
+    "packageManagers": "Paket yöneticileri",
+    "packageManagersDescription": "Terminal üzerinden yükleyin.",
+    "allReleases": "Tüm sürümler",
+    "zip": "ZIP",
+    "copiedToClipboard": "Panoya kopyalandı!",
+    "noOptions": "{os} için ek indirme seçenekleri yok.",
+    "scanToInstall": "Kurmak için tarayın",
+    "scanDescription": "Bu QR kodunu {os} cihazınızla tarayarak indirme sayfasını açın.",
+    "installer": "Yükleyici",
+    "portable": "Taşınabilir"
   },
   "community": {
     "seo": {
-      "description": "Yardım alın, dahil olun ve LocalSend'e katkıda bulunun.",
-      "title": "LocalSend - Topluluk"
+      "title": "LocalSend – Topluluk",
+      "description": "Yardım alın, katılın ve LocalSend’e katkıda bulunun."
     },
     "title": "Topluluk",
-    "getHelp": "Yardım al",
-    "getHelpDescription": "Github'da sorunuzu sorun veya cevap arayın.",
+    "getHelp": "Yardım alın",
+    "getHelpDescription": "GitHub Discussions üzerinden soru sorun veya yanıt bulun.",
     "getInvolved": "Katılın",
-    "getInvolvedDescription": "Geliştiricilerle iletişime geçin ve projeye doğrudan katkıda bulunun.",
+    "getInvolvedDescription": "Geliştiricilerle iletişim kurun ve projeye doğrudan katkıda bulunun.",
     "discord": "Discord",
-    "issues": "Sorunlar (Issues)",
-    "pullRequests": "Çekme İstekleri (Pull Requests)"
+    "discordDescription": "Geliştiricilerle sohbet etmek ve hızlı destek almak için aktif sunucumuza katılın.",
+    "reddit": "Reddit",
+    "redditDescription": "Tartışmalara katılın ve güncel kalın.",
+    "issues": "Hatalar",
+    "issuesDescription": "Bir hata mı buldunuz? Issue takip sistemimizi kontrol edin.",
+    "pullRequests": "Pull Request'ler",
+    "prDescription": "Kod ile katkı yapmak ister misiniz? Bir PR açın.",
+    "contribute": "Katkı yap",
+    "contributeDescription": "LocalSend’i geliştirmemize yardımcı olun.",
+    "languageSpecific": "Kendi dilinizle ilgili tartışmalara katılın."
+  },
+  "contact": {
+    "seo": {
+      "title": "İletişim – LocalSend",
+      "description": "Ekip veya toplulukla iletişime geçin."
+    },
+    "title": "Bize ulaşın",
+    "description": "Ekip veya toplulukla iletişime geçin.",
+    "bugReport": "Hata bildir",
+    "bugReportDescription": "Bir sorun mu buldunuz? GitHub Issues üzerinden bildirin.",
+    "openIssues": "GitHub Issues'u aç",
+    "email": "E-posta gönder",
+    "emailDescription": "Genel sorular, iş birlikleri veya özel mesajlar için."
+  },
+  "news": {
+    "title": "Haberler",
+    "showAll": "Tüm haberleri göster"
   },
   "footer": {
-    "underlicense": "Altında lisanslanmıştır",
-    "license": "Apache 2.0 Lisansı",
+    "description": "İnternetsiz olarak yakındaki cihazlarla dosya paylaşın. Açık kaynak, çoklu platform ve ücretsiz.",
+    "underlicense": "Lisans altında",
+    "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Ürünler",
     "privacy": "Gizlilik",
     "terms": "Koşullar",
-    "imprint": "Künye",
-    "contact": "İletişim"
+    "imprint": "Yasal bilgi",
+    "contact": "İletişim",
+    "product": "Ürün",
+    "community": "Topluluk",
+    "legal": "Yasal",
+    "download": "İndir",
+    "webapp": "Web uygulaması"
   },
-  "homepageButton": "Ana Sayfa",
-  "improveWebsite": "Bu web sitesini geliştirin"
+  "homepageButton": "Ana sayfa",
+  "improveWebsite": "Bu siteyi geliştirin",
+  "navigation": {
+    "downloads": "İndirmeler",
+    "community": "Topluluk",
+    "contacts": "İletişim"
+  },
+  "howItWorks": {
+    "title": "Nasıl çalışır",
+    "description": "Herhangi bir yapılandırma gerekmez. Kurun ve paylaşmaya başlayın.",
+    "step1Title": "Kur ve aç",
+    "step1Desc": "LocalSend’i tüm cihazlarınıza kurun. Hesap, giriş veya sunucu gerekmez.",
+    "step2Title": "Dosyaları seçin",
+    "step2Desc": "Fotoğraflar, videolar, belgeler veya metin — tüm dosya türleri desteklenir.",
+    "step3Title": "Göndermek için dokunun",
+    "step3Desc": "Yakındaki bir cihaza dokunun. Transfer yerel ağınız üzerinden anında gerçekleşir."
+  }
 }

@@ -2,71 +2,181 @@
   "home": {
     "seo": {
       "title": "LocalSend: Delite fajlove sa uređajima u blizini",
-      "description": "LocalSend je besplatan, otvorenog koda, višeplatformski program za deljenje fajlova koji vam omogućava da delite fajlove sa uređajima u blizini."
+      "description": "LocalSend je besplatan, open-source i multiplatformski alat za deljenje fajlova sa uređajima u blizini."
+    },
+    "hero": {
+      "badge": "Podržane sve glavne platforme!",
+      "title1": "Delite fajlove slobodno.",
+      "title2": "Bez interneta.",
+      "subtitle": "Open-source, multiplatformski i potpuno besplatan."
     },
     "slogan1": "Delite fajlove sa uređajima u blizini.",
-    "slogan2": "Besplatan, otvorenog koda, višeplatformski.",
+    "slogan2": "Besplatno, open-source i multiplatformski.",
     "download": "Preuzmi",
+    "web": "Web",
     "community": "Zajednica",
-    "features": {
-      "title": "Karakteristike",
-      "decentralized": "Decentralizovan",
-      "decentralizedDescription": "Delite fajlove bez centralnog servera. Razmena fajlova je potpuno peer-to-peer.",
-      "crossPlatform": "Višeplatformski",
-      "crossPlatformDescription": "LocalSend je dostupan za Windows, macOS, Linux, Android i iOS.",
-      "free": "Besplatan",
-      "freeDescription": "LocalSend je besplatan za upotrebu. Nema oglasa, nema praćenja, nema skrivenih troškova.",
-      "openSource": "Otvorenog koda",
-      "openSourceDescription": "Izvorni kôd je javno dostupan. Svako može da doprinese ovom projektu.",
-      "secure": "Bezbedan",
-      "secureDescription": "Šifrovanje s kraja na kraj obezbeđuje da samo vi i primalac možete pristupati vašim fajlovima.",
-      "easy": "Jednostavan za upotrebu",
-      "easyDescription": "Jednostavan korisnički interfejs bez registracije. Drugi uređaji se otkrivaju automatski."
+    "stats": {
+      "stars": "GitHub zvezdice",
+      "downloads": "Preuzimanja",
+      "contributors": "Doprinosioci",
+      "ads": "Reklame ili trakeri"
     },
-    "mentioned": "Pominjan širom sveta",
-    "get": "Nabavite LocalSend"
+    "testimonials": {
+      "title": "Omiljeno u zajednici",
+      "description": "Pridružite se hiljadama korisnika koji svakodnevno veruju LocalSend-u za prenos fajlova."
+    },
+    "sponsors": {
+      "title": "Sponzori",
+      "description": "LocalSend je besplatan i open-source zahvaljujući našim partnerima i zajednici.",
+      "infrastructure": "Infrastrukturni partner",
+      "lambdaTestDescription": "Obezbeđuje da LocalSend radi besprekorno u više od 3000 okruženja pregledača i operativnih sistema.",
+      "becomeSponsor": "Postani sponzor",
+      "becomeSponsorDescription": "Sviđa ti se LocalSend? Podrži razvoj i pomozi da projekat živi dalje."
+    },
+    "features": {
+      "title": "Funkcije",
+      "description": "Sve što vam je potrebno za brzo i bezbedno deljenje fajlova u lokalnoj mreži.",
+      "decentralized": "Decentralizovano",
+      "decentralizedDescription": "Delite fajlove bez centralnog servera. Prenos je potpuno peer-to-peer.",
+      "crossPlatform": "Multiplatformski",
+      "crossPlatformDescription": "LocalSend je dostupan za Windows, macOS, Linux, Android i iOS.",
+      "free": "Besplatno",
+      "freeDescription": "LocalSend je potpuno besplatan — bez reklama, praćenja i skrivenih troškova.",
+      "openSource": "Otvorenog koda",
+      "openSourceDescription": "Izvorni kod je javan i svako može doprineti.",
+      "secure": "Bezbedno",
+      "secureDescription": "End-to-end enkripcija garantuje da samo vi i primalac imate pristup fajlovima.",
+      "easy": "Lako za korišćenje",
+      "easyDescription": "Jednostavan interfejs bez registracije. Uređaji u blizini se automatski otkrivaju.",
+      "noInternet": "Bez interneta",
+      "noInternetDescription": "Radi potpuno offline. Vaši podaci nikada ne napuštaju lokalnu mrežu.",
+      "fast": "Veoma brzo",
+      "fastDescription": "Prenosite fajlove maksimalnom brzinom vaše WiFi mreže. Bez ograničenja protoka."
+    },
+    "press": {
+      "title": "U medijima",
+      "description": "Pogledajte šta tehnološki mediji kažu o LocalSend-u.",
+      "readArticle": "Pročitaj članak"
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "description": "Sve što treba da znate o LocalSend-u.",
+      "q1": "Da li je zaista besplatno?",
+      "a1": "Da! LocalSend je 100% besplatan i open-source. Bez reklama, praćenja i skrivenih troškova.",
+      "q2": "Da li radi preko interneta?",
+      "a2": "Ne. LocalSend koristi vašu lokalnu WiFi mrežu. Podaci je nikada ne napuštaju.",
+      "q3": "Da li je bezbedno?",
+      "a3": "Da. Svi prenosi su šifrovani preko HTTPS-a. Možete uključiti i PIN verifikaciju.",
+      "q4": "Gde se čuvaju fajlovi?",
+      "a4": "Podrazumevano u fascikli Preuzimanja, ali to možete promeniti u podešavanjima.",
+      "q5": "Koje platforme su podržane?",
+      "a5": "Windows, macOS, Linux, Android i iOS.",
+      "q6": "Da li mi treba nalog?",
+      "a6": "Ne. Nije potreban nalog niti prijavljivanje — samo instalirajte i koristite."
+    },
+    "mentioned": "Pominjano širom sveta",
+    "get": "Preuzmi LocalSend",
+    "video": "Pogledaj prezentaciju LocalSend-a na YouTube-u"
+  },
+  "cta": {
+    "title": "Spremni da počnete?",
+    "description": "Preuzmite LocalSend i lako delite fajlove između svojih uređaja.",
+    "download": "Preuzmi"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Preuzimanja",
-      "description": "Preuzmite LocalSend za Windows, macOS, Linux, Android ili iOS."
+      "title": "LocalSend – Preuzimanja",
+      "description": "Preuzmite LocalSend za Windows, macOS, Linux, Android i iOS."
     },
     "title": "Preuzimanja",
     "subTitle": "Preuzimanja za {os}",
     "appStores": "Prodavnice aplikacija",
     "appStoresDescription": "Preporučeno za većinu korisnika.",
     "binaries": "Binarni fajlovi",
-    "binariesDescription": "Preuzmite za oflajn upotrebu.",
+    "binariesDescription": "Preuzmite za offline korišćenje.",
     "packageManagers": "Menadžeri paketa",
-    "packageManagersDescription": "Instalirajte pomoću terminala.",
+    "packageManagersDescription": "Instalirajte preko terminala.",
     "allReleases": "Sva izdanja",
-    "zip": "ZIP (prenosivi)",
-    "copiedToClipboard": "Kopirano u privremenu memoriju!"
+    "zip": "ZIP",
+    "copiedToClipboard": "Kopirano u ostavu!",
+    "noOptions": "Nema dodatnih opcija za {os}.",
+    "scanToInstall": "Skeniraj za instalaciju",
+    "scanDescription": "Skenirajte ovaj QR kod svojim {os} uređajem da biste otvorili stranicu za preuzimanje.",
+    "installer": "Installer",
+    "portable": "Portable verzija"
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Zajednica",
-      "description": "Potražite pomoć, uključite se, doprinesite LocalSend projektu."
+      "title": "LocalSend – Zajednica",
+      "description": "Dobijte pomoć, uključite se i doprinesite LocalSend-u."
     },
     "title": "Zajednica",
-    "getHelp": "Potražite pomoć",
-    "getHelpDescription": "Pitajte ili pronađite odgovore na GitHub razgovorima.",
+    "getHelp": "Dobiti pomoć",
+    "getHelpDescription": "Postavljajte pitanja ili pronađite odgovore u GitHub Discussions.",
     "getInvolved": "Uključite se",
-    "getInvolvedDescription": "Stupite u kontakt sa programerima i direktno doprinesite projektu.",
+    "getInvolvedDescription": "Povežite se sa programerima i direktno doprinesite projektu.",
     "discord": "Discord",
-    "issues": "Prijava problema",
-    "pullRequests": "Pull requestovi"
+    "discordDescription": "Pridružite se našem aktivnom serveru, razgovarajte s programerima i dobijte trenutnu pomoć.",
+    "reddit": "Reddit",
+    "redditDescription": "Učestvujte u diskusijama i ostanite u toku.",
+    "issues": "Problemi",
+    "issuesDescription": "Pronašli ste bug? Pogledajte naš sistem za prijavu problema.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Želite da doprinesete kodom? Otvorite PR.",
+    "contribute": "Doprinesi",
+    "contributeDescription": "Pomozite nam da unapredimo LocalSend.",
+    "languageSpecific": "Pridružite se diskusijama za određene jezike."
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt – LocalSend",
+      "description": "Kontaktirajte tim ili zajednicu."
+    },
+    "title": "Kontaktirajte nas",
+    "description": "Stupite u kontakt sa timom ili zajednicom.",
+    "bugReport": "Prijavi grešku",
+    "bugReportDescription": "Pronašli ste problem? Prijavite ga na GitHub Issues i mi ćemo ga ispraviti.",
+    "openIssues": "Otvori GitHub Issues",
+    "email": "Pošalji email",
+    "emailDescription": "Za opšta pitanja, saradnje ili privatne poruke."
+  },
+  "news": {
+    "title": "Vesti",
+    "showAll": "Prikaži sve vesti"
   },
   "footer": {
-    "underlicense": "Licencirano pod",
-    "license": "Apache 2.0 licencom",
+    "description": "Delite fajlove sa uređajima u blizini bez interneta. Open-source, multiplatformski i besplatan.",
+    "underlicense": "Pod licencom",
+    "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merč",
     "privacy": "Privatnost",
     "terms": "Uslovi",
-    "imprint": "Impresum",
-    "contact": "Kontakti"
+    "imprint": "Pravne informacije",
+    "contact": "Kontakt",
+    "product": "Proizvod",
+    "community": "Zajednica",
+    "legal": "Pravno",
+    "download": "Preuzmi",
+    "webapp": "Veb aplikacija"
   },
-  "homepageButton": "Početna stranica",
-  "improveWebsite": "Unapredi ovu veb-stranicu"
+  "homepageButton": "Početna",
+  "improveWebsite": "Poboljšaj ovaj sajt",
+  "navigation": {
+    "downloads": "Preuzimanja",
+    "community": "Zajednica",
+    "contacts": "Kontakt"
+  },
+  "howItWorks": {
+    "title": "Kako funkcioniše",
+    "description": "Bez podešavanja. Instalirajte i počnite da delite.",
+    "step1Title": "Instaliraj i otvori",
+    "step1Desc": "Instalirajte LocalSend na sve svoje uređaje. Bez naloga, prijavljivanja i servera.",
+    "step2Title": "Izaberite fajlove",
+    "step2Desc": "Izaberite fotografije, video snimke, dokumente ili tekst. Svi tipovi fajlova su podržani.",
+    "step3Title": "Dodirnite da pošaljete",
+    "step3Desc": "Dodirnite uređaj u blizini. Prenos se izvršava odmah putem lokalne mreže."
+  }
 }
