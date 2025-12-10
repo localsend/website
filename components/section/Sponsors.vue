@@ -29,7 +29,7 @@
             </a>
 
             <!-- Community Support (Donation) -->
-            <a href="https://github.com/sponsors/localsend" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/sponsors/Tienisto" target="_blank" rel="noopener noreferrer"
                 class="group relative flex flex-col items-center justify-center p-8 rounded-3xl border border-dashed border-gray-300 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-900/20 hover:border-teal-500 dark:hover:border-teal-500 hover:bg-white dark:hover:bg-gray-900 transition-all duration-300 hover:shadow-lg">
                 <!-- Icon -->
                 <div
