@@ -39,7 +39,7 @@
                         <span class="relative inline-flex rounded-full h-2 w-2 bg-teal-500"></span>
                     </span>
                     <span>
-                        All major platforms supported!
+                        {{ t('home.hero.badge') }}
                     </span>
                     <Icon name="material-symbols:arrow-forward"
                         class="text-gray-400 transition-transform group-hover:translate-x-0.5" />
@@ -49,18 +49,19 @@
             <!-- Hero Title -->
             <h1
                 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tighter text-gray-900 dark:text-white mb-8 text-balance leading-[1.1] animate-fade-in-up delay-100">
-                Share files freely.
+                {{ t('home.hero.title1') }}
                 <br class="hidden md:block" />
                 <span
-                    class="bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-gray-400 dark:from-gray-400 dark:to-gray-600">No
-                    internet required.</span>
+                    class="bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-gray-400 dark:from-gray-400 dark:to-gray-600">
+                    {{ t('home.hero.title2') }}
+                </span>
             </h1>
 
             <!-- Hero Description -->
             <p
                 class="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed font-normal animate-fade-in-up delay-200">
                 {{ t("home.slogan1") }} {{ t("home.slogan2") }}
-                Open source, cross-platform, and completely free.
+                {{ t('home.hero.subtitle') }}
             </p>
 
             <!-- CTA Buttons -->

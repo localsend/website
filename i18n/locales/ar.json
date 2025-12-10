@@ -1,72 +1,182 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: مشاركة الملفات مع الأجهزة القريبة",
-      "description": "LocalSend هي أداة مجانية ومفتوحة المصدر لمشاركة الملفات عبر الأنظمة الأساسية تتيح لك مشاركة الملفات مع الأجهزة القريبة."
+      "title": "LocalSend: شارك الملفات مع الأجهزة القريبة",
+      "description": "LocalSend هو أداة مجانية، مفتوحة المصدر ومتعددة المنصّات لمشاركة الملفات مع الأجهزة القريبة."
+    },
+    "hero": {
+      "badge": "يدعم جميع المنصّات الرئيسية!",
+      "title1": "شارك ملفاتك بحرية.",
+      "title2": "بدون إنترنت.",
+      "subtitle": "مفتوح المصدر، متعدد المنصّات، ومجاني بالكامل."
     },
     "slogan1": "شارك الملفات مع الأجهزة القريبة.",
-    "slogan2": "مجاني، مفتوح المصدر، متعدد المنصات.",
-    "download": "نزّل",
+    "slogan2": "مجاني، مفتوح المصدر ومتعدد المنصّات.",
+    "download": "تنزيل",
+    "web": "الويب",
     "community": "المجتمع",
+    "stats": {
+      "stars": "نجوم GitHub",
+      "downloads": "عدد التنزيلات",
+      "contributors": "المساهمون",
+      "ads": "إعلانات أو متتبّعات"
+    },
+    "testimonials": {
+      "title": "محبوب من المجتمع",
+      "description": "انضم إلى آلاف المستخدمين الذين يثقون بـ LocalSend لنقل ملفاتهم يوميًا."
+    },
+    "sponsors": {
+      "title": "الرعاة",
+      "description": "LocalSend مجاني ومفتوح المصدر بفضل دعم شركائنا والمجتمع.",
+      "infrastructure": "شريك البنية التحتية",
+      "lambdaTestDescription": "يضمن عمل LocalSend بشكل صحيح عبر أكثر من 3000 بيئة متصفّح ونظام تشغيل.",
+      "becomeSponsor": "كن راعيًا",
+      "becomeSponsorDescription": "هل أعجبك LocalSend؟ ادعم التطوير وساعد المشروع على الاستمرار."
+    },
     "features": {
       "title": "الميزات",
-      "decentralized": "لامركزية",
-      "decentralizedDescription": "مشاركة الملفات بدون خادم مركزي. يتم نقل الملفات بالكامل من ندّ لِندّ.",
-      "crossPlatform": "متعدد المنصات",
-      "crossPlatformDescription": "LocalSend متاح لأنظمة التشغيل Windows و macOS و Linux و Android و iOS.",
-      "free": "مجانًا",
-      "freeDescription": "LocalSend مجاني للاستخدام. لا إعلانات، لا تتبُع، لا تكاليف خفية.",
+      "description": "كل ما تحتاجه لمشاركة الملفات بسرعة وأمان عبر شبكتك المحلية.",
+      "decentralized": "لامركزي",
+      "decentralizedDescription": "مشاركة بدون خادم مركزي. النقل يعتمد بالكامل على الاتصال المباشر (peer-to-peer).",
+      "crossPlatform": "متعدد المنصّات",
+      "crossPlatformDescription": "LocalSend متوفر لأنظمة Windows وmacOS وLinux وAndroid وiOS.",
+      "free": "مجاني",
+      "freeDescription": "LocalSend مجاني 100٪ — بدون إعلانات، بدون تتبع، بدون رسوم مخفية.",
       "openSource": "مفتوح المصدر",
-      "openSourceDescription": "المصدر البرمجي متاح للجمهور. يمكن للجميع المساهمة في المشروع.",
+      "openSourceDescription": "الكود متاح للجميع، ويمكن لأي شخص المساهمة.",
       "secure": "آمن",
-      "secureDescription": "يضمن التعمية بين الطرفين أنه يمكنك أنت والمُستلم فقط الوصول إلى ملفاتك.",
+      "secureDescription": "تشفير من طرف إلى طرف يضمن أن الملف لا يمكن الوصول إليه إلا من قبلك وبواسطة المستلم.",
       "easy": "سهل الاستخدام",
-      "easyDescription": "واجهة مستخدم بسيطة دون تسجيل. يتم اكتشاف الأجهزة الأخرى تلقائيًا."
+      "easyDescription": "واجهة بسيطة، بدون تسجيل. يتم اكتشاف الأجهزة القريبة تلقائيًا.",
+      "noInternet": "بدون إنترنت",
+      "noInternetDescription": "يعمل بالكامل دون اتصال. بياناتك لا تغادر شبكتك المحلية.",
+      "fast": "سريع جدًا",
+      "fastDescription": "انقل الملفات بأقصى سرعة لشبكة WiFi الخاصة بك، دون حدود في النطاق الترددي."
     },
-    "mentioned": "ذُكر في جميع أنحاء العالم",
-    "get": "احصل على LocalSend"
+    "press": {
+      "title": "في الإعلام",
+      "description": "اطّلع على ما يقوله الإعلام التقني عن LocalSend.",
+      "readArticle": "قراءة المقال"
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "description": "كل ما تحتاج معرفته عن LocalSend.",
+      "q1": "هل هو مجاني بالفعل؟",
+      "a1": "نعم! LocalSend مجاني 100٪ ومفتوح المصدر. لا إعلانات، لا تتبع، ولا رسوم خفية.",
+      "q2": "هل يعمل عبر الإنترنت؟",
+      "a2": "لا. يستخدم LocalSend شبكة WiFi المحلية الخاصة بك، ولا تخرج بياناتك منها إطلاقًا.",
+      "q3": "هل هو آمن؟",
+      "a3": "نعم. جميع عمليات النقل مشفّرة عبر HTTPS، ويوجد أيضًا خيار التحقق عبر PIN.",
+      "q4": "أين يتم حفظ الملفات؟",
+      "a4": "افتراضيًا في مجلّد التنزيلات، ويمكنك تغييره من الإعدادات.",
+      "q5": "ما المنصّات المدعومة؟",
+      "a5": "Windows، macOS، Linux، Android، iOS.",
+      "q6": "هل أحتاج إلى حساب؟",
+      "a6": "لا. لا حاجة لإنشاء حساب أو تسجيل الدخول — فقط قم بالتثبيت وابدأ الاستخدام."
+    },
+    "mentioned": "مذكور حول العالم",
+    "get": "تنزيل LocalSend",
+    "video": "شاهد عرض LocalSend على YouTube"
+  },
+  "cta": {
+    "title": "هل أنت مستعد للبدء؟",
+    "description": "قم بتنزيل LocalSend وابدأ بمشاركة الملفات بسهولة بين أجهزتك.",
+    "download": "تنزيل"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - التنزيلات",
-      "description": "نزّل LocalSend لأنظمة التشغيل Windows و macOS و Linux و Android و iOS."
+      "title": "LocalSend – التنزيلات",
+      "description": "قم بتنزيل LocalSend لأنظمة Windows وmacOS وLinux وAndroid وiOS."
     },
     "title": "التنزيلات",
     "subTitle": "تنزيلات {os}",
     "appStores": "متاجر التطبيقات",
-    "appStoresDescription": "يُوصى به لمعظم المستخدمين.",
-    "binaries": "ملفات رقمية",
-    "binariesDescription": "تنزيل للاستخدام دون اتصال بالإنترنت.",
-    "packageManagers": "مديري الحزم",
-    "packageManagersDescription": "التثبيت بالطرفيّة.",
+    "appStoresDescription": "موصى به لمعظم المستخدمين.",
+    "binaries": "الملفات التنفيذية",
+    "binariesDescription": "تنزيل للاستخدام دون اتصال.",
+    "packageManagers": "مديرو الحزم",
+    "packageManagersDescription": "ثبّت عبر الطرفية.",
     "allReleases": "جميع الإصدارات",
-    "zip": "ZIP (محمول)",
-    "copiedToClipboard": "نُسخت إلى الحافظة!"
+    "zip": "ZIP",
+    "copiedToClipboard": "تم النسخ إلى الحافظة!",
+    "noOptions": "لا توجد خيارات تنزيل إضافية لـ {os}.",
+    "scanToInstall": "امسح للتثبيت",
+    "scanDescription": "امسح هذا الرمز باستخدام جهاز {os} لفتح صفحة التنزيل.",
+    "installer": "المثبّت",
+    "portable": "محمول"
   },
   "community": {
     "seo": {
-      "title": "LocalSend - المجتمع",
-      "description": "احصل على المساعدة، وشارك، وساهم في LocalSend."
+      "title": "LocalSend – المجتمع",
+      "description": "احصل على المساعدة، شارك، وادعم LocalSend."
     },
     "title": "المجتمع",
-    "getHelp": "احصل على مُساعدة",
-    "getHelpDescription": "اسأل أو ابحث عن إجابات في مناقشات GitHub.",
-    "getInvolved": "ساهِم معنا",
-    "getInvolvedDescription": "تواصل مع المطورين وساهِم مباشرةً في المشروع.",
+    "getHelp": "الحصول على المساعدة",
+    "getHelpDescription": "اطرح الأسئلة أو ابحث عن الإجابات في GitHub Discussions.",
+    "getInvolved": "شارك",
+    "getInvolvedDescription": "تواصل مع المطورين وساهم مباشرة في المشروع.",
     "discord": "Discord",
-    "issues": "مشكلات",
-    "pullRequests": "طلبات الدمج"
+    "discordDescription": "انضم إلى خادم Discord النشط الخاص بنا للدعم الفوري والدردشة مع المطورين.",
+    "reddit": "Reddit",
+    "redditDescription": "شارك في النقاشات واطّلع على آخر المستجدات.",
+    "issues": "المشكلات",
+    "issuesDescription": "هل وجدت خطأ؟ تحقق من متتبع المشكلات لدينا.",
+    "pullRequests": "طلبات السحب",
+    "prDescription": "هل تريد المساهمة بالكود؟ افتح طلب سحب.",
+    "contribute": "المساهمة",
+    "contributeDescription": "ساعدنا في تحسين LocalSend.",
+    "languageSpecific": "انضم للنقاشات الخاصة بلغتك."
+  },
+  "contact": {
+    "seo": {
+      "title": "اتصل بنا – LocalSend",
+      "description": "تواصل مع الفريق أو المجتمع."
+    },
+    "title": "اتصل بنا",
+    "description": "تواصل مع الفريق أو المجتمع.",
+    "bugReport": "الإبلاغ عن خطأ",
+    "bugReportDescription": "هل وجدت مشكلة؟ أبلغ عنها في GitHub Issues وسنقوم بإصلاحها.",
+    "openIssues": "فتح GitHub Issues",
+    "email": "إرسال بريد إلكتروني",
+    "emailDescription": "للاستفسارات العامة أو الشراكات أو الرسائل الخاصة."
+  },
+  "news": {
+    "title": "الأخبار",
+    "showAll": "عرض جميع الأخبار"
   },
   "footer": {
-    "underlicense": "مرخصة بموجب",
+    "description": "شارك الملفات مع الأجهزة القريبة دون الحاجة إلى الإنترنت. مفتوح المصدر، متعدد المنصّات، ومجاني تمامًا.",
+    "underlicense": "تحت رخصة",
     "license": "رخصة Apache 2.0",
-    "github": "Github",
+    "github": "GitHub",
     "discord": "Discord",
-    "privacy": "الخصوصيّة",
+    "reddit": "Reddit",
+    "merch": "منتجات",
+    "privacy": "الخصوصية",
     "terms": "الشروط",
-    "imprint": "البصمة",
-    "contact": "التواصل"
+    "imprint": "معلومات قانونية",
+    "contact": "اتصل",
+    "product": "المنتج",
+    "community": "المجتمع",
+    "legal": "قانوني",
+    "download": "تنزيل",
+    "webapp": "تطبيق الويب"
   },
-  "homepageButton": "الصفحة الرئيسية",
-  "improveWebsite": "حسِّن هذا الموقع"
+  "homepageButton": "الرئيسية",
+  "improveWebsite": "تحسين هذا الموقع",
+  "navigation": {
+    "downloads": "التنزيلات",
+    "community": "المجتمع",
+    "contacts": "الاتصال"
+  },
+  "howItWorks": {
+    "title": "كيف يعمل؟",
+    "description": "لا حاجة لأي إعدادات. فقط ثبّت وابدأ المشاركة.",
+    "step1Title": "ثبّت وافتح",
+    "step1Desc": "ثبّت LocalSend على جميع أجهزتك. لا حسابات، لا تسجيل دخول، لا خوادم.",
+    "step2Title": "اختر الملفات",
+    "step2Desc": "اختر الصور، الفيديوهات، المستندات أو النصوص — جميع أنواع الملفات مدعومة.",
+    "step3Title": "اضغط للإرسال",
+    "step3Desc": "اضغط على جهاز قريب، وسيبدأ النقل فورًا عبر شبكتك المحلية."
+  }
 }

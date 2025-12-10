@@ -1,77 +1,182 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Jaga faile läheduses olevate seadmetega",
-      "description": "LocalSend on tasuta, avatud lähtekoodiga ja igal platformil töötavfailide jagamise tööriist, mis võimaldab sul jagada faile läheduses olevate seadmetega."
+      "title": "LocalSend: Jaga faile lähedal asuvate seadmetega",
+      "description": "LocalSend on tasuta, avatud lähtekoodiga ja platvormideülene failijagamisteenus, mis võimaldab jagada faile lähedal asuvate seadmetega."
     },
-    "slogan1": "Jaga faile läheduses olevate seadmetega.",
-    "slogan2": "Tasuta, avatud lähtekoodiga, igal platformil.",
+    "hero": {
+      "badge": "Kõik peamised platvormid toetatud!",
+      "title1": "Jaga faile vabalt.",
+      "title2": "Internet pole vajalik.",
+      "subtitle": "Avatud lähtekoodiga, platvormideülene ja täiesti tasuta."
+    },
+    "slogan1": "Jaga faile lähedalasuvate seadmetega.",
+    "slogan2": "Tasuta, avatud lähtekoodiga ja platvormideülene.",
     "download": "Laadi alla",
+    "web": "Veeb",
     "community": "Kogukond",
-    "features": {
-      "title": "Omadused",
-      "decentralized": "Ilma keskserverita",
-      "decentralizedDescription": "Jaga faile ilma keskse serverita. Failiülekanne toimub otse ühelt seadmelt teisele.",
-      "crossPlatform": "Igal platformil",
-      "crossPlatformDescription": "LocalSend on saadaval Windowsile, macOS-ile, Linuxile, Androidile ja iOS-ile.",
-      "free": "Tasuta",
-      "freeDescription": "LocalSendi kasutamine on tasuta. Pole reklaame, kasutamise jälgimist või peidetud tasusid.",
-      "openSource": "Avatud lähtekoodiga",
-      "openSourceDescription": "Lähtekood on avalikult saadaval. Kõik saavad projektile kaasa aidata.",
-      "secure": "Turvaline",
-      "secureDescription": "Lõpp-punktidevaheline krüpteerimine tagab, et sinult sina ja see, kellega sa faile jagad, saavad neile ligi.",
-      "easy": "Lihtne kasutada",
-      "easyDescription": "Lihtne kasutajaliides, mis ei nõua registreerumist. Teised seadmed leitakse automaatselt."
+    "stats": {
+      "stars": "GitHubi tähed",
+      "downloads": "Allalaadimised",
+      "contributors": "Kaasautorid",
+      "ads": "Reklaamid või jälgijad"
     },
-    "mentioned": "Mainitud igal pool üle maakera",
+    "testimonials": {
+      "title": "Kogukonna armastatud",
+      "description": "Liitu tuhandete kasutajatega, kes usaldavad LocalSendi igapäevaste failiedastuste jaoks."
+    },
+    "sponsors": {
+      "title": "Toetajad",
+      "description": "LocalSend on tasuta ja avatud lähtekoodiga — võimalik tänu meie partneritele ja kogukonnale.",
+      "infrastructure": "Infrastruktuuripartner",
+      "lambdaTestDescription": "Tagab, et LocalSend töötab tõrgeteta enam kui 3000 brauseri- ja opsüsteemikeskkonnas.",
+      "becomeSponsor": "Saage sponsoriks",
+      "becomeSponsorDescription": "Kas armastate LocalSendi? Toetage arendust ja aidake projektil jätkuda."
+    },
+    "features": {
+      "title": "Funktsioonid",
+      "description": "Kõik, mida vajad turvaliseks ja kiireks failijagamiseks oma kohalikus võrgus.",
+      "decentralized": "Detsentraliseeritud",
+      "decentralizedDescription": "Jaga faile ilma keskserverita. Ülekanne on täielikult peer-to-peer.",
+      "crossPlatform": "Platvormideülene",
+      "crossPlatformDescription": "LocalSend on saadaval Windowsi, macOSi, Linuxi, Androidi ja iOS-i jaoks.",
+      "free": "Tasuta",
+      "freeDescription": "LocalSend on täiesti tasuta. Pole reklaame, jälgimist ega varjatud tasusid.",
+      "openSource": "Avatud lähtekoodiga",
+      "openSourceDescription": "Lähtekood on avalikult kättesaadav. Igaüks saab projektile kaasa aidata.",
+      "secure": "Turvaline",
+      "secureDescription": "Lõpust-lõpuni krüpteerimine tagab, et failidele pääsete ligi ainult teie ja saaja.",
+      "easy": "Lihtne kasutada",
+      "easyDescription": "Lihtne kasutajaliides ilma registreerimiseta. Teised seadmed tuvastatakse automaatselt.",
+      "noInternet": "Internet pole vajalik",
+      "noInternetDescription": "Töötab täielikult võrguühenduseta. Teie andmed ei lahku kunagi kohalikust võrgust.",
+      "fast": "Väga kiire",
+      "fastDescription": "Edastage faile oma WiFi-võrgu maksimaalse kiirusega. Pole ribalaiuse piiranguid."
+    },
+    "press": {
+      "title": "Meedias",
+      "description": "Vaadake, mida tehnoloogia väljaanded LocalSendist räägivad.",
+      "readArticle": "Loe artiklit"
+    },
+    "faq": {
+      "title": "Korduma Kippuvad Küsimused",
+      "description": "Kõik, mida pead LocalSendi kohta teadma.",
+      "q1": "Kas see on tõesti tasuta?",
+      "a1": "Jah, LocalSend on 100% tasuta ja avatud lähtekoodiga. Pole reklaame, jälgimist ega varjatud tasusid.",
+      "q2": "Kas see töötab interneti kaudu?",
+      "a2": "Ei. LocalSend kasutab failide edastamiseks teie kohalikku WiFi-võrku. Teie andmed ei lahku võrgust.",
+      "q3": "Kas see on turvaline?",
+      "a3": "Jah. Kõik ülekanded on krüpteeritud HTTPS-i kaudu. Soovi korral saate lisaturvalisuseks PIN-koodi kinnituse sisse lülitada.",
+      "q4": "Kuhu failid salvestatakse?",
+      "a4": "Failid salvestatakse vaikeväärtusena kausta Allalaadimised, kuid seda saab seadetes muuta.",
+      "q5": "Milliseid platvorme toetatakse?",
+      "a5": "LocalSend on saadaval Windowsi, macOSi, Linuxi, Androidi ja iOS-i jaoks.",
+      "q6": "Kas pean looma konto?",
+      "a6": "Ei. LocalSend ei nõua kontot ega sisselogimist. Lihtsalt installi ja alusta jagamist."
+    },
+    "mentioned": "Mainitud üle kogu maailma",
     "get": "Hangi LocalSend",
-    "video": "Vaata LocalSendi videotutvustust YouTube-is"
+    "video": "Vaata LocalSendi videoesitlust YouTube'is"
+  },
+  "cta": {
+    "title": "Valmis alustama?",
+    "description": "Laadi LocalSend kohe alla ja jaga faile vaevata oma seadmete vahel.",
+    "download": "Laadi alla"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Allalaadimine",
-      "description": "Laadi alla LocalSend Windowsile, macOS-ile, Linuxile, Androidile ja iOS-ile."
+      "title": "LocalSend – Allalaadimised",
+      "description": "Laadi alla LocalSend Windowsi, macOSi, Linuxi, Androidi ja iOS-i jaoks."
     },
     "title": "Allalaadimised",
     "subTitle": "{os} allalaadimised",
-    "appStores": "Äpipoed",
-    "appStoresDescription": "Soovitatud enamikele kasutajatele.",
-    "binaries": "Installifailid",
-    "binariesDescription": "Laadi alla omast seadmest kasutamiseks.",
+    "appStores": "Rakenduste poed",
+    "appStoresDescription": "Soovitatav enamikele kasutajatele.",
+    "binaries": "Binaarid",
+    "binariesDescription": "Laadi alla võrguühenduseta kasutamiseks.",
     "packageManagers": "Paketihaldurid",
-    "packageManagersDescription": "Paigalda käsurealt.",
-    "allReleases": "Kõik versioonid",
-    "zip": "ZIP (teisaldatav)",
-    "copiedToClipboard": "Kopeeritud lõikelauale!"
+    "packageManagersDescription": "Installi terminali kaudu.",
+    "allReleases": "Kõik väljalasked",
+    "zip": "ZIP",
+    "copiedToClipboard": "Kopeeritud lõikelauale!",
+    "noOptions": "{os} jaoks pole täiendavaid allalaadimisvõimalusi saadaval.",
+    "scanToInstall": "Skaneeri paigaldamiseks",
+    "scanDescription": "Skaneerige see QR-kood oma {os} seadmega, et avada allalaadimisleht.",
+    "installer": "Paigaldaja",
+    "portable": "Kantav"
   },
   "community": {
     "seo": {
-      "title": "LocalSend - kogukond",
-      "description": "Saa abi, löö kaasa ja aita omalt poolt LocalSendi."
+      "title": "LocalSend – Kogukond",
+      "description": "Saage abi, osalege ja panustage LocalSendi."
     },
     "title": "Kogukond",
-    "getHelp": "Küsi abi",
-    "getHelpDescription": "Küsi või otsi vastuseid küsimustele GitHub vestlustes.",
-    "getInvolved": "Löö kaasa",
-    "getInvolvedDescription": "Võta õhendust arendajatega ning anna oma osa projekti edenemisele.",
+    "getHelp": "Saage abi",
+    "getHelpDescription": "Esitage küsimusi või otsige vastuseid GitHub Discussionsis.",
+    "getInvolved": "Osalege",
+    "getInvolvedDescription": "Võtke ühendust arendajatega ja panustage projekti otse.",
     "discord": "Discord",
+    "discordDescription": "Liituge meie aktiivse serveriga, vestelge arendajatega ja saage kohest abi.",
+    "reddit": "Reddit",
+    "redditDescription": "Osalege aruteludes ja hoidke end kursis uuendustega.",
     "issues": "Probleemid",
-    "pullRequests": "Pull päringud"
+    "issuesDescription": "Leidsid vea? Vaata meie probleemijälgijat.",
+    "pullRequests": "Pull Requestid",
+    "prDescription": "Valmis koodi panustama? Avage PR.",
+    "contribute": "Panustada",
+    "contributeDescription": "Aita meil LocalSendi paremaks muuta.",
+    "languageSpecific": "Liituge keelespetsiifiliste aruteludega."
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt – LocalSend",
+      "description": "Võtke ühendust meeskonna või kogukonnaga."
+    },
+    "title": "Võtke meiega ühendust",
+    "description": "Võtke ühendust meeskonna või kogukonnaga.",
+    "bugReport": "Teata veast",
+    "bugReportDescription": "Leidsid probleemi? Palun teavita sellest GitHubi probleemide jaotises, et saaksime selle parandada.",
+    "openIssues": "Ava GitHubi probleemid",
+    "email": "Saada email",
+    "emailDescription": "Üldiste päringute, koostöö või privaatsuse teemade jaoks."
   },
   "news": {
     "title": "Uudised",
     "showAll": "Näita kõiki uudiseid"
   },
   "footer": {
-    "underlicense": "Antud välja litsentsi",
-    "license": "Apache License 2.0 alusel",
+    "description": "Jaga faile lähedalasuvate seadmetega ilma internetita. Avatud lähtekoodiga, platvormideülene ja tasuta.",
+    "underlicense": "Litsentsi alusel",
+    "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merch",
     "privacy": "Privaatsus",
-    "terms": "Kasutustingimused",
-    "imprint": "Imprint",
-    "contact": "Kontakt"
+    "terms": "Tingimused",
+    "imprint": "Impressum",
+    "contact": "Kontakt",
+    "product": "Toode",
+    "community": "Kogukond",
+    "legal": "Õiguslik",
+    "download": "Laadi alla",
+    "webapp": "Veebirakendus"
   },
-  "homepageButton": "Avalehele",
-  "improveWebsite": "Täienda seda veebisaiti"
+  "homepageButton": "Avaleht",
+  "improveWebsite": "Paranda seda veebilehte",
+  "navigation": {
+    "downloads": "Allalaadimised",
+    "community": "Kogukond",
+    "contacts": "Kontakt"
+  },
+  "howItWorks": {
+    "title": "Kuidas see töötab",
+    "description": "Nullseadistamine. Lihtsalt installi ja alusta jagamist.",
+    "step1Title": "Installi ja ava",
+    "step1Desc": "Laadi LocalSend alla kõigisse oma seadmetesse. Pole kontot, pole sisselogimist, pole servereid.",
+    "step2Title": "Vali failid",
+    "step2Desc": "Vali fotod, videod, dokumendid või tekst. Kõik failitüübid on toetatud.",
+    "step3Title": "Puuduta saatmiseks",
+    "step3Desc": "Puudutage lähedal asuvat seadet. Ülekanne toimub koheselt teie kohalikus võrgus."
+  }
 }

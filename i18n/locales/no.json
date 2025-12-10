@@ -2,71 +2,181 @@
   "home": {
     "seo": {
       "title": "LocalSend: Del filer med enheter i nærheten",
-      "description": "LocalSend er en gratis, åpen kildekode og plattformuavhengig app som lar deg dele filer med enheter i nærheten."
+      "description": "LocalSend er et gratis, åpen kildekode og plattformuavhengig verktøy som lar deg dele filer med enheter i nærheten."
+    },
+    "hero": {
+      "badge": "Alle de viktigste plattformene støttes!",
+      "title1": "Del filer fritt.",
+      "title2": "Ingen internett nødvendig.",
+      "subtitle": "Åpen kildekode, plattformuavhengig og helt gratis."
     },
     "slogan1": "Del filer med enheter i nærheten.",
     "slogan2": "Gratis, åpen kildekode og plattformuavhengig.",
     "download": "Last ned",
+    "web": "Web",
     "community": "Fellesskap",
+    "stats": {
+      "stars": "GitHub-stjerner",
+      "downloads": "Nedlastinger",
+      "contributors": "Bidragsytere",
+      "ads": "Annonser eller sporere"
+    },
+    "testimonials": {
+      "title": "Elsket av fellesskapet",
+      "description": "Bli med tusenvis av brukere som stoler på LocalSend for sine daglige filoverføringer."
+    },
+    "sponsors": {
+      "title": "Sponset av",
+      "description": "LocalSend er gratis og åpen kildekode takket være våre partnere og fellesskapet.",
+      "infrastructure": "Infrastrukturpartner",
+      "lambdaTestDescription": "Sikrer at LocalSend fungerer perfekt i over 3000 nettleser- og OS-miljøer.",
+      "becomeSponsor": "Bli sponsor",
+      "becomeSponsorDescription": "Liker du LocalSend? Støtt utviklingen og hjelp prosjektet å fortsette."
+    },
     "features": {
       "title": "Funksjoner",
+      "description": "Alt du trenger for rask og sikker fildeling på ditt lokale nettverk.",
       "decentralized": "Desentralisert",
-      "decentralizedDescription": "Del filer uten en sentral server. Filoverføringen skjer helt peer-to-peer.",
+      "decentralizedDescription": "Del filer uten en sentral server. Overføringen er helt peer-to-peer.",
       "crossPlatform": "Plattformuavhengig",
       "crossPlatformDescription": "LocalSend er tilgjengelig for Windows, macOS, Linux, Android og iOS.",
       "free": "Gratis",
-      "freeDescription": "LocalSend er gratis å bruke. Ingen reklame, sporing eller skjulte kostnader.",
+      "freeDescription": "LocalSend er helt gratis. Ingen annonser, ingen sporing og ingen skjulte kostnader.",
       "openSource": "Åpen kildekode",
-      "openSourceDescription": "Kildekoden er offentlig tilgjengelig. Alle kan bidra til prosjektet.",
+      "openSourceDescription": "Kildekoden er offentlig. Alle kan bidra.",
       "secure": "Sikker",
-      "secureDescription": "Takket være ende-til-ende-kryptering kan bare du og mottakeren åpne filene.",
-      "easy": "Brukervennlig",
-      "easyDescription": "Et enkelt grensesnitt, og ingen registrering kreves. Andre enheter oppdages automatisk."
+      "secureDescription": "Ende-til-ende-kryptering sikrer at kun du og mottakeren kan få tilgang til filene.",
+      "easy": "Enkelt å bruke",
+      "easyDescription": "Enkel brukerflate uten registrering. Enheter i nærheten oppdages automatisk.",
+      "noInternet": "Ingen internett",
+      "noInternetDescription": "Fungerer helt offline. Dataene dine forlater aldri ditt lokale nettverk.",
+      "fast": "Veldig raskt",
+      "fastDescription": "Overfør filer med maksimal hastighet på ditt WiFi-nettverk. Ingen båndbreddebegrensninger."
     },
-    "mentioned": "Internasjonalt omtalt",
-    "get": "Last ned LocalSend"
+    "press": {
+      "title": "I media",
+      "description": "Se hva teknologipressen sier om LocalSend.",
+      "readArticle": "Les artikkel"
+    },
+    "faq": {
+      "title": "Ofte stilte spørsmål",
+      "description": "Alt du trenger å vite om LocalSend.",
+      "q1": "Er det virkelig gratis?",
+      "a1": "Ja! LocalSend er 100% gratis og åpen kildekode. Ingen annonser, ingen sporing og ingen skjulte kostnader.",
+      "q2": "Fungerer det via internett?",
+      "a2": "Nei. LocalSend bruker ditt lokale WiFi-nettverk. Dataene dine forlater aldri nettverket.",
+      "q3": "Er det sikkert?",
+      "a3": "Ja. Alle overføringer er kryptert med HTTPS. Du kan også aktivere PIN-bekreftelse.",
+      "q4": "Hvor lagres filene?",
+      "a4": "Som standard i Nedlastinger-mappen, men du kan endre dette i innstillingene.",
+      "q5": "Hvilke plattformer støttes?",
+      "a5": "Windows, macOS, Linux, Android og iOS.",
+      "q6": "Trenger jeg en konto?",
+      "a6": "Nei. LocalSend krever ingen konto eller innlogging. Bare installer og begynn å dele."
+    },
+    "mentioned": "Nevnt over hele verden",
+    "get": "Hent LocalSend",
+    "video": "Se en presentasjon av LocalSend på YouTube"
+  },
+  "cta": {
+    "title": "Klar til å starte?",
+    "description": "Last ned LocalSend nå og del filer enkelt mellom enhetene dine.",
+    "download": "Last ned"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Nedlastinger",
+      "title": "LocalSend – Nedlastinger",
       "description": "Last ned LocalSend for Windows, macOS, Linux, Android og iOS."
     },
     "title": "Nedlastinger",
-    "subTitle": "Nedlastinger for {os}",
-    "appStores": "App-butikker",
+    "subTitle": "{os}-nedlastinger",
+    "appStores": "Appbutikker",
     "appStoresDescription": "Anbefalt for de fleste brukere.",
-    "binaries": "Kompilerte versjoner",
-    "binariesDescription": "Last ned for bruk uten nett.",
-    "packageManagers": "Pakkebehandlere",
-    "packageManagersDescription": "Installer via terminalen.",
+    "binaries": "Binærfiler",
+    "binariesDescription": "Last ned for offline bruk.",
+    "packageManagers": "Pakkehåndterere",
+    "packageManagersDescription": "Installer fra terminal.",
     "allReleases": "Alle versjoner",
-    "zip": "ZIP (kjørbar direkte)",
-    "copiedToClipboard": "Kopiert til utklippstavlen!"
+    "zip": "ZIP",
+    "copiedToClipboard": "Kopiert til utklippstavle!",
+    "noOptions": "Ingen ekstra nedlastingsvalg tilgjengelig for {os}.",
+    "scanToInstall": "Skann for å installere",
+    "scanDescription": "Skann denne QR-koden med din {os}-enhet for å åpne nedlastingssiden.",
+    "installer": "Installer",
+    "portable": "Portabel"
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Fellesskap",
-      "description": "Still spørsmål og bidra til LocalSend."
+      "title": "LocalSend – Fellesskap",
+      "description": "Få hjelp, bli involvert og bidra til LocalSend."
     },
     "title": "Fellesskap",
     "getHelp": "Få hjelp",
-    "getHelpDescription": "Still spørsmål eller finn svar på GitHub.",
-    "getInvolved": "Bli med",
-    "getInvolvedDescription": "Kom i kontakt med utviklerne og bidra til prosjektet.",
+    "getHelpDescription": "Still spørsmål eller finn svar i GitHub Discussions.",
+    "getInvolved": "Bli involvert",
+    "getInvolvedDescription": "Knytt kontakt med utviklere og bidra direkte til prosjektet.",
     "discord": "Discord",
-    "issues": "Problemer",
-    "pullRequests": "Pull-forespørsler"
+    "discordDescription": "Bli med på vår aktive server for å snakke med utviklere og få umiddelbar hjelp.",
+    "reddit": "Reddit",
+    "redditDescription": "Delta i diskusjoner og hold deg oppdatert.",
+    "issues": "Issues",
+    "issuesDescription": "Fant du en feil? Sjekk vår issue-tracker.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Klar til å bidra med kode? Åpne en PR.",
+    "contribute": "Bidra",
+    "contributeDescription": "Hjelp oss å gjøre LocalSend enda bedre.",
+    "languageSpecific": "Delta i språkspesifikke diskusjoner."
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt – LocalSend",
+      "description": "Kontakt teamet eller fellesskapet."
+    },
+    "title": "Kontakt oss",
+    "description": "Kontakt teamet eller fellesskapet.",
+    "bugReport": "Rapporter en feil",
+    "bugReportDescription": "Fant du et problem? Rapporter det i GitHub Issues så vi kan fikse det.",
+    "openIssues": "Åpne GitHub Issues",
+    "email": "Send e-post",
+    "emailDescription": "For generelle spørsmål, samarbeid eller private henvendelser."
+  },
+  "news": {
+    "title": "Nyheter",
+    "showAll": "Vis alle nyheter"
   },
   "footer": {
-    "underlicense": "Lisensiert under",
+    "description": "Del filer med enheter i nærheten uten internett. Åpen kildekode, plattformuavhengig og gratis.",
+    "underlicense": "Under lisens",
     "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merch",
     "privacy": "Personvern",
     "terms": "Vilkår",
     "imprint": "Impressum",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "product": "Produkt",
+    "community": "Fellesskap",
+    "legal": "Juridisk",
+    "download": "Last ned",
+    "webapp": "Webapp"
   },
   "homepageButton": "Hjemmeside",
-  "improveWebsite": "Forbedre dette nettstedet"
+  "improveWebsite": "Forbedre dette nettstedet",
+  "navigation": {
+    "downloads": "Nedlastinger",
+    "community": "Fellesskap",
+    "contacts": "Kontakt"
+  },
+  "howItWorks": {
+    "title": "Hvordan det fungerer",
+    "description": "Ingen konfigurering nødvendig. Installer og begynn å dele.",
+    "step1Title": "Installer og åpne",
+    "step1Desc": "Installer LocalSend på alle enhetene dine. Ingen konto, ingen innlogging, ingen servere.",
+    "step2Title": "Velg filer",
+    "step2Desc": "Velg bilder, videoer, dokumenter eller tekst. Alle filtyper støttes.",
+    "step3Title": "Trykk for å sende",
+    "step3Desc": "Trykk på en enhet i nærheten. Overføringen skjer umiddelbart via det lokale nettverket ditt."
+  }
 }

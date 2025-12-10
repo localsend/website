@@ -1,47 +1,109 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: 주변 기기에 파일 공유",
-      "description": "LocalSend는 주변 기기에 파일을 공유할 수 있는 무료, 오픈소스, 크로스 플랫폼 파일 공유 도구입니다."
+      "title": "LocalSend: 가까운 기기와 파일 공유",
+      "description": "LocalSend는 가까운 기기와 파일을 공유할 수 있는 무료, 오픈소스, 크로스플랫폼 도구입니다."
     },
-    "slogan1": "주변 기기에 파일을 공유하세요.",
-    "slogan2": "무료, 오픈소스, 크로스 플랫폼.",
+    "hero": {
+      "badge": "모든 주요 플랫폼 지원!",
+      "title1": "파일을 자유롭게 공유하세요.",
+      "title2": "인터넷이 필요 없습니다.",
+      "subtitle": "오픈소스, 크로스플랫폼, 완전 무료."
+    },
+    "slogan1": "가까운 기기와 파일을 공유하세요.",
+    "slogan2": "무료, 오픈소스, 크로스플랫폼.",
     "download": "다운로드",
+    "web": "웹",
     "community": "커뮤니티",
+    "stats": {
+      "stars": "GitHub 별",
+      "downloads": "다운로드",
+      "contributors": "기여자",
+      "ads": "광고 또는 추적기"
+    },
+    "testimonials": {
+      "title": "커뮤니티가 사랑하는 앱",
+      "description": "수천 명의 사용자가 매일 파일 전송을 위해 LocalSend를 신뢰합니다."
+    },
+    "sponsors": {
+      "title": "후원",
+      "description": "LocalSend는 파트너 및 커뮤니티의 지원 덕분에 무료로 제공되고 오픈소스입니다.",
+      "infrastructure": "인프라 파트너",
+      "lambdaTestDescription": "LocalSend가 3000개 이상의 브라우저·OS 환경에서 완벽히 작동하도록 보장합니다.",
+      "becomeSponsor": "후원자가 되기",
+      "becomeSponsorDescription": "LocalSend가 마음에 드시나요? 개발을 지원하고 프로젝트를 지속할 수 있도록 도와주세요."
+    },
     "features": {
       "title": "특징",
+      "description": "로컬 네트워크에서 빠르고 안전하게 파일을 공유하는 데 필요한 모든 기능을 제공합니다.",
       "decentralized": "탈중앙화",
-      "decentralizedDescription": "중앙 서버 없이 파일을 공유하세요. 파일 전송은 완전한 P2P 방식입니다.",
-      "crossPlatform": "크로스 플랫폼",
-      "crossPlatformDescription": "LocalSend는 Windows, macOS, Linux, Android 및 iOS에서 사용 가능합니다.",
+      "decentralizedDescription": "중앙 서버 없이 파일을 공유합니다. 전송은 완전한 P2P 방식입니다.",
+      "crossPlatform": "크로스플랫폼",
+      "crossPlatformDescription": "LocalSend는 Windows, macOS, Linux, Android, iOS를 지원합니다.",
       "free": "무료",
-      "freeDescription": "LocalSend는 무료로 사용할 수 있습니다. 광고, 추적기, 숨겨진 비용이 없습니다.",
-      "openSource": "오픈 소스",
-      "openSourceDescription": "소스 코드가 공개되어 있습니다. 누구나 프로젝트에 기여할 수 있습니다.",
+      "freeDescription": "LocalSend는 완전히 무료입니다. 광고, 추적, 숨겨진 비용이 없습니다.",
+      "openSource": "오픈소스",
+      "openSourceDescription": "소스 코드는 공개되어 있으며 누구나 기여할 수 있습니다.",
       "secure": "안전함",
-      "secureDescription": "종단간 암호화로 오직 사용자와 수신자만이 파일에 접근할 수 있습니다.",
-      "easy": "사용하기 쉬움",
-      "easyDescription": "가입이 필요없는 간단한 사용자 인터페이스. 다른 기기는 자동으로 감지됩니다."
+      "secureDescription": "종단 간 암호화로 오직 사용자와 수신자만 파일에 접근할 수 있습니다.",
+      "easy": "쉬운 사용성",
+      "easyDescription": "가입이 필요 없는 간단한 UI. 주변 기기가 자동으로 감지됩니다.",
+      "noInternet": "인터넷 불필요",
+      "noInternetDescription": "완전 오프라인으로 작동합니다. 데이터는 절대 로컬 네트워크를 벗어나지 않습니다.",
+      "fast": "매우 빠름",
+      "fastDescription": "WiFi 최대 속도로 파일을 전송합니다. 대역폭 제한이 없습니다."
     },
-    "mentioned": "전 세계에서 주목받고 있습니다.",
-    "get": "LocalSend 시작하기"
+    "press": {
+      "title": "언론 보도",
+      "description": "LocalSend에 대한 기술 전문 매체의 평가를 확인하세요.",
+      "readArticle": "기사 읽기"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "LocalSend에 대해 꼭 알아야 할 모든 내용입니다.",
+      "q1": "정말 무료인가요?",
+      "a1": "네! LocalSend는 100% 무료이며 오픈소스입니다. 광고, 추적, 숨겨진 비용이 없습니다.",
+      "q2": "인터넷으로 작동하나요?",
+      "a2": "아니요. LocalSend는 로컬 WiFi 네트워크를 사용합니다. 데이터는 네트워크 밖으로 나가지 않습니다.",
+      "q3": "안전한가요?",
+      "a3": "네. 모든 전송은 HTTPS로 암호화됩니다. 추가 보안을 위해 PIN 인증도 사용할 수 있습니다.",
+      "q4": "파일은 어디에 저장되나요?",
+      "a4": "기본적으로 다운로드 폴더에 저장되며, 설정에서 변경할 수 있습니다.",
+      "q5": "어떤 플랫폼을 지원하나요?",
+      "a5": "Windows, macOS, Linux, Android, iOS를 지원합니다.",
+      "q6": "계정이 필요한가요?",
+      "a6": "필요 없습니다. 계정이나 로그인 없이 바로 설치 후 사용 가능합니다."
+    },
+    "mentioned": "전 세계에서 소개됨",
+    "get": "LocalSend 받기",
+    "video": "YouTube에서 LocalSend 소개 영상 보기"
+  },
+  "cta": {
+    "title": "시작할 준비가 되셨나요?",
+    "description": "지금 LocalSend를 다운로드하여 기기 간 파일을 손쉽게 공유하세요.",
+    "download": "다운로드"
   },
   "download": {
     "seo": {
       "title": "LocalSend - 다운로드",
-      "description": "Windows, macOS, Linux, Android, iOS용 LocalSend를 다운로드하세요."
+      "description": "Windows, macOS, Linux, Android, iOS용 LocalSend 다운로드."
     },
     "title": "다운로드",
     "subTitle": "{os} 다운로드",
     "appStores": "앱 스토어",
-    "appStoresDescription": "대부분의 사용자에게 권장됩니다.",
+    "appStoresDescription": "대부분의 사용자에게 추천.",
     "binaries": "바이너리",
-    "binariesDescription": "오프라인 사용을 위한 다운로드.",
+    "binariesDescription": "오프라인 사용을 위해 다운로드.",
     "packageManagers": "패키지 관리자",
-    "packageManagersDescription": "터미널로 설치하세요.",
-    "allReleases": "모든 릴리스",
-    "zip": "ZIP (portable)",
-    "copiedToClipboard": "클립보드에 복사되었습니다!"
+    "packageManagersDescription": "터미널에서 설치.",
+    "allReleases": "전체 릴리스",
+    "zip": "ZIP",
+    "copiedToClipboard": "클립보드에 복사됨!",
+    "noOptions": "{os}에는 추가 다운로드 옵션이 없습니다.",
+    "scanToInstall": "스캔하여 설치",
+    "scanDescription": "{os} 기기에서 이 QR 코드를 스캔하여 다운로드 페이지를 여세요.",
+    "installer": "인스톨러",
+    "portable": "포터블"
   },
   "community": {
     "seo": {
@@ -49,24 +111,72 @@
       "description": "도움을 받고, 참여하고, LocalSend에 기여하세요."
     },
     "title": "커뮤니티",
-    "getHelp": "도움 받기",
-    "getHelpDescription": "GitHub Discussions에서 질문하거나 답변을 찾아보세요.",
+    "getHelp": "도움받기",
+    "getHelpDescription": "GitHub Discussions에서 질문하거나 답변을 찾으세요.",
     "getInvolved": "참여하기",
-    "getInvolvedDescription": "개발자와 연락하고 프로젝트에 직접 기여하세요.",
-    "discord": "디스코드",
+    "getInvolvedDescription": "개발자와 소통하고 프로젝트에 직접 기여하세요.",
+    "discord": "Discord",
+    "discordDescription": "활발한 서버에 참여하여 개발자와 대화하고 즉각적인 지원을 받으세요.",
+    "reddit": "Reddit",
+    "redditDescription": "토론에 참여하고 최신 정보를 받아보세요.",
     "issues": "이슈",
-    "pullRequests": "풀 리퀘스트"
+    "issuesDescription": "버그를 발견하셨나요? 이슈 트래커를 확인하세요.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "코드 기여를 원하나요? PR을 열어주세요.",
+    "contribute": "기여하기",
+    "contributeDescription": "LocalSend를 더 좋게 만드는 데 도움을 주세요.",
+    "languageSpecific": "언어별 토론 참여."
+  },
+  "contact": {
+    "seo": {
+      "title": "문의하기 - LocalSend",
+      "description": "팀 또는 커뮤니티에 문의하세요."
+    },
+    "title": "문의하기",
+    "description": "팀 또는 커뮤니티에 문의하세요.",
+    "bugReport": "버그 신고",
+    "bugReportDescription": "문제를 발견하셨나요? GitHub Issues에 신고해 주세요. 우리가 해결하겠습니다.",
+    "openIssues": "GitHub Issues 열기",
+    "email": "이메일 보내기",
+    "emailDescription": "일반 문의, 파트너십 또는 개인 문의를 위한 이메일."
+  },
+  "news": {
+    "title": "소식",
+    "showAll": "전체 소식 보기"
   },
   "footer": {
-    "underlicense": "다음 라이선스에 따라 제공됩니다",
-    "license": "Apache 2.0 라이선스",
+    "description": "인터넷 없이 가까운 기기와 파일 공유. 오픈소스, 크로스플랫폼, 무료.",
+    "underlicense": "라이선스:",
+    "license": "Apache License 2.0",
     "github": "GitHub",
-    "discord": "디스코드",
-    "privacy": "개인정보 보호정책",
-    "terms": "이용 약관",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "굿즈",
+    "privacy": "개인정보",
+    "terms": "약관",
     "imprint": "법적 고지",
-    "contact": "연락처"
+    "contact": "문의",
+    "product": "제품",
+    "community": "커뮤니티",
+    "legal": "법적 정보",
+    "download": "다운로드",
+    "webapp": "웹앱"
   },
   "homepageButton": "홈페이지",
-  "improveWebsite": "이 웹사이트 개선하기"
+  "improveWebsite": "이 웹사이트 개선하기",
+  "navigation": {
+    "downloads": "다운로드",
+    "community": "커뮤니티",
+    "contacts": "문의"
+  },
+  "howItWorks": {
+    "title": "사용 방법",
+    "description": "설정 필요 없음. 설치하고 바로 공유하세요.",
+    "step1Title": "설치하고 열기",
+    "step1Desc": "LocalSend를 모든 기기에 설치하세요. 계정, 로그인, 서버 모두 필요 없습니다.",
+    "step2Title": "파일 선택",
+    "step2Desc": "사진, 동영상, 문서, 텍스트 등 원하는 파일을 선택하세요. 모든 파일 형식을 지원합니다.",
+    "step3Title": "탭하여 보내기",
+    "step3Desc": "가까운 기기를 탭하면 전송이 즉시 로컬 네트워크에서 이루어집니다."
+  }
 }

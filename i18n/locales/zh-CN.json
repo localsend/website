@@ -1,75 +1,182 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend：向附近设备分享文件",
-      "description": "LocalSend是一个免费、开源、跨平台的文件分享工具，允许您将文件分享到附近的设备。"
+      "title": "LocalSend：与附近设备共享文件",
+      "description": "LocalSend 是一款免费、开源、跨平台的工具，可让您与附近设备共享文件。"
     },
-    "slogan1": "将文件分享到附近的设备。",
+    "hero": {
+      "badge": "支持所有主流平台！",
+      "title1": "自由分享文件。",
+      "title2": "无需互联网。",
+      "subtitle": "开源、跨平台、完全免费。"
+    },
+    "slogan1": "与附近设备共享文件。",
     "slogan2": "免费、开源、跨平台。",
     "download": "下载",
+    "web": "网页",
     "community": "社区",
+    "stats": {
+      "stars": "GitHub 星标",
+      "downloads": "下载量",
+      "contributors": "贡献者",
+      "ads": "广告或跟踪器"
+    },
+    "testimonials": {
+      "title": "深受社区喜爱",
+      "description": "加入每天使用 LocalSend 进行文件传输的数千名用户。"
+    },
     "sponsors": {
-      "title": "赞助商"
+      "title": "赞助商",
+      "description": "LocalSend 之所以免费开源，全靠我们的合作伙伴与社区支持。",
+      "infrastructure": "基础设施合作伙伴",
+      "lambdaTestDescription": "确保 LocalSend 在 3000+ 浏览器与系统环境中稳定运行。",
+      "becomeSponsor": "成为赞助商",
+      "becomeSponsorDescription": "喜欢 LocalSend？支持我们的开发，让项目持续成长。"
     },
     "features": {
-      "title": "特点",
+      "title": "功能特性",
+      "description": "满足您在局域网内快速、安全传输文件的一切需求。",
       "decentralized": "去中心化",
-      "decentralizedDescription": "无需中央服务器即可分享文件。文件传输完全点对点。",
+      "decentralizedDescription": "无需中央服务器。传输完全基于点对点（P2P）。",
       "crossPlatform": "跨平台",
-      "crossPlatformDescription": "LocalSend可用于Windows、macOS、Linux、Android和iOS。",
+      "crossPlatformDescription": "LocalSend 可用于 Windows、macOS、Linux、Android 和 iOS。",
       "free": "免费",
-      "freeDescription": "LocalSend免费使用。无广告、无跟踪、无隐藏付费。",
+      "freeDescription": "LocalSend 完全免费 —— 无广告、无跟踪、无隐藏费用。",
       "openSource": "开源",
-      "openSourceDescription": "源代码公开可用。任何人都可以为项目做出贡献。",
+      "openSourceDescription": "源代码公开，任何人都可贡献。",
       "secure": "安全",
-      "secureDescription": "端到端加密确保只有您和接收者可以访问您的文件。",
+      "secureDescription": "端到端加密保证只有您与接收者能访问文件。",
       "easy": "易于使用",
-      "easyDescription": "无需注册的简单用户界面。其他设备会自动被发现。"
+      "easyDescription": "界面简洁，无需注册。自动发现附近设备。",
+      "noInternet": "无需互联网",
+      "noInternetDescription": "完全离线运行。数据永不离开您的局域网。",
+      "fast": "高速",
+      "fastDescription": "以 WiFi 网络的最高速度传输文件，无带宽限制。"
     },
-    "mentioned": "享誉全球",
-    "get": "获取LocalSend"
+    "press": {
+      "title": "媒体报道",
+      "description": "看看科技媒体如何评价 LocalSend。",
+      "readArticle": "阅读文章"
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 LocalSend 的所有常见疑问。",
+      "q1": "真的免费吗？",
+      "a1": "是的！LocalSend 100% 免费且开源。无广告、无跟踪、无隐藏费用。",
+      "q2": "它能通过互联网工作吗？",
+      "a2": "不能。LocalSend 使用您的本地 WiFi 网络，数据不会离开您的局域网。",
+      "q3": "安全性如何？",
+      "a3": "非常安全。所有传输均使用 HTTPS 加密，并支持 PIN 验证。",
+      "q4": "文件保存在哪里？",
+      "a4": "默认保存在“下载”文件夹中，您可在设置中修改。",
+      "q5": "支持哪些平台？",
+      "a5": "Windows、macOS、Linux、Android、iOS。",
+      "q6": "需要账号吗？",
+      "a6": "不需要。无需注册或登录 —— 安装即可使用。"
+    },
+    "mentioned": "全球媒体推荐",
+    "get": "获取 LocalSend",
+    "video": "观看 YouTube 上的 LocalSend 介绍视频"
+  },
+  "cta": {
+    "title": "准备好开始了吗？",
+    "description": "下载 LocalSend，在设备之间轻松共享文件。",
+    "download": "下载"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - 下载",
-      "description": "下载适用于Windows、macOS、Linux、Android和iOS的LocalSend。"
+      "title": "LocalSend – 下载",
+      "description": "下载适用于 Windows、macOS、Linux、Android 和 iOS 的 LocalSend。"
     },
     "title": "下载",
-    "subTitle": "{os}版下载",
+    "subTitle": "{os} 下载",
     "appStores": "应用商店",
-    "appStoresDescription": "适合大多数用户",
+    "appStoresDescription": "推荐给大多数用户。",
     "binaries": "二进制文件",
-    "binariesDescription": "可供离线使用的下载",
+    "binariesDescription": "可用于离线使用的下载包。",
     "packageManagers": "包管理器",
-    "packageManagersDescription": "通过终端安装",
+    "packageManagersDescription": "通过终端安装。",
     "allReleases": "所有版本",
-    "zip": "压缩包（便携式）",
-    "copiedToClipboard": "已复制到剪贴板！"
+    "zip": "ZIP",
+    "copiedToClipboard": "已复制到剪贴板！",
+    "noOptions": "没有适用于 {os} 的额外下载选项。",
+    "scanToInstall": "扫码安装",
+    "scanDescription": "使用您的 {os} 设备扫描此二维码以打开下载页面。",
+    "installer": "安装包",
+    "portable": "便携版"
   },
   "community": {
     "seo": {
-      "title": "LocalSend - 社区",
-      "description": "获取帮助，参与其中，并为LocalSend做出贡献。"
+      "title": "LocalSend – 社区",
+      "description": "获取帮助、参与讨论并为 LocalSend 做贡献。"
     },
     "title": "社区",
     "getHelp": "获取帮助",
-    "getHelpDescription": "在GitHub讨论区提问或寻找答案",
-    "getInvolved": "参与其中",
-    "getInvolvedDescription": "与开发人员联系并直接为项目做出贡献",
+    "getHelpDescription": "在 GitHub Discussions 中提问或查找答案。",
+    "getInvolved": "参与贡献",
+    "getInvolvedDescription": "与开发者交流并直接为项目做贡献。",
     "discord": "Discord",
-    "issues": "问题",
-    "pullRequests": "拉取请求"
+    "discordDescription": "加入我们的活跃服务器，与开发者交流并获得即时帮助。",
+    "reddit": "Reddit",
+    "redditDescription": "参与讨论并保持最新消息。",
+    "issues": "问题追踪",
+    "issuesDescription": "发现了 Bug？查看我们的 Issue 跟踪系统。",
+    "pullRequests": "Pull Request",
+    "prDescription": "想贡献代码？创建一个 PR 吧。",
+    "contribute": "贡献",
+    "contributeDescription": "帮助我们改进 LocalSend。",
+    "languageSpecific": "加入特定语言的讨论。"
+  },
+  "contact": {
+    "seo": {
+      "title": "联系 – LocalSend",
+      "description": "联系团队或社区。"
+    },
+    "title": "联系我们",
+    "description": "与团队或社区取得联系。",
+    "bugReport": "报告 Bug",
+    "bugReportDescription": "发现问题？请在 GitHub Issues 中报告，我们会修复它。",
+    "openIssues": "打开 GitHub Issues",
+    "email": "发送电子邮件",
+    "emailDescription": "用于一般咨询、合作或私信。"
+  },
+  "news": {
+    "title": "新闻",
+    "showAll": "查看所有新闻"
   },
   "footer": {
-    "underlicense": "根据",
-    "license": "Apache 2.0许可证",
+    "description": "无需互联网，与附近设备共享文件。开源、跨平台、完全免费。",
+    "underlicense": "基于许可",
+    "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "周边产品",
     "privacy": "隐私",
     "terms": "条款",
-    "imprint": "版权声明",
-    "contact": "联系方式"
+    "imprint": "法律信息",
+    "contact": "联系",
+    "product": "产品",
+    "community": "社区",
+    "legal": "法律",
+    "download": "下载",
+    "webapp": "网页应用"
   },
-  "homepageButton": "主页",
-  "improveWebsite": "参与改进此网站"
+  "homepageButton": "首页",
+  "improveWebsite": "改进本网站",
+  "navigation": {
+    "downloads": "下载",
+    "community": "社区",
+    "contacts": "联系"
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "description": "无需配置。安装即可开始共享。",
+    "step1Title": "安装并打开",
+    "step1Desc": "在您的所有设备上安装 LocalSend。无需账户、登录或服务器。",
+    "step2Title": "选择文件",
+    "step2Desc": "选择照片、视频、文档或文本 —— 支持所有文件类型。",
+    "step3Title": "点击发送",
+    "step3Desc": "点击附近的设备，通过本地网络立即传输文件。"
+  }
 }
