@@ -1,78 +1,182 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend : Partagez des fichiers avec vos appareils à proximité",
-      "description": "LocalSend est un outil gratuit, open source et cross-plateforme pour partager des fichiers avec les appareils avec vos proximité."
+      "title": "LocalSend : Partagez des fichiers avec les appareils à proximité",
+      "description": "LocalSend est un outil gratuit, open-source et multiplateforme qui permet de partager des fichiers avec des appareils proches."
     },
-    "slogan1": "Partagez des fichiers avec vos appareils à proximité.",
-    "slogan2": "Gratuit, open-source et cross-plateforme.",
+    "hero": {
+      "badge": "Toutes les principales plateformes sont prises en charge !",
+      "title1": "Partagez vos fichiers librement.",
+      "title2": "Aucune connexion Internet requise.",
+      "subtitle": "Open source, multiplateforme et entièrement gratuit."
+    },
+    "slogan1": "Partagez des fichiers avec les appareils à proximité.",
+    "slogan2": "Gratuit, open-source et multiplateforme.",
     "download": "Télécharger",
+    "web": "Web",
     "community": "Communauté",
-    "features": {
-      "title": "Pourquoi LocalSend ?",
-      "decentralized": "Décentralisé",
-      "decentralizedDescription": "Partagez des fichiers de pair-à-pair, sans passer par un serveur central.",
-      "crossPlatform": "Cross-plateforme",
-      "crossPlatformDescription": "LocalSend est disponible sous Windows, macOS, Linux, Android et iOS.",
-      "free": "Libre et gratuit",
-      "freeDescription": "LocalSend est libre et gratuit d'utilisation. Pas de publicité, pas de pistage, pas de coûts cachés.",
-      "openSource": "Open source",
-      "openSourceDescription": "Le code source est libre et ouvert. Tout le monde peut contribuer !",
-      "secure": "Sécurisé",
-      "secureDescription": "Grâce au chiffrement de bout-en-bout, les fichiers restent entre vous et votre destinataire.",
-      "easy": "Facile d'utilisation",
-      "easyDescription": "L'interface est simple, ne nécessite aucun compte et détecte automatiquement les autres appareils."
+    "stats": {
+      "stars": "Étoiles GitHub",
+      "downloads": "Téléchargements",
+      "contributors": "Contributeurs",
+      "ads": "Publicités ou traqueurs"
     },
-    "mentioned": "Le monde entier en parle",
-    "get": "Obtenez LocalSend",
-    "video": "Regarder une présentation vidéo de LocalSend sur YouTube"
+    "testimonials": {
+      "title": "Apprécié par la communauté",
+      "description": "Rejoignez des milliers d’utilisateurs qui font confiance à LocalSend pour leurs transferts quotidiens de fichiers."
+    },
+    "sponsors": {
+      "title": "Soutenu par",
+      "description": "LocalSend est gratuit et open-source, rendu possible grâce à nos partenaires et à la communauté.",
+      "infrastructure": "Partenaire d’infrastructure",
+      "lambdaTestDescription": "Garantit le bon fonctionnement de LocalSend sur plus de 3000 environnements de navigateurs et systèmes.",
+      "becomeSponsor": "Devenir sponsor",
+      "becomeSponsorDescription": "Vous aimez LocalSend ? Soutenez son développement et aidez-nous à faire vivre le projet."
+    },
+    "features": {
+      "title": "Fonctionnalités",
+      "description": "Tout ce dont vous avez besoin pour un partage de fichiers rapide et sécurisé sur votre réseau local.",
+      "decentralized": "Décentralisé",
+      "decentralizedDescription": "Partagez des fichiers sans serveur central. Les transferts sont entièrement peer-to-peer.",
+      "crossPlatform": "Multiplateforme",
+      "crossPlatformDescription": "LocalSend est disponible sur Windows, macOS, Linux, Android et iOS.",
+      "free": "Gratuit",
+      "freeDescription": "LocalSend est totalement gratuit. Aucune pub, aucun traqueur, aucun frais caché.",
+      "openSource": "Open Source",
+      "openSourceDescription": "Le code source est public. Tout le monde peut contribuer.",
+      "secure": "Sécurisé",
+      "secureDescription": "Le chiffrement de bout en bout garantit que seuls vous et le destinataire avez accès aux fichiers.",
+      "easy": "Simple d’utilisation",
+      "easyDescription": "Interface intuitive sans inscription. Les appareils à proximité sont détectés automatiquement.",
+      "noInternet": "Sans Internet",
+      "noInternetDescription": "Fonctionne entièrement hors ligne. Vos données ne quittent jamais votre réseau local.",
+      "fast": "Très rapide",
+      "fastDescription": "Transférez des fichiers à la vitesse maximale de votre WiFi. Aucun bridage de bande passante."
+    },
+    "press": {
+      "title": "Dans la presse",
+      "description": "Découvrez ce que les médias tech disent de LocalSend.",
+      "readArticle": "Lire l’article"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Tout ce que vous devez savoir à propos de LocalSend.",
+      "q1": "Est-ce vraiment gratuit ?",
+      "a1": "Oui, LocalSend est 100 % gratuit et open-source. Aucun traqueur, aucune pub, aucun coût caché.",
+      "q2": "Est-ce que ça fonctionne via Internet ?",
+      "a2": "Non. LocalSend utilise votre réseau WiFi local. Vos données ne quittent jamais votre réseau.",
+      "q3": "Est-ce sécurisé ?",
+      "a3": "Oui. Tous les transferts sont chiffrés via HTTPS. Vous pouvez activer la vérification par code PIN.",
+      "q4": "Où sont enregistrés les fichiers ?",
+      "a4": "Par défaut dans le dossier Téléchargements, mais vous pouvez le modifier dans les paramètres.",
+      "q5": "Quelles plateformes sont compatibles ?",
+      "a5": "LocalSend est disponible sur Windows, macOS, Linux, Android et iOS.",
+      "q6": "Dois-je créer un compte ?",
+      "a6": "Non. Aucun compte ni connexion n’est requis. Installez simplement et commencez à partager."
+    },
+    "mentioned": "Mentionné dans le monde entier",
+    "get": "Obtenir LocalSend",
+    "video": "Regarder une présentation de LocalSend sur YouTube"
+  },
+  "cta": {
+    "title": "Prêt à commencer ?",
+    "description": "Téléchargez LocalSend dès maintenant et partagez facilement vos fichiers entre vos appareils.",
+    "download": "Télécharger"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Téléchargements",
+      "title": "LocalSend – Téléchargements",
       "description": "Téléchargez LocalSend pour Windows, macOS, Linux, Android et iOS."
     },
     "title": "Téléchargements",
     "subTitle": "Téléchargements pour {os}",
     "appStores": "App Stores",
-    "appStoresDescription": "Recommandés pour la plupart des utilisateurs.",
-    "binaries": "Fichiers Binaires",
-    "binariesDescription": "Téléchargements pour une utilisation hors-ligne.",
+    "appStoresDescription": "Recommandé pour la plupart des utilisateurs.",
+    "binaries": "Binaires",
+    "binariesDescription": "Télécharger pour une utilisation hors ligne.",
     "packageManagers": "Gestionnaires de paquets",
-    "packageManagersDescription": "Installer via un terminal.",
+    "packageManagersDescription": "Installer via le terminal.",
     "allReleases": "Toutes les versions",
-    "zip": "ZIP (portable)",
-    "copiedToClipboard": "Copié dans le presse-papier !"
+    "zip": "ZIP",
+    "copiedToClipboard": "Copié dans le presse-papiers !",
+    "noOptions": "Aucune option supplémentaire disponible pour {os}.",
+    "scanToInstall": "Scanner pour installer",
+    "scanDescription": "Scannez ce QR avec votre appareil {os} pour ouvrir la page de téléchargement.",
+    "installer": "Programme d’installation",
+    "portable": "Portable"
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Communauté",
-      "description": "Obtenez de l'aide, participez et contribuez à LocalSend."
+      "title": "LocalSend – Communauté",
+      "description": "Obtenez de l’aide, participez et contribuez à LocalSend."
     },
     "title": "Communauté",
-    "getHelp": "Obtenir de l'aide",
-    "getHelpDescription": "Demandez ou cherchez des réponses dans les discussions GitHub.",
-    "getInvolved": "Contribuer à LocalSend",
-    "getInvolvedDescription": "Prenez contact avec les développeurs et contribuez directement au projet.",
+    "getHelp": "Obtenir de l’aide",
+    "getHelpDescription": "Posez vos questions ou trouvez des réponses dans GitHub Discussions.",
+    "getInvolved": "Participer",
+    "getInvolvedDescription": "Contactez les développeurs et contribuez directement au projet.",
     "discord": "Discord",
-    "__Note": "Not sure if I should translate Issues/Pull Requests, as Github itself isn't translated & this just feels more natural",
-    "issues": "Issues", 
-    "pullRequests": "Pull Requests"
+    "discordDescription": "Rejoignez notre serveur actif pour discuter avec les développeurs et obtenir une aide instantanée.",
+    "reddit": "Reddit",
+    "redditDescription": "Participez aux discussions et restez informé.",
+    "issues": "Problèmes",
+    "issuesDescription": "Vous avez trouvé un bug ? Vérifiez notre système de suivi des problèmes.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Prêt à contribuer ? Soumettez une PR.",
+    "contribute": "Contribuer",
+    "contributeDescription": "Aidez-nous à améliorer LocalSend.",
+    "languageSpecific": "Rejoindre les discussions spécifiques à chaque langue."
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact – LocalSend",
+      "description": "Contactez l’équipe ou la communauté."
+    },
+    "title": "Contactez-nous",
+    "description": "Contactez l’équipe ou la communauté.",
+    "bugReport": "Signaler un bug",
+    "bugReportDescription": "Vous avez trouvé un problème ? Signalez-le dans GitHub Issues afin que nous puissions le corriger.",
+    "openIssues": "Ouvrir les Issues GitHub",
+    "email": "Envoyer un email",
+    "emailDescription": "Pour les questions générales, partenariats ou sujets privés."
   },
   "news": {
     "title": "Actualités",
-    "showAll": "Afficher toutes les actualités"
+    "showAll": "Voir toutes les actualités"
   },
-  "homepageButton": "Menu principal",
   "footer": {
+    "description": "Partagez des fichiers avec des appareils à proximité sans Internet. Open-source, multiplateforme et gratuit.",
     "underlicense": "Sous licence",
-    "license": "Apache 2.0",
+    "license": "Licence Apache 2.0",
     "github": "GitHub",
     "discord": "Discord",
-    "privacy": "Vie privée",
-    "terms": "CGU",
+    "reddit": "Reddit",
+    "merch": "Produits dérivés",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
     "imprint": "Mentions légales",
-    "contact": "Contact"
+    "contact": "Contact",
+    "product": "Produit",
+    "community": "Communauté",
+    "legal": "Légal",
+    "download": "Télécharger",
+    "webapp": "Application Web"
   },
-  "improveWebsite": "Améliorer ce site"
+  "homepageButton": "Page d’accueil",
+  "improveWebsite": "Améliorer ce site web",
+  "navigation": {
+    "downloads": "Téléchargements",
+    "community": "Communauté",
+    "contacts": "Contact"
+  },
+  "howItWorks": {
+    "title": "Comment ça fonctionne",
+    "description": "Aucune configuration requise. Installez et commencez à partager.",
+    "step1Title": "Installer et ouvrir",
+    "step1Desc": "Téléchargez LocalSend sur tous vos appareils. Aucun compte, aucune connexion, aucun serveur.",
+    "step2Title": "Choisir les fichiers",
+    "step2Desc": "Choisissez photos, vidéos, documents ou texte. Tous les types de fichiers sont pris en charge.",
+    "step3Title": "Touchez pour envoyer",
+    "step3Desc": "Touchez l’appareil à proximité. Le transfert s’effectue instantanément via votre réseau local."
+  }
 }

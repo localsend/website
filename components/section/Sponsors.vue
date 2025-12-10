@@ -1,7 +1,5 @@
 <template>
-    <UiSection title="Supported By"
-        description="LocalSend is free and open source, made possible by our partners and community." size="lg"
-        spacing="lg">
+    <UiSection :title="t('home.sponsors.title')" :description="t('home.sponsors.description')" size="lg" spacing="lg">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
 
             <!-- Infrastructure Partner (LambdaTest) -->
@@ -10,7 +8,7 @@
                 <!-- Badge -->
                 <div
                     class="px-3 py-1 mb-8 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 text-[10px] font-bold uppercase tracking-wider border border-blue-100 dark:border-blue-800">
-                    Infrastructure Partner
+                    {{ t('home.sponsors.infrastructure') }}
                 </div>
 
                 <!-- Logo -->
@@ -21,7 +19,7 @@
 
                 <!-- Description -->
                 <p class="text-center text-sm text-gray-500 dark:text-gray-400 max-w-xs leading-relaxed">
-                    Ensuring LocalSend works flawlessly across 3000+ browser and OS environments.
+                    {{ t('home.sponsors.lambdaTestDescription') }}
                 </p>
 
                 <!-- Hover Gradient -->
@@ -39,10 +37,11 @@
                     <Icon name="material-symbols:favorite" class="text-2xl" />
                 </div>
 
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Become a Sponsor</h3>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">{{ t('home.sponsors.becomeSponsor')
+                    }}</h3>
 
                 <p class="text-center text-sm text-gray-500 dark:text-gray-400 max-w-xs leading-relaxed">
-                    Love LocalSend? Support development and help keep the project alive.
+                    {{ t('home.sponsors.becomeSponsorDescription') }}
                 </p>
             </a>
 
@@ -51,5 +50,5 @@
 </template>
 
 <script setup lang="ts">
-// No props needed
+const { t } = useI18n();
 </script>

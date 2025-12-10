@@ -3,6 +3,9 @@
     <!-- Hero Section -->
     <SectionHero />
 
+    <!-- Stats Section (Real Data) -->
+    <SectionStats />
+
     <!-- Sponsors Section -->
     <SectionSponsors />
 
@@ -12,67 +15,24 @@
     <!-- How It Works (Timeline Style) -->
     <SectionHowItWorks />
 
-    <!-- NEW: Testimonials Section -->
-    <UiSection title="Loved by the Community"
-      description="Join thousands of users who trust LocalSend for their daily file transfers." size="lg" spacing="lg">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div v-for="(review, i) in reviews" :key="i"
-          class="p-8 rounded-2xl bg-gray-50 dark:bg-gray-900/50 border border-gray-100 dark:border-gray-800">
-          <div class="flex gap-0.5 text-amber-400 mb-4">
-            <Icon name="material-symbols:star" class="text-lg" v-for="s in 5" :key="s" />
-          </div>
-          <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed font-medium">"{{ review.text }}"</p>
-          <div class="flex items-center gap-3">
-            <div
-              class="w-8 h-8 rounded-full bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center text-teal-700 dark:text-teal-300 font-bold text-xs">
-              {{ review.author[0] }}</div>
-            <div>
-              <div class="text-sm font-semibold text-gray-900 dark:text-white">{{ review.author }}</div>
-              <div class="text-xs text-gray-500">{{ review.role }}</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </UiSection>
+    <!-- Testimonials Section -->
+    <SectionTestimonials />
 
-    <!-- RESTORED: Press / Mentions Section -->
-    <UiSection label="Press" title="In the News" description="See what tech publications are saying about LocalSend."
-      size="lg" spacing="lg" background="gray">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <a v-for="article in mentionedArticles" :key="article.url" :href="article.url" target="_blank"
-          rel="noopener noreferrer"
-          class="group flex flex-col p-6 rounded-xl bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-700 transition-all duration-200">
-          <div class="flex items-center gap-2 mb-4">
-            <Icon :name="article.language" class="text-xl rounded-sm shadow-sm" />
-            <span class="text-[10px] font-bold uppercase tracking-widest text-gray-400">{{ article.description }}</span>
-          </div>
-          <h3
-            class="font-semibold text-gray-900 dark:text-white group-hover:text-teal-600 transition-colors line-clamp-2 mb-2 tracking-tight">
-            {{ article.title }}
-          </h3>
-          <div
-            class="mt-auto pt-4 flex items-center text-sm text-gray-500 font-medium group-hover:text-teal-600 transition-colors">
-            Read Article
-            <Icon name="material-symbols:arrow-forward" class="ml-1 text-base" />
-          </div>
-        </a>
-      </div>
-    </UiSection>
+    <!-- Press / Mentions Section -->
+    <SectionPress />
 
-    <!-- NEW: FAQ Section -->
-    <UiSection title="Frequently Asked Questions" description="Everything you need to know about LocalSend." size="md"
-      spacing="lg">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div v-for="(faq, i) in faqs" :key="i"
-          class="p-6 rounded-xl border border-gray-200 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-900/50 transition-colors">
-          <h3 class="font-semibold text-base text-gray-900 dark:text-white mb-2">{{ faq.q }}</h3>
-          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{{ faq.a }}</p>
-        </div>
-      </div>
-    </UiSection>
+    <!-- Video Section -->
+    <div class="max-w-[720px] mx-auto border rounded-xl border-gray-200/10" v-if="locale !== 'zh-CN'">
+      <!-- YouTube video; a clickable screenshot is used to ease network usage on devices. -->
+      <!-- We disable We disable this for mainland China because YouTube is not available there. -->
+      <a :href="youtubeVideo" target="_blank" rel="noopener noreferrer">
+        <img class="aspect-video" src="~/assets/img/video-preview.webp" width="720" alt="{{ t('home.video') }}"
+          :class="'animate-fade-in-up rounded-xl'" />
+      </a>
+    </div>
 
-    <!-- Stats Section (Real Data) -->
-    <SectionStats />
+    <!-- FAQ Section -->
+    <SectionFaq />
 
     <!-- CTA Section -->
     <SectionCta />
@@ -104,43 +64,43 @@ onMounted(() => {
 });
 
 // New Data for Testimonials
-const reviews = [
+const reviews = computed(() => [
   {
-    text: "Finally, an AirDrop alternative that actually works across all my devices. I use it daily to move photos from my Android to my iPad.",
+    text: t('home.testimonials.review1'),
     author: "Alex Chen",
-    role: "Mobile Developer"
+    role: t('home.testimonials.roles.developer')
   },
   {
-    text: "The speed is incredible. Transferring 4GB video files takes seconds over my home WiFi. Essential tool for my workflow.",
+    text: t('home.testimonials.review2'),
     author: "Sarah Miller",
-    role: "Content Creator"
+    role: t('home.testimonials.roles.creator')
   },
   {
-    text: "Open source, no ads, no tracking. This is how software should be. Thank you for this amazing tool!",
+    text: t('home.testimonials.review3'),
     author: "David Wilson",
-    role: "Privacy Advocate"
+    role: t('home.testimonials.roles.advocate')
   }
-];
+]);
 
 // New Data for FAQ
-const faqs = [
+const faqs = computed(() => [
   {
-    q: "Is it really free?",
-    a: "Yes, LocalSend is 100% free and open source. There are no ads, no tracking, and no hidden costs."
+    q: t('home.faq.q1'),
+    a: t('home.faq.a1')
   },
   {
-    q: "Does it work over the internet?",
-    a: "No. LocalSend uses your local WiFi network to transfer files. Your data never leaves your local network."
+    q: t('home.faq.q2'),
+    a: t('home.faq.a2')
   },
   {
-    q: "Is it secure?",
-    a: "Yes. All transfers are encrypted using HTTPS. You can also enable PIN verification for extra security."
+    q: t('home.faq.q3'),
+    a: t('home.faq.a3')
   },
   {
-    q: "Where do files go?",
-    a: "Files are saved to your device's Downloads folder by default, but you can change this in the settings."
+    q: t('home.faq.q4'),
+    a: t('home.faq.a4')
   }
-];
+]);
 
 interface MentionedArticle {
   title: string;

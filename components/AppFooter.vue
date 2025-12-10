@@ -10,24 +10,26 @@
             <span class="text-lg font-bold text-gray-900 dark:text-white">LocalSend</span>
           </div>
           <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-400 max-w-xs">
-            Share files to nearby devices without internet. Open source, cross-platform, and free.
+            {{ t("footer.description") }}
           </p>
         </div>
 
         <!-- Product Column -->
         <div>
-          <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Product</h3>
+          <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">
+            {{ t("footer.product") }}
+          </h3>
           <ul class="space-y-3 text-sm">
             <li>
               <NuxtLink :to="localePath('/download')"
                 class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">
-                {{ t("download") }}
+                {{ t("footer.download") }}
               </NuxtLink>
             </li>
             <li>
               <a href="https://web.localsend.org" target="_blank"
                 class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                Web App
+                {{ t("footer.webapp") }}
               </a>
             </li>
           </ul>
@@ -103,15 +105,29 @@
       <!-- Bottom Bar -->
       <div class="mt-12 border-t border-gray-200 dark:border-gray-800 pt-8">
         <div class="flex flex-col items-center justify-between gap-4 md:flex-row">
+          <!-- Copyright -->
           <div class="text-center md:text-left">
             <p class="text-sm text-gray-500 dark:text-gray-400">
-              &copy; 2022 - {{ year }} Tien Do Nam.
+              &copy; 2022 - {{ year }} <a href="https://github.com/Tienisto" target="_blank"
+                class="text-teal-600 dark:text-teal-400 hover:text-teal-500 dark:hover:text-teal-300 transition-colors underline underline-offset-2">Tien
+                Do Nam.</a>
             </p>
-            <p class="mt-1 text-xs text-gray-400 dark:text-gray-500">
+            <p class=" mt-2 text-xs text-gray-400 dark:text-gray-500">
               {{ t("footer.underlicense") }}
               <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank"
                 class="hover:text-teal-600 dark:hover:text-teal-400 transition-colors underline underline-offset-2">
                 {{ t("footer.license") }}
+              </a>
+            </p>
+          </div>
+
+          <!-- Designed By -->
+          <div class="text-end">
+            <p class="text-sm text-gray-400 dark:text-gray-500">
+              Website designed by
+              <a href="https://github.com/akshayejh" target="_blank"
+                class="hover:text-teal-600 dark:hover:text-teal-400 transition-colors underline underline-offset-2">
+                Akshay Jhajhra
               </a>
             </p>
           </div>

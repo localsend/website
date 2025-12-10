@@ -1,28 +1,10 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <UiSection size="md" spacing="xl" class="pt-32 text-center relative overflow-hidden">
-      <!-- Vercel-style Grid Background -->
-      <div
-        class="absolute inset-0 -z-10 h-full w-full bg-white dark:bg-gray-950 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
-      </div>
-      <div
-        class="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-teal-400 opacity-20 blur-[100px]">
-      </div>
-
-      <div class="relative z-10 max-w-3xl mx-auto">
-        <h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tighter text-gray-900 dark:text-white mb-6">
-          {{ t('community.title') }}
-        </h1>
-        <p class="text-lg text-gray-500 dark:text-gray-400 max-w-xl mx-auto leading-relaxed">
-          {{ t('community.getHelpDescription') }}
-        </p>
-      </div>
-    </UiSection>
+    <PageHeader :title="t('community.title')" :description="t('community.getHelpDescription')" />
 
     <!-- Social Platforms (Compact & Dense) -->
-    <UiSection :title="t('community.getInvolved')" :description="t('community.getInvolvedDescription')" size="md"
-      spacing="md">
+    <UiSection size="md" class="pt-0" spacing="md">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <!-- Discord Card -->
         <a href="https://discord.gg/GSRWmQNP87" target="_blank"
@@ -38,7 +20,7 @@
                   class="text-gray-400 group-hover:text-[#5865F2] transition-colors text-sm" />
               </div>
               <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-3">
-                Join our active server to chat with developers and get instant help.
+                {{ t('community.discordDescription') }}
               </p>
               <span class="text-xs font-medium text-[#5865F2] group-hover:underline">
                 {{ t('community.discord') }}
@@ -61,7 +43,7 @@
                   class="text-gray-400 group-hover:text-[#FF4500] transition-colors text-sm" />
               </div>
               <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-3">
-                Participate in discussions and stay updated with announcements.
+                {{ t('community.redditDescription') }}
               </p>
               <span class="text-xs font-medium text-[#FF4500] group-hover:underline">
                 {{ t('community.reddit') }}
@@ -73,7 +55,8 @@
     </UiSection>
 
     <!-- Development / Contribution (Compact) -->
-    <UiSection title="Contribute" description="Help us improve LocalSend." size="md" spacing="lg">
+    <UiSection :title="t('community.contribute')" :description="t('community.contributeDescription')" size="md"
+      spacing="lg">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <!-- Issues -->
         <a href="https://github.com/localsend/localsend/issues" target="_blank"
@@ -83,7 +66,7 @@
               class="text-gray-500 group-hover:text-gray-900 dark:group-hover:text-white transition-colors" />
             <h3 class="font-medium text-gray-900 dark:text-white">{{ t('community.issues') }}</h3>
           </div>
-          <p class="text-sm text-gray-500 dark:text-gray-400 pl-8">Found a bug? Check our issue tracker.</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 pl-6">{{ t('community.issuesDescription') }}</p>
         </a>
 
         <!-- PRs -->
@@ -94,13 +77,13 @@
               class="text-gray-500 group-hover:text-gray-900 dark:group-hover:text-white transition-colors" />
             <h3 class="font-medium text-gray-900 dark:text-white">{{ t('community.pullRequests') }}</h3>
           </div>
-          <p class="text-sm text-gray-500 dark:text-gray-400 pl-8">Ready to contribute code? Open a PR.</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 pl-6">{{ t('community.prDescription') }}</p>
         </a>
       </div>
     </UiSection>
 
     <!-- Language Support (Dense Grid) -->
-    <UiSection :title="t('community.getHelp')" description="Join language-specific discussions." size="md" spacing="lg">
+    <UiSection :title="t('community.getHelp')" :description="t('community.languageSpecific')" size="md" spacing="lg">
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
         <a v-for="button in helpButtons" :key="button.name" :href="button.url" target="_blank"
           class="flex items-center justify-center px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 hover:border-gray-300 dark:hover:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-900 transition-all duration-200">

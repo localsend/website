@@ -1,39 +1,91 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Partajează fișiere cu dispozitivele din apropiere",
-      "description": "LocalSend este un instrument gratuit, open-source și multiplatformă pentru partajarea fișierelor, care îți permite să trimiți fișiere către dispozitivele din apropier ta."
+      "title": "LocalSend: Partajează fișiere cu dispozitive din apropiere",
+      "description": "LocalSend este un instrument gratuit, open-source și multiplatformă care îți permite să partajezi fișiere cu dispozitive aflate în apropiere."
     },
-    "slogan1": "Partajează fișiere cu dispozitivele din apropiere.",
-    "slogan2": "Gratuit, open-source, multiplatformă.",
+    "hero": {
+      "badge": "Compatibil cu toate platformele principale!",
+      "title1": "Partajează fișiere liber.",
+      "title2": "Fără internet.",
+      "subtitle": "Open-source, multiplatformă și complet gratuit."
+    },
+    "slogan1": "Partajează fișiere cu dispozitive din apropiere.",
+    "slogan2": "Gratuit, open-source și multiplatformă.",
     "download": "Descarcă",
     "web": "Web",
     "community": "Comunitate",
+    "stats": {
+      "stars": "Stele GitHub",
+      "downloads": "Descărcări",
+      "contributors": "Contributori",
+      "ads": "Reclame sau trackere"
+    },
+    "testimonials": {
+      "title": "Iubit de comunitate",
+      "description": "Alătură-te miilor de utilizatori care au încredere în LocalSend pentru transferurile lor zilnice de fișiere."
+    },
     "sponsors": {
-      "title": "Sponsori"
+      "title": "Sponsori",
+      "description": "LocalSend este gratuit și open-source datorită partenerilor noștri și comunității.",
+      "infrastructure": "Partener infrastructură",
+      "lambdaTestDescription": "Asigură funcționarea impecabilă a LocalSend în peste 3000 de medii de browser și sisteme de operare.",
+      "becomeSponsor": "Devino sponsor",
+      "becomeSponsorDescription": "Îți place LocalSend? Susține dezvoltarea și ajută proiectul să meargă mai departe."
     },
     "features": {
-      "title": "Caracteristici",
-      "decentralized": "Descentralizat",
-      "decentralizedDescription": "Partajează fișiere fără un server central. Transferul este complet peer-to-peer.",
+      "title": "Funcționalități",
+      "description": "Tot ce ai nevoie pentru partajare rapidă și sigură de fișiere în rețeaua ta locală.",
+      "decentralized": "Decentralizat",
+      "decentralizedDescription": "Partajează fișiere fără server central. Transferul este complet peer-to-peer.",
       "crossPlatform": "Multiplatformă",
-      "crossPlatformDescription": "LocalSend este disponibil pentru Windows, macOS, Linux, Android și iOS.",
+      "crossPlatformDescription": "LocalSend este disponibil pe Windows, macOS, Linux, Android și iOS.",
       "free": "Gratuit",
-      "freeDescription": "LocalSend este gratuit de utilizat. Fără reclame, fără colectare de date, fără costuri ascunse.",
-      "openSource": "Open Source",
-      "openSourceDescription": "Codul sursă este disponibil public. Oricine poate contribui la proiect.",
-      "secure": "Securizat",
-      "secureDescription": "Criptarea end-to-end garantează că doar tu și destinatarul puteți accesa fișierele.",
+      "freeDescription": "LocalSend este complet gratuit. Fără reclame, fără tracking, fără taxe ascunse.",
+      "openSource": "Open-source",
+      "openSourceDescription": "Codul sursă este public. Oricine poate contribui.",
+      "secure": "Sigur",
+      "secureDescription": "Criptarea end-to-end asigură că doar tu și destinatarul aveți acces la fișiere.",
       "easy": "Ușor de utilizat",
-      "easyDescription": "O interfață simplă, fără înregistrare. Alte dispozitive sunt descoperite automat."
+      "easyDescription": "Interfață simplă, fără înregistrare. Dispozitivele din apropiere sunt detectate automat.",
+      "noInternet": "Fără internet",
+      "noInternetDescription": "Funcționează complet offline. Datele tale nu părăsesc niciodată rețeaua locală.",
+      "fast": "Foarte rapid",
+      "fastDescription": "Transferă fișiere la viteza maximă a rețelei tale WiFi. Fără limite de bandă."
     },
-    "mentioned": "Menționat în toată lumea",
+    "press": {
+      "title": "În presă",
+      "description": "Vezi ce spune presa tech despre LocalSend.",
+      "readArticle": "Citește articolul"
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "description": "Tot ce trebuie să știi despre LocalSend.",
+      "q1": "Este cu adevărat gratuit?",
+      "a1": "Da! LocalSend este 100% gratuit și open-source. Fără reclame, fără tracking și fără costuri ascunse.",
+      "q2": "Funcționează prin internet?",
+      "a2": "Nu. LocalSend folosește rețeaua ta locală WiFi. Datele nu părăsesc rețeaua.",
+      "q3": "Este sigur?",
+      "a3": "Da. Toate transferurile sunt criptate prin HTTPS. Poți activa și verificarea prin PIN.",
+      "q4": "Unde sunt salvate fișierele?",
+      "a4": "Implicit în folderul Descărcări, dar poți modifica acest lucru din setări.",
+      "q5": "Ce platforme sunt compatibile?",
+      "a5": "Windows, macOS, Linux, Android și iOS.",
+      "q6": "Am nevoie de un cont?",
+      "a6": "Nu. Nu ai nevoie de cont sau autentificare — doar instalezi și folosești."
+    },
+    "mentioned": "Menționat în întreaga lume",
     "get": "Descarcă LocalSend",
-    "video": "Urmărește o prezentare video a LocalSend pe YouTube"
+    "video": "Vezi o prezentare LocalSend pe YouTube"
+  },
+  "cta": {
+    "title": "Gata să începi?",
+    "description": "Descarcă LocalSend și partajează fișiere cu ușurință între dispozitivele tale.",
+    "download": "Descarcă"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Descărcări",
+      "title": "LocalSend – Descărcări",
       "description": "Descarcă LocalSend pentru Windows, macOS, Linux, Android și iOS."
     },
     "title": "Descărcări",
@@ -45,40 +97,86 @@
     "packageManagers": "Manageri de pachete",
     "packageManagersDescription": "Instalează din terminal.",
     "allReleases": "Toate versiunile",
-    "zip": "ZIP (portabil)",
-    "copiedToClipboard": "Copiat în clipboard!"
+    "zip": "ZIP",
+    "copiedToClipboard": "Copiat în clipboard!",
+    "noOptions": "Nicio opțiune suplimentară disponibilă pentru {os}.",
+    "scanToInstall": "Scanează pentru a instala",
+    "scanDescription": "Scanează acest cod QR cu dispozitivul tău {os} pentru a deschide pagina de descărcare.",
+    "installer": "Instalator",
+    "portable": "Portabil"
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Comunitate",
+      "title": "LocalSend – Comunitate",
       "description": "Primește ajutor, implică-te și contribuie la LocalSend."
     },
     "title": "Comunitate",
-    "getHelp": "Obține ajutor",
-    "getHelpDescription": "Adresează întrebări sau caută răspunsuri în discuțiile de pe GitHub.",
+    "getHelp": "Primește ajutor",
+    "getHelpDescription": "Pune întrebări sau caută răspunsuri în GitHub Discussions.",
     "getInvolved": "Implică-te",
-    "getInvolvedDescription": "Ia legătura cu dezvoltatorii și contribuie direct la proiect.",
+    "getInvolvedDescription": "Conectează-te cu dezvoltatorii și contribuie direct la proiect.",
     "discord": "Discord",
+    "discordDescription": "Alătură-te serverului nostru activ pentru a discuta cu dezvoltatorii și pentru a primi suport imediat.",
     "reddit": "Reddit",
+    "redditDescription": "Participă la discuții și rămâi la curent.",
     "issues": "Probleme",
-    "pullRequests": "Cereri de modificare"
+    "issuesDescription": "Ai găsit un bug? Verifică sistemul nostru de raportare.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Gata să contribui cu cod? Deschide un PR.",
+    "contribute": "Contribuie",
+    "contributeDescription": "Ajută la îmbunătățirea LocalSend.",
+    "languageSpecific": "Participă în discuțiile dedicate limbii tale."
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact – LocalSend",
+      "description": "Ia legătura cu echipa sau cu comunitatea."
+    },
+    "title": "Contactează-ne",
+    "description": "Ia legătura cu echipa sau cu comunitatea.",
+    "bugReport": "Raportează o eroare",
+    "bugReportDescription": "Ai găsit o problemă? Raporteaz-o în GitHub Issues și o vom rezolva.",
+    "openIssues": "Deschide GitHub Issues",
+    "email": "Trimite un e-mail",
+    "emailDescription": "Pentru întrebări generale, colaborări sau mesaje private."
   },
   "news": {
-    "title": "Știri",
-    "showAll": "Afișează toate știrile"
+    "title": "Noutăți",
+    "showAll": "Vezi toate noutățile"
   },
   "footer": {
-    "underlicense": "Licențiat sub",
+    "description": "Partajează fișiere cu dispozitive din apropiere fără internet. Open-source, multiplatformă și gratuit.",
+    "underlicense": "Sub licență",
     "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
     "reddit": "Reddit",
-    "merch": "Produse",
-    "privacy": "Politica de confidențialitate",
-    "terms": "Termeni și condiții",
-    "imprint": "Informații legale",
-    "contact": "Contact"
+    "merch": "Merch",
+    "privacy": "Confidențialitate",
+    "terms": "Termeni",
+    "imprint": "Imprint legal",
+    "contact": "Contact",
+    "product": "Produs",
+    "community": "Comunitate",
+    "legal": "Legal",
+    "download": "Descarcă",
+    "webapp": "Aplicație web"
   },
-  "homepageButton": "Pagina principală",
-  "improveWebsite": "Îmbunătățește acest site"
+  "homepageButton": "Pagină principală",
+  "improveWebsite": "Îmbunătățește acest site",
+  "navigation": {
+    "downloads": "Descărcări",
+    "community": "Comunitate",
+    "contacts": "Contact"
+  },
+  "howItWorks": {
+    "title": "Cum funcționează",
+    "description": "Nicio configurare necesară. Instalează și începe să partajezi.",
+    "step1Title": "Instalează și deschide",
+    "step1Desc": "Instalează LocalSend pe toate dispozitivele tale. Fără cont, fără autentificare, fără servere.",
+    "step2Title": "Selectează fișiere",
+    "step2Desc": "Alege poze, videoclipuri, documente sau text. Toate tipurile de fișiere sunt acceptate.",
+    "step3Title": "Atinge pentru a trimite",
+    "step3Desc": "Atinge dispozitivul din apropiere. Transferul se realizează instantaneu prin rețeaua ta locală."
+  }
 }

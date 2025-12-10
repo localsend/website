@@ -1,76 +1,182 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Compartició de fitxers entre dispositius propers",
-      "description": "El LocalSend és una eina de compartició de fitxers lliure, de codi obert i multiplataforma, que us permet compartir fitxers entre dispositius propers."
+      "title": "LocalSend: Comparteix fitxers amb dispositius propers",
+      "description": "LocalSend és una eina gratuïta, de codi obert i multiplataforma que et permet compartir fitxers amb dispositius propers."
     },
-    "slogan1": "Compartiu fitxers entre dispositius propers.",
-    "slogan2": "Lliure, de codi obert i multiplataforma.",
-    "download": "Baixada",
+    "hero": {
+      "badge": "Totes les plataformes principals suportades!",
+      "title1": "Comparteix fitxers lliurement.",
+      "title2": "No cal Internet.",
+      "subtitle": "Codi obert, multiplataforma i completament gratuït."
+    },
+    "slogan1": "Comparteix fitxers amb dispositius propers.",
+    "slogan2": "Gratuït, de codi obert i multiplataforma.",
+    "download": "Descarregar",
+    "web": "Web",
     "community": "Comunitat",
+    "stats": {
+      "stars": "Estrelles de GitHub",
+      "downloads": "Descàrregues",
+      "contributors": "Col·laboradors",
+      "ads": "Anuncis o rastrejadors"
+    },
+    "testimonials": {
+      "title": "Estimat per la Comunitat",
+      "description": "Uneix-te a milers d’usuaris que confien en LocalSend per a les seves transferències de fitxers diàries."
+    },
+    "sponsors": {
+      "title": "Suportat per",
+      "description": "LocalSend és gratuït i de codi obert, fet possible gràcies als nostres socis i a la comunitat.",
+      "infrastructure": "Soci d’Infraestructura",
+      "lambdaTestDescription": "Garantint que LocalSend funcioni perfectament en més de 3000 entorns de navegadors i sistemes operatius.",
+      "becomeSponsor": "Fes-te patrocinador",
+      "becomeSponsorDescription": "T’agrada LocalSend? Dona suport al desenvolupament i ajuda a mantenir viu el projecte."
+    },
     "features": {
-      "title": "Característiques",
+      "title": "Funcions",
+      "description": "Tot el que necessites per a una compartició segura i ràpida a la teva xarxa local.",
       "decentralized": "Descentralitzat",
-      "decentralizedDescription": "Compartiu fitxers sense cap servidor central. La transferència es fa completament d'igual a igual.",
+      "decentralizedDescription": "Comparteix fitxers sense un servidor central. La transferència és completament punt a punt.",
       "crossPlatform": "Multiplataforma",
-      "crossPlatformDescription": "El LocalSend es troba disponible per al Windows, macOS, Linux, Android i iOS.",
-      "free": "Lliure",
-      "freeDescription": "El LocalSend és d'ús lliure. Sense anuncis, seguiment a usuaris ni costs ocults.",
-      "openSource": "Codi obert",
-      "openSourceDescription": "El codi font es troba disponible públicament. Tothom pot contribuir al projecte.",
+      "crossPlatformDescription": "LocalSend està disponible per a Windows, macOS, Linux, Android i iOS.",
+      "free": "Gratuït",
+      "freeDescription": "LocalSend és gratuït. Sense anuncis, sense rastreig, sense costos ocults.",
+      "openSource": "Codi Obert",
+      "openSourceDescription": "El codi font és públic. Tothom pot contribuir al projecte.",
       "secure": "Segur",
-      "secureDescription": "El xifratge d'extrem a extrem assegura que només vós i el destinatari pugueu accedir als fitxers.",
-      "easy": "Fàcil d'utilitzar",
-      "easyDescription": "Una interfície d'usuari senzilla, sense registres. Els altres dispositius es detecten de manera automàtica."
+      "secureDescription": "El xifratge d’extrem a extrem garanteix que només tu i el receptor tingueu accés als fitxers.",
+      "easy": "Fàcil d’utilitzar",
+      "easyDescription": "Una interfície senzilla sense registre. Els altres dispositius es detecten automàticament.",
+      "noInternet": "No cal Internet",
+      "noInternetDescription": "Funciona completament fora de línia. Les dades no surten mai de la teva xarxa local.",
+      "fast": "Rapidíssim",
+      "fastDescription": "Transfereix fitxers a la màxima velocitat de la teva xarxa WiFi. Sense límits d’ample de banda."
+    },
+    "press": {
+      "title": "Als mitjans",
+      "description": "Descobreix què diuen les publicacions tecnològiques sobre LocalSend.",
+      "readArticle": "Llegeix l'article"
+    },
+    "faq": {
+      "title": "Preguntes Freqüents",
+      "description": "Tot el que necessites saber sobre LocalSend.",
+      "q1": "És realment gratuït?",
+      "a1": "Sí, LocalSend és 100% gratuït i de codi obert. Sense anuncis, sense rastreig i sense costos ocults.",
+      "q2": "Funciona a través d’internet?",
+      "a2": "No. LocalSend utilitza la teva xarxa WiFi local per transferir fitxers. Les dades no surten mai de la xarxa.",
+      "q3": "És segur?",
+      "a3": "Sí. Totes les transferències estan xifrades amb HTTPS. També pots activar la verificació per PIN per més seguretat.",
+      "q4": "On van els fitxers?",
+      "a4": "Els fitxers es guarden a la carpeta de Descàrregues per defecte, però pots canviar-ho als paràmetres.",
+      "q5": "Quines plataformes són compatibles?",
+      "a5": "LocalSend està disponible per a Windows, macOS, Linux, Android i iOS.",
+      "q6": "Cal crear un compte?",
+      "a6": "No. LocalSend no requereix cap compte ni inici de sessió. Només instal·la i comença a compartir."
     },
     "mentioned": "Mencions arreu del món",
-    "get": "Obteniu el LocalSend"
+    "get": "Obtén LocalSend",
+    "video": "Mira una presentació de LocalSend a YouTube"
+  },
+  "cta": {
+    "title": "Preparat per començar?",
+    "description": "Descarrega LocalSend ara i comparteix fitxers sense esforç entre dispositius.",
+    "download": "Descarregar"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Baixades",
-      "description": "Baixeu el LocalSend per al Windows, macOS, Linux, Android i iOS."
+      "title": "LocalSend - Descàrregues",
+      "description": "Descarrega LocalSend per a Windows, macOS, Linux, Android i iOS."
     },
-    "title": "Baixades",
-    "subTitle": "Baixades per a {os}",
-    "appStores": "Botigues d'aplicacions",
-    "appStoresDescription": "Recomanat per a la majoria d'usuaris.",
-    "binaries": "Executables",
-    "binariesDescription": "Baixeu-ho per a l'ús fora de línia.",
-    "packageManagers": "Gestors de paquets",
-    "packageManagersDescription": "Instal·lació amb la terminal.",
-    "allReleases": "Totes les publicacions",
-    "zip": "ZIP (portable)",
-    "copiedToClipboard": "S'ha copiat al porta-retalls!"
+    "title": "Descàrregues",
+    "subTitle": "Descàrregues de {os}",
+    "appStores": "Botigues d'Aplicacions",
+    "appStoresDescription": "Recomanat per a la majoria d’usuaris.",
+    "binaries": "Binaris",
+    "binariesDescription": "Descarrega per a ús fora de línia.",
+    "packageManagers": "Gestors de Paquets",
+    "packageManagersDescription": "Instal·la des del terminal.",
+    "allReleases": "Totes les versions",
+    "zip": "ZIP",
+    "copiedToClipboard": "Copiat al porta-retalls!",
+    "noOptions": "No hi ha opcions de descàrrega addicionals per a {os}.",
+    "scanToInstall": "Escaneja per instal·lar",
+    "scanDescription": "Escaneja aquest codi QR amb el teu dispositiu {os} per obrir directament la pàgina de descàrrega.",
+    "installer": "Instal·lador",
+    "portable": "Portable"
   },
   "community": {
     "seo": {
       "title": "LocalSend - Comunitat",
-      "description": "Obteniu ajuda, involucreu-vos i contribuïu al LocalSend."
+      "description": "Aconsegueix ajuda, participa i contribueix a LocalSend."
     },
     "title": "Comunitat",
-    "getHelp": "Obteniu ajuda",
-    "getHelpDescription": "Demaneu o cerqueu respostes a les Discussions del GitHub.",
-    "getInvolved": "Involucreu-vos",
-    "getInvolvedDescription": "Contacteu amb els desenvolupadors i contribuïu de manera directa al projecte.",
+    "getHelp": "Demana ajuda",
+    "getHelpDescription": "Fes preguntes o busca respostes a GitHub Discussions.",
+    "getInvolved": "Participa",
+    "getInvolvedDescription": "Posa't en contacte amb els desenvolupadors i contribueix directament al projecte.",
     "discord": "Discord",
-    "issues": "Errors",
-    "pullRequests": "Peticions d'implementació"
+    "discordDescription": "Uneix-te al nostre servidor actiu per xatejar amb desenvolupadors i rebre ajuda instantània.",
+    "reddit": "Reddit",
+    "redditDescription": "Participa en discussions i mantén-te al dia amb les novetats.",
+    "issues": "Incidències",
+    "issuesDescription": "Has trobat un error? Consulta el nostre sistema de seguiment d'incidències.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "A punt per contribuir codi? Obre un PR.",
+    "contribute": "Contribueix",
+    "contributeDescription": "Ajuda'ns a millorar LocalSend.",
+    "languageSpecific": "Uneix-te a discussions específiques per idioma."
+  },
+  "contact": {
+    "seo": {
+      "title": "Contacte - LocalSend",
+      "description": "Posa't en contacte amb l’equip o la comunitat."
+    },
+    "title": "Contacta’ns",
+    "description": "Posa't en contacte amb l’equip o la comunitat.",
+    "bugReport": "Informa d'un error",
+    "bugReportDescription": "Has trobat un problema? Si us plau, informa-ho a GitHub Issues perquè puguem revisar-ho i solucionar-ho.",
+    "openIssues": "Obrir Incidències a GitHub",
+    "email": "Envia un correu",
+    "emailDescription": "Per consultes generals, oportunitats de col·laboració o qüestions privades."
   },
   "news": {
     "title": "Notícies",
-    "showAll": "Mostra-les totes"
+    "showAll": "Mostra totes les notícies"
   },
   "footer": {
-    "underlicense": "Llicència: ",
-    "license": "Apache License 2.0",
+    "description": "Comparteix fitxers amb dispositius propers sense Internet. Codi obert, multiplataforma i gratuït.",
+    "underlicense": "Llicenciat sota la",
+    "license": "Llicència Apache 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merch",
     "privacy": "Privadesa",
-    "terms": "Condicions",
-    "imprint": "Legal",
-    "contact": "Contactes"
+    "terms": "Termes",
+    "imprint": "Avís legal",
+    "contact": "Contacte",
+    "product": "Producte",
+    "community": "Comunitat",
+    "legal": "Legal",
+    "download": "Descarregar",
+    "webapp": "Aplicació Web"
   },
   "homepageButton": "Pàgina d'inici",
-  "improveWebsite": "Milloreu aquest lloc web"
+  "improveWebsite": "Millora aquest lloc web",
+  "navigation": {
+    "downloads": "Descàrregues",
+    "community": "Comunitat",
+    "contacts": "Contacte"
+  },
+  "howItWorks": {
+    "title": "Com funciona",
+    "description": "Zero configuració. Simplement instal·la i comença a compartir.",
+    "step1Title": "Instal·lar i Obrir",
+    "step1Desc": "Descarrega LocalSend a tots els teus dispositius. Sense compte, sense inici de sessió, sense servidors.",
+    "step2Title": "Selecciona Fitxers",
+    "step2Desc": "Tria fotos, vídeos, documents o text. Qualsevol tipus de fitxer és compatible.",
+    "step3Title": "Toca per Enviar",
+    "step3Desc": "Toca el dispositiu proper. La transferència es realitza instantàniament a través de la teva xarxa local."
+  }
 }

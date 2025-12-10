@@ -1,76 +1,182 @@
 {
-    "home": {
-        "seo": {
-            "title": "LocalSend : partejar de fichièrs als aparelhs a proximitat",
-            "description": "LocalSend es una aisina de partiment de fichièrs multiplatafòrma liura e gratuita que vos permet de partejar de fichièrs als aparelhs a proximitat."
-        },
-        "features": {
-            "decentralizedDescription": "Partiment de fichièrs sens cap de servidor central. Lo transferiment de fichièr es complètament de par a par.",
-            "secureDescription": "Lo chiframent del cap a la fin assegura que solament vos e lo destinari pòsca accedir als fichièrs.",
-            "title": "Fonctionalitats",
-            "decentralized": "Descentralizada",
-            "crossPlatform": "Multiplatafòrma",
-            "crossPlatformDescription": "LocalSend es disponible per Windows, macOS, Linux, Android e iOS.",
-            "free": "Gratuit",
-            "freeDescription": "LocalSend còsta pas res d’utilizar. Cap de publicitat, seguiment o còstes resconduts.",
-            "openSource": "Liure",
-            "openSourceDescription": "Lo còdi font es disponible publicament. Totòm pòt contribuir al projècte.",
-            "secure": "Segur",
-            "easy": "Facil d’utilizar",
-            "easyDescription": "Una interfàcia utilizaire simpla sens inscripcion. Los autres aparelhs son descobèrts automaticament."
-        },
-        "slogan1": "Partejatz de fichièrs als aparelhs a proximitat.",
-        "slogan2": "Gratuit, liure e multiplatafòrma.",
-        "download": "Telecargar",
-        "community": "Comunitat",
-        "mentioned": "Mencionat d’en pertot",
-        "get": "Obténer LocalSend"
+  "home": {
+    "seo": {
+      "title": "LocalSend : Partejar de fichièrs amb d’aparelhs pròches",
+      "description": "LocalSend es un aisina gratuïta, liura e multiplaforma que permet de partejar de fichièrs amb d’aparelhs a ras."
     },
-    "download": {
-        "seo": {
-            "title": "LocalSend - Telecargaments",
-            "description": "Telecargar LocalSend per Windows, macOs, Linux, Andoird e iOS."
-        },
-        "title": "Telecargaments",
-        "subTitle": "Telecargament per {os}",
-        "appStores": "App Stores",
-        "appStoresDescription": "Recomandat per la màger part dels utilizaires.",
-        "binaries": "Fichièrs binaris",
-        "binariesDescription": "Telecargament per un usatge fòra linha.",
-        "packageManagers": "Gestionaris de paquets",
-        "packageManagersDescription": "Installacion via un terminal.",
-        "allReleases": "Totas las versions",
-        "zip": "ZIP (portable)",
-        "copiedToClipboard": "Copiat al quichapapièrs !"
+    "hero": {
+      "badge": "Totas las plataformas principalas son presas en carga !",
+      "title1": "Parteja vòstres fichièrs liurament.",
+      "title2": "Sens internet.",
+      "subtitle": "Liure, multiplaforma e completament gratuit."
     },
-    "community": {
-        "seo": {
-            "title": "LocalSend - Comunitat",
-            "description": "Obtenètz d’ajuda, implicatz-vos e contribuissètz a LocalSend."
-        },
-        "title": "Comunitat",
-        "getHelp": "Obténer d’ajuda",
-        "getHelpDescription": "Pausatz de questions o agachatz las responsas sus las discutidas GitHub.",
-        "getInvolved": "Contribuir a LocalSend",
-        "discord": "Discord",
-        "issues": "Anomalias",
-        "pullRequests": "Demandas de modificacions",
-        "getInvolvedDescription": "Contactatz los desvolopaires e contribuissètz dirèctament al projècte."
+    "slogan1": "Parteja de fichièrs amb d’aparelhs pròches.",
+    "slogan2": "Gratuit, liure e multiplaforma.",
+    "download": "Telecargar",
+    "web": "Web",
+    "community": "Comunautat",
+    "stats": {
+      "stars": "Estelas GitHub",
+      "downloads": "Telecargaments",
+      "contributors": "Contributors",
+      "ads": "Publicitats o traçadors"
     },
-    "news": {
-        "showAll": "Mostrar totas las actualitats",
-        "title": "Actualitat"
+    "testimonials": {
+      "title": "Aimant de la comunautat",
+      "description": "Rejónhètz los milièrs d’utilizaires que fan fisança a LocalSend per lors transferiments quotidianes."
     },
-    "footer": {
-        "underlicense": "Sota licéncia",
-        "license": "Apache License 2.0",
-        "github": "GitHub",
-        "discord": "Discord",
-        "privacy": "Vida privada",
-        "terms": "Condicions d’utilizacion",
-        "contact": "Contactes",
-        "imprint": "Emprenta"
+    "sponsors": {
+      "title": "Espónsors",
+      "description": "LocalSend existís en version liura e gratuita gràcias a nòstres partenaris e a la comunautat.",
+      "infrastructure": "Partenari d'infrastructura",
+      "lambdaTestDescription": "Assegura lo bon foncionament de LocalSend dins mai de 3000 environaments de navigadors e de sistèmas operatius.",
+      "becomeSponsor": "Venir espónsor",
+      "becomeSponsorDescription": "Vos agrada LocalSend ? Sostenètz son desvolopament e ajudatz a manténer lo projècte en vida."
     },
-    "homepageButton": "Menú principal",
-    "improveWebsite": "Melhorar aqueste site web"
+    "features": {
+      "title": "Foncionalitats",
+      "description": "Tot çò necessari per partejar de fichièrs rapidament e de manièra segura dins vòstre ret local.",
+      "decentralized": "Descentralizat",
+      "decentralizedDescription": "Partejar sens servidor central. Lo transferiment es completament peer-to-peer.",
+      "crossPlatform": "Multiplaforma",
+      "crossPlatformDescription": "LocalSend es disponible per Windows, macOS, Linux, Android e iOS.",
+      "free": "Gratuit",
+      "freeDescription": "LocalSend es totalament gratuit. Pas de publicitat, pas de traçament, pas de còst amagat.",
+      "openSource": "Liure",
+      "openSourceDescription": "Lo còdi font es public. Cadun pòt contribuir.",
+      "secure": "Segur",
+      "secureDescription": "Lo chiframent de cap a cima garantís qu’unicament vosautres e lo destinatari podètz accedir als fichièrs.",
+      "easy": "Simple d'utilizar",
+      "easyDescription": "Interfàcia simpla sens inscripcion. Los aparelhs pròches son detectats automaticament.",
+      "noInternet": "Sens internet",
+      "noInternetDescription": "Fonciona totalament fòra linha. Vòstras donadas quitèron jamai vòstre ret local.",
+      "fast": "Fòrça rapid",
+      "fastDescription": "Transferissètz de fichièrs a la velocitat maximala de vòstra ret WiFi. Cap de limit de benda passanta."
+    },
+    "press": {
+      "title": "Dins los mèdias",
+      "description": "Vejatz çò que la premsa numerica ditz sus LocalSend.",
+      "readArticle": "Legir l’article"
+    },
+    "faq": {
+      "title": "Questions frequentas",
+      "description": "Tot çò que devètz saber sus LocalSend.",
+      "q1": "Es vertadièrament gratuit ?",
+      "a1": "Òc-ben ! LocalSend es 100% gratuit e liure. Pas de publicitat, pas de traçament, pas de còst escondut.",
+      "q2": "Fonciona via internet ?",
+      "a2": "Non. LocalSend utiliza vòstra ret WiFi locala. Vòstras donadas ne sortisson pas.",
+      "q3": "Es segur ?",
+      "a3": "Òc. Totes los transferiments son chifrats per HTTPS. La verificacion per PIN es tanben possibla.",
+      "q4": "Ont son gardats los fichièrs ?",
+      "a4": "Per defaut dins lo dorsièr Telecargaments, mas aquò se pòt cambiar dins los paramètres.",
+      "q5": "Quinas plataformas son presas en carga ?",
+      "a5": "Windows, macOS, Linux, Android e iOS.",
+      "q6": "Cal crear un compte ?",
+      "a6": "Non. LocalSend requerís pas cap de compte ni de connexion. Installatz e partissètz."
+    },
+    "mentioned": "Mencionat dins lo mond entièr",
+    "get": "Obténer LocalSend",
+    "video": "Veire una presentacion de LocalSend sus YouTube"
+  },
+  "cta": {
+    "title": "Prèst per començar ?",
+    "description": "Telecargatz LocalSend e partejatz vòstres fichièrs aisidament entre vòstres aparelhs.",
+    "download": "Telecargar"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Telecargaments",
+      "description": "Telecargatz LocalSend per Windows, macOS, Linux, Android e iOS."
+    },
+    "title": "Telecargaments",
+    "subTitle": "{os} Telecargaments",
+    "appStores": "Botigas d'aplicacions",
+    "appStoresDescription": "Recomandat per la màger part dels utilizaires.",
+    "binaries": "Binaris",
+    "binariesDescription": "Telecargar per utilizacion fòra linha.",
+    "packageManagers": "Gestionaris de paquets",
+    "packageManagersDescription": "Installar dempuèi lo terminal.",
+    "allReleases": "Totas las versions",
+    "zip": "ZIP",
+    "copiedToClipboard": "Copiat al quichapapièrs !",
+    "noOptions": "Cap d'opcion suplementària per {os}.",
+    "scanToInstall": "Escanejar per installar",
+    "scanDescription": "Escanetz aqueste còdi QR amb vòstre aparelh {os} per dobrir la pagina de telecargament.",
+    "installer": "Installador",
+    "portable": "Portable"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Comunautat",
+      "description": "Obténer d’ajuda, participar e contribuir a LocalSend."
+    },
+    "title": "Comunautat",
+    "getHelp": "Obténer d’ajuda",
+    "getHelpDescription": "Posatz de questions o cercatz de responsas dins las Discussions GitHub.",
+    "getInvolved": "Participar",
+    "getInvolvedDescription": "Entratz en contacte amb los desvolopaires e contribuissètz dirèctament al projècte.",
+    "discord": "Discord",
+    "discordDescription": "Rejonhètz nòstre servidor actiu per charrar amb los desvolopaires e obténer d’ajuda immediata.",
+    "reddit": "Reddit",
+    "redditDescription": "Participatz a las discussions e demòretz a jorn.",
+    "issues": "Incidéncias",
+    "issuesDescription": "Avètz trobat un bug ? Consultatz nòstre gestionari d'incidéncias.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Prèst per contribuir amb de còdi ? Dubrissètz una PR.",
+    "contribute": "Contribuir",
+    "contributeDescription": "Ajudatz-nos a melhorar LocalSend.",
+    "languageSpecific": "Participatz a las discussions per lenga."
+  },
+  "contact": {
+    "seo": {
+      "title": "Contacte - LocalSend",
+      "description": "Contactatz l’equipa o la comunautat."
+    },
+    "title": "Contactatz-nos",
+    "description": "Contactatz l’equipa o la comunautat.",
+    "bugReport": "Senhalar un bug",
+    "bugReportDescription": "Avètz trobat un problèma ? Senhalatz-lo sus GitHub Issues per que lo poscam corregir.",
+    "openIssues": "Dobrir GitHub Issues",
+    "email": "Mandar un corrièr electronic",
+    "emailDescription": "Per questions generalas, collaboracions o messatges privats."
+  },
+  "news": {
+    "title": "Actualitats",
+    "showAll": "Veire totas las actualitats"
+  },
+  "footer": {
+    "description": "Partejar de fichièrs amb aparelhs pròches sens internet. Liure, multiplaforma e gratuit.",
+    "underlicense": "Jos licéncia",
+    "license": "Licéncia Apache 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merch",
+    "privacy": "Confidencialitat",
+    "terms": "Condicions",
+    "imprint": "Mencions legalas",
+    "contact": "Contacte",
+    "product": "Produit",
+    "community": "Comunautat",
+    "legal": "Legal",
+    "download": "Telecargar",
+    "webapp": "Aplicacion web"
+  },
+  "homepageButton": "Acuèlh",
+  "improveWebsite": "Melhorar aqueste site web",
+  "navigation": {
+    "downloads": "Telecargaments",
+    "community": "Comunautat",
+    "contacts": "Contactes"
+  },
+  "howItWorks": {
+    "title": "Cossí fonciona",
+    "description": "Pas cap de configuracion necessària. Installatz e comencetz a partejar.",
+    "step1Title": "Installar e dobrir",
+    "step1Desc": "Installatz LocalSend sus totes vòstres aparelhs. Pas cap de compte, pas de connexion, pas de servidor.",
+    "step2Title": "Seleccionar los fichièrs",
+    "step2Desc": "Seleccionatz de fòtos, vidèos, documents o tèxtes. Totas las menas de fichièrs son presas en carga.",
+    "step3Title": "Tocar per enviar",
+    "step3Desc": "Tocatz l’aparelh pròche. Lo transferiment se farà instantanèament via vòstra ret locala."
+  }
 }

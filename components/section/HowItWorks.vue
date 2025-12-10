@@ -1,6 +1,5 @@
 <template>
-    <UiSection title="How It Works" description="Zero configuration. Just install and start sharing." size="lg"
-        spacing="lg">
+    <UiSection :title="t('howItWorks.title')" :description="t('howItWorks.description')" size="md" spacing="lg">
         <div class="relative grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <!-- Step 1: Install -->
@@ -39,9 +38,11 @@
                         <div class="absolute w-24 h-24 bg-teal-500/10 rounded-full blur-2xl -z-10"></div>
                     </div>
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">Install & Open</h3>
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">
+                    {{ t("howItWorks.step1Title") }}
+                </h3>
                 <p class="text-gray-500 dark:text-gray-400 text-center text-sm leading-relaxed px-4">
-                    Download LocalSend on all your devices. No account, no login, no servers.
+                    {{ t("howItWorks.step1Desc") }}
                 </p>
             </div>
 
@@ -88,9 +89,11 @@
                         <div class="absolute w-24 h-24 bg-blue-500/10 rounded-full blur-2xl -z-10"></div>
                     </div>
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">Select Files</h3>
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">
+                    {{ t("howItWorks.step2Title") }}
+                </h3>
                 <p class="text-gray-500 dark:text-gray-400 text-center text-sm leading-relaxed px-4">
-                    Choose photos, videos, documents, or text. Any file type is supported.
+                    {{ t("howItWorks.step2Desc") }}
                 </p>
             </div>
 
@@ -132,9 +135,11 @@
                         <div class="absolute w-24 h-24 bg-purple-500/10 rounded-full blur-2xl -z-10"></div>
                     </div>
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">Tap to Send</h3>
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">
+                    {{ t("howItWorks.step3Title") }}
+                </h3>
                 <p class="text-gray-500 dark:text-gray-400 text-center text-sm leading-relaxed px-4">
-                    Tap the nearby device. The transfer happens instantly over your local network.
+                    {{ t("howItWorks.step3Desc") }}
                 </p>
             </div>
         </div>
@@ -168,3 +173,9 @@
     }
 }
 </style>
+
+<script setup lang="ts">
+const year = new Date().getFullYear();
+const { t } = useI18n();
+const localePath = useLocalePath();
+</script>

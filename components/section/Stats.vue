@@ -1,5 +1,5 @@
 <template>
-    <UiSection size="md" spacing="lg">
+    <UiSection size="md" spacing="lg" class="pt-56">
         <div
             class="rounded-3xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900/50 shadow-sm overflow-hidden">
             <div
@@ -14,7 +14,7 @@
                             class="text-2xl text-gray-700 dark:text-gray-300 group-hover:text-white dark:group-hover:text-black transition-colors duration-500" />
                     </div>
                     <div class="text-3xl font-medium text-gray-900 dark:text-white tracking-tight mb-1">70k+</div>
-                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">GitHub Stars</div>
+                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">{{ t('home.stats.stars') }}</div>
                 </div>
 
                 <!-- Downloads -->
@@ -26,7 +26,8 @@
                             class="text-2xl text-gray-700 dark:text-gray-300 group-hover:text-white transition-colors duration-500" />
                     </div>
                     <div class="text-3xl font-medium text-gray-900 dark:text-white tracking-tight mb-1">5M+</div>
-                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">Downloads</div>
+                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">{{ t('home.stats.downloads') }}
+                    </div>
                 </div>
 
                 <!-- Contributors -->
@@ -38,7 +39,8 @@
                             class="text-2xl text-gray-700 dark:text-gray-300 group-hover:text-white transition-colors duration-500" />
                     </div>
                     <div class="text-3xl font-medium text-gray-900 dark:text-white tracking-tight mb-1">100+</div>
-                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">Contributors</div>
+                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">{{ t('home.stats.contributors') }}
+                    </div>
                 </div>
 
                 <!-- Privacy -->
@@ -50,7 +52,7 @@
                             class="text-2xl text-gray-700 dark:text-gray-300 group-hover:text-white transition-colors duration-500" />
                     </div>
                     <div class="text-3xl font-medium text-gray-900 dark:text-white tracking-tight mb-1">0</div>
-                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">Ads or Trackers</div>
+                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">{{ t('home.stats.ads') }}</div>
                 </div>
 
             </div>
@@ -59,5 +61,5 @@
 </template>
 
 <script setup lang="ts">
-// No props needed
+const { t } = useI18n();
 </script>

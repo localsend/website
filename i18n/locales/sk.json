@@ -1,84 +1,182 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Zdieľanie súborov so zariadeniami v okolí",
-      "description": "LocalSend je bezplatný nástroj na zdieľanie súborov s otvoreným zdrojom na viacerých platformách, ktorý vám umožňuje zdieľať súbory so zariadeniami v okolí."
+      "title": "LocalSend: Zdieľajte súbory so zariadeniami v blízkosti",
+      "description": "LocalSend je bezplatný, open-source a multiplatformový nástroj na zdieľanie súborov so zariadeniami vo vašej blízkosti."
     },
-    "slogan1": "Zdieľajte súbory so zariadeniami v okolí.",
-    "slogan2": "Bezplatný, open-source, multiplatformový.",
+    "hero": {
+      "badge": "Podporujeme všetky hlavné platformy!",
+      "title1": "Zdieľajte súbory slobodne.",
+      "title2": "Bez internetu.",
+      "subtitle": "Open-source, multiplatformový a úplne zadarmo."
+    },
+    "slogan1": "Zdieľajte súbory so zariadeniami v blízkosti.",
+    "slogan2": "Zadarmo, open-source a multiplatformové.",
     "download": "Stiahnuť",
     "web": "Web",
     "community": "Komunita",
+    "stats": {
+      "stars": "GitHub hviezdy",
+      "downloads": "Stiahnutia",
+      "contributors": "Prispievatelia",
+      "ads": "Reklamy alebo sledovače"
+    },
+    "testimonials": {
+      "title": "Obľúbený komunitou",
+      "description": "Pridajte sa k tisícom používateľov, ktorí dôverujú LocalSend pri každodenných prenosoch súborov."
+    },
     "sponsors": {
-      "title": "Sponzori"
+      "title": "Sponzori",
+      "description": "LocalSend je zadarmo a open-source vďaka našim partnerom a komunite.",
+      "infrastructure": "Infra partner",
+      "lambdaTestDescription": "Zabezpečuje, že LocalSend funguje bezchybne vo viac než 3000 prostrediach prehliadačov a operačných systémov.",
+      "becomeSponsor": "Stať sa sponzorom",
+      "becomeSponsorDescription": "Páči sa vám LocalSend? Podporte vývoj a pomôžte projektu pokračovať."
     },
     "features": {
-      "title": "Vlastnosti",
-      "decentralized": "Decentralizovaný",
-      "decentralizedDescription": "Zdieľajte súbory bez centrálneho servera. Prenos súborov je úplne peer-to-peer.",
-      "crossPlatform": "Multiplatformový",
-      "crossPlatformDescription": "LocalSend je k dispozícii pre Windows, MacOS, Linux, Android a iOS.",
+      "title": "Funkcie",
+      "description": "Všetko, čo potrebujete na rýchle a bezpečné zdieľanie súborov v lokálnej sieti.",
+      "decentralized": "Decentralizované",
+      "decentralizedDescription": "Zdieľajte bez centrálneho servera. Prenos je úplne peer-to-peer.",
+      "crossPlatform": "Multiplatformové",
+      "crossPlatformDescription": "LocalSend je dostupný pre Windows, macOS, Linux, Android a iOS.",
       "free": "Zadarmo",
-      "freeDescription": "LocalSend je zadarmo. Žiadne reklamy, žiadne sledovanie, žiadne skryté náklady.",
-      "openSource": "Open-Source",
-      "openSourceDescription": "Zdrojový kód je verejne dostupný. Do projektu môže prispieť každý.",
+      "freeDescription": "LocalSend je úplne bezplatný. Žiadne reklamy, žiadne sledovanie, žiadne skryté poplatky.",
+      "openSource": "Open-source",
+      "openSourceDescription": "Zdrojový kód je verejný. Každý môže prispieť.",
       "secure": "Bezpečný",
-      "secureDescription": "Šifrovanie typu end-to-end zaisťuje, že k vašim súborom máte prístup iba vy a príjemca.",
-      "easy": "Jednoduchý na použitie",
-      "easyDescription": "Jednoduché používateľské rozhranie bez registrácie. Ostatné zariadenia sa zistia automaticky."
+      "secureDescription": "End-to-end šifrovanie zaručuje, že k súborom máte prístup iba vy a príjemca.",
+      "easy": "Jednoduché použitie",
+      "easyDescription": "Jednoduché rozhranie bez registrácie. Okolité zariadenia sa zistia automaticky.",
+      "noInternet": "Bez internetu",
+      "noInternetDescription": "Funguje úplne offline. Vaše dáta nikdy neopustia lokálnu sieť.",
+      "fast": "Veľmi rýchle",
+      "fastDescription": "Prenášajte súbory maximálnou rýchlosťou vašej WiFi. Bez limitov šírky pásma."
     },
-    "mentioned": "Zmienky po celom svete",
-    "get": "Získajte LocalSend",
-    "video": "Pozrite si videoprezentáciu LocalSend na YouTube"
+    "press": {
+      "title": "V médiách",
+      "description": "Pozrite sa, čo hovoria technologické médiá o LocalSend.",
+      "readArticle": "Prečítať článok"
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "description": "Všetko, čo potrebujete vedieť o LocalSend.",
+      "q1": "Je to naozaj zadarmo?",
+      "a1": "Áno! LocalSend je 100% zadarmo a open-source. Žiadne reklamy, žiadne sledovanie, žiadne skryté náklady.",
+      "q2": "Funguje to cez internet?",
+      "a2": "Nie. LocalSend používa vašu lokálnu WiFi sieť. Dáta nikdy neopustia sieť.",
+      "q3": "Je to bezpečné?",
+      "a3": "Áno. Všetky prenosy sú šifrované pomocou HTTPS. Môžete tiež zapnúť overenie PIN kódom.",
+      "q4": "Kde sa ukladajú súbory?",
+      "a4": "Predvolene do priečinka Stiahnuté, ale môžete to zmeniť v nastaveniach.",
+      "q5": "Aké platformy sú podporované?",
+      "a5": "Windows, macOS, Linux, Android a iOS.",
+      "q6": "Potrebujem účet?",
+      "a6": "Nie. Nie je potrebná žiadna registrácia ani prihlásenie — stačí nainštalovať a používať."
+    },
+    "mentioned": "Spomínané po celom svete",
+    "get": "Získať LocalSend",
+    "video": "Pozrite si prezentáciu LocalSend na YouTube"
+  },
+  "cta": {
+    "title": "Pripravený začať?",
+    "description": "Stiahnite si LocalSend a jednoducho zdieľajte súbory medzi svojimi zariadeniami.",
+    "download": "Stiahnuť"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Na stiahnutie",
-      "description": "Stiahnite si LocalSend pre Windows, MacOS, Linux, Android a iOS."
+      "title": "LocalSend – Stiahnutia",
+      "description": "Stiahnite si LocalSend pre Windows, macOS, Linux, Android a iOS."
     },
-    "title": "Na stiahnutie",
-    "subTitle": "Stiahnuť pre {os}",
+    "title": "Stiahnutia",
+    "subTitle": "Stiahnutia pre {os}",
     "appStores": "Obchody s aplikáciami",
     "appStoresDescription": "Odporúčané pre väčšinu používateľov.",
-    "binaries": "Binárne súbory",
-    "binariesDescription": "Stiahnuť pre použitie offline.",
+    "binaries": "Binárky",
+    "binariesDescription": "Stiahnuť pre offline použitie.",
     "packageManagers": "Správcovia balíkov",
-    "packageManagersDescription": "Nainštalujte pomocou terminálu.",
+    "packageManagersDescription": "Inštalácia cez terminál.",
     "allReleases": "Všetky vydania",
-    "zip": "ZIP (prenosná verzia)",
-    "copiedToClipboard": "Skopírované do schránky!"
+    "zip": "ZIP",
+    "copiedToClipboard": "Skopírované do schránky!",
+    "noOptions": "Pre {os} nie sú k dispozícii žiadne ďalšie možnosti.",
+    "scanToInstall": "Naskenujte pre inštaláciu",
+    "scanDescription": "Naskenujte tento QR kód na svojom {os} zariadení pre otvorenie stránky na stiahnutie.",
+    "installer": "Inštalátor",
+    "portable": "Prenosná verzia"
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Komunita",
+      "title": "LocalSend – Komunita",
       "description": "Získajte pomoc, zapojte sa a prispievajte do LocalSend."
     },
     "title": "Komunita",
-    "getHelp": "Získajte pomoc",
-    "getHelpDescription": "Spýtajte sa alebo sa pozrite na odpovede v diskusiách na GitHub.",
+    "getHelp": "Získať pomoc",
+    "getHelpDescription": "Pýtajte sa alebo nájdite odpovede v GitHub Discussions.",
     "getInvolved": "Zapojte sa",
-    "getInvolvedDescription": "Spojte sa s vývojármi a prispejte priamo k projektu.",
+    "getInvolvedDescription": "Spojte sa s vývojármi a priamo prispievajte do projektu.",
     "discord": "Discord",
+    "discordDescription": "Pridajte sa na náš aktívny server, komunikujte s vývojármi a získajte okamžitú pomoc.",
     "reddit": "Reddit",
+    "redditDescription": "Zúčastňujte sa diskusií a sledujte novinky.",
     "issues": "Problémy",
-    "pullRequests": "Požiadavky na zlúčenie"
+    "issuesDescription": "Našli ste chybu? Skontrolujte náš systém pre Issues.",
+    "pullRequests": "Pull Requesty",
+    "prDescription": "Chcete prispieť kódom? Otvorte PR.",
+    "contribute": "Prispieť",
+    "contributeDescription": "Pomôžte nám vylepšiť LocalSend.",
+    "languageSpecific": "Zúčastnite sa jazykovo špecifických diskusií."
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt – LocalSend",
+      "description": "Kontaktujte tím alebo komunitu."
+    },
+    "title": "Kontaktujte nás",
+    "description": "Kontaktujte tím alebo komunitu.",
+    "bugReport": "Nahlásiť chybu",
+    "bugReportDescription": "Našli ste problém? Nahláste ho cez GitHub Issues a my ho opravíme.",
+    "openIssues": "Otvoriť GitHub Issues",
+    "email": "Odoslať email",
+    "emailDescription": "Pre všeobecné otázky, spolupráce alebo súkromné správy."
   },
   "news": {
     "title": "Novinky",
     "showAll": "Zobraziť všetky novinky"
   },
   "footer": {
-    "underlicense": "Licencované pod",
+    "description": "Zdieľajte súbory so zariadeniami v blízkosti bez internetu. Open-source, multiplatformové a zadarmo.",
+    "underlicense": "Pod licenciou",
     "license": "Apache License 2.0",
     "github": "GitHub",
     "discord": "Discord",
     "reddit": "Reddit",
     "merch": "Merch",
-    "privacy": "Ochrana súkromia",
+    "privacy": "Súkromie",
     "terms": "Podmienky",
-    "imprint": "Informácie o vydavateľovi",
-    "contact": "Kontakty"
+    "imprint": "Imprint",
+    "contact": "Kontakt",
+    "product": "Produkt",
+    "community": "Komunita",
+    "legal": "Právne",
+    "download": "Stiahnuť",
+    "webapp": "Webová aplikácia"
   },
-  "homepageButton": "Domovská stránka",
-  "improveWebsite": "Vylepšite tento web"
+  "homepageButton": "Domov",
+  "improveWebsite": "Zlepšiť túto stránku",
+  "navigation": {
+    "downloads": "Stiahnutia",
+    "community": "Komunita",
+    "contacts": "Kontakt"
+  },
+  "howItWorks": {
+    "title": "Ako to funguje",
+    "description": "Bez nutnosti konfigurácie. Nainštalujte a začnite zdieľať.",
+    "step1Title": "Nainštalujte a otvorte",
+    "step1Desc": "Nainštalujte LocalSend na všetky svoje zariadenia. Bez účtov, prihlasovania a serverov.",
+    "step2Title": "Vyberte súbory",
+    "step2Desc": "Vyberte fotografie, videá, dokumenty alebo text. Podporované sú všetky typy súborov.",
+    "step3Title": "Ťuknite pre odoslanie",
+    "step3Desc": "Ťuknite na zariadenie v blízkosti. Prenos sa uskutoční okamžite cez vašu lokálnu sieť."
+  }
 }

@@ -7,7 +7,7 @@
                 <NuxtLink :to="localePath({ path: '/' })" class="flex items-center gap-3 group">
                     <img src="~/assets/img/logo-512.png" alt="LocalSend"
                         class="h-8 w-8 transition-transform group-hover:scale-110" />
-                    <span class="text-xl font-medium text-gray-900 dark:text-white">
+                    <span class="text-xl font-medium text-gray-900 dark:text-white hidden md:inline-block">
                         LocalSend
                     </span>
                 </NuxtLink>
@@ -16,17 +16,17 @@
                 <div class="hidden md:flex items-center gap-1">
                     <NuxtLink :to="localePath({ path: '/download' })"
                         class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors capitalize">
-                        {{ t("downloads") }}
+                        {{ t("navigation.downloads") }}
                     </NuxtLink>
 
                     <NuxtLink :to="localePath({ path: '/community' })"
                         class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors capitalize">
-                        {{ t("community") }}
+                        {{ t("navigation.community") }}
                     </NuxtLink>
 
                     <NuxtLink :to="localePath({ path: '/contact' })"
                         class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors capitalize">
-                        {{ t("contacts") }}
+                        {{ t("navigation.contacts") }}
                     </NuxtLink>
 
                     <a href="https://github.com/localsend/localsend" target="_blank" rel="noopener noreferrer"
@@ -54,7 +54,7 @@
                 <div class="hidden sm:block">
                     <UiButton as="NuxtLink" :to="localePath({ path: '/download' })" size="md"
                         icon="material-symbols:download" class="capitalize">
-                        {{ t("download") }}
+                        {{ t("navigation.downloads") }}
                     </UiButton>
                 </div>
 
@@ -79,13 +79,13 @@
                     <NuxtLink :to="localePath({ path: '/download' })" @click="isMobileMenuOpen = false"
                         class="flex items-center gap-3 px-3 py-2 text-base font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors capitalize">
                         <Icon name="material-symbols:download" class="text-xl" />
-                        {{ t("download") }}
+                        {{ t("navigation.downloads") }}
                     </NuxtLink>
 
                     <NuxtLink :to="localePath({ path: '/community' })" @click="isMobileMenuOpen = false"
                         class="flex items-center gap-3 px-3 py-2 text-base font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors capitalize">
                         <Icon name="material-symbols:group" class="text-xl" />
-                        {{ t("community") }}
+                        {{ t("navigation.community") }}
                     </NuxtLink>
 
                     <a href="https://github.com/localsend/localsend" target="_blank" rel="noopener noreferrer"
@@ -98,7 +98,7 @@
                     <div class="pt-2 sm:hidden">
                         <UiButton as="NuxtLink" :to="localePath({ path: '/download' })"
                             @click="isMobileMenuOpen = false" full-width icon="material-symbols:arrow-downward">
-                            {{ t("download") }}
+                            {{ t("navigation.downloads") }}
                         </UiButton>
                     </div>
                 </div>

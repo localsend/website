@@ -1,72 +1,182 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Berbagi fail ke perangkat sekitar",
-      "description": "LocalSend gratis, sumber-terbuka, alat berbagi fail antar-perangkat yang memungkinkan kamu untuk berbagi dengan perangkat sekitar."
+      "title": "LocalSend: Bagikan file dengan perangkat di dekat Anda",
+      "description": "LocalSend adalah alat berbagi file gratis, open-source, dan lintas platform yang memungkinkan Anda mengirim file ke perangkat terdekat."
     },
-    "slogan1": "Berbagi fail ke perangkat sekitar.",
-    "slogan2": "Gratis, sumber-terbuka, antar-perangkat.",
+    "hero": {
+      "badge": "Semua platform utama didukung!",
+      "title1": "Bagikan file secara bebas.",
+      "title2": "Tanpa internet.",
+      "subtitle": "Open-source, lintas platform, dan sepenuhnya gratis."
+    },
+    "slogan1": "Bagikan file dengan perangkat yang berada di dekat Anda.",
+    "slogan2": "Gratis, open-source, dan lintas platform.",
     "download": "Unduh",
+    "web": "Web",
     "community": "Komunitas",
+    "stats": {
+      "stars": "Bintang GitHub",
+      "downloads": "Unduhan",
+      "contributors": "Kontributor",
+      "ads": "Iklan atau pelacak"
+    },
+    "testimonials": {
+      "title": "Dicintai Komunitas",
+      "description": "Bergabunglah dengan ribuan pengguna yang mempercayai LocalSend untuk transfer file harian mereka."
+    },
+    "sponsors": {
+      "title": "Didukung Oleh",
+      "description": "LocalSend gratis dan open-source berkat dukungan para mitra dan komunitas.",
+      "infrastructure": "Mitra Infrastruktur",
+      "lambdaTestDescription": "Memastikan LocalSend bekerja sempurna di lebih dari 3000 lingkungan browser dan OS.",
+      "becomeSponsor": "Menjadi Sponsor",
+      "becomeSponsorDescription": "Suka LocalSend? Dukung pengembangannya dan bantu proyek ini terus berjalan."
+    },
     "features": {
       "title": "Fitur",
-      "decentralized": "Tidak Terpusat",
-      "decentralizedDescription": "Berbagi fail tanpa server pusat. Pemindahan fail dilakukan utuh secara pribadi-ke-pribadi.",
-      "crossPlatform": "Antar-Perangkat",
+      "description": "Semua yang Anda butuhkan untuk berbagi file secara aman dan cepat melalui jaringan lokal.",
+      "decentralized": "Terdesentralisasi",
+      "decentralizedDescription": "Berbagi file tanpa server pusat. Transfer berlangsung sepenuhnya peer-to-peer.",
+      "crossPlatform": "Lintas Platform",
       "crossPlatformDescription": "LocalSend tersedia untuk Windows, macOS, Linux, Android, dan iOS.",
       "free": "Gratis",
-      "freeDescription": "LocalSend gratis digunakan. Bebas iklan, bebas pelacakan, tanpa biaya tersembunyi.",
-      "openSource": "Sumber Terbuka",
-      "openSourceDescription": "Kode sumber tersedia secara umum. Semua orang dapat berkontribusi terhadap projek.",
+      "freeDescription": "LocalSend sepenuhnya gratis digunakan. Tanpa iklan, tanpa pelacakan, tanpa biaya tersembunyi.",
+      "openSource": "Open Source",
+      "openSourceDescription": "Kode sumber terbuka untuk publik. Siapa pun dapat berkontribusi.",
       "secure": "Aman",
-      "secureDescription": "Enkripsi end-to-end menjamin hanya kamu dan penerima yang dapat mengakses fail.",
+      "secureDescription": "Enkripsi end-to-end memastikan hanya Anda dan penerima yang memiliki akses ke file.",
       "easy": "Mudah Digunakan",
-      "easyDescription": "Antarmuka pengguna sederhana tanpa mendaftar. Perangkat lain ditemukan secara otomatis."
+      "easyDescription": "Antarmuka sederhana tanpa registrasi. Perangkat lain terdeteksi secara otomatis.",
+      "noInternet": "Tanpa Internet",
+      "noInternetDescription": "Berfungsi sepenuhnya offline. Data Anda tidak pernah meninggalkan jaringan lokal.",
+      "fast": "Sangat Cepat",
+      "fastDescription": "Transfer file dengan kecepatan maksimum jaringan WiFi Anda. Tanpa batasan bandwidth."
     },
-    "mentioned": "Disebut di seluruh dunia",
-    "get": "Dapatkan LocalSend"
+    "press": {
+      "title": "Dalam Berita",
+      "description": "Lihat apa yang dikatakan media teknologi tentang LocalSend.",
+      "readArticle": "Baca Artikel"
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "description": "Semua hal yang perlu Anda ketahui tentang LocalSend.",
+      "q1": "Apakah ini benar-benar gratis?",
+      "a1": "Ya, LocalSend 100% gratis dan open-source. Tanpa iklan, tanpa pelacakan, dan tanpa biaya tersembunyi.",
+      "q2": "Apakah ini bekerja melalui internet?",
+      "a2": "Tidak. LocalSend menggunakan jaringan WiFi lokal untuk transfer file. Data Anda tidak keluar dari jaringan.",
+      "q3": "Apakah ini aman?",
+      "a3": "Ya. Semua transfer dienkripsi melalui HTTPS. Anda juga dapat mengaktifkan verifikasi PIN untuk keamanan tambahan.",
+      "q4": "Ke mana file disimpan?",
+      "a4": "File disimpan ke folder Unduhan secara default, namun Anda dapat mengubahnya melalui pengaturan.",
+      "q5": "Platform apa saja yang didukung?",
+      "a5": "LocalSend tersedia untuk Windows, macOS, Linux, Android, dan iOS.",
+      "q6": "Apakah saya perlu membuat akun?",
+      "a6": "Tidak. LocalSend tidak memerlukan akun atau login — cukup instal dan mulai berbagi."
+    },
+    "mentioned": "Disebutkan di seluruh dunia",
+    "get": "Dapatkan LocalSend",
+    "video": "Tonton presentasi LocalSend di YouTube"
+  },
+  "cta": {
+    "title": "Siap untuk memulai?",
+    "description": "Unduh LocalSend sekarang dan bagikan file dengan mudah antar perangkat Anda.",
+    "download": "Unduh"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Unduh",
+      "title": "LocalSend - Unduhan",
       "description": "Unduh LocalSend untuk Windows, macOS, Linux, Android, dan iOS."
     },
-    "title": "Unduh",
-    "subTitle": "{os} Unduh",
-    "appStores": "App Stores",
-    "appStoresDescription": "Direkomendasikan sebagian besar pengguna.",
-    "binaries": "Binari",
-    "binariesDescription": "Unduh untuk pemasangan luring.",
-    "packageManagers": "Manager Paket",
-    "packageManagersDescription": "Instal dengan terminal.",
+    "title": "Unduhan",
+    "subTitle": "Unduhan {os}",
+    "appStores": "Toko Aplikasi",
+    "appStoresDescription": "Direkomendasikan untuk sebagian besar pengguna.",
+    "binaries": "Biner",
+    "binariesDescription": "Unduh untuk penggunaan offline.",
+    "packageManagers": "Manajer Paket",
+    "packageManagersDescription": "Instal melalui terminal.",
     "allReleases": "Semua Rilis",
-    "zip": "ZIP (portabel)",
-    "copiedToClipboard": "Disalin ke papan klip!"
+    "zip": "ZIP",
+    "copiedToClipboard": "Disalin ke clipboard!",
+    "noOptions": "Tidak ada opsi unduhan tambahan untuk {os}.",
+    "scanToInstall": "Pindai untuk menginstal",
+    "scanDescription": "Pindai QR ini dengan perangkat {os} Anda untuk membuka halaman unduhan.",
+    "installer": "Installer",
+    "portable": "Portable"
   },
   "community": {
     "seo": {
       "title": "LocalSend - Komunitas",
-      "description": "Dapatkan bantuan, ikut terlibat, dan kontribusi terhadap LocalSend."
+      "description": "Dapatkan bantuan, berpartisipasi, dan berkontribusi pada LocalSend."
     },
     "title": "Komunitas",
     "getHelp": "Dapatkan Bantuan",
-    "getHelpDescription": "Tanya atau lihat jawaban dari GitHub Discussions.",
-    "getInvolved": "Ikut Terlibat",
-    "getInvolvedDescription": "Terhubung dengan para pengembang dan kontribusi langsung terhadap projek.",
+    "getHelpDescription": "Ajukan pertanyaan atau temukan jawaban di GitHub Discussions.",
+    "getInvolved": "Berpartisipasi",
+    "getInvolvedDescription": "Hubungi para pengembang dan berkontribusi langsung pada proyek.",
     "discord": "Discord",
-    "issues": "Issues",
-    "pullRequests": "Pull Requests"
+    "discordDescription": "Bergabunglah dengan server aktif kami untuk berdiskusi dengan pengembang dan menerima bantuan instan.",
+    "reddit": "Reddit",
+    "redditDescription": "Ikut serta dalam diskusi dan tetap mendapatkan informasi terbaru.",
+    "issues": "Isu",
+    "issuesDescription": "Menemukan bug? Periksa pelacak isu kami.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Siap berkontribusi kode? Buka PR.",
+    "contribute": "Berkontribusi",
+    "contributeDescription": "Bantu kami meningkatkan LocalSend.",
+    "languageSpecific": "Ikut dalam diskusi khusus bahasa."
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontak - LocalSend",
+      "description": "Hubungi tim atau komunitas."
+    },
+    "title": "Hubungi Kami",
+    "description": "Hubungi tim atau komunitas.",
+    "bugReport": "Laporkan Bug",
+    "bugReportDescription": "Menemukan masalah? Laporkan di GitHub Issues agar dapat diperbaiki.",
+    "openIssues": "Buka Isu di GitHub",
+    "email": "Kirim Email",
+    "emailDescription": "Untuk pertanyaan umum, kolaborasi, atau urusan pribadi."
+  },
+  "news": {
+    "title": "Berita",
+    "showAll": "Lihat semua berita"
   },
   "footer": {
+    "description": "Bagikan file dengan perangkat di dekat Anda tanpa internet. Open-source, lintas platform, dan gratis.",
     "underlicense": "Di bawah lisensi",
-    "license": "Apache License 2.0",
+    "license": "Lisensi Apache 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merch",
     "privacy": "Privasi",
     "terms": "Ketentuan",
-    "imprint": "Jejak",
-    "contact": "Hubungi"
+    "imprint": "Imprint",
+    "contact": "Kontak",
+    "product": "Produk",
+    "community": "Komunitas",
+    "legal": "Legal",
+    "download": "Unduh",
+    "webapp": "Aplikasi Web"
   },
-  "homepageButton": "Halaman utama",
-  "improveWebsite": "Perbaiki website ini"
+  "homepageButton": "Beranda",
+  "improveWebsite": "Perbaiki situs web ini",
+  "navigation": {
+    "downloads": "Unduhan",
+    "community": "Komunitas",
+    "contacts": "Kontak"
+  },
+  "howItWorks": {
+    "title": "Cara Kerjanya",
+    "description": "Tanpa pengaturan apa pun. Cukup instal dan mulai berbagi.",
+    "step1Title": "Instal & Buka",
+    "step1Desc": "Unduh LocalSend di semua perangkat Anda. Tanpa akun, tanpa login, tanpa server.",
+    "step2Title": "Pilih File",
+    "step2Desc": "Pilih foto, video, dokumen, atau teks. Semua jenis file didukung.",
+    "step3Title": "Ketuk untuk Mengirim",
+    "step3Desc": "Ketuk perangkat yang dekat. Transfer terjadi seketika melalui jaringan lokal Anda."
+  }
 }

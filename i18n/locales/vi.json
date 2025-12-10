@@ -1,72 +1,182 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Chia sẻ tập tin với các thiết bị gần bạn",
-      "description": "LocalSend là một công cụ miễn phí, đa nền tảng, mã nguồn mở, cho phép bạn chia sẻ tập tin với các thiết bị gần bạn."
+      "title": "LocalSend: Chia sẻ tệp với các thiết bị lân cận",
+      "description": "LocalSend là công cụ miễn phí, mã nguồn mở và đa nền tảng cho phép bạn chia sẻ tệp với các thiết bị gần đó."
     },
-    "slogan1": "Chia sẻ tập tin với các thiết bị gần bạn.",
-    "slogan2": "Miễn phí, mã nguồn mở, đa nền tảng.",
+    "hero": {
+      "badge": "Hỗ trợ tất cả nền tảng phổ biến!",
+      "title1": "Chia sẻ tệp tự do.",
+      "title2": "Không cần Internet.",
+      "subtitle": "Mã nguồn mở, đa nền tảng và hoàn toàn miễn phí."
+    },
+    "slogan1": "Chia sẻ tệp với các thiết bị lân cận.",
+    "slogan2": "Miễn phí, mã nguồn mở và đa nền tảng.",
     "download": "Tải xuống",
+    "web": "Web",
     "community": "Cộng đồng",
+    "stats": {
+      "stars": "Sao GitHub",
+      "downloads": "Lượt tải",
+      "contributors": "Người đóng góp",
+      "ads": "Quảng cáo hoặc trình theo dõi"
+    },
+    "testimonials": {
+      "title": "Được cộng đồng yêu thích",
+      "description": "Tham gia cùng hàng nghìn người dùng tin tưởng LocalSend trong việc truyền tệp mỗi ngày."
+    },
+    "sponsors": {
+      "title": "Nhà tài trợ",
+      "description": "LocalSend miễn phí và mã nguồn mở nhờ vào các đối tác và cộng đồng.",
+      "infrastructure": "Đối tác hạ tầng",
+      "lambdaTestDescription": "Đảm bảo LocalSend hoạt động tốt trên hơn 3000 môi trường trình duyệt và hệ điều hành.",
+      "becomeSponsor": "Trở thành nhà tài trợ",
+      "becomeSponsorDescription": "Bạn thích LocalSend? Hãy hỗ trợ sự phát triển và giúp dự án duy trì lâu dài."
+    },
     "features": {
       "title": "Tính năng",
-      "decentralized": "Phi trung tâm",
-      "decentralizedDescription": "Chia sẻ tập tin mà không cần máy chủ trung tâm. Truyền tải tập tin trên mạng ngang hàng (peer-to-peer).",
+      "description": "Mọi thứ bạn cần để chia sẻ tệp nhanh chóng và an toàn qua mạng nội bộ.",
+      "decentralized": "Phi tập trung",
+      "decentralizedDescription": "Chia sẻ tệp mà không cần máy chủ trung tâm. Truyền dữ liệu hoàn toàn ngang hàng.",
       "crossPlatform": "Đa nền tảng",
-      "crossPlatformDescription": "LocalSend có sẵn trên Windows, macOS, Linux, Android và iOS.",
+      "crossPlatformDescription": "LocalSend có mặt trên Windows, macOS, Linux, Android và iOS.",
       "free": "Miễn phí",
-      "freeDescription": "LocalSend là phần mềm miễn phí. Không có quảng cáo, không theo dõi, không phí ẩn.",
+      "freeDescription": "LocalSend hoàn toàn miễn phí — không quảng cáo, không theo dõi, không phí ẩn.",
       "openSource": "Mã nguồn mở",
-      "openSourceDescription": "Mã nguồn của LocalSend là công khai. Mọi người đều có thể đóng góp.",
+      "openSourceDescription": "Mã nguồn công khai. Ai cũng có thể đóng góp.",
       "secure": "An toàn",
-      "secureDescription": "Mã hóa theo qui trình đầu cuối đảm bảo an toàn và bảo vệ dữ liệu.",
+      "secureDescription": "Mã hóa đầu-cuối đảm bảo chỉ bạn và người nhận có thể truy cập tệp.",
       "easy": "Dễ sử dụng",
-      "easyDescription": "Giao diện đơn giản mà không cần đăng ký. Chia sẻ tập tin dễ dàng."
+      "easyDescription": "Giao diện đơn giản, không cần đăng ký. Các thiết bị gần đó được phát hiện tự động.",
+      "noInternet": "Không cần Internet",
+      "noInternetDescription": "Hoạt động hoàn toàn ngoại tuyến. Dữ liệu của bạn không bao giờ rời khỏi mạng nội bộ.",
+      "fast": "Rất nhanh",
+      "fastDescription": "Truyền tệp ở tốc độ tối đa của mạng WiFi — không giới hạn băng thông."
     },
-    "mentioned": "Được biết đến trên toàn thế giới",
-    "get": "Tải LocalSend"
+    "press": {
+      "title": "Truyền thông nói gì",
+      "description": "Xem báo chí công nghệ đánh giá LocalSend như thế nào.",
+      "readArticle": "Đọc bài viết"
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "description": "Mọi điều bạn cần biết về LocalSend.",
+      "q1": "Có thật sự miễn phí không?",
+      "a1": "Có! LocalSend hoàn toàn miễn phí và mã nguồn mở. Không quảng cáo, không theo dõi, không phí ẩn.",
+      "q2": "Nó có hoạt động qua Internet không?",
+      "a2": "Không. LocalSend sử dụng mạng WiFi nội bộ của bạn. Dữ liệu không rời khỏi mạng.",
+      "q3": "Nó có an toàn không?",
+      "a3": "Có. Tất cả truyền tải đều được mã hóa bằng HTTPS. Cũng có thể bật xác minh PIN.",
+      "q4": "Tệp được lưu ở đâu?",
+      "a4": "Mặc định trong thư mục Tải xuống, nhưng bạn có thể thay đổi trong cài đặt.",
+      "q5": "Hỗ trợ nền tảng nào?",
+      "a5": "Windows, macOS, Linux, Android và iOS.",
+      "q6": "Tôi có cần tài khoản không?",
+      "a6": "Không. Không cần tài khoản hay đăng nhập — chỉ tải xuống và sử dụng."
+    },
+    "mentioned": "Được nhắc đến trên toàn thế giới",
+    "get": "Tải LocalSend",
+    "video": "Xem bài giới thiệu LocalSend trên YouTube"
+  },
+  "cta": {
+    "title": "Sẵn sàng bắt đầu?",
+    "description": "Tải LocalSend và dễ dàng chia sẻ tệp giữa các thiết bị của bạn.",
+    "download": "Tải xuống"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Tải xuống",
-      "description": "Tải LocalSend về các hệ điều hành Windows, macOS, Linux, Android và iOS."
+      "title": "LocalSend – Tải xuống",
+      "description": "Tải xuống LocalSend cho Windows, macOS, Linux, Android và iOS."
     },
     "title": "Tải xuống",
-    "subTitle": "Tải về {os}",
+    "subTitle": "Tải xuống cho {os}",
     "appStores": "Cửa hàng ứng dụng",
-    "appStoresDescription": "Được khuyến nghị cho phần lớn người dùng.",
-    "binaries": "Tập tin nhị phân (binary data)",
-    "binariesDescription": "Tải xuống để sử dụng ngoại tuyến.",
-    "packageManagers": "Quản lý packages",
-    "packageManagersDescription": "Cài đặt qua Terminal.",
+    "appStoresDescription": "Được khuyến nghị cho hầu hết người dùng.",
+    "binaries": "Tệp nhị phân",
+    "binariesDescription": "Tải xuống cho sử dụng ngoại tuyến.",
+    "packageManagers": "Trình quản lý gói",
+    "packageManagersDescription": "Cài đặt thông qua terminal.",
     "allReleases": "Tất cả phiên bản",
-    "zip": "ZIP phần mềm xách tay (portable)",
-    "copiedToClipboard": "Đã sao chép vào Clipboard!"
+    "zip": "ZIP",
+    "copiedToClipboard": "Đã sao chép vào bộ nhớ tạm!",
+    "noOptions": "Không có tùy chọn tải xuống bổ sung cho {os}.",
+    "scanToInstall": "Quét để cài đặt",
+    "scanDescription": "Quét mã QR này bằng thiết bị {os} của bạn để mở trang tải xuống.",
+    "installer": "Trình cài đặt",
+    "portable": "Di động"
   },
   "community": {
     "seo": {
-      "title": "Cộng đồng LocalSend",
-      "description": "Nhận sự trợ giúp, tham gia và đóng góp vào dự án LocalSend."
+      "title": "LocalSend – Cộng đồng",
+      "description": "Nhận hỗ trợ, tham gia và đóng góp cho LocalSend."
     },
     "title": "Cộng đồng",
-    "getHelp": "Nhận sự trợ giúp",
-    "getHelpDescription": "Hỏi hoặc tìm kiếm câu trả lời trong các thảo luận trên Github.",
+    "getHelp": "Trợ giúp",
+    "getHelpDescription": "Đặt câu hỏi hoặc tìm câu trả lời trong GitHub Discussions.",
     "getInvolved": "Tham gia",
-    "getInvolvedDescription": "Liên lạc với các nhà phát triển phần mềm và đóng góp trực tiếp vào dự án.",
+    "getInvolvedDescription": "Kết nối với các nhà phát triển và đóng góp trực tiếp vào dự án.",
     "discord": "Discord",
+    "discordDescription": "Tham gia server hoạt động của chúng tôi để trò chuyện với nhà phát triển và nhận hỗ trợ nhanh chóng.",
+    "reddit": "Reddit",
+    "redditDescription": "Tham gia thảo luận và cập nhật tin tức.",
     "issues": "Vấn đề",
-    "pullRequests": "Pull-Requests"
+    "issuesDescription": "Tìm thấy lỗi? Kiểm tra trình theo dõi vấn đề của chúng tôi.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Muốn đóng góp mã nguồn? Hãy mở một PR.",
+    "contribute": "Đóng góp",
+    "contributeDescription": "Hãy giúp chúng tôi cải thiện LocalSend.",
+    "languageSpecific": "Tham gia thảo luận theo ngôn ngữ."
+  },
+  "contact": {
+    "seo": {
+      "title": "Liên hệ – LocalSend",
+      "description": "Liên hệ đội ngũ hoặc cộng đồng."
+    },
+    "title": "Liên hệ",
+    "description": "Liên hệ đội ngũ hoặc cộng đồng.",
+    "bugReport": "Báo cáo lỗi",
+    "bugReportDescription": "Phát hiện lỗi? Hãy báo cáo trong GitHub Issues.",
+    "openIssues": "Mở GitHub Issues",
+    "email": "Gửi email",
+    "emailDescription": "Dành cho câu hỏi chung, hợp tác hoặc tin nhắn riêng."
+  },
+  "news": {
+    "title": "Tin tức",
+    "showAll": "Xem tất cả tin tức"
   },
   "footer": {
-    "underlicense": "Được cấp phép dưới",
+    "description": "Chia sẻ tệp với thiết bị gần đó mà không cần Internet. Mã nguồn mở, đa nền tảng và miễn phí.",
+    "underlicense": "Theo giấy phép",
     "license": "Giấy phép Apache 2.0",
     "github": "GitHub",
     "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Hàng hóa",
     "privacy": "Quyền riêng tư",
-    "terms": "Điều khoản sử dụng",
-    "imprint": "Imprint",
-    "contact": "Liên hệ"
+    "terms": "Điều khoản",
+    "imprint": "Thông tin pháp lý",
+    "contact": "Liên hệ",
+    "product": "Sản phẩm",
+    "community": "Cộng đồng",
+    "legal": "Pháp lý",
+    "download": "Tải xuống",
+    "webapp": "Ứng dụng web"
   },
-  "homepageButton": "Trang chính",
-  "improveWebsite": "Cải thiện trang web này"
+  "homepageButton": "Trang chủ",
+  "improveWebsite": "Cải thiện trang web này",
+  "navigation": {
+    "downloads": "Tải xuống",
+    "community": "Cộng đồng",
+    "contacts": "Liên hệ"
+  },
+  "howItWorks": {
+    "title": "Cách hoạt động",
+    "description": "Không cần cấu hình. Chỉ cần cài đặt và bắt đầu chia sẻ.",
+    "step1Title": "Cài đặt và mở",
+    "step1Desc": "Cài đặt LocalSend trên tất cả thiết bị của bạn. Không cần tài khoản, đăng nhập hoặc máy chủ.",
+    "step2Title": "Chọn tệp",
+    "step2Desc": "Chọn ảnh, video, tài liệu hoặc văn bản — tất cả định dạng đều được hỗ trợ.",
+    "step3Title": "Nhấn để gửi",
+    "step3Desc": "Nhấn vào thiết bị gần đó. Việc truyền diễn ra ngay lập tức qua mạng nội bộ."
+  }
 }
