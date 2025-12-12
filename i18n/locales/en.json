@@ -6,12 +6,10 @@
     },
     "hero": {
       "badge": "All major platforms supported!",
-      "title1": "Share files freely.",
-      "title2": "No internet required.",
-      "subtitle": "Open source, cross-platform, and completely free."
+      "title1": "Share files without the cloud.",
+      "title2": "Fast, private, offline.",
+      "subtitle": "Open source and cross-platform file sharing for everyone."
     },
-    "slogan1": "Share files to nearby devices.",
-    "slogan2": "Free, open-source, cross-platform.",
     "download": "Download",
     "web": "Web",
     "community": "Community",

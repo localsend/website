@@ -60,7 +60,6 @@
             <!-- Hero Description -->
             <p
                 class="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed font-normal animate-fade-in-up delay-200">
-                {{ t("home.slogan1") }} {{ t("home.slogan2") }}
                 {{ t('home.hero.subtitle') }}
             </p>
 
