@@ -61,6 +61,13 @@
               </a>
             </li>
             <li>
+              <a rel="me" href="https://mastodon.social/@localsend" target="_blank"
+                 class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
+                <Icon name="fa6-brands:mastodon" class="text-base" />
+                Mastodon
+              </a>
+            </li>
+            <li>
               <a href="https://shop.localsend.org" target="_blank"
                 class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
                 <Icon name="fa6-solid:shirt" class="text-base" />
