@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ['~/assets/css/fonts.css'],
+  css: ["~/assets/css/fonts.css"],
 
   site: {
     url: "https://localsend.org",
@@ -202,6 +202,13 @@ export default defineNuxtConfig({
         file: "km.json",
         name: "ភាសាខ្មែរ",
         englishName: "Khmer",
+      },
+      {
+        code: "kn",
+        language: "kn-IN",
+        file: "kn.json",
+        name: "ಕನ್ನಡ",
+        englishName: "Kannada",
       },
       {
         code: "ko",
