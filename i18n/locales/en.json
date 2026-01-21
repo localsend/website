@@ -26,6 +26,7 @@
     "sponsors": {
       "title": "Supported By",
       "description": "LocalSend is free and open source, made possible by our partners and community.",
+      "mainSponsor": "Main Sponsor",
       "infrastructure": "Infrastructure Partner",
       "lambdaTestDescription": "Ensuring LocalSend works flawlessly across 3000+ browser and OS environments.",
       "becomeSponsor": "Become a Sponsor",
