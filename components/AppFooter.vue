@@ -37,7 +37,7 @@
 
         <!-- Community Column -->
         <div>
-          <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Community</h3>
+          <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">{{ t("footer.community") }}</h3>
           <ul class="space-y-3 text-sm">
             <li>
               <a href="https://github.com/localsend/localsend" target="_blank"
@@ -79,7 +79,7 @@
 
         <!-- Legal Column -->
         <div>
-          <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Legal</h3>
+          <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">{{ t("footer.legal") }}</h3>
           <ul class="space-y-3 text-sm">
             <li>
               <NuxtLink :to="localePath('/privacy')"
@@ -131,7 +131,7 @@
           <!-- Designed By -->
           <div class="text-end">
             <p class="text-sm text-gray-400 dark:text-gray-500">
-              Website designed by
+              {{ t("footer.design_by") }}
               <a href="https://github.com/akshayejh" target="_blank"
                 class="hover:text-teal-600 dark:hover:text-teal-400 transition-colors underline underline-offset-2">
                 Akshay Jhajhra

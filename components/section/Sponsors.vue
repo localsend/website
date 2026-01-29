@@ -1,5 +1,5 @@
 <template>
-    <UiSection :title="t('home.sponsors.title')" :description="t('home.sponsors.description')" size="lg" spacing="lg">
+    <UiSection :label="t('home.sponsors.label')" :title="t('home.sponsors.title')" :description="t('home.sponsors.description')" size="lg" spacing="lg">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
 
             <!-- Infrastructure Partner (LambdaTest) -->

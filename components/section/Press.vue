@@ -1,5 +1,5 @@
 <template>
-    <UiSection label="Press" :title="t('home.press.title')" :description="t('home.press.description')" size="md"
+    <UiSection :label="t('home.press.label')" :title="t('home.press.title')" :description="t('home.press.description')" size="md"
         spacing="lg">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <a v-for="article in mentionedArticles" :key="article.url" :href="article.url" target="_blank"

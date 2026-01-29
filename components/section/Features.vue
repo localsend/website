@@ -1,5 +1,5 @@
 <template>
-    <UiSection label="Features" :title="t('home.features.title')" :description="t('home.features.description')"
+    <UiSection :label="t('home.features.label')" :title="t('home.features.title')" :description="t('home.features.description')"
         size="md" spacing="lg">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div v-for="(feature, index) in features" :key="index"

@@ -1,5 +1,5 @@
 <template>
-    <UiSection :title="t('home.testimonials.title')" :description="t('home.testimonials.description')" size="full"
+    <UiSection :label="t('home.testimonials.label')" :title="t('home.testimonials.title')" :description="t('home.testimonials.description')" size="full"
         spacing="lg">
         <div class="relative overflow-hidden space-y-4">
             <!-- Gradient Overlays for fade effect -->
