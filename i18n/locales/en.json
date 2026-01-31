@@ -24,12 +24,10 @@
     "testimonials": {
       "title": "Loved by the Community",
       "description": "Join thousands of users who trust LocalSend for their daily file transfers.",
-      "label": "Testimonials"
     },
     "sponsors": {
       "title": "Supported By",
       "description": "LocalSend is free and open source, made possible by our partners and community.",
-      "label": "Sponsors & Partners",
       "infrastructure": "Infrastructure Partner",
       "lambdaTestDescription": "Ensuring LocalSend works flawlessly across 3000+ browser and OS environments.",
       "becomeSponsor": "Become a Sponsor",
@@ -38,7 +36,7 @@
     "features": {
       "title": "Features",
       "description": "Everything you need for secure, fast file sharing across your local network.",
-      "label": "Feautures",
+      "label": "Features",
       "decentralized": "Decentralized",
       "decentralizedDescription": "Share files without a central server. The file transfer is completely peer-to-peer.",
       "crossPlatform": "Cross-platform",
@@ -177,7 +175,6 @@
   "howItWorks": {
     "title": "How It Works",
     "description": "Zero configuration. Just install and start sharing.",
-    "label": "Processes",
     "step1Title": "Install & Open",
     "step1Desc": "Download LocalSend on all your devices. No account, no login, no servers.",
     "step2Title": "Select Files",

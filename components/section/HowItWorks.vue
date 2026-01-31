@@ -1,5 +1,5 @@
 <template>
-    <UiSection :label="t('howItWorks.label')" :title="t('howItWorks.title')" :description="t('howItWorks.description')" size="md" spacing="lg">
+    <UiSection :title="t('howItWorks.title')" :description="t('howItWorks.description')" size="md" spacing="lg">
         <div class="relative grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <!-- Step 1: Install -->
