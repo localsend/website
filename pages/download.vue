@@ -85,7 +85,7 @@
           <!-- Left Column: Direct Downloads & Stores -->
           <div class="lg:col-span-5 space-y-10 relative">
             <!-- Section marker -->
-            <div class="absolute -left-8 top-0 w-6 h-px bg-gray-300 dark:bg-gray-700"></div>
+            <!-- <div class="absolute -left-8 top-0 w-6 h-px bg-gray-300 dark:bg-gray-700"></div> -->
 
             <!-- App Stores -->
             <div v-if="downloadMetadata[selectedOS].stores.length > 0" class="space-y-4">
@@ -125,7 +125,7 @@
           <!-- Right Column: Package Managers (Terminal Style) -->
           <div class="lg:col-span-7 relative">
             <!-- Section marker -->
-            <div class="absolute -right-8 top-0 w-6 h-px bg-gray-300 dark:bg-gray-700"></div>
+            <!-- <div class="absolute -right-8 top-0 w-6 h-px bg-gray-300 dark:bg-gray-700"></div> -->
 
             <div v-if="downloadMetadata[selectedOS].packageManagers.length > 0" class="space-y-6">
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2">
@@ -151,7 +151,7 @@
                   <div class="p-5 font-mono text-sm relative group">
                     <div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
                       <button @click="copyToClipboard(pm.commands)"
-                        class="p-2 rounded-md bg-white/10 hover:bg-white/20 text-white transition-colors"
+                        class="p-1 h-[30px] w-[30px] flex items-center justify-center rounded-md bg-white/10 hover:bg-white/20 text-white transition-colors"
                         title="Copy to clipboard">
                         <Icon name="material-symbols:content-copy-outline" class="text-lg" />
                       </button>

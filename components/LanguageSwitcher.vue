@@ -27,7 +27,7 @@
           <div class="relative">
             <Icon name="material-symbols:search"
               class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm" />
-            <input v-model="searchQuery" type="text" placeholder="Search language..."
+            <input v-model="searchQuery" type="text" :placeholder="t('home.search_lang')"
               class="w-full pl-9 pr-3 py-1.5 text-sm rounded-lg bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500/50 transition-all border border-transparent focus:border-teal-500/20"
               @keydown.stop />
           </div>
@@ -52,7 +52,7 @@
           </li>
           <li v-if="filteredLocales.length === 0"
             class="px-4 py-8 text-center text-sm text-gray-500 dark:text-gray-400">
-            No languages found
+            {{ t('home.lang_notfound') }}
           </li>
         </ul>
       </div>
@@ -62,7 +62,7 @@
 
 <script setup lang="ts">
 import { ref, computed, watch, onMounted, onBeforeUnmount } from "vue";
-const { locale, locales } = useI18n();
+const { t, locale, locales } = useI18n();
 const switchLocalePath = useSwitchLocalePath();
 
 const localeIdentity = ref("");
