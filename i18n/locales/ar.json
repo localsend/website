@@ -29,7 +29,6 @@
       "title": "الرعاة",
       "description": "LocalSend مجاني ومفتوح المصدر بفضل دعم شركائنا والمجتمع.",
       "infrastructure": "شريك البنية التحتية",
-      "lambdaTestDescription": "يضمن عمل LocalSend بشكل صحيح عبر أكثر من 3000 بيئة متصفّح ونظام تشغيل.",
       "becomeSponsor": "كن راعيًا",
       "becomeSponsorDescription": "هل أعجبك LocalSend؟ ادعم التطوير وساعد المشروع على الاستمرار."
     },

@@ -29,7 +29,6 @@
       "title": "赞助商",
       "description": "LocalSend 之所以免费开源，全靠我们的合作伙伴与社区支持。",
       "infrastructure": "基础设施合作伙伴",
-      "lambdaTestDescription": "确保 LocalSend 在 3000+ 浏览器与系统环境中稳定运行。",
       "becomeSponsor": "成为赞助商",
       "becomeSponsorDescription": "喜欢 LocalSend？支持我们的开发，让项目持续成长。"
     },

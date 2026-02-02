@@ -29,7 +29,6 @@
       "title": "贊助商",
       "description": "LocalSend 能保持免費及開源，全靠合作夥伴和社群的支持。",
       "infrastructure": "基礎設施夥伴",
-      "lambdaTestDescription": "確保 LocalSend 能在超過 3000 種瀏覽器及系統環境中順利運作。",
       "becomeSponsor": "成為贊助商",
       "becomeSponsorDescription": "喜歡 LocalSend？支持開發，讓專案持續成長。"
     },

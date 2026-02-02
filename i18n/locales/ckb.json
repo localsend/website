@@ -29,7 +29,6 @@
       "title": "پشتگیری کراوە لەلایەن",
       "description": "LocalSend بێبەرامبەر و کۆدی کراوەیە، بەسوود لە هاوبەشەکان و کۆمەڵگا.",
       "infrastructure": "هاوبەشی بناما",
-      "lambdaTestDescription": "دڵنیابوون لەوەی LocalSend بەبێ هەڵە کار بکات لە 3000+ گرێدراوەکانی وێبگەڕ و سیستەم.",
       "becomeSponsor": "بە پشتگیربەر بن",
       "becomeSponsorDescription": "LocalSend خوشدەوێت؟ پشتگیری پەرەسەندن بکە و یارمەتیدەر بن بۆ بەردەوامی."
     },

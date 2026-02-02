@@ -29,7 +29,6 @@
       "title": "スポンサー",
       "description": "LocalSend は無料でオープンソース。パートナーとコミュニティのおかげで成り立っています。",
       "infrastructure": "インフラストラクチャパートナー",
-      "lambdaTestDescription": "LocalSend が 3000 以上のブラウザ・OS 環境で完璧に動作するよう保証しています。",
       "becomeSponsor": "スポンサーになる",
       "becomeSponsorDescription": "LocalSend が気に入りましたか？開発を支援し、プロジェクトを支えてください。"
     },

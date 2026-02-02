@@ -2,8 +2,8 @@
     <UiSection :title="t('home.sponsors.title')" :description="t('home.sponsors.description')" size="lg" spacing="lg">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
 
-            <!-- Infrastructure Partner (LambdaTest) -->
-            <a href="https://www.lambdatest.com/" target="_blank" rel="noopener noreferrer"
+            <!-- Infrastructure Partner (TesMu AI, former: LambdaTest) -->
+            <a href="https://www.testmuai.com/" target="_blank" rel="noopener noreferrer"
                 class="group relative flex flex-col items-center justify-center p-8 rounded-3xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900/50 hover:border-blue-200 dark:hover:border-blue-900 transition-all duration-300 hover:shadow-lg overflow-hidden">
                 <!-- Badge -->
                 <div
@@ -12,15 +12,10 @@
                 </div>
 
                 <!-- Logo -->
-                <div class="h-12 mb-6 relative z-10 grayscale group-hover:grayscale-0 transition-all duration-500">
-                    <img src="https://www.lambdatest.com/blue-logo.png" alt="LambdaTest"
+                <div class="h-12 mb-6 relative z-10 opacity-50 group-hover:opacity-100 transition-all duration-500">
+                    <img src="~/assets/img/sponsors/tesmu.svg" alt="TesMu AI"
                         class="h-full object-contain dark:brightness-0 dark:invert" />
                 </div>
-
-                <!-- Description -->
-                <p class="text-center text-sm text-gray-500 dark:text-gray-400 max-w-xs leading-relaxed">
-                    {{ t('home.sponsors.lambdaTestDescription') }}
-                </p>
 
                 <!-- Hover Gradient -->
                 <div

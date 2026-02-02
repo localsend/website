@@ -29,7 +29,6 @@
       "title": "בחסות",
       "description": "LocalSend הוא חינמי ובקוד פתוח — הודות לשותפינו ולקהילה.",
       "infrastructure": "שותף לתשתית",
-      "lambdaTestDescription": "מבטיח ש־LocalSend יעבוד ללא תקלות ביותר מ־3000 סביבת דפדפן ומערכת הפעלה.",
       "becomeSponsor": "הפוך/י לספונסר",
       "becomeSponsorDescription": "אוהבים את LocalSend? תמכו בפיתוחו ועזרו לשמור על הפרויקט פעיל."
     },

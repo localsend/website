@@ -29,7 +29,6 @@
       "title": "Toetajad",
       "description": "LocalSend on tasuta ja avatud lähtekoodiga — võimalik tänu meie partneritele ja kogukonnale.",
       "infrastructure": "Infrastruktuuripartner",
-      "lambdaTestDescription": "Tagab, et LocalSend töötab tõrgeteta enam kui 3000 brauseri- ja opsüsteemikeskkonnas.",
       "becomeSponsor": "Saage sponsoriks",
       "becomeSponsorDescription": "Kas armastate LocalSendi? Toetage arendust ja aidake projektil jätkuda."
     },

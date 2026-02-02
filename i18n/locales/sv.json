@@ -29,7 +29,6 @@
       "title": "Sponsorer",
       "description": "LocalSend är gratis och open-source tack vare våra partners och communityn.",
       "infrastructure": "Infrastruktursponsor",
-      "lambdaTestDescription": "Säkerställer att LocalSend fungerar korrekt i över 3000 webbläsar- och OS-miljöer.",
       "becomeSponsor": "Bli sponsor",
       "becomeSponsorDescription": "Gillar du LocalSend? Stöd utvecklingen och hjälp projektet att fortsätta."
     },
