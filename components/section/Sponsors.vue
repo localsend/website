@@ -13,7 +13,7 @@
 
                 <!-- Logo -->
                 <div class="h-12 mb-6 relative z-10 opacity-50 group-hover:opacity-100 transition-all duration-500">
-                    <img src="~/assets/img/sponsors/tesmu.svg" alt="TesMu AI"
+                    <img src="/img/sponsors/tesmu.svg" alt="TesMu AI"
                         class="h-full object-contain dark:brightness-0 dark:invert" />
                 </div>
 
