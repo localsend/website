@@ -6,7 +6,6 @@
       <ColorMode />
       <LanguageSwitcher />
     </div> -->
-    <Script src="https://sponsorapp.io/platform.js?p=01a74969ff16b90b" />
   </NuxtLayout>
 </template>
 
