@@ -208,7 +208,7 @@
       </div>
     </div>
 
-    <SectionCta />
+    <SectionCta :download-url="recommendedDownloadUrl" />
   </div>
 </template>
 
@@ -268,7 +268,8 @@ interface Download {
   packageManagers: PackageManager[];
 }
 
-const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id1661733229">
+const appleStoreUrl = "https://apps.apple.com/us/app/localsend/id1661733229";
+const appleStore = `<a href="${appleStoreUrl}">
     <img alt="Download on the App Store" src="${new URL("~/assets/img/badges/apple-store-badge.svg", import.meta.url).href
   }" style="height: 52px">
 </a>`;
@@ -286,15 +287,37 @@ const nix = {
 const assetsMap: Ref<{ [key: string]: string }> = ref({});
 const fallbackUrl = "https://github.com/localsend/localsend/releases";
 
+function applyLocaleUrl(url: string): string {
+  if (locale.value === 'zh-CN') {
+    const fileName = url.split('/').pop();
+    return `https://d.localsend.org/${fileName}`;
+  }
+  return url;
+}
+
+const OS_TO_EXTENSION: Partial<Record<OS, string>> = {
+  [OS.windows]: 'exe',
+  [OS.macos]: 'dmg',
+  [OS.linux]: 'AppImage',
+  [OS.android]: 'apk',
+};
+
+const recommendedDownloadUrl = computed((): string | undefined => {
+  const os = selectedOS.value;
+  if (!os) return undefined;
+  if (os === OS.ios) return appleStoreUrl;
+  const ext = OS_TO_EXTENSION[os];
+  if (!ext) return undefined;
+  const assetUrl = assetsMap.value[ext];
+  if (!assetUrl) return undefined;
+  return applyLocaleUrl(assetUrl);
+});
+
 const downloadMetadata = computed<Record<OS, Download>>(() => {
   const downloadUrl = (extension: string) => {
     const assetUrl = assetsMap.value[extension];
     if (assetUrl) {
-      if (locale.value === 'zh-CN') {
-        const fileName = assetUrl.split('/').pop();
-        return `https://d.localsend.org/${fileName}`;
-      }
-      return assetUrl;
+      return applyLocaleUrl(assetUrl);
     }
     return fallbackUrl;
   };

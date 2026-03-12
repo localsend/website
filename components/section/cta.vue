@@ -44,8 +44,10 @@
                 {{ t("cta.description") || "Download LocalSend now and share files effortlessly across your devices." }}
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <UiButton as="NuxtLink" :to="localePath({ path: '/download' })" size="lg"
-                    icon="material-symbols:download" class="shadow-xl shadow-teal-500/20">
+                <UiButton :as="props.downloadUrl ? 'a' : 'NuxtLink'"
+                    :href="props.downloadUrl || undefined"
+                    :to="props.downloadUrl ? undefined : localePath({ path: '/download' })"
+                    size="lg" icon="material-symbols:download" class="shadow-xl shadow-teal-500/20">
                     {{ t("cta.download") }}
                 </UiButton>
             </div>
@@ -54,6 +56,10 @@
 </template>
 
 <script setup lang="ts">
+const props = defineProps<{
+    downloadUrl?: string;
+}>();
+
 const { t } = useI18n();
 const localePath = useLocalePath();
 </script>
