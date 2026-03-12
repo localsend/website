@@ -359,6 +359,14 @@ export default defineNuxtConfig({
         englishName: "Ukrainian",
       },
       {
+        code: "ur",
+        language: "ur-PK",
+        file: "ur.json",
+        name: "اردو",
+        englishName: "Urdu",
+        dir: "rtl",
+      },
+      {
         code: "vi",
         language: "vi-VN",
         file: "vi.json",
