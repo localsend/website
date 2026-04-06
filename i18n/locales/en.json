@@ -162,7 +162,27 @@
     "legal": "Legal",
     "download": "Download",
     "webapp": "Web App",
+    "changelog": "Changelog",
     "design_by": "Website designed by"
+  },
+  "changelog": {
+    "seo": {
+      "title": "LocalSend - Changelog",
+      "description": "Track every update, feature, and fix across all versions of LocalSend."
+    },
+    "title": "Changelog",
+    "description": "Track every update, feature, and fix across all versions.",
+    "searchPlaceholder": "Search changes...",
+    "all": "All",
+    "features": "Features",
+    "fixes": "Fixes",
+    "i18nFilter": "i18n",
+    "change": "change",
+    "changes": "changes",
+    "upcoming": "Upcoming",
+    "noResults": "No changes found matching your search.",
+    "errorLoading": "Unable to load the changelog.",
+    "viewOnGithub": "View full changelog on GitHub"
   },
   "homepageButton": "Homepage",
   "improveWebsite": "Improve this website",

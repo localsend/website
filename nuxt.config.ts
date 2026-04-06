@@ -49,6 +49,7 @@ export default defineNuxtConfig({
       imprint: false,
       contact: false,
       news: false,
+      changelog: false,
     },
     locales: [
       {

@@ -32,6 +32,12 @@
                 {{ t("footer.webapp") }}
               </a>
             </li>
+            <li>
+              <NuxtLink :to="localePath('/changelog')"
+                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
+                {{ t("footer.changelog") }}
+              </NuxtLink>
+            </li>
           </ul>
         </div>
 
