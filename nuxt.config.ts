@@ -1,13 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    "@nuxt/icon",
-    "@nuxtjs/tailwindcss",
-    "@nuxtjs/i18n",
-    "@nuxtjs/sitemap",
-  ],
-
+  compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+
+  modules: [
+    '@nuxt/icon',
+    '@nuxtjs/i18n',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/tailwindcss'
+  ],
 
   app: {
     pageTransition: {
@@ -33,6 +34,20 @@ export default defineNuxtConfig({
 
   site: {
     url: "https://localsend.org",
+  },
+
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false,
+    },
+  },
+
+  // https://stackoverflow.com/questions/67703133/how-to-use-env-variables-in-nuxt-2-or-3
+  vite: {
+    define: {
+      "process.env.IMPRINT_STREET": JSON.stringify(process.env.IMPRINT_STREET),
+      "process.env.IMPRINT_CITY": JSON.stringify(process.env.IMPRINT_CITY),
+    },
   },
 
   i18n: {
@@ -397,20 +412,4 @@ export default defineNuxtConfig({
       },
     ],
   },
-
-  nitro: {
-    prerender: {
-      autoSubfolderIndex: false,
-    },
-  },
-
-  // https://stackoverflow.com/questions/67703133/how-to-use-env-variables-in-nuxt-2-or-3
-  vite: {
-    define: {
-      "process.env.IMPRINT_STREET": JSON.stringify(process.env.IMPRINT_STREET),
-      "process.env.IMPRINT_CITY": JSON.stringify(process.env.IMPRINT_CITY),
-    },
-  },
-
-  compatibilityDate: "2024-10-20",
-});
+})
