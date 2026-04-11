@@ -42,7 +42,7 @@
                         {{ t('home.hero.badge') }}
                     </span>
                     <Icon name="material-symbols:arrow-forward"
-                        class="text-gray-400 transition-transform group-hover:translate-x-0.5" />
+                        class="text-gray-400 transition-transform group-hover:translate-x-0.5 rtl:scale-x-[-1] rtl:group-hover:-translate-x-0.5" />
                 </NuxtLink>
             </div>
 
