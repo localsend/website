@@ -1,0 +1,21 @@
+{
+  "name": "localsend-website",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "2.2.2",
+    "@nuxtjs/i18n": "10.3.0",
+    "@nuxtjs/sitemap": "8.0.15",
+    "@nuxtjs/tailwindcss": "6.14.0",
+    "nuxt": "^4.4.6",
+    "vue": "^3.5.34",
+    "vue-router": "^5.0.7"
+  }
+}
