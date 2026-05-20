@@ -119,6 +119,11 @@
                 <Icon name="material-symbols:history" />
                 {{ t("download.allReleases") }}
               </a>
+
+              <div v-if="selectedOS == OS.android" class="text-gray-500">
+                <span class="font-light">SHA-256 Signing Key:</span>
+                <p class="break-all font-mono">3220c353a73cfbd0c2f3052471c445324cf452bcba26de1c473a52fe5c44e1d6</p>
+              </div>
             </div>
           </div>
 
