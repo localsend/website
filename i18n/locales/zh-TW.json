@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend：與附近裝置分享檔案",
-      "description": "LocalSend 是一款免費、開源、跨平台的工具，可讓你與附近的裝置分享檔案。"
+      "title": "LocalSend：與鄰近裝置分享檔案",
+      "description": "LocalSend 是一款免費、開源、跨平台的工具，可讓你與鄰近的裝置分享檔案。"
     },
     "hero": {
       "badge": "支援所有主流平台！",
@@ -10,7 +10,7 @@
       "title2": "快速、私密、離線。",
       "subtitle": "面向所有人的開源跨平台檔案分享。"
     },
-    "slogan1": "與附近裝置分享檔案。",
+    "slogan1": "與鄰近裝置分享檔案。",
     "slogan2": "免費、開源、跨平台。",
     "download": "下載",
     "web": "網頁版",
@@ -34,7 +34,7 @@
     },
     "features": {
       "title": "功能特色",
-      "description": "提供你在本地網路中快速、安全分享檔案所需的一切功能。",
+      "description": "提供你在區域網路中快速、安全分享檔案所需的一切功能。",
       "decentralized": "去中心化",
       "decentralizedDescription": "不需中央伺服器，完全以點對點傳輸（P2P）。",
       "crossPlatform": "跨平台",
@@ -44,11 +44,11 @@
       "openSource": "開源",
       "openSourceDescription": "程式碼公開，歡迎任何人參與貢獻。",
       "secure": "安全",
-      "secureDescription": "端到端加密確保只有你與接收者能讀取檔案。",
+      "secureDescription": "端對端加密確保只有你與接收者能讀取檔案。",
       "easy": "容易使用",
-      "easyDescription": "操作介面簡潔，不需註冊。系統會自動偵測附近裝置。",
+      "easyDescription": "操作介面簡潔，不需註冊。系統會自動偵測鄰近裝置。",
       "noInternet": "不需網路",
-      "noInternetDescription": "完全離線運作，你的資料永遠不會離開本地網路。",
+      "noInternetDescription": "完全離線運作，你的資料永遠不會離開區域網路。",
       "fast": "高速",
       "fastDescription": "以 WiFi 的最高速度傳送檔案，不受頻寬限制。"
     },
@@ -63,7 +63,7 @@
       "q1": "真的免費嗎？",
       "a1": "是的！LocalSend 100% 免費且開源。無廣告、無追蹤、無隱藏費用。",
       "q2": "它能透過網際網路運作嗎？",
-      "a2": "不能。LocalSend 使用你的本地 WiFi 網路，資料永遠不會離開該網路。",
+      "a2": "不能。LocalSend 使用你的區域 WiFi 網路，資料永遠不會離開該網路。",
       "q3": "安全嗎？",
       "a3": "很安全。所有傳輸皆使用 HTTPS 加密，也支援 PIN 驗證。",
       "q4": "檔案會儲存在哪裡？",
@@ -144,7 +144,7 @@
     "showAll": "查看全部消息"
   },
   "footer": {
-    "description": "無需網路即可與附近裝置分享檔案。開源、跨平台、完全免費。",
+    "description": "無需網路即可與鄰近裝置分享檔案。開源、跨平台、完全免費。",
     "underlicense": "授權方式",
     "license": "Apache License 2.0",
     "github": "GitHub",
@@ -176,6 +176,6 @@
     "step2Title": "選擇檔案",
     "step2Desc": "可選擇相片、影片、文件或文字——支援所有檔案類型。",
     "step3Title": "點擊傳送",
-    "step3Desc": "點擊附近裝置，即可透過本地網路立即傳送檔案。"
+    "step3Desc": "點擊鄰近裝置，即可透過區域網路立即傳送檔案。"
   }
 }
