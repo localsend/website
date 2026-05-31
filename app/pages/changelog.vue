@@ -6,7 +6,7 @@
         <div class="container">
             <div class="changelog-controls">
                 <div class="search-wrapper">
-                    <span class="material-symbols-rounded">search</span>
+                    <Icon name="material-symbols:search" class="app-icon" />
                     <input v-model="searchQuery" type="text" :placeholder="t('changelog.searchPlaceholder')" class="search-input" />
                 </div>
 
@@ -22,21 +22,21 @@
             </div>
 
             <div v-if="status === 'pending'" class="flex-center py-20">
-                <span class="material-symbols-rounded accent animate-spin">progress_activity</span>
+                <Icon name="material-symbols:progress-activity" class="app-icon accent animate-spin" />
             </div>
 
             <div v-else-if="status === 'error' || !versions" class="text-center py-20">
-                <span class="material-symbols-rounded text-muted mb-4" style="font-size: 48px;">error</span>
+                <Icon name="material-symbols:error-outline" class="app-icon text-muted mb-4" style="font-size: 48px;" />
                 <p class="text-muted mb-6">{{ t('changelog.errorLoading') }}</p>
                 <a href="https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md" target="_blank" class="btn btn-secondary">
-                    <span class="material-symbols-rounded mr-2">code</span>
+                    <Icon name="material-symbols:code" class="app-icon mr-2" />
                     {{ t('changelog.viewOnGithub') }}
                 </a>
             </div>
 
             <div v-else>
                 <div v-if="filteredVersions.length === 0" class="text-center py-16">
-                    <span class="material-symbols-rounded text-muted mb-4" style="font-size: 48px;">search_off</span>
+                    <Icon name="material-symbols:search-off" class="app-icon text-muted mb-4" style="font-size: 48px;" />
                     <p class="text-muted">{{ t('changelog.noResults') }}</p>
                 </div>
 
@@ -66,7 +66,7 @@
 
                 <div class="flex-center pt-10">
                     <a href="https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md" target="_blank" class="btn btn-secondary">
-                        <span class="material-symbols-rounded mr-2">code</span>
+                        <Icon name="material-symbols:code" class="app-icon mr-2" />
                         {{ t('changelog.viewOnGithub') }}
                     </a>
                 </div>

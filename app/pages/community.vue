@@ -46,19 +46,19 @@
         <p class="section-subtitle text-center" style="margin-bottom: 40px;">{{ t('community.contributeDescription') }}</p>
         <div class="contribute-grid">
           <a href="https://github.com/localsend/localsend/issues" target="_blank" class="contribute-card">
-            <span class="material-symbols-rounded">bug_report</span>
+            <Icon name="material-symbols:bug-report-outline" class="app-icon" />
             <div>
               <h4>{{ t('community.issues') }}</h4>
             </div>
           </a>
           <a href="https://github.com/localsend/localsend/pulls" target="_blank" class="contribute-card">
-            <span class="material-symbols-rounded">merge</span>
+            <Icon name="material-symbols:merge" class="app-icon" />
             <div>
               <h4>{{ t('community.pullRequests') }}</h4>
             </div>
           </a>
           <a href="https://github.com/localsend/localsend/discussions" target="_blank" class="contribute-card">
-            <span class="material-symbols-rounded">translate</span>
+            <Icon name="material-symbols:translate" class="app-icon" />
             <div>
               <h4>Translations</h4>
             </div>

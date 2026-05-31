@@ -15,12 +15,12 @@
 
             <div class="nav-actions">
                 <button @click="toggleTheme" class="theme-toggle" :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'">
-                    <span class="material-symbols-rounded">{{ isDark ? 'light_mode' : 'dark_mode' }}</span>
+                    <Icon :name="isDark ? 'material-symbols:light-mode-outline' : 'material-symbols:dark-mode-outline'" class="app-icon" />
                 </button>
                 <LanguageSwitcher />
                 <NuxtLink :to="localePath('/download')" class="btn btn-primary btn-sm hide-mobile">{{ t('home.download') }}</NuxtLink>
                 <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="mobile-toggle">
-                    <span class="material-symbols-rounded">{{ isMobileMenuOpen ? 'close' : 'menu' }}</span>
+                    <Icon :name="isMobileMenuOpen ? 'material-symbols:close' : 'material-symbols:menu'" class="app-icon" />
                 </button>
             </div>
         </nav>

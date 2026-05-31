@@ -36,7 +36,7 @@
                                         :href="binary.url" 
                                         class="card download-card">
                                         <span>{{ binary.name }}</span>
-                                        <span class="material-symbols-rounded">download</span>
+                                        <Icon name="material-symbols:download" class="app-icon" />
                                     </a>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@
                                     <div class="terminal-header">
                                         <span class="terminal-title">{{ pm.name }}</span>
                                         <button class="copy-btn" @click="copyToClipboard(pm.commands)">
-                                            <span class="material-symbols-rounded">content_copy</span>
+                                            <Icon name="material-symbols:content-copy-outline" class="app-icon" />
                                         </button>
                                     </div>
                                     <code v-for="(cmd, i) in pm.commands" :key="i" class="block">{{ cmd }}</code>
@@ -74,7 +74,7 @@
     </section>
 
     <div class="snackbar" :class="{ 'snackbar-visible': copyToClipboardSnackbar }">
-        <span class="material-symbols-rounded accent">check_circle</span>
+        <Icon name="material-symbols:check-circle-outline" class="app-icon accent" />
         {{ t("download.copiedToClipboard") }}
     </div>
 

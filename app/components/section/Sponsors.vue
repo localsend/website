@@ -10,7 +10,7 @@
                 </a>
                 <a href="https://github.com/sponsors/Tienisto" target="_blank" class="card partner-card sponsor-cta">
                     <h3>{{ t('home.sponsors.becomeSponsor') }}</h3>
-                    <div class="icon-circle"><span class="material-symbols-rounded">favorite</span></div>
+                    <div class="icon-circle"><Icon name="material-symbols:favorite-outline" class="app-icon" /></div>
                     <p>{{ t('home.sponsors.becomeSponsorDescription') }}</p>
                 </a>
             </div>

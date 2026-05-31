@@ -10,7 +10,7 @@
                         <div v-for="(review, i) in [...row1, ...row1]" :key="`row1-${i}`" class="card testimonial-card">
                             <div class="testimonial-header">
                                 <span class="author">{{ review.author }}</span>
-                                <span class="source-icon"><span class="material-symbols-rounded">campaign</span></span>
+                                <span class="source-icon"><Icon name="material-symbols:campaign-outline" class="app-icon" /></span>
                             </div>
                             <p>"{{ review.text }}"</p>
                         </div>
@@ -22,7 +22,7 @@
                         <div v-for="(review, i) in [...row2, ...row2]" :key="`row2-${i}`" class="card testimonial-card">
                             <div class="testimonial-header">
                                 <span class="author">{{ review.author }}</span>
-                                <span class="source-icon"><span class="material-symbols-rounded">campaign</span></span>
+                                <span class="source-icon"><Icon name="material-symbols:campaign-outline" class="app-icon" /></span>
                             </div>
                             <p>"{{ review.text }}"</p>
                         </div>
@@ -34,7 +34,7 @@
                         <div v-for="(review, i) in [...row3, ...row3]" :key="`row3-${i}`" class="card testimonial-card">
                             <div class="testimonial-header">
                                 <span class="author">{{ review.author }}</span>
-                                <span class="source-icon"><span class="material-symbols-rounded">campaign</span></span>
+                                <span class="source-icon"><Icon name="material-symbols:campaign-outline" class="app-icon" /></span>
                             </div>
                             <p>"{{ review.text }}"</p>
                         </div>

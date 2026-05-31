@@ -2,7 +2,7 @@
   <div class="error-page flex-center h-screen">
     <div class="container text-center">
       <div class="error-content card">
-        <span class="material-symbols-rounded accent mb-6" style="font-size: 80px;">sentiment_very_dissatisfied</span>
+        <Icon name="material-symbols:sentiment-very-dissatisfied-outline" class="app-icon accent mb-6" style="font-size: 80px;" />
         <h1 class="version-tag mb-2">{{ error.statusCode }}</h1>
         <p class="text-muted mb-8 text-lg" v-if="error.statusCode === 404">
             Oops! This page doesn't exist.
@@ -12,7 +12,7 @@
         </p>
         
         <button @click="handleClearError" class="btn btn-primary">
-            <span class="material-symbols-rounded mr-2">home</span>
+            <Icon name="material-symbols:home-outline" class="app-icon mr-2" />
             {{ t('homepageButton') }}
         </button>
       </div>

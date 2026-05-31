@@ -8,7 +8,7 @@
             <div class="grid grid-4 features-grid">
                 <div v-for="(feature, index) in features" :key="index" class="card feature-card">
                     <div class="feature-icon">
-                        <span class="material-symbols-rounded">{{ feature.icon }}</span>
+                        <Icon :name="feature.icon" class="app-icon" />
                     </div>
                     <h3>{{ feature.title }}</h3>
                     <p>{{ feature.description }}</p>
@@ -23,22 +23,22 @@ const { t } = useI18n();
 
 const features = computed(() => [
     {
-        icon: 'devices',
+        icon: 'material-symbols:devices',
         title: t('home.features.crossPlatform'),
         description: t('home.features.crossPlatformDescription'),
     },
     {
-        icon: 'shield',
+        icon: 'material-symbols:shield-outline',
         title: t('home.features.secure'),
         description: t('home.features.secureDescription'),
     },
     {
-        icon: 'wifi_off',
+        icon: 'material-symbols:wifi-off',
         title: t('home.features.noInternet'),
         description: t('home.features.noInternetDescription'),
     },
     {
-        icon: 'bolt',
+        icon: 'material-symbols:bolt-outline',
         title: t('home.features.fast'),
         description: t('home.features.fastDescription'),
     },

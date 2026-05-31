@@ -2,13 +2,13 @@
   <div v-if="i18nEnabled" class="lang-switcher" ref="dropdownContainer">
     <button @click.stop="toggleDropdown" class="nav-action-btn" :class="{ 'active': dropdownOpen }">
       <span class="curr-lang">{{ currLocaleName }}</span>
-      <span class="material-symbols-rounded">keyboard_arrow_down</span>
+      <Icon name="material-symbols:keyboard-arrow-down" class="app-icon" />
     </button>
 
     <Transition name="slide-up">
       <div v-if="dropdownOpen" class="lang-dropdown" @click.stop>
         <div class="lang-search-wrapper">
-          <span class="material-symbols-rounded">search</span>
+          <Icon name="material-symbols:search" class="app-icon" />
           <input v-model="searchQuery" type="text" :placeholder="t('home.search_lang')" class="lang-search-input" @keydown.stop />
         </div>
 
@@ -21,7 +21,7 @@
               <span class="lang-name">{{ locale.name }}</span>
               <span v-if="locale.englishName" class="lang-en-name">{{ locale.englishName }}</span>
             </div>
-            <span v-if="locale.code === localeIdentity" class="material-symbols-rounded accent">check</span>
+            <Icon v-if="locale.code === localeIdentity" name="material-symbols:check" class="app-icon accent" />
           </li>
           <li v-if="filteredLocales.length === 0" class="lang-not-found">
             {{ t('home.lang_notfound') }}
@@ -125,12 +125,12 @@ function handleClickOutside(event: MouseEvent) {
     border-color: var(--accent-primary);
 }
 
-.nav-action-btn .material-symbols-rounded {
+.nav-action-btn .app-icon {
     font-size: 18px;
     transition: transform 0.3s ease;
 }
 
-.nav-action-btn.active .material-symbols-rounded {
+.nav-action-btn.active .app-icon {
     transform: rotate(180deg);
 }
 
@@ -152,7 +152,7 @@ function handleClickOutside(event: MouseEvent) {
     margin-bottom: 10px;
 }
 
-.lang-search-wrapper .material-symbols-rounded {
+.lang-search-wrapper .app-icon {
     position: absolute;
     left: 12px;
     top: 50%;

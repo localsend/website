@@ -61,19 +61,9 @@
     color-scheme: dark;
 }
 
-.material-symbols-rounded {
-  font-family: 'Material Symbols Rounded';
-  font-weight: normal;
-  font-style: normal;
+.app-icon {
   font-size: 24px;
   line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  -webkit-font-smoothing: antialiased;
   vertical-align: middle;
 }
 
@@ -494,13 +484,13 @@ h1, h2, h3, h4 {
     color: var(--accent-primary);
 }
 
-.icon-circle .material-symbols-rounded {
+.icon-circle .app-icon {
     font-size: 64px;
     font-variation-settings: 'FILL' 0;
     transition: font-variation-settings 0.3s ease, transform 0.3s ease;
 }
 
-.sponsor-cta:hover .material-symbols-rounded {
+.sponsor-cta:hover .app-icon {
     font-variation-settings: 'FILL' 1;
     transform: scale(1.1);
 }
@@ -515,7 +505,7 @@ h1, h2, h3, h4 {
     color: var(--accent-primary);
 }
 
-.feature-icon .material-symbols-rounded {
+.feature-icon .app-icon {
     font-size: 36px;
 }
 
@@ -1349,11 +1339,11 @@ h1, h2, h3, h4 {
     background: var(--bg-card);
 }
 
-.contribute-card .material-symbols-rounded {
+.contribute-card .app-icon {
     color: var(--text-muted);
 }
 
-.contribute-card:hover .material-symbols-rounded {
+.contribute-card:hover .app-icon {
     color: var(--accent-primary);
 }
 
@@ -1397,7 +1387,7 @@ h1, h2, h3, h4 {
     max-width: 400px;
 }
 
-.search-wrapper .material-symbols-rounded {
+.search-wrapper .app-icon {
     position: absolute;
     left: 15px;
     top: 50%;

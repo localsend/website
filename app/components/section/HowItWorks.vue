@@ -11,9 +11,9 @@
                     <div class="step-visual card flex-center">
                         <div class="install-animation">
                             <div class="install-app"><img src="/img/logo.png" alt="LocalSend"></div>
-                            <div class="install-success"><span class="material-symbols-rounded">check_circle</span></div>
-                            <div class="install-folder"><span class="material-symbols-rounded">folder_open</span></div>
-                            <div class="install-cursor"><span class="material-symbols-rounded">near_me</span></div>
+                            <div class="install-success"><Icon name="material-symbols:check-circle-outline" class="app-icon" /></div>
+                            <div class="install-folder"><Icon name="material-symbols:folder-open-outline" class="app-icon" /></div>
+                            <div class="install-cursor"><Icon name="material-symbols:near-me" class="app-icon" /></div>
                         </div>
                     </div>
                     <h3>{{ t('howItWorks.step1Title') }}</h3>
