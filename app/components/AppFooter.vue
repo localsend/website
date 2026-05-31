@@ -15,6 +15,7 @@
                         <ul>
                             <li><NuxtLink :to="localePath('/download')">{{ t('footer.download') }}</NuxtLink></li>
                             <li><a href="https://web.localsend.org/" target="_blank">{{ t('footer.webapp') }}</a></li>
+                            <li><NuxtLink :to="localePath('/changelog')">{{ t('footer.changelog') }}</NuxtLink></li>
                         </ul>
                     </div>
                     <div class="footer-col">

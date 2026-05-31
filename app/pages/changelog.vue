@@ -16,7 +16,7 @@
                         class="filter-btn"
                         :class="{ active: activeFilter === f.value }">
                         {{ f.label }}
-                        <span class="count">{{ f.count }}</span>
+                        ({{ f.count }})
                     </button>
                 </div>
             </div>
@@ -145,16 +145,29 @@ function formatDate(dateStr: string): string {
   });
 }
 
-function typeBadgeClasses(type: string): string {
-  switch (type) {
-    case 'feat':
-      return 'bg-teal-50 text-teal-700 dark:bg-teal-950/40 dark:text-teal-400';
-    case 'fix':
-      return 'bg-amber-50 text-amber-700 dark:bg-amber-950/40 dark:text-amber-400';
-    case 'i18n':
-      return 'bg-violet-50 text-violet-700 dark:bg-violet-950/40 dark:text-violet-400';
-    default:
-      return 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400';
-  }
-}
 </script>
+
+<style scoped>
+/*
+ * In dark mode the global theme defines --button-bg and --accent-primary as the
+ * same colour, so the shared "button-bg background + accent-primary text" pairs
+ * render invisible text. Override the affected elements with contrasting colours
+ * that hold up in both light and dark themes.
+ */
+
+/* "feat" tag: keep the green colour-coding (matches .type-fix / .type-i18n). */
+.type-tag.type-feat {
+    background: rgba(0, 169, 154, 0.1);
+    color: #00A99A;
+}
+
+/* "Upcoming" pill. */
+.badge {
+    color: var(--button-text);
+}
+
+/* "View on GitHub" button hover. */
+.btn-secondary:hover {
+    color: var(--button-text);
+}
+</style>
