@@ -28,7 +28,7 @@ const { t, locale } = useI18n();
 
 const youtubeVideoId = computed(() => {
     switch (locale.value) {
-        case 'de': return 'gGs_OjO2DjU';
+        case 'de': return 'qfXkF-W09zk';
         default: return '2ITezMkbAqE';
     }
 });
