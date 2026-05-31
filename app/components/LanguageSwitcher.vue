@@ -139,6 +139,7 @@ function handleClickOutside(event: MouseEvent) {
     top: calc(100% + 15px);
     right: 0;
     width: 280px;
+    max-width: calc(100vw - 40px);
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: 20px;
@@ -237,5 +238,26 @@ function handleClickOutside(event: MouseEvent) {
 .slide-up-enter-from, .slide-up-leave-to {
     opacity: 0;
     transform: translateY(10px);
+}
+
+@media (max-width: 480px) {
+    .nav-action-btn {
+        padding: 8px 10px;
+        gap: 4px;
+        font-size: 0.85rem;
+    }
+
+    .nav-action-btn .app-icon {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 380px) {
+    .curr-lang {
+        max-width: 56px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 }
 </style>

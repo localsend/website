@@ -1580,10 +1580,104 @@ h1, h2, h3, h4 {
     :root {
         --section-padding: 80px 20px;
     }
+
+    /* Grid utilities: collapse to single column on mobile */
+    .grid-2,
+    .grid-3,
+    .grid-4,
+    .grid-5 {
+        grid-template-columns: 1fr;
+    }
+
+    /* Steps (How It Works): 3-col to 1-col */
+    .steps-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    /* Hero: reduce oversized top padding */
+    .navbar {
+        height: 76px;
+    }
+
+    .navbar .container {
+        padding: 0 16px;
+    }
+
+    .logo {
+        gap: 10px;
+        font-size: 1.25rem;
+    }
+
+    .logo img {
+        height: 28px;
+    }
+
+    .nav-actions {
+        gap: 8px;
+    }
+
+    .theme-toggle,
+    .mobile-toggle {
+        width: 34px;
+        height: 34px;
+    }
+
+    .hero {
+        padding-top: 108px;
+        padding-bottom: 76px;
+    }
+
+    /* Community hero: reduce top padding */
+    .community-hero {
+        padding: 120px 20px 60px;
+    }
+
+    /* CTA card: scale heading down so translated strings don't overflow */
+    .cta-card h2 { font-size: 2rem; }
+    .cta-card { padding: 60px 24px; }
+
+    /* Section titles: tighten on small screens */
+    .section-title { font-size: 2rem; }
+    .community-hero h2 { font-size: 2.5rem; }
+
+    /* Existing rules */
     .navbar .nav-links, .navbar .btn { display: none; }
-    .hero h1 { font-size: 2.5rem; }
-    .hero-ctas { flex-direction: column; }
-    .mobile-mockup { display: none; }
+    .hero h1 {
+        font-size: clamp(2rem, 8vw, 2.6rem);
+        margin-bottom: 16px;
+    }
+    .hero .subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 32px;
+    }
+    .hero-ctas {
+        flex-direction: column;
+        gap: 14px;
+        margin-bottom: 52px;
+    }
+    .hero-ctas .btn {
+        width: 100%;
+        max-width: 350px;
+        min-height: 58px;
+        margin: 0 auto;
+        padding: 14px 24px;
+    }
+    .hero-visual {
+        max-width: 560px;
+        margin-bottom: 28px;
+    }
+    .desktop-mockup {
+        border-width: 3px;
+    }
+    .mobile-mockup {
+        display: block;
+        right: 10px;
+        bottom: -26px;
+        width: clamp(96px, 28vw, 136px);
+        border-width: 4px;
+        border-radius: 18px;
+    }
     .partner-grid { grid-template-columns: 1fr; }
     .footer-links { grid-template-columns: repeat(2, 1fr); }
     .footer-bottom { flex-direction: column; gap: 20px; text-align: center; }
@@ -1593,6 +1687,60 @@ h1, h2, h3, h4 {
     .changelog-controls { flex-direction: column; align-items: stretch; }
     .search-wrapper { max-width: none; }
     .filter-group { overflow-x: auto; padding-bottom: 10px; }
+}
+
+/* Very small phones: stats 4-col to 2-col is already handled at 1024px,
+   collapse to 1-col below 480px for extremely narrow viewports */
+@media (max-width: 480px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container {
+        padding: 0 18px;
+    }
+
+    .navbar .container {
+        padding: 0 14px;
+    }
+
+    .logo {
+        gap: 8px;
+        font-size: 1.2rem;
+    }
+
+    .logo img {
+        height: 26px;
+    }
+
+    .hero {
+        padding-top: 96px;
+    }
+
+    .hero h1 {
+        font-size: clamp(1.8rem, 7.5vw, 2.05rem);
+    }
+
+    .hero .subtitle {
+        font-size: 1rem;
+    }
+
+    .mobile-mockup {
+        width: clamp(82px, 24vw, 108px);
+        right: 6px;
+        bottom: -18px;
+        border-width: 3px;
+        border-radius: 15px;
+    }
+
+    .footer-links { grid-template-columns: 1fr; }
+
+    /* Download page: stack the two columns fully */
+    .download-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
 }
 
 .page-enter-active,
