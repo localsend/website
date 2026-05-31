@@ -4,15 +4,11 @@
 
     <SectionStats />
 
-    <SectionSponsors />
-
     <SectionFeatures />
 
     <SectionHowItWorks />
 
     <SectionCommunity />
-
-    <SectionTestimonials />
 
     <SectionPress />
 
