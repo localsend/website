@@ -1,65 +1,31 @@
 <template>
-    <UiSection size="md" spacing="lg" class="pt-56">
-        <div
-            class="rounded-3xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900/50 shadow-sm overflow-hidden">
-            <div
-                class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-gray-100 dark:divide-gray-800">
-
-                <!-- GitHub Stars -->
-                <div
-                    class="p-8 flex flex-col items-center text-center group hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
-                    <div
-                        class="mb-6 w-14 h-14 flex items-center justify-center rounded-2xl border border-black/5 dark:border-white/10 shadow-lg bg-gradient-to-tr from-gray-900/5 to-gray-900/0 dark:from-white/10 dark:to-white/5 group-hover:from-gray-800 group-hover:to-black dark:group-hover:from-white dark:group-hover:to-gray-200 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
-                        <Icon name="fa6-brands:github"
-                            class="text-2xl text-gray-700 dark:text-gray-300 group-hover:text-white dark:group-hover:text-black transition-colors duration-500" />
-                    </div>
-                    <div class="text-3xl font-medium text-gray-900 dark:text-white tracking-tight mb-1">70k+</div>
-                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">{{ t('home.stats.stars') }}</div>
+    <section class="stats section">
+        <div class="container">
+            <div class="card card-grid">
+                <div class="stat-item">
+                    <span class="stat-value">70k+</span>
+                    <span class="stat-label">{{ t('home.stats.stars') }}</span>
                 </div>
-
-                <!-- Downloads -->
-                <div
-                    class="p-8 flex flex-col items-center text-center group hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
-                    <div
-                        class="mb-6 w-14 h-14 flex items-center justify-center rounded-2xl border border-black/5 dark:border-white/10 shadow-lg bg-gradient-to-tr from-gray-900/5 to-gray-900/0 dark:from-white/10 dark:to-white/5 group-hover:from-teal-500 group-hover:to-emerald-500 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
-                        <Icon name="material-symbols:download"
-                            class="text-2xl text-gray-700 dark:text-gray-300 group-hover:text-white transition-colors duration-500" />
-                    </div>
-                    <div class="text-3xl font-medium text-gray-900 dark:text-white tracking-tight mb-1">5M+</div>
-                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">{{ t('home.stats.downloads') }}
-                    </div>
+                <div class="stat-item">
+                    <span class="stat-value">5M+</span>
+                    <span class="stat-label">{{ t('home.stats.downloads') }}</span>
                 </div>
-
-                <!-- Contributors -->
-                <div
-                    class="p-8 flex flex-col items-center text-center group hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
-                    <div
-                        class="mb-6 w-14 h-14 flex items-center justify-center rounded-2xl border border-black/5 dark:border-white/10 shadow-lg bg-gradient-to-tr from-gray-900/5 to-gray-900/0 dark:from-white/10 dark:to-white/5 group-hover:from-blue-500 group-hover:to-indigo-500 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
-                        <Icon name="material-symbols:group"
-                            class="text-2xl text-gray-700 dark:text-gray-300 group-hover:text-white transition-colors duration-500" />
-                    </div>
-                    <div class="text-3xl font-medium text-gray-900 dark:text-white tracking-tight mb-1">100+</div>
-                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">{{ t('home.stats.contributors') }}
-                    </div>
+                <div class="stat-item">
+                    <span class="stat-value">100+</span>
+                    <span class="stat-label">{{ t('home.stats.contributors') }}</span>
                 </div>
-
-                <!-- Privacy -->
-                <div
-                    class="p-8 flex flex-col items-center text-center group hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
-                    <div
-                        class="mb-6 w-14 h-14 flex items-center justify-center rounded-2xl border border-black/5 dark:border-white/10 shadow-lg bg-gradient-to-tr from-gray-900/5 to-gray-900/0 dark:from-white/10 dark:to-white/5 group-hover:from-purple-500 group-hover:to-pink-500 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
-                        <Icon name="material-symbols:visibility-off"
-                            class="text-2xl text-gray-700 dark:text-gray-300 group-hover:text-white transition-colors duration-500" />
-                    </div>
-                    <div class="text-3xl font-medium text-gray-900 dark:text-white tracking-tight mb-1">0</div>
-                    <div class="text-sm font-medium text-gray-500 dark:text-gray-400">{{ t('home.stats.ads') }}</div>
+                <div class="stat-item">
+                    <span class="stat-value">0</span>
+                    <span class="stat-label">{{ t('home.stats.ads') }}</span>
                 </div>
-
             </div>
         </div>
-    </UiSection>
+    </section>
 </template>
 
 <script setup lang="ts">
 const { t } = useI18n();
 </script>
+
+<style scoped>
+</style>

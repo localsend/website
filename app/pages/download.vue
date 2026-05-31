@@ -1,216 +1,81 @@
 <template>
   <div>
-    <!-- Hero Section -->
     <PageHeader :title="t('download.title')"
       :description="t('download.subTitle', { os: selectedOS || 'your device' })" />
 
-    <!-- Download Content -->
-    <UiSection v-if="selectedOS" size="md" spacing="lg" class="min-h-[500px] pt-0">
-      <!-- OS Selection Tabs -->
-      <div class="flex flex-wrap justify-center gap-3 relative z-20 pb-16">
-        <button v-for="os in OS" :key="os" @click="setOS(os)" :class="[
-          'px-6 py-3 rounded-full text-sm font-medium transition-all duration-200 flex items-center gap-2 border',
-          selectedOS === os
-            ? 'bg-gray-900 dark:bg-white text-white dark:text-gray-900 border-transparent shadow-lg scale-105'
-            : 'bg-white dark:bg-gray-900 text-gray-600 dark:text-gray-400 border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800'
-        ]">
-          <Icon :name="getOSIcon(os)" class="text-lg" />
-          {{ os }}
-        </button>
-      </div>
-
-      <!-- Blueprint Container -->
-      <div class="relative rounded-2xl overflow-hidden">
-        <!-- Blueprint Lines -->
-        <div class="absolute inset-0 pointer-events-none">
-          <!-- Top horizontal lines -->
-          <div
-            class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-300 dark:via-gray-700 to-transparent opacity-50">
-          </div>
-          <div
-            class="absolute top-1 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-800 to-transparent opacity-30">
-          </div>
-
-          <!-- Bottom horizontal lines -->
-          <div
-            class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-300 dark:via-gray-700 to-transparent opacity-50">
-          </div>
-          <div
-            class="absolute -bottom-1 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-800 to-transparent opacity-30">
-          </div>
-
-          <!-- Left vertical lines -->
-          <div
-            class="absolute top-0 bottom-0 left-0 w-px bg-gradient-to-b from-transparent via-gray-300 dark:via-gray-700 to-transparent opacity-50">
-          </div>
-          <div
-            class="absolute top-0 bottom-0 left-1 w-px bg-gradient-to-b from-transparent via-gray-200 dark:via-gray-800 to-transparent opacity-30">
-          </div>
-
-          <!-- Right vertical lines -->
-          <div
-            class="absolute top-0 bottom-0 right-0 w-px bg-gradient-to-b from-transparent via-gray-300 dark:via-gray-700 to-transparent opacity-50">
-          </div>
-          <div
-            class="absolute top-0 bottom-0 -right-1 w-px bg-gradient-to-b from-transparent via-gray-200 dark:via-gray-800 to-transparent opacity-30">
-          </div>
-
-          <!-- Corner markers with rounded positioning -->
-          <div
-            class="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-gray-400 dark:border-gray-600 rounded-tl-lg">
-          </div>
-          <div
-            class="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-gray-400 dark:border-gray-600 rounded-tr-lg">
-          </div>
-          <div
-            class="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-gray-400 dark:border-gray-600 rounded-bl-lg">
-          </div>
-          <div
-            class="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-gray-400 dark:border-gray-600 rounded-br-lg">
-          </div>
-        </div>
-
-        <!-- Main Content Grid with Inner Blueprint Lines -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 py-12 px-8 relative">
-          <!-- Vertical divider line for desktop -->
-          <div class="hidden lg:block absolute top-0 bottom-0 left-1/2 transform -translate-x-1/2 pointer-events-none">
-            <div
-              class="h-full w-px bg-gradient-to-b from-transparent via-gray-300 dark:via-gray-700 to-transparent opacity-50">
-            </div>
-            <div
-              class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-gray-400 dark:bg-gray-600">
-            </div>
-          </div>
-
-          <!-- Left Column: Direct Downloads & Stores -->
-          <div class="lg:col-span-5 space-y-10 relative">
-            <!-- Section marker -->
-            <!-- <div class="absolute -left-8 top-0 w-6 h-px bg-gray-300 dark:bg-gray-700"></div> -->
-
-            <!-- App Stores -->
-            <div v-if="downloadMetadata[selectedOS].stores.length > 0" class="space-y-4">
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2">
-                <Icon name="material-symbols:shopping-bag" class="text-teal-500" />
-                {{ t("download.appStores") }}
-              </h3>
-              <div class="flex flex-wrap gap-4">
-                <div v-for="(store, index) in downloadMetadata[selectedOS].stores" :key="index" v-html="store"
-                  class="transition-transform hover:scale-105 origin-left"></div>
-              </div>
-            </div>
-
-            <!-- Direct Binaries -->
-            <div v-if="downloadMetadata[selectedOS].binaries.length > 0" class="space-y-4">
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2">
-                <Icon name="material-symbols:download" class="text-teal-500" />
-                {{ t("download.binaries") }}
-              </h3>
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <a v-for="binary in downloadMetadata[selectedOS].binaries" :key="binary.name" :href="binary.url"
-                  class="flex items-center justify-between p-4 rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-teal-500 dark:hover:border-teal-500 hover:shadow-md transition-all group">
-                  <span class="font-medium text-gray-700 dark:text-gray-200">{{ binary.name }}</span>
-                  <Icon name="material-symbols:download"
-                    class="text-gray-400 group-hover:text-teal-500 transition-colors" />
-                </a>
-              </div>
-
-              <a href="https://github.com/localsend/localsend/releases" target="_blank"
-                class="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-teal-600 transition-colors mt-2">
-                <Icon name="material-symbols:history" />
-                {{ t("download.allReleases") }}
-              </a>
-
-              <div v-if="selectedOS == OS.android" class="text-gray-500">
-                <span class="font-light">SHA-256 Signing Key:</span>
-                <p class="break-all font-mono">3220c353a73cfbd0c2f3052471c445324cf452bcba26de1c473a52fe5c44e1d6</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right Column: Package Managers (Terminal Style) -->
-          <div class="lg:col-span-7 relative">
-            <!-- Section marker -->
-            <!-- <div class="absolute -right-8 top-0 w-6 h-px bg-gray-300 dark:bg-gray-700"></div> -->
-
-            <div v-if="downloadMetadata[selectedOS].packageManagers.length > 0" class="space-y-6">
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2">
-                <Icon name="material-symbols:terminal" class="text-teal-500" />
-                {{ t("download.packageManagers") }}
-              </h3>
-
-              <div class="grid gap-6">
-                <div v-for="pm in downloadMetadata[selectedOS].packageManagers" :key="pm.name"
-                  class="rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-[#1e1e1e] shadow-xl">
-                  <!-- Terminal Header -->
-                  <div class="flex items-center justify-between px-4 py-2 bg-[#252526] border-b border-[#333]">
-                    <div class="flex gap-1.5">
-                      <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
-                      <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
-                      <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
-                    </div>
-                    <span class="text-xs text-gray-400 font-mono font-bold">{{ pm.name }}</span>
-                    <div class="w-10"></div> <!-- Spacer for centering -->
-                  </div>
-
-                  <!-- Terminal Content -->
-                  <div class="p-5 font-mono text-sm relative group">
-                    <div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                      <button @click="copyToClipboard(pm.commands)"
-                        class="p-1 h-[30px] w-[30px] flex items-center justify-center rounded-md bg-white/10 hover:bg-white/20 text-white transition-colors"
-                        title="Copy to clipboard">
-                        <Icon name="material-symbols:content-copy-outline" class="text-lg" />
-                      </button>
-                    </div>
-
-                    <div v-for="(cmd, i) in pm.commands" :key="i" class="mb-2 last:mb-0">
-                      <span class="text-gray-500 select-none mr-2">$</span>
-                      <span class="text-gray-300">{{ cmd }}</span>
-                    </div>
-                  </div>
+    <section id="downloads" class="downloads section pt-0">
+        <div class="container">
+            <div class="tabs-container">
+                <div class="tabs-header">
+                    <button v-for="os in OS" :key="os" 
+                        class="tab-btn" 
+                        :class="{ active: selectedOS === os }"
+                        @click="setOS(os)">
+                        {{ os }}
+                    </button>
                 </div>
-              </div>
+
+                <div v-if="selectedOS" class="tab-content active">
+                    <div class="grid grid-2">
+                        <div class="download-group">
+                            <div v-if="downloadMetadata[selectedOS].stores.length > 0" class="mb-12">
+                                <h3>{{ t("download.appStores") }}</h3>
+                                <div class="download-links">
+                                    <div v-for="(store, index) in downloadMetadata[selectedOS].stores" 
+                                        :key="index" 
+                                        v-html="store"
+                                        class="store-badge"></div>
+                                </div>
+                            </div>
+
+                            <div v-if="downloadMetadata[selectedOS].binaries.length > 0">
+                                <h3>{{ t("download.binaries") }}</h3>
+                                <div class="download-links">
+                                    <a v-for="binary in downloadMetadata[selectedOS].binaries" 
+                                        :key="binary.name" 
+                                        :href="binary.url" 
+                                        class="card download-card">
+                                        <span>{{ binary.name }}</span>
+                                        <Icon name="material-symbols:download" class="app-icon" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="download-group">
+                            <template v-if="downloadMetadata[selectedOS].packageManagers.length > 0">
+                                <h3>{{ t("download.packageManagers") }}</h3>
+                                <div v-for="pm in downloadMetadata[selectedOS].packageManagers" :key="pm.name" class="terminal-card card mb-4">
+                                    <div class="terminal-header">
+                                        <span class="terminal-title">{{ pm.name }}</span>
+                                        <button class="copy-btn" @click="copyToClipboard(pm.commands)">
+                                            <Icon name="material-symbols:content-copy-outline" class="app-icon" />
+                                        </button>
+                                    </div>
+                                    <code v-for="(cmd, i) in pm.commands" :key="i" class="block">{{ cmd }}</code>
+                                </div>
+                            </template>
+
+                            <template v-else-if="selectedOS === OS.ios || selectedOS === OS.android">
+                                <div class="qr-container text-center">
+                                    <div class="card qr-card mb-4" style="display: inline-block; padding: 20px;">
+                                        <img :src="`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://localsend.org/download?os=${selectedOS.toLowerCase()}`" 
+                                            alt="QR Code" class="w-48 h-48" />
+                                    </div>
+                                    <h3 class="mb-2">{{ t('download.scanToInstall') }}</h3>
+                                    <p class="text-muted">{{ t('download.scanDescription', { os: selectedOS }) }}</p>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <!-- Empty State for OS without Package Managers (like iOS) -->
-            <div
-              v-else-if="downloadMetadata[selectedOS].stores.length === 0 && downloadMetadata[selectedOS].binaries.length === 0"
-              class="flex flex-col items-center justify-center h-64 text-center border border-dashed border-gray-200 dark:border-gray-800 rounded-2xl bg-gray-50 dark:bg-gray-900/50">
-              <Icon name="material-symbols:info-outline" class="text-4xl text-gray-400 mb-2" />
-              <p class="text-gray-500">{{ t('download.noOptions', { os: selectedOS }) }}</p>
-            </div>
-
-            <!-- Mobile QR Code Card (When no package managers but stores exist) -->
-            <div v-else
-              class="h-full min-h-[400px] rounded-3xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900/50 p-8 flex flex-col items-center justify-center text-center relative overflow-hidden">
-              <!-- Background Pattern -->
-              <div
-                class="absolute inset-0 opacity-50 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] dark:bg-[radial-gradient(#374151_1px,transparent_1px)] [background-size:16px_16px]">
-              </div>
-
-              <div class="relative z-10 bg-white p-4 rounded-2xl shadow-xl shadow-gray-200/50 dark:shadow-none mb-8">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://localsend.org/download"
-                  alt="QR Code" class="w-48 h-48" />
-              </div>
-
-              <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-3 relative z-10">{{
-                t('download.scanToInstall') }}</h3>
-              <p class="text-gray-500 dark:text-gray-400 max-w-xs relative z-10 leading-relaxed">
-                {{ t('download.scanDescription', { os: selectedOS }) }}
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
-    </UiSection>
+    </section>
 
-    <!-- Snackbar -->
-    <div class="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 transform transition-all duration-300"
-      :class="copyToClipboardSnackbar ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0 pointer-events-none'">
-      <div
-        class="bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-6 py-3 rounded-full shadow-xl flex items-center gap-2 font-medium">
-        <Icon name="material-symbols:check-circle" class="text-teal-500" />
+    <div class="snackbar" :class="{ 'snackbar-visible': copyToClipboardSnackbar }">
+        <Icon name="material-symbols:check-circle-outline" class="app-icon accent" />
         {{ t("download.copiedToClipboard") }}
-      </div>
     </div>
 
     <SectionCta :download-url="recommendedDownloadUrl" />

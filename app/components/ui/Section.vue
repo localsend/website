@@ -1,10 +1,8 @@
 <template>
   <component :is="as" :class="['relative', paddingClasses, backgroundClasses, borderClasses]">
     <div :class="containerClasses">
-      <!-- Section Header -->
       <div v-if="title || description || $slots.header" :class="headerClasses">
         <slot name="header">
-          <!-- Badge/Label -->
           <div v-if="label" class="flex justify-center mb-6">
             <span
               class="inline-flex items-center rounded-full border border-teal-200 bg-teal-50 px-2.5 py-0.5 text-xs font-medium text-teal-700 dark:border-teal-800 dark:bg-teal-950/30 dark:text-teal-400">
@@ -12,7 +10,6 @@
             </span>
           </div>
 
-          <!-- Title -->
           <h2 v-if="title" :class="titleClasses">
             <span v-if="gradient"
               class="bg-gradient-to-b from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 bg-clip-text text-transparent">
@@ -21,17 +18,14 @@
             <span v-else>{{ title }}</span>
           </h2>
 
-          <!-- Description -->
           <p v-if="description" :class="descriptionClasses">
             {{ description }}
           </p>
         </slot>
       </div>
 
-      <!-- Section Content -->
       <slot />
 
-      <!-- Section Footer -->
       <div v-if="$slots.footer" :class="footerClasses">
         <slot name="footer" />
       </div>
@@ -67,13 +61,12 @@ const props = withDefaults(defineProps<Props>(), {
   labelPulse: false,
 });
 
-// Container width classes
 const containerClasses = computed(() => {
   const widthMap: Record<string, string> = {
     sm: 'max-w-3xl',
     md: 'max-w-5xl',
     lg: 'max-w-7xl',
-    xl: 'max-w-[1400px]', // Wider container for modern look
+    xl: 'max-w-[1400px]',
     full: 'max-w-full',
   };
 
@@ -84,31 +77,28 @@ const containerClasses = computed(() => {
   ].filter(Boolean);
 });
 
-// Padding classes
 const paddingClasses = computed(() => {
   const spacingMap: Record<string, string> = {
     sm: 'py-16',
     md: 'py-24',
-    lg: 'py-32', // More breathing room
+    lg: 'py-32',
     xl: 'py-40',
   };
 
   return spacingMap[props.spacing];
 });
 
-// Background classes
 const backgroundClasses = computed(() => {
   const bgMap: Record<string, string> = {
     transparent: '',
     white: 'bg-white dark:bg-gray-950',
-    gray: 'bg-[#FAFAFA] dark:bg-[#0A0A0A]', // Specific Vercel off-white/off-black
+    gray: 'bg-[#FAFAFA] dark:bg-[#0A0A0A]',
     gradient: 'bg-gradient-to-b from-white to-gray-50 dark:from-gray-950 dark:to-gray-900',
   };
 
   return bgMap[props.background];
 });
 
-// Border classes
 const borderClasses = computed(() => {
   const borderMap: Record<string, string> = {
     none: '',
@@ -120,7 +110,6 @@ const borderClasses = computed(() => {
   return borderMap[props.border];
 });
 
-// Header alignment classes
 const headerClasses = computed(() => {
   const alignMap: Record<string, string> = {
     left: 'text-left',
@@ -131,7 +120,6 @@ const headerClasses = computed(() => {
   return [alignMap[props.align], 'mb-16 md:mb-20'];
 });
 
-// Title size classes - REFINED TYPOGRAPHY
 const titleClasses = computed(() => {
   return [
     'text-2xl md:text-3xl lg:text-4xl',
@@ -143,7 +131,6 @@ const titleClasses = computed(() => {
   ].filter(Boolean);
 });
 
-// Description classes - REFINED TYPOGRAPHY
 const descriptionClasses = computed(() => {
   const widthMap: Record<string, string> = {
     sm: 'max-w-lg',
@@ -154,7 +141,7 @@ const descriptionClasses = computed(() => {
   };
 
   return [
-    'mt-3 text-lg md:text-[19px]', // Specific size
+    'mt-3 text-lg md:text-[19px]',
     'text-gray-600 dark:text-gray-400',
     'leading-relaxed',
     'font-normal',
@@ -163,7 +150,6 @@ const descriptionClasses = computed(() => {
   ].filter(Boolean);
 });
 
-// Footer classes
 const footerClasses = computed(() => {
   return ['mt-16 md:mt-24'];
 });

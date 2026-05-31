@@ -5,13 +5,11 @@
         colSpanClass
     ]">
         <div class="h-full flex flex-col p-8">
-            <!-- Icon -->
             <div
                 class="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-teal-50 dark:bg-teal-900/20 text-teal-600 dark:text-teal-400">
                 <Icon :name="icon" class="text-2xl" />
             </div>
 
-            <!-- Content -->
             <div class="flex-1">
                 <h3 class="mb-3 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
                     {{ title }}
@@ -21,7 +19,6 @@
                 </p>
             </div>
 
-            <!-- Optional Visual Slot (for images/gradients at bottom) -->
             <div v-if="$slots.visual"
                 class="mt-8 overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-800/50 border border-gray-100 dark:border-gray-700/50">
                 <slot name="visual" />

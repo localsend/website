@@ -1,153 +1,57 @@
 <template>
-  <footer class="border-t border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-950">
-    <div class="mx-auto max-w-7xl px-4 py-12 lg:px-8">
-      <div class="grid grid-cols-1 gap-8 md:grid-cols-4 lg:gap-12">
-
-        <!-- Brand Column -->
-        <div class="space-y-4">
-          <div class="flex items-center gap-3">
-            <img src="~/assets/img/logo-512.png" alt="LocalSend" class="h-8 w-8" />
-            <span class="text-lg font-bold text-gray-900 dark:text-white">LocalSend</span>
-          </div>
-          <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-400 max-w-xs">
-            {{ t("footer.description") }}
-          </p>
+    <footer class="footer section">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <NuxtLink :to="localePath('/')" class="logo">
+                        <img src="/img/logo.png" alt="LocalSend Logo">
+                        <span>LocalSend</span>
+                    </NuxtLink>
+                    <p>{{ t('footer.description') }}</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>{{ t('footer.product') }}</h4>
+                        <ul>
+                            <li><NuxtLink :to="localePath('/download')">{{ t('footer.download') }}</NuxtLink></li>
+                            <li><a href="https://web.localsend.org/" target="_blank">{{ t('footer.webapp') }}</a></li>
+                            <li><NuxtLink :to="localePath('/changelog')">{{ t('footer.changelog') }}</NuxtLink></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>{{ t('footer.community') }}</h4>
+                        <ul>
+                            <li><a href="https://github.com/localsend/localsend" target="_blank">{{ t('footer.github') }}</a></li>
+                            <li><a href="https://discord.gg/GSRWmQNP87" target="_blank">{{ t('footer.discord') }}</a></li>
+                            <li><a href="https://reddit.com/r/localsend" target="_blank">{{ t('footer.reddit') }}</a></li>
+                            <li><a href="https://mastodon.social/@localsend" target="_blank">Mastodon</a></li>
+                            <li><a href="https://shop.localsend.org/en-eur" target="_blank">{{ t('footer.merch') }}</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>{{ t('footer.legal') }}</h4>
+                        <ul>
+                            <li><NuxtLink :to="localePath('/privacy')">{{ t('footer.privacy') }}</NuxtLink></li>
+                            <li><NuxtLink :to="localePath('/terms')">{{ t('footer.terms') }}</NuxtLink></li>
+                            <li><NuxtLink :to="localePath('/imprint')">{{ t('footer.imprint') }}</NuxtLink></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2022 - {{ year }} 
+                    <a href="https://github.com/Tienisto" target="_blank">Tien Do Nam</a>. 
+                    {{ t('footer.underlicense') }} 
+                    <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" class="license-link">{{ t('footer.license') }}</a>
+                </div>
+                <div class="attribution">
+                    {{ t('footer.design_by') }} 
+                    <a href="https://skyade.carrd.co/" target="_blank">Skyade</a>.
+                </div>
+            </div>
         </div>
-
-        <!-- Product Column -->
-        <div>
-          <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">
-            {{ t("footer.product") }}
-          </h3>
-          <ul class="space-y-3 text-sm">
-            <li>
-              <NuxtLink :to="localePath('/download')"
-                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">
-                {{ t("footer.download") }}
-              </NuxtLink>
-            </li>
-            <li>
-              <a href="https://web.localsend.org" target="_blank"
-                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                {{ t("footer.webapp") }}
-              </a>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/changelog')"
-                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                {{ t("footer.changelog") }}
-              </NuxtLink>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Community Column -->
-        <div>
-          <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">{{ t("footer.community") }}</h3>
-          <ul class="space-y-3 text-sm">
-            <li>
-              <a href="https://github.com/localsend/localsend" target="_blank"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-brands:github" class="text-base" />
-                {{ t("footer.github") }}
-              </a>
-            </li>
-            <li>
-              <a href="https://discord.gg/GSRWmQNP87" target="_blank"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-brands:discord" class="text-base" />
-                {{ t("footer.discord") }}
-              </a>
-            </li>
-            <li>
-              <a href="https://reddit.com/r/localsend" target="_blank"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-brands:reddit" class="text-base" />
-                {{ t("footer.reddit") }}
-              </a>
-            </li>
-            <li>
-              <a rel="me" href="https://mastodon.social/@localsend" target="_blank"
-                 class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-brands:mastodon" class="text-base" />
-                Mastodon
-              </a>
-            </li>
-            <li>
-              <a href="https://shop.localsend.org" target="_blank"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-solid:shirt" class="text-base" />
-                {{ t("footer.merch") }}
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Legal Column -->
-        <div>
-          <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">{{ t("footer.legal") }}</h3>
-          <ul class="space-y-3 text-sm">
-            <li>
-              <NuxtLink :to="localePath('/privacy')"
-                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">
-                {{ t("footer.privacy") }}
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/terms')"
-                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">
-                {{ t("footer.terms") }}
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/imprint')"
-                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">
-                {{ t("footer.imprint") }}
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink :to="localePath('/contact')"
-                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">
-                {{ t("footer.contact") }}
-              </NuxtLink>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Bottom Bar -->
-      <div class="mt-12 border-t border-gray-200 dark:border-gray-800 pt-8">
-        <div class="flex flex-col items-center justify-between gap-4 md:flex-row">
-          <!-- Copyright -->
-          <div class="text-center md:text-left">
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              &copy; 2022 - {{ year }} <a href="https://github.com/Tienisto" target="_blank"
-                class="text-teal-600 dark:text-teal-400 hover:text-teal-500 dark:hover:text-teal-300 transition-colors underline underline-offset-2">Tien
-                Do Nam.</a>
-            </p>
-            <p class=" mt-2 text-xs text-gray-400 dark:text-gray-500">
-              {{ t("footer.underlicense") }}
-              <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank"
-                class="hover:text-teal-600 dark:hover:text-teal-400 transition-colors underline underline-offset-2">
-                {{ t("footer.license") }}
-              </a>
-            </p>
-          </div>
-
-          <!-- Designed By -->
-          <div class="text-end">
-            <p class="text-sm text-gray-400 dark:text-gray-500">
-              {{ t("footer.design_by") }}
-              <a href="https://github.com/akshayejh" target="_blank"
-                class="hover:text-teal-600 dark:hover:text-teal-400 transition-colors underline underline-offset-2">
-                Akshay Jhajhra
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </template>
 
 <script setup lang="ts">
@@ -155,3 +59,6 @@ const year = new Date().getFullYear();
 const { t } = useI18n();
 const localePath = useLocalePath();
 </script>
+
+<style scoped>
+</style>

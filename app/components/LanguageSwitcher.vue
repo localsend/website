@@ -1,62 +1,34 @@
 <template>
-  <div v-if="i18nEnabled" class="relative" ref="dropdownContainer">
-    <button @click.stop="toggleDropdown" class="group relative flex items-center justify-between w-36 h-10 px-4 rounded-xl transition-all duration-300 focus:outline-none
-             bg-gradient-to-br from-white via-gray-50 to-gray-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900
-             text-gray-900 dark:text-white text-sm font-medium
-             border border-gray-200 dark:border-gray-700
-             shadow-md shadow-black/5
-             hover:shadow-lg hover:-translate-y-[1px]
-             active:scale-[0.98]">
-      <!-- Gloss Effect -->
-      <div
-        class="absolute inset-0 rounded-xl bg-gradient-to-br from-white/60 via-white/30 to-transparent dark:from-white/10 dark:via-white/5 pointer-events-none">
-      </div>
-
-      <span class="relative z-10 truncate mr-2">{{ currLocaleName }}</span>
-      <Icon name="material-symbols:keyboard-arrow-down-rounded"
-        class="relative z-10 text-gray-500 transition-transform duration-300 text-lg"
-        :class="{ 'rotate-180': dropdownOpen }" />
+  <div v-if="i18nEnabled" class="lang-switcher" ref="dropdownContainer">
+    <button @click.stop="toggleDropdown" class="nav-action-btn" :class="{ 'active': dropdownOpen }">
+      <span class="curr-lang">{{ currLocaleName }}</span>
+      <Icon name="material-symbols:keyboard-arrow-down" class="app-icon" />
     </button>
 
-    <transition name="fade">
-      <div v-if="dropdownOpen" class="absolute right-0 z-50 mt-2 w-64 rounded-xl shadow-xl 
-               bg-white/95 dark:bg-gray-900/95 backdrop-blur-md
-               border border-gray-200 dark:border-gray-700 overflow-hidden origin-top-right" @click.stop>
-        <!-- Search Input -->
-        <div class="p-2 border-b border-gray-100 dark:border-gray-800">
-          <div class="relative">
-            <Icon name="material-symbols:search"
-              class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm" />
-            <input v-model="searchQuery" type="text" :placeholder="t('home.search_lang')"
-              class="w-full pl-9 pr-3 py-1.5 text-sm rounded-lg bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500/50 transition-all border border-transparent focus:border-teal-500/20"
-              @keydown.stop />
-          </div>
+    <Transition name="slide-up">
+      <div v-if="dropdownOpen" class="lang-dropdown" @click.stop>
+        <div class="lang-search-wrapper">
+          <Icon name="material-symbols:search" class="app-icon" />
+          <input v-model="searchQuery" type="text" :placeholder="t('home.search_lang')" class="lang-search-input" @keydown.stop />
         </div>
 
-        <!-- List -->
-        <ul class="max-h-64 overflow-y-auto py-1 scrollbar-thin">
-          <li v-for="locale in filteredLocales" :key="locale.code" @click="selectLocale(locale.code)"
-            class="px-4 py-2.5 text-sm cursor-pointer transition-colors flex items-center justify-between group" :class="[
-              locale.code === localeIdentity
-                ? 'bg-teal-50 dark:bg-teal-900/20 text-teal-700 dark:text-teal-300'
-                : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
-            ]">
-            <div class="flex flex-col">
-              <span class="font-medium">{{ locale.name }}</span>
-              <span v-if="locale.englishName"
-                class="text-xs text-gray-400 dark:text-gray-500 group-hover:text-gray-500 dark:group-hover:text-gray-400">
-                {{ locale.englishName }}
-              </span>
+        <ul class="lang-list">
+          <li v-for="locale in filteredLocales" :key="locale.code" 
+            @click="selectLocale(locale.code)"
+            class="lang-item" 
+            :class="{ 'active': locale.code === localeIdentity }">
+            <div class="lang-info">
+              <span class="lang-name">{{ locale.name }}</span>
+              <span v-if="locale.englishName" class="lang-en-name">{{ locale.englishName }}</span>
             </div>
-            <Icon v-if="locale.code === localeIdentity" name="material-symbols:check" class="text-teal-500" />
+            <Icon v-if="locale.code === localeIdentity" name="material-symbols:check" class="app-icon accent" />
           </li>
-          <li v-if="filteredLocales.length === 0"
-            class="px-4 py-8 text-center text-sm text-gray-500 dark:text-gray-400">
+          <li v-if="filteredLocales.length === 0" class="lang-not-found">
             {{ t('home.lang_notfound') }}
           </li>
         </ul>
       </div>
-    </transition>
+    </Transition>
   </div>
 </template>
 
@@ -129,32 +101,141 @@ function handleClickOutside(event: MouseEvent) {
 </script>
 
 <style scoped>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.2s ease, transform 0.2s ease;
+.lang-switcher {
+    position: relative;
 }
 
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-  transform: translateY(-10px) scale(0.95);
+.nav-action-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    padding: 8px 16px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
-/* Custom Scrollbar for the list */
-.scrollbar-thin::-webkit-scrollbar {
-  width: 6px;
+.nav-action-btn:hover, .nav-action-btn.active {
+    background: rgba(130, 213, 200, 0.1);
+    border-color: var(--accent-primary);
 }
 
-.scrollbar-thin::-webkit-scrollbar-track {
-  background: transparent;
+.nav-action-btn .app-icon {
+    font-size: 18px;
+    transition: transform 0.3s ease;
 }
 
-.scrollbar-thin::-webkit-scrollbar-thumb {
-  background-color: rgba(156, 163, 175, 0.3);
-  border-radius: 20px;
+.nav-action-btn.active .app-icon {
+    transform: rotate(180deg);
 }
 
-.dark .scrollbar-thin::-webkit-scrollbar-thumb {
-  background-color: rgba(156, 163, 175, 0.6);
+.lang-dropdown {
+    position: absolute;
+    top: calc(100% + 15px);
+    right: 0;
+    width: 280px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.lang-search-wrapper {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.lang-search-wrapper .app-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: var(--text-muted);
+}
+
+.lang-search-input {
+    width: 100%;
+    background: var(--bg-dark);
+    border: 1px solid var(--border-color);
+    padding: 10px 10px 10px 40px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.lang-list {
+    list-style: none;
+    max-height: 350px;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.lang-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.lang-list::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.lang-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: var(--transition-fast);
+}
+
+.lang-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.lang-item.active {
+    background: rgba(130, 213, 200, 0.05);
+}
+
+.lang-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.lang-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.lang-en-name {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.lang-not-found {
+    padding: 30px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.slide-up-enter-active, .slide-up-leave-active {
+    transition: all 0.3s ease;
+}
+
+.slide-up-enter-from, .slide-up-leave-to {
+    opacity: 0;
+    transform: translateY(10px);
 }
 </style>

@@ -25,7 +25,7 @@ const description = computed(() => route.meta.description ? t(route.meta.descrip
       </template>
     </Head>
 
-    <Body class="font-sans antialiased bg-white dark:bg-gray-950 text-gray-900 dark:text-white">
+    <Body>
       <Navigation />
 
       <main>

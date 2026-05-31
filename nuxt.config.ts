@@ -5,9 +5,9 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/icon',
-    '@nuxtjs/i18n',
+    '@nuxtjs/tailwindcss',
     '@nuxtjs/sitemap',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/i18n'
   ],
 
   app: {
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ["~/assets/css/fonts.css"],
+  css: ["~/assets/css/fonts.css", "~/assets/css/style.css"],
 
   site: {
     url: "https://localsend.org",

@@ -9,36 +9,29 @@
       shadowClasses,
     ]"
   >
-    <!-- Hover gradient overlay -->
     <div v-if="hoverGradient" class="absolute inset-0 bg-gradient-to-br from-teal-500/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
     
     <div class="relative">
-      <!-- Icon -->
       <div v-if="icon" :class="iconContainerClasses">
         <Icon :name="icon" :class="iconClasses" />
       </div>
 
-      <!-- Custom icon slot -->
       <div v-else-if="$slots.icon" class="mb-4">
         <slot name="icon" />
       </div>
 
-      <!-- Title -->
       <h3 v-if="title" :class="titleClasses">
         {{ title }}
       </h3>
 
-      <!-- Description -->
       <p v-if="description" :class="descriptionClasses">
         {{ description }}
       </p>
 
-      <!-- Content slot -->
       <div v-if="$slots.default">
         <slot />
       </div>
 
-      <!-- Footer slot -->
       <div v-if="$slots.footer" class="mt-4">
         <slot name="footer" />
       </div>

@@ -24,7 +24,6 @@ export async function requestGithubAssets(): Promise<Array<Assets>> {
   }).then((r) => {
     if (r.ok) return r.json().then(
       (data) => {
-        // Returns the latest assets object from GitHub
         return data[0]["assets"]
       })
   })

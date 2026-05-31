@@ -3,7 +3,6 @@ export const useTheme = () => {
 
     const initTheme = () => {
         if (import.meta.client) {
-            // Sync state with DOM (which might be set by app.vue script)
             isDark.value = document.documentElement.classList.contains('dark');
         }
     };
