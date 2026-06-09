@@ -25,6 +25,7 @@
                             <li><a href="https://discord.gg/GSRWmQNP87" target="_blank">{{ t('footer.discord') }}</a></li>
                             <li><a href="https://reddit.com/r/localsend" target="_blank">{{ t('footer.reddit') }}</a></li>
                             <li><a href="https://mastodon.social/@localsend" target="_blank">Mastodon</a></li>
+                            <li><NuxtLink :to="localePath('/donate')">{{ t('footer.donate') }}</NuxtLink></li>
                             <li><a href="https://shop.localsend.org/en-eur" target="_blank">{{ t('footer.merch') }}</a></li>
                         </ul>
                     </div>

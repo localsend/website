@@ -141,6 +141,22 @@
     "email": "Email Us",
     "emailDescription": "For general inquiries, partnership opportunities, or private matters."
   },
+  "donate": {
+    "seo": {
+      "title": "Donate - LocalSend",
+      "description": "Support the development of LocalSend."
+    },
+    "title": "Support LocalSend",
+    "description": "LocalSend is free and open source. Your support helps keep development going.",
+    "githubSponsors": "GitHub Sponsors",
+    "githubSponsorsDescription": "Back LocalSend with a recurring or one-time donation through GitHub Sponsors.",
+    "becomeSponsor": "Become a Sponsor",
+    "inApp": "Donate in the App",
+    "inAppDescription": "You can also support LocalSend directly from the mobile app! Open the settings and tap the donate option.",
+    "contribute": "Contribute Code",
+    "contributeDescription": "Prefer to help out directly? Contributions to the project are always welcome on GitHub.",
+    "openGithub": "Open on GitHub"
+  },
   "news": {
     "title": "News",
     "showAll": "Show all news"
@@ -157,6 +173,7 @@
     "terms": "Terms",
     "imprint": "Imprint",
     "contact": "Contact",
+    "donate": "Donate",
     "product": "Product",
     "community": "Community",
     "legal": "Legal",
