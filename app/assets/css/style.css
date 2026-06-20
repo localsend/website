@@ -213,6 +213,7 @@ h1, h2, h3, h4 {
 
 .btn-secondary:hover {
     background-color: var(--button-bg);
+    color: var(--button-text);
 }
 
 .btn-sm {
