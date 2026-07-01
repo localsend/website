@@ -8,10 +8,11 @@
             <div class="tabs-container">
                 <div class="tabs-header">
                     <button v-for="os in OS" :key="os" 
-                        class="tab-btn" 
+                        class="tab-btn inline-flex items-center justify-center" 
                         :class="{ active: selectedOS === os }"
                         @click="setOS(os)">
-                        {{ os }}
+                        <Icon :name="getOSIcon(os)" class="app-icon mr-2" />
+                        <span>{{ os }}</span>
                     </button>
                 </div>
 
