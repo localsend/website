@@ -66,6 +66,7 @@ export default defineNuxtConfig({
       contact: false,
       news: false,
       changelog: false,
+      clip: false,
     },
     locales: [
       {
