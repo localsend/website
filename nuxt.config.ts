@@ -208,7 +208,7 @@ export default defineNuxtConfig({
       },
       {
         code: "ka",
-        language: "ka-IN",
+        language: "ka-GE",
         file: "ka.json",
         name: "ქართული",
         englishName: "Georgian",
