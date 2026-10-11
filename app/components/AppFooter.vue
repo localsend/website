@@ -43,7 +43,7 @@
             <div class="footer-bottom">
                 <div class="copyright">
                     &copy; 2022 - {{ year }} 
-                    <a href="https://github.com/Tienisto" target="_blank">Tien Do Nam</a>. 
+                    <a href="https://github.com/Tienisto" target="_blank">Tien Nam Do</a>. 
                     {{ t('footer.underlicense') }} 
                     <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" class="license-link">{{ t('footer.license') }}</a>
                 </div>

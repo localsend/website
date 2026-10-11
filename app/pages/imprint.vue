@@ -12,14 +12,14 @@
 
                 <h2>Angaben gemäß § 5 TMG</h2>
                 <div class="address-info mb-8">
-                    <p>Tien Do Nam</p>
+                    <p>Tien Nam Do</p>
                     <p>{{ imprintStreet }}</p>
                     <p>{{ imprintCity }}</p>
                     <p>Deutschland</p>
                 </div>
 
                 <h2>Vertreten durch</h2>
-                <p>Tien Do Nam</p>
+                <p>Tien Nam Do</p>
 
                 <h2>Kontakt</h2>
                 <div class="contact-methods">
