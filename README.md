@@ -28,6 +28,16 @@ Generates the static website in the `dist` directory.
 pnpm run generate
 ```
 
+### App Clip invocation endpoint
+
+The static output includes `https://localsend.org/clip` and the Apple App Site Association file at `/.well-known/apple-app-site-association`. Validate their bundle/team identifiers, card metadata, headers, and generated output with:
+
+```bash
+pnpm run verify:app-clip -- --dist
+```
+
+The App Clip build uses `https://localsend.org/clip` as its invocation prefix. The Developer Portal capabilities and the default/advanced App Clip experiences in App Store Connect must match that URL and the identifiers in the AASA file before deployment.
+
 ## Contributing
 
 ### Adding a new language
