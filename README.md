@@ -2,22 +2,16 @@
 
 ## Setup
 
-Make sure to install [pnpm](https://pnpm.io).
-
-```bash
-npm install -g pnpm
-```
-
 Get dependencies
 
 ```bash
-pnpm install
+npm install
 ```
 
 Start the development server
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
 ## Deployment
@@ -25,7 +19,7 @@ pnpm run dev
 Generates the static website in the `dist` directory.
 
 ```bash
-pnpm run generate
+npm run generate
 ```
 
 ## Contributing

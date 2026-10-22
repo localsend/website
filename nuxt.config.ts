@@ -32,8 +32,8 @@ export default defineNuxtConfig({
 
   css: ["~/assets/css/fonts.css", "~/assets/css/style.css"],
 
-  // @nuxtjs/tailwindcss always adds this plugin, but tailwindcss is not resolvable
-  // from the project root with pnpm (NUXT_B7027). CSS nesting is not used anyway.
+  // @nuxtjs/tailwindcss always adds this plugin, but Nuxt fails to load it from
+  // tailwindcss (NUXT_B7027). CSS nesting is not used anyway.
   postcss: {
     plugins: {
       "tailwindcss/nesting": false,
@@ -72,7 +72,6 @@ export default defineNuxtConfig({
       terms: false,
       imprint: false,
       contact: false,
-      news: false,
       changelog: false,
     },
     locales: [
