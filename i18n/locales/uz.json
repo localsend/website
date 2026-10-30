@@ -1,0 +1,222 @@
+{
+  "home": {
+    "seo": {
+      "title": "LocalSend: fayllarni yaqin atrofdagi qurilmalarga ulaşiş",
+      "description": "LocalSend — bu bepul, oçiq kodli va barça platformalarda işlaydigan fayl ulaşiş vositasi bölib, fayllarni yaqindagi qurilmalarga oson uzatiş imkonini beradi."
+    },
+    "hero": {
+      "badge": "Barça asosiy platformalar qöllab-quvvatlanadi!",
+      "title1": "Fayllarni bulutsiz ulaşing.",
+      "title2": "Tez, maxfiy, oflayn.",
+      "subtitle": "Barça uçun oçiq kodli va platformalararo fayl almaşiş dasturi."
+    },
+    "download": "Yuklab oliş",
+    "web": "Veb",
+    "search_lang": " Tilni qidiriş...",
+    "lang_notfound": "Heç qanday til topilmadi",
+    "community": "Hamjamiyat",
+    "stats": {
+      "stars": "GitHub yulduzlari",
+      "downloads": "Yuklab olişlar",
+      "contributors": "Hissa qöşganlar",
+      "ads": "Reklama yoki trekerlar"
+    },
+    "testimonials": {
+      "title": "Foydalanuvçilar eʼtirofi",
+      "description": "Har kuni fayl almaşiş uçun LocalSendʼga işonç bildirgan minglab foydalanuvçilar qatoriga qöşiling."
+    },
+    "sponsors": {
+      "title": "Hamjamiyat va homiylar",
+      "description": "LocalSend bepul va kodi oçiq bölib, u homiylarimiz va hamjamiyatimiz kömagida yaratilgan.",
+      "infrastructure": "Infratuzilma homiysi",
+      "becomeSponsor": "Homiy böliş",
+      "becomeSponsorDescription": "LocalSend yoqdimi? Loyihani qöllab-quvvatlang va uning rivojiga öz hissangizni qöşing."
+    },
+    "features": {
+      "title": "Imkoniyatlar",
+      "description": "Lokal tarmoqda fayllarni tez va xavfsiz almaşiş uçun barça imkoniyatlar.",
+      "label": "Imkoniyatlar",
+      "decentralized": "Markazlaşmagan",
+      "decentralizedDescription": "Fayllarni markaziy serversiz ulaşing. Fayl uzatiş töğridan-töğri qurilmalar örtasida amalga oşiriladi.",
+      "crossPlatform": "Platformalararo",
+      "crossPlatformDescription": "LocalSend Windows, macOS, Linux, Android va iOS operatsion tizimlarida mavjud.",
+      "free": "Bepul",
+      "freeDescription": "LocalSend mutlaqo bepuldir. Reklamalar, kuzatuv va yaşirin tölovlar yöq.",
+      "openSource": "Oçiq kodli",
+      "openSourceDescription": "Dastur kodi ommaga oçiq. Har kim loyihaga öz hissasini qöşişi mumkin.",
+      "secure": "Xavfsiz",
+      "secureDescription": "E2E şifrlaş faqat siz va qabul qiluvçi fayllarga kira olişini taʼminlaydi.",
+      "easy": "Foydalaniş oson",
+      "easyDescription": "Röyxatdan ötişni talab qilmaydigan oddiy interfeys. Boşqa qurilmalar avtomatik ravişda aniqlanadi.",
+      "noInternet": "Internet talab qilmaydi",
+      "noInternetDescription": "Töliq oflayn rejimda işlaydi. Maʼlumotlaringiz lokal tarmoqdan taşqariga çiqmaydi.",
+      "fast": "Juda tez",
+      "fastDescription": "Wi-Fi tarmoğingizning maksimal tezligida fayllarni uzating. Tezlik çeklovlari yöq."
+    },
+    "press": {
+      "title": "Matbuot biz haqimizda",
+      "description": "Texnologik naşrlar LocalSend haqida nima deyayotganini köring.",
+      "label": "Matbuot",
+      "readArticle": "Maqolani öqiş"
+    },
+    "faq": {
+      "title": "Tez-tez söraladigan savollar",
+      "description": "LocalSend haqida bilişingiz kerak bölgan barça maʻlumotlar.",
+      "q1": "Bu haqiqatan ham bepulmi?",
+      "a1": "Ha, LocalSend 100% bepul va oçiq kodli. Reklamalar, kuzatuvlar va yaşirin tölovlar yöq.",
+      "q2": "Internet orqali işlaydimi?",
+      "a2": "Yöq. LocalSend fayllarni uzatiş uçun lokal Wi-Fi tarmoğingizdan foydalanadi. Maʼlumotlaringiz tarmoqdan taşqariga çiqmaydi.",
+      "q3": "Bu xavfsizmi?",
+      "a3": "Ha. Barça ötkazmalar HTTPS yordamida şifrlanadi. Qöşimça xavfsizlik uçun PIN kod orqali tasdiqlaşni ham yoqişingiz mumkin.",
+      "q4": "Fayllar qayerga saqlanadi?",
+      "a4": "Fayllar odatda qurilmangizning “Yuklamalar” jildida saqlanadi, biroq buni sozlamalardan özgartirişingiz mumkin.",
+      "q5": "Qaysi platformalar qöllab-quvvatlanadi?",
+      "a5": "LocalSend Windows, macOS, Linux, Android va iOS operatsion tizimlarida mavjud.",
+      "q6": "Akkaunt oçişim kerakmi?",
+      "a6": "Yöq. LocalSend röyxatdan ötiş yoki akkauntga kirişni talab qilmaydi. Şunçaki örnating va fayl ulaşişni boşlang."
+    },
+    "mentioned": "Dunyoda eʼtirof etilgan",
+    "get": "LocalSendʼni oliş",
+    "video": "LocalSend taqdimot videosini YouTubeʼda tomoşa qiling"
+  },
+  "cta": {
+    "title": "Boşlaşga tayyormisiz?",
+    "description": "LocalSendʼni hoziroq yuklab oling va fayllarni qurilmalaringiz örtasida osongina almaşing.",
+    "download": "Yuklab oliş"
+  },
+  "download": {
+    "seo": {
+      "title": "LocalSend - Yuklab oliş",
+      "description": "LocalSendʼni Windows, macOS, Linux, Android va iOS uçun yuklab oling."
+    },
+    "title": "Yuklab oliş",
+    "subTitle": "{os} uçun yuklab oliş",
+    "appStores": "Ilovalar dökonlari",
+    "appStoresDescription": "Aksariyat foydalanuvçilar uçun tavsiya etiladi.",
+    "binaries": "Tayyor paketlar",
+    "binariesDescription": "Oflayn foydalaniş uçun yuklab oling.",
+    "packageManagers": "Paket menejerlari",
+    "packageManagersDescription": "Terminal orqali örnating.",
+    "allReleases": "Barça versiyalar",
+    "zip": "ZIP",
+    "copiedToClipboard": "Buferga nusxa olindi!",
+    "noOptions": "{os} uçun qöşimça yuklab oliş variantlari mavjud emas.",
+    "scanToInstall": "Örnatiş uçun skanerlang",
+    "scanDescription": "Yuklab oliş sahifasini töğridan-töğri oçiş uçun uşbu QR kodni {os} qurilmangiz bilan skanerlang.",
+    "installer": "Örnatuvçi",
+    "portable": "Portativ"
+  },
+  "community": {
+    "seo": {
+      "title": "LocalSend - Hamjamiyat",
+      "description": "Yordam oling, loyihaga qöşiling va LocalSend rivojiga öz hissangizni qöşing."
+    },
+    "title": "Hamjamiyat",
+    "getHelp": "Yordam oliş",
+    "getHelpDescription": "GitHub Discussionsʼda savol bering yoki javoblar qidiring.",
+    "getInvolved": "Iştirok etiş",
+    "getInvolvedDescription": "Dasturçilar bilan boğlaning va loyihaga bevosita öz hissangizni qöşing.",
+    "discord": "Discord",
+    "discordDescription": "Dasturçilar bilan muloqot qiliş va tezkor yordam oliş uçun serverimizga qöşiling.",
+    "reddit": "Reddit",
+    "redditDescription": "Muhokamalarda qatnaşing va eʼlonlardan xabardor bölib turing.",
+    "issues": "Muammolar (Issues)",
+    "issuesDescription": "Xatolik topdingizmi? Muammolar trekerimizni tekşiring.",
+    "pullRequests": "Pull Requests",
+    "prDescription": "Kod qöşişga tayyormisiz? PR oçing.",
+    "contribute": "Hissa qöşiş",
+    "contributeDescription": "LocalSendʼni yaxşilaşga yordam bering.",
+    "languageSpecific": "Tilga oid muhokamalarga qöşiling."
+  },
+  "contact": {
+    "seo": {
+      "title": "Aloqa - LocalSend",
+      "description": "Jamoa yoki hamjamiyat bilan boğlaning."
+    },
+    "title": "Biz bilan boğlaniş",
+    "description": "Jamoa yoki hamjamiyat bilan boğlaning.",
+    "bugReport": "Xatolik haqida xabar beriş",
+    "bugReportDescription": "Muammo topdingizmi? Uni kuzatişimiz va tuzatişimiz uçun GitHub Issues sahifasida xabar bering.",
+    "openIssues": "GitHub Issuesʼni oçiş",
+    "email": "Bizga elektron poçta yuboring",
+    "emailDescription": "Umumiy savollar, hamkorlik takliflari yoki şaxsiy masalalar uçun."
+  },
+  "donate": {
+    "seo": {
+      "title": "Donat qiliş - LocalSend",
+      "description": "LocalSend rivojlanişini qöllab-quvvatlang."
+    },
+    "title": "LocalSendʼni qöllab-quvvatlaş",
+    "description": "LocalSend bepul va oçiq manbali dasturdir. Sizning qöllab-quvvatlovingiz loyiha rivojlanişiga yordam beradi.",
+    "githubSponsors": "GitHub Sponsors",
+    "githubSponsorsDescription": "GitHub Sponsors orqali muntazam yoki bir martalik donat bilan LocalSendʼni qöllab-quvvatlang.",
+    "becomeSponsor": "Homiy böliş",
+    "inApp": "Ilova içida donat qiliş",
+    "inAppDescription": "Şuningdek, mobil ilovaning özidan turib ham LocalSendʼni qöllab-quvvatlaşingiz mumkin! Sozlamalarni oçing va donat qiliş opsiyasini tanlang.",
+    "contribute": "Kod qöşiş",
+    "contributeDescription": "Bevosita yordam berişni xohlaysizmi? GitHubʻda loyihaga qöşilgan har bir hissa doim mamnuniyat bilan qabul qilinadi.",
+    "openGithub": "GitHubʼda oçiş"
+  },
+  "news": {
+    "title": "Yangiliklar",
+    "showAll": "Barça yangiliklarni körsatiş"
+  },
+  "footer": {
+    "description": "Fayllarni internetsiz, yaqindagi atrofdagi qurilmalarga ulaşing. Oçiq kodli, platformalararo va bepul.",
+    "underlicense": "Litsenziya:",
+    "license": "Apache License 2.0",
+    "github": "GitHub",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "merch": "Merç",
+    "privacy": "Maxfiylik",
+    "codeSigningPolicy": "Kod imzolaş siyosati",
+    "terms": "Şartlar",
+    "imprint": "Naşr maʼlumotlari",
+    "contact": "Aloqa",
+    "donate": "Donat",
+    "product": "Mahsulot",
+    "community": "Hamjamiyat",
+    "legal": "Huquqiy maʼlumotlar",
+    "download": "Yuklab oliş",
+    "webapp": "Veb ilova",
+    "changelog": "Özgarişlar tarixi",
+    "design_by": "Veb-sayt dizayni muallifi:"
+  },
+  "changelog": {
+    "seo": {
+      "title": "LocalSend - Özgarişlar tarixi",
+      "description": "LocalSendʼning barça versiyalaridagi yangilanişlar, imkoniyatlar va tuzatişlarni kuzatib boring."
+    },
+    "title": "Özgarişlar tarixi",
+    "description": "Barça versiyalardagi yangilanişlar, funksiyalar va xatoliklar tuzatilişini kuzatib boring.",
+    "searchPlaceholder": "Özgarişlarni qidiriş...",
+    "all": "Barçasi",
+    "features": "Imkoniyatlar",
+    "fixes": "Tuzatişlar",
+    "i18nFilter": "i18n",
+    "change": "özgariş",
+    "changes": "özgarişlar",
+    "upcoming": "Tez kunda",
+    "noResults": "Qidiruv böyiça heç qanday özgariş topilmadi.",
+    "errorLoading": "Özgarişlar tarixini yuklab bölmadi.",
+    "viewOnGithub": "Töliq tarixni GitHubʼda köriş"
+  },
+  "homepageButton": "Boş sahifa",
+  "improveWebsite": "Veb-saytni yaxşilaşga yordam beriş",
+  "navigation": {
+    "downloads": "Yuklab oliş",
+    "community": "Hamjamiyat",
+    "contacts": "Aloqa"
+  },
+  "howItWorks": {
+    "title": "Bu qanday işlaydi",
+    "description": "Sozlaş şart emas. Şunçaki örnating va ulaşişni boşlang.",
+    "step1Title": "Örnating va oçing",
+    "step1Desc": "LocalSendʼni barça qurilmalaringizga yuklab oling. Akkaunt, login, serverlar talab qilinmaydi.",
+    "step2Title": "Fayllarni tanlang",
+    "step2Desc": "Rasmlar, videolar, hujjatlar yoki matnlarni tanlang. Har qanday fayl turi qöllab-quvvatlanadi.",
+    "step3Title": "Yuboriş uçun bosing",
+    "step3Desc": "Yaqin atrofdagi qurilmani tanlang. Fayllar lokal tarmoq orqali bir zumda uzatiladi."
+  }
+}
