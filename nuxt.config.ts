@@ -391,6 +391,13 @@ export default defineNuxtConfig({
         dir: "rtl",
       },
       {
+          code: "uz",
+          language: "uz-UZ",
+          file: "uz.json",
+          name: "Özbekça",
+          englishName: "Uzbek",
+      },
+      {
         code: "vi",
         language: "vi-VN",
         file: "vi.json",
