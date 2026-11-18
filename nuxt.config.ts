@@ -73,6 +73,7 @@ export default defineNuxtConfig({
       imprint: false,
       contact: false,
       changelog: false,
+      clip: false,
     },
     locales: [
       {
