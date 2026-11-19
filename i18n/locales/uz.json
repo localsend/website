@@ -12,7 +12,7 @@
     },
     "download": "Yuklab oliş",
     "web": "Veb",
-    "search_lang": " Tilni qidiriş...",
+    "search_lang": "Tilni qidiriş...",
     "lang_notfound": "Heç qanday til topilmadi",
     "community": "Hamjamiyat",
     "stats": {
@@ -61,7 +61,7 @@
     },
     "faq": {
       "title": "Tez-tez söraladigan savollar",
-      "description": "LocalSend haqida bilişingiz kerak bölgan barça maʻlumotlar.",
+      "description": "LocalSend haqida bilişingiz kerak bölgan barça maʼlumotlar.",
       "q1": "Bu haqiqatan ham bepulmi?",
       "a1": "Ha, LocalSend 100% bepul va oçiq kodli. Reklamalar, kuzatuvlar va yaşirin tölovlar yöq.",
       "q2": "Internet orqali işlaydimi?",
@@ -154,7 +154,7 @@
     "inApp": "Ilova içida donat qiliş",
     "inAppDescription": "Şuningdek, mobil ilovaning özidan turib ham LocalSendʼni qöllab-quvvatlaşingiz mumkin! Sozlamalarni oçing va donat qiliş opsiyasini tanlang.",
     "contribute": "Kod qöşiş",
-    "contributeDescription": "Bevosita yordam berişni xohlaysizmi? GitHubʻda loyihaga qöşilgan har bir hissa doim mamnuniyat bilan qabul qilinadi.",
+    "contributeDescription": "Bevosita yordam berişni xohlaysizmi? GitHubʼda loyihaga qöşilgan har bir hissa doim mamnuniyat bilan qabul qilinadi.",
     "openGithub": "GitHubʼda oçiş"
   },
   "news": {
@@ -162,7 +162,7 @@
     "showAll": "Barça yangiliklarni körsatiş"
   },
   "footer": {
-    "description": "Fayllarni internetsiz, yaqindagi atrofdagi qurilmalarga ulaşing. Oçiq kodli, platformalararo va bepul.",
+    "description": "Fayllarni internetsiz, yaqin atrofdagi qurilmalarga ulaşing. Oçiq kodli, platformalararo va bepul.",
     "underlicense": "Litsenziya:",
     "license": "Apache License 2.0",
     "github": "GitHub",

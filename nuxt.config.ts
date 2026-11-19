@@ -1,14 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+  compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
 
-  modules: [
-    '@nuxt/icon',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/sitemap',
-    '@nuxtjs/i18n'
-  ],
+  modules: ["@nuxt/icon", "@nuxtjs/tailwindcss", "@nuxtjs/sitemap", "@nuxtjs/i18n"],
 
   app: {
     pageTransition: {
@@ -391,11 +386,11 @@ export default defineNuxtConfig({
         dir: "rtl",
       },
       {
-          code: "uz",
-          language: "uz-UZ",
-          file: "uz.json",
-          name: "Özbekça",
-          englishName: "Uzbek",
+        code: "uz",
+        language: "uz-UZ",
+        file: "uz.json",
+        name: "Özbekça",
+        englishName: "Uzbek",
       },
       {
         code: "vi",
@@ -427,4 +422,4 @@ export default defineNuxtConfig({
       },
     ],
   },
-})
+});
