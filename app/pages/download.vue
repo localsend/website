@@ -252,6 +252,10 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
           url: downloadUrl("deb"),
         },
         {
+          name: "RPM",
+          url: downloadUrl("rpm"),
+        },
+        {
           name: "AppImage",
           url: downloadUrl("AppImage"),
         },
